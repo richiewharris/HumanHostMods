@@ -1,0 +1,20 @@
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+
+# Test / temp
+TestResults/
+*.log
+*.tmp
+
+# NuGet
+packages/
+*.nupkg
+
+# BepInEx publicizer outputs
+*.publicized.dll
