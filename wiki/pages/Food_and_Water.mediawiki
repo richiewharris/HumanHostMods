@@ -1,0 +1,91 @@
+{{Nav}}
+
+Food and water are the two survival meters in ''Human Host''. Both deplete over time and must be replenished from consumable items.
+
+'''Early Access status:''' the meters are active and gameplay-affecting, but restoration is currently limited to looted and foraged consumables. There are no natural water bodies, no water collection, no cooking, no huntable wildlife, and no player-crafted food or drink in the current build.
+
+== The two meters ==
+
+{| class="wikitable"
+! Stat !! Depletes at !! Empty consequence
+|-
+| '''Food''' || Roughly 1% / minute at rest || Health drain begins, stamina cap reduced
+|-
+| '''Water''' || Roughly 2% / minute at rest || Faster health drain, movement slowdown
+|-
+|}
+
+Sprinting, combat, mining, and hot biomes ([[Desert]], [[Warzone]]) accelerate depletion. Cold biomes ([[Winter Forest]], [[Winter Town]]) accelerate food specifically.
+
+Internal fields on <code>Char_Status</code>: <code>_currentFood</code> / <code>_maxFood</code>, <code>_currentWater</code> / <code>_maxWater</code>.
+
+== Food catalog ==
+
+Nine food items are surfaced in the current build. Asset prefix: <code>FWI_</code>.
+
+{| class="wikitable sortable"
+! Asset ID !! Common name !! Category !! Source
+|-
+| <code>FWI_Cactus_Icon</code>        || Cactus         || Foraged plant  || Picked up in [[Desert]] biomes
+|-
+| <code>FWI_Mushroom_Icon</code>      || Mushroom       || Foraged plant  || Picked up in forested biomes
+|-
+| <code>FWI_Pine_Cone_Icon</code>     || Pine Cone      || Foraged plant  || Picked up in coniferous biomes
+|-
+| <code>FWI_Canned_Beef_Icon</code>   || Canned Beef    || Preserved food || Looted from containers and zombie corpses
+|-
+| <code>FWI_Canned_Fruit_Icon</code>  || Canned Fruit   || Preserved food || Looted from containers and zombie corpses
+|-
+| <code>FWI_Canned_Noodles_Icon</code>|| Canned Noodles || Preserved food || Looted from containers and zombie corpses
+|-
+| <code>FWI_Canned_Rice_Icon</code>   || Canned Rice    || Preserved food || Looted from containers and zombie corpses
+|-
+| <code>FWI_Canned_Tuna_Icon</code>   || Canned Tuna    || Preserved food || Looted from containers and zombie corpses
+|-
+| <code>FWI_Sausage_Icon</code>       || Sausage        || Preserved food || Looted from containers and zombie corpses
+|}
+
+There are no cooking recipes in the build. Raw plant items are eaten as-is; canned goods are consumed as-found.
+
+== Water catalog ==
+
+Four drinkable items are surfaced. All are looted, since there is currently no way to collect water from the environment.
+
+{| class="wikitable sortable"
+! Asset ID !! Common name !! Source
+|-
+| <code>FWI_Bottled_Water_Icon</code> || Bottled Water || Looted from containers and zombie corpses
+|-
+| <code>FWI_Fruit_Juice_Icon</code>   || Fruit Juice   || Looted from containers and zombie corpses
+|-
+| <code>FWI_Soda_Icon</code>          || Soda          || Looted from containers and zombie corpses
+|-
+| <code>FWI_Energy_Drink_Icon</code>  || Energy Drink  || Looted from containers and zombie corpses
+|}
+
+Bottled Water is the reliable staple. Fruit Juice, Soda, and Energy Drink also restore water, and some may carry secondary effects (fill amount / stamina / speed buffs); those should be verified in-game and added to individual item pages.
+
+== Related perks ==
+
+Two Survive-tree factors on <code>Char_Skills</code> directly affect the meters:
+
+* <code>_foodWaterDecrease_Factor</code>: reduces depletion rate (see [[Efficient Metabolism]])
+* <code>_adrlinWaterCost_Factor</code>: reduces water consumption at low health (adrenaline)
+
+See [[Perks]] for the full factor catalog.
+
+== Practical tips ==
+
+* '''Loot every zombie.''' Water bottles and canned goods are the primary drops.
+* '''Forage as you move.''' Mushrooms, cactuses, and pine cones are cheap fills that cost only a few seconds.
+* '''Prioritize containers.''' Loot containers concentrate canned food and bottled drinks.
+* '''Slow depletion beats fill rate.''' The Efficient Metabolism factor is worth investing in early.
+
+== See also ==
+
+* [[Perks]]: Survive tree
+* [[Getting Started]]: early-game survival tips
+* [[Items]]: full item catalog
+
+[[Category:Gameplay]]
+[[Category:Survival]]

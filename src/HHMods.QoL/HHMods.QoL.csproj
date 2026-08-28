@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.QoL</AssemblyName>
+    <RootNamespace>HHMods.QoL</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HHMods.Core\HHMods.Core.csproj" />
+  </ItemGroup>
+</Project>

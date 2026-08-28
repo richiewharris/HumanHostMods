@@ -1,0 +1,123 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = Anvil Workbench
+| image    = WB_Anvil.png
+| category = Crafting
+}}
+
+The '''Anvil Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+Forges metal weapons and armor from smelted ingots.
+
+Internal enum value: <code>WorkbenchType.AnvilWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Anvil</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (42 unique, from 42 raw entries in `WB_Anvil.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Nails]] || 10 || 10 || [[Forged Iron]] x1 || 1
+|-
+| [[Gear]] || 1 || 12 || [[Forged Copper]] x2, [[Forged Steel]] x1, [[Graphite Ore]] x1 || 1
+|-
+| [[Copper Wire]] || 5 || 12 || [[Forged Copper]] x1 || 1
+|-
+| [[Rebar]] || 1 || 4 || [[Wood]] x2, [[Forged Steel]] x1, [[Charcoal]] x2 || 1
+|-
+| [[Iron Arrowhead]] || 5 || 5 || [[Forged Iron]] x2, [[Clay]] x1 || 1
+|-
+| [[Forged Iron Crate]] || 1 || 12 || [[Forged Iron]] x5, [[Nails]] x10, [[Spring]] x5, [[Duct Tape]] x2 || 1
+|-
+| [[Scrap Iron Door]] || 1 || 15 || [[Scrap Iron]] x30, [[Nails]] x15, [[Spring]] x10, [[Duct Tape]] x10 || 1
+|-
+| [[Shiv]] || 1 || 8 || [[Forged Iron]] x2, [[Duct Tape]] x2 || 1
+|-
+| [[Fruit Knife]] || 1 || 10 || [[Forged Iron]] x3, [[Duct Tape]] x5 || 1
+|-
+| [[Hunting Knife]] || 1 || 12 || [[Forged Steel]] x2, [[Duct Tape]] x5 || 1
+|-
+| [[Combat Knife 01]] || 1 || 14 || [[Forged Titanium]] x3, [[Duct Tape]] x5 || 1
+|-
+| [[Combat Knife 02]] || 1 || 16 || [[Forged Tungsten]] x3, [[Duct Tape]] x5 || 1
+|-
+| [[Wooden Spiked Club 03]] || 1 || 15 || [[Wood]] x10, [[Nails]] x6, [[Duct Tape]] x2 || 1
+|-
+| [[Wooden Spiked Club 02]] || 1 || 15 || [[Wood]] x10, [[Forged Copper]] x2, [[Nails]] x12, [[Duct Tape]] x2 || 1
+|-
+| [[Spiked BaseballBat 01]] || 1 || 15 || [[Wood]] x10, [[Forged Iron]] x2, [[Nails]] x18 || 1
+|-
+| [[Spiked BaseballBat 02]] || 1 || 15 || [[Wood]] x10, [[Forged Steel]] x2, [[Nails]] x24 || 1
+|-
+| [[Wooden Spiked Club]] || 1 || 15 || [[Wood]] x10, [[Forged Titanium]] x2, [[Nails]] x32 || 1
+|-
+| [[Wooden Club Blade]] || 1 || 15 || [[Wood]] x10, [[Shiv]] x1, [[Duct Tape]] x10 || 1
+|-
+| [[Saw Blade Axe]] || 1 || 15 || [[Wood]] x10, [[Gear]] x1, [[Rope]] x2, [[Nails]] x3 || 1
+|-
+| [[Metal Hatchet]] || 1 || 15 || [[Wood]] x10, [[Forged Iron]] x10, [[Rope]] x3 || 1
+|-
+| [[Iron Axe]] || 1 || 15 || [[Wood]] x10, [[Forged Iron]] x5, [[Forged Copper]] x2, [[Glue]] x5 || 1
+|-
+| [[FireAxe 01]] || 1 || 15 || [[Wood]] x10, [[Forged Iron]] x8, [[Forged Copper]] x4, [[Forged Chrome]] x2, [[Glue]] x5 || 1
+|-
+| [[FireAxe 02]] || 1 || 15 || [[Wood]] x10, [[Forged Steel]] x8, [[Forged Copper]] x6, [[Forged Chrome]] x2, [[Glue]] x5 || 1
+|-
+| [[Machete 02]] || 1 || 15 || [[Forged Iron]] x10, [[Duct Tape]] x10 || 1
+|-
+| [[Machete]] || 1 || 15 || [[Forged Iron]] x15, [[Forged Chrome]] x2, [[Duct Tape]] x10 || 1
+|-
+| [[Pipe Blade]] || 1 || 15 || [[Pipe Rusty]] x1, [[Machete 02]] x1, [[Duct Tape]] x10, [[Glue]] x5 || 1
+|-
+| [[Mace]] || 1 || 15 || [[Wood]] x12, [[Forged Chrome]] x10, [[Forged Copper]] x10, [[Nails]] x20, [[Duct Tape]] x8 || 1
+|-
+| [[Iron Hammer]] || 1 || 15 || [[Wood]] x15, [[Forged Iron]] x20, [[Forged Copper]] x5, [[Glue]] x10 || 1
+|-
+| [[Iron Spear]] || 1 || 15 || [[Wood]] x15, [[Fruit Knife]] x2, [[Duct Tape]] x12 || 1
+|-
+| [[Iron Spear 03]] || 1 || 15 || [[Wood]] x15, [[Hunting Knife]] x2, [[Glue]] x10 || 1
+|-
+| [[Iron Spear 02]] || 1 || 15 || [[Wood]] x15, [[Combat Knife 01]] x2, [[Duct Tape]] x12 || 1
+|-
+| [[Iron Pickaxe]] || 1 || 15 || [[Wood]] x12, [[Forged Iron]] x12, [[Glue]] x10 || 1
+|-
+| [[Metal Shield]] || 1 || 60 || [[Scrap Iron]] x40, [[Rope]] x12 || 1
+|-
+| [[Metal Head]] || 1 || 50 || [[Scrap Iron]] x25, [[Rope]] x8 || 1
+|-
+| [[Metal Chest]] || 1 || 60 || [[Scrap Iron]] x40, [[Rope]] x12 || 1
+|-
+| [[Metal Arm]] || 1 || 36 || [[Scrap Iron]] x18, [[Rope]] x8 || 1
+|-
+| [[Metal Hand]] || 1 || 30 || [[Scrap Iron]] x16, [[Rope]] x4 || 1
+|-
+| [[Metal Leg]] || 1 || 40 || [[Scrap Iron]] x20, [[Rope]] x10 || 1
+|-
+| [[Metal Foot]] || 1 || 18 || [[Scrap Iron]] x36, [[Rope]] x8 || 1
+|-
+| [[IronPipe Trap]] || 1 || 20 || [[Forged Iron]] x2, [[Rope]] x1 || 1
+|-
+| [[IronSpike Trap]] || 1 || 20 || [[Forged Iron]] x4, [[Forged Steel]] x1 || 1
+|-
+| [[IronSpike Single]] || 1 || 20 || [[Forged Iron]] x4, [[Forged Steel]] x1 || 1
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

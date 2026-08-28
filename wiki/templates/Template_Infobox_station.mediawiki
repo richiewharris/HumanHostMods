@@ -1,0 +1,35 @@
+<!--
+Upload as: Template:Infobox station
+Usage:
+{{Infobox station
+| name     = Furnace
+| image    = Furnace.png
+| category = Crafting
+| powered  = Fuel (Wood, Coal)
+| unlocks  = Metal ingots, steel weapons, [[Steel Chest]]
+| build    = [[Stone]] x8, [[Iron Ore]] x4
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-station pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Photograph of {{{name|{{PAGENAME}}}}}}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{category|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Category</h3><div class="pi-data-value">{{{category}}}</div></div>}}
+{{#if:{{{powered|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Powered by</h3><div class="pi-data-value">{{{powered}}}</div></div>}}
+{{#if:{{{unlocks|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Unlocks</h3><div class="pi-data-value">{{{unlocks}}}</div></div>}}
+{{#if:{{{build|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Build cost</h3><div class="pi-data-value">{{{build}}}</div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+<pre>
+{{Infobox station
+| name     =
+| image    =
+| category = Crafting | Building | Cooking
+| powered  =
+| unlocks  =
+| build    =
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

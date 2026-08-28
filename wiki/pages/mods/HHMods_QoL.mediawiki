@@ -1,0 +1,25 @@
+{{Nav}}
+
+The '''HHMods QoL''' plugin (part of the [[HHMods]] suite) bundles quality-of-life improvements that polish existing game systems.
+
+== Features ==
+
+* '''Hunger / thirst polish''': color-coded HUD bars that shift color as the meter depletes, so critical states are noticeable at a glance.
+* '''Empty-container tooltip''': shows "empty" on containers with no items so you don't waste time opening them (uses the game's existing <code>Loot_Mgr.No_Items_Inside</code> method).
+* '''Filtered containers''': per-container tag filter state, backed by <code>Icon_Info._Tags</code>. Auto-sorts items into matching containers.
+* '''Linked containers''': unifies inventory display across multiple <code>belongBIkey</code>s so grouped storage rooms appear as one virtual container.
+
+== Technical ==
+
+* '''Hunger / thirst''': Harmony postfix on <code>Char_Status.Update_Food_UI</code> and <code>Update_Water_UI</code>.
+* '''Empty tooltip''': single-line postfix on <code>Loot_Mgr.No_Items_Inside(belongBIkey)</code>.
+* '''Filtered / linked containers''': intercepts <code>Loot_Mgr.Enable_Loot_Window</code>; state persisted via <code>HHMods.Core.ModSidecar</code> keyed by <code>belongBIkey</code>.
+
+== See also ==
+
+* [[HHMods]]: the full suite
+* [[Items]]: tag system used by filtered containers
+* [[Mods]]: all community mods
+
+[[Category:Mods]]
+[[Category:HHMods]]

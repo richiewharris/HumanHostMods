@@ -1,0 +1,33 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Airport''' is a point of interest found in the [[Mossy Forest]] biome of ''[[Human Host]]''.
+
+== Overview ==
+
+This POI is a pre-built structure containing higher-density loot than surrounding terrain, typically defended by an elevated concentration of zombies. See [[Locations]] for the full POI list.
+
+== Location ==
+
+Native biome: [[Mossy Forest]]
+
+Asset bundle: <code>sh_forest_ab_airport</code>
+
+== Loot ==
+
+TBD. Common categories found in this POI type:
+* Salvageable equipment
+* Ammunition
+* Food and water
+
+== Strategy ==
+
+TBD.
+
+== See also ==
+
+* [[Locations]]: full POI list
+* [[Mossy Forest]]: the biome this POI spawns in
+
+[[Category:Locations]]

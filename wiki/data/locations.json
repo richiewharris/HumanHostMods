@@ -1,0 +1,68 @@
+[
+  {
+    "Slug": "cbu_building_pack",
+    "PageTitle": "CBU Building Pack",
+    "Biome": "",
+    "BundleFile": "sh_cbu_building_pack_assets_all_55dd521178e1df9310ec0e793bfc40e3.bundle"
+  },
+  {
+    "Slug": "forest_airport",
+    "PageTitle": "Airport",
+    "Biome": "Mossy Forest",
+    "BundleFile": "sh_forest_ab_airport_assets_all_d64b6ad64d48742530b876d35b2c694d.bundle"
+  },
+  {
+    "Slug": "forest_dinner",
+    "PageTitle": "Diner",
+    "Biome": "Mossy Forest",
+    "BundleFile": "sh_forest_dinner_assets_all_0221c40f5e67777f6b0a1693d920d92d.bundle"
+  },
+  {
+    "Slug": "forest_mall",
+    "PageTitle": "Mall",
+    "Biome": "Mossy Forest",
+    "BundleFile": "sh_forest_ab_mall_assets_all_02c2e1414aaa508fd00eaa5dce1ecdb1.bundle"
+  },
+  {
+    "Slug": "forest_pool",
+    "PageTitle": "Pool",
+    "Biome": "Mossy Forest",
+    "BundleFile": "sh_forest_ab_pool_assets_all_b2d8b506a2aef9ea00b2b815fe22d90f.bundle"
+  },
+  {
+    "Slug": "forest_school_1",
+    "PageTitle": "School",
+    "Biome": "Mossy Forest",
+    "BundleFile": "sh_forest_ab_school_1_assets_all_82f067b270d368754076ab2aba4ac22e.bundle"
+  },
+  {
+    "Slug": "mountain_av_house",
+    "PageTitle": "AV House",
+    "Biome": "Mountain Forest",
+    "BundleFile": "sh_mountain_av_house_assets_all_36c89b94e26df53bc1a85aae562d8e08.bundle"
+  },
+  {
+    "Slug": "mountain_countryhouse",
+    "PageTitle": "Country House",
+    "Biome": "Mountain Forest",
+    "BundleFile": "sh_mountain_countryhouse_assets_all_135754a80730897f3eee3bad9acefe0f.bundle"
+  },
+  {
+    "Slug": "mountain_countryhouse2",
+    "PageTitle": "Country House II",
+    "Biome": "Mountain Forest",
+    "BundleFile": "sh_mountain_countryhouse2_assets_all_96f89db6285d2e19b44a59a0845bb937.bundle"
+  },
+  {
+    "Slug": "mountain_factoryzone",
+    "PageTitle": "Factory Zone",
+    "Biome": "Mountain Forest",
+    "BundleFile": "sh_mountain_factoryzone_assets_all_ce7ba776a44a8025ea88060d0e468cc0.bundle"
+  },
+  {
+    "Slug": "warzone_buildings",
+    "PageTitle": "Warzone Buildings",
+    "Biome": "Warzone",
+    "BundleFile": "sh_warzone_buildings_assets_all_6eb374017f5e212465d7b3013b2345cc.bundle"
+  }
+]

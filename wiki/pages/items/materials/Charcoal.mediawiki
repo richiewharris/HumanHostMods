@@ -1,0 +1,40 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Charcoal
+| image      = Charcoal.png
+| type       = Component
+}}
+
+'''Charcoal''' is a component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Carbon-Bonded Brick]] x1 || [[Cutting Workbench]] || 2-28 || 18 shapes
+|-
+| [[Forged Chrome]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Forged Steel]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Forged Titanium]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Forged Tungsten]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Gun Powder]] x5 || [[Biochemical Workbench]] || 2 || 1
+|-
+| [[Rebar]] x1 || [[Anvil Workbench]] || 2 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Component]]
+[[Category:Items]]

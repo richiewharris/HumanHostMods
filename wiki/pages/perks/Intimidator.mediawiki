@@ -1,0 +1,28 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox perk
+| name     = Intimidator
+| tree     = Fight
+| effect   = Increases damage dealt to NPC morale.
+| factor   = _moraleDmg_Factor on Char_Skills
+}}
+
+'''Intimidator''' is a Fight-tree perk in ''[[Human Host]]''. The in-game display name may differ from this page title; the authoritative identifier is the runtime factor field name.
+
+== Effect ==
+
+Increases damage dealt to NPC morale.
+
+== Technical ==
+
+Backing runtime factor: <code>_moraleDmg_Factor</code> (type <code>Single</code>) on <code>Char_Skills</code> in the <code>Creature</code> assembly.
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+* Related factors on [[Perks#Factor catalog]]
+
+[[Category:Perks]]
+[[Category:Fight tree]]

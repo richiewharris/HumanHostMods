@@ -1,0 +1,23 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Desert Loot Crate''' is a lootable container variant that spawns in the [[Desert]] biome of ''[[Human Host]]''.
+
+== Contents ==
+
+Contents scale to the biome tier. Common items include salvage, ammunition, and biome-appropriate resources.
+
+== Location ==
+
+Native biome: [[Desert]]
+
+Asset bundle: <code>shc_crates_desert</code>
+
+== See also ==
+
+* [[Loot Crates]]: all crate variants
+* [[Desert]]: biome overview
+
+[[Category:Loot Crates]]
+[[Category:Desert]]

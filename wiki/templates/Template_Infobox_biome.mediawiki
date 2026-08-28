@@ -1,0 +1,41 @@
+<!--
+Upload as: Template:Infobox biome
+Usage:
+{{Infobox biome
+| name       = Desert
+| image      = Desert_landscape.png
+| terrain    = terrain_desert / terrain_desert_rocky
+| threat     = Medium
+| climate    = Hot, arid
+| resources  = [[Cactus]], [[Sandstone]], [[Copper Ore]]
+| pois       = [[Warzone Buildings]], desert loot crates
+| vehicles   = Desert-native chassis
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-biome pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Landscape of {{{name|{{PAGENAME}}}}}}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{terrain|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Terrain bundle</h3><div class="pi-data-value"><code>{{{terrain}}}</code></div></div>}}
+{{#if:{{{climate|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Climate</h3><div class="pi-data-value">{{{climate}}}</div></div>}}
+{{#if:{{{threat|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Threat level</h3><div class="pi-data-value">{{{threat}}}</div></div>}}
+{{#if:{{{resources|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Key resources</h3><div class="pi-data-value">{{{resources}}}</div></div>}}
+{{#if:{{{pois|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Points of interest</h3><div class="pi-data-value">{{{pois}}}</div></div>}}
+{{#if:{{{vehicles|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Native vehicles</h3><div class="pi-data-value">{{{vehicles}}}</div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+<pre>
+{{Infobox biome
+| name       =
+| image      =
+| terrain    =
+| threat     = Low | Medium | High | Extreme
+| climate    =
+| resources  =
+| pois       =
+| vehicles   =
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

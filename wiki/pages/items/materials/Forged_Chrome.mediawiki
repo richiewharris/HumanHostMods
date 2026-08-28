@@ -1,0 +1,40 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Forged Chrome
+| image      = Forged_Chrome.png
+| type       = Refined Metal
+}}
+
+'''Forged Chrome''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Beads Chrome]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Bullet Tip Chrome]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Chrome Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[FireAxe 01]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[FireAxe 02]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[Mace]] x1 || [[Anvil Workbench]] || 10 || 1
+|-
+| [[Machete]] x1 || [[Anvil Workbench]] || 2 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

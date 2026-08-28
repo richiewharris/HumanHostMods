@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = HandMade
+| category = Crafting
+}}
+
+The '''HandMade''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+The from-anywhere inventory crafting menu -- stone tools, torches, bandages.
+
+Internal enum value: <code>WorkbenchType.HandMade</code> (assembly <code>UI</code>). Prefab: <code></code>.
+
+== Recipes ==
+
+No parsed recipes for this workbench yet.
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

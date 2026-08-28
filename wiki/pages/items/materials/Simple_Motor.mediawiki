@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Simple Motor
+| image      = Simple_Motor.png
+| type       = Electronic Component
+}}
+
+'''Simple Motor''' is a electronic component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Motor]] x1 || [[Mechanical Workbench]] || 5 || 1
+|-
+| [[Rotating Blade]] x1 || [[Mechanical Workbench]] || 1 || 1
+|-
+| [[Rotating Saw]] x1 || [[Mechanical Workbench]] || 1 || 1
+|-
+| [[Rotor]] x1 || [[Mechanical Workbench]] || 1 || 1
+|-
+| [[Rotor NoHit]] x1 || [[Mechanical Workbench]] || 1 || 1
+|-
+| [[Sensor Spike]] x1 || [[Mechanical Workbench]] || 1 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Electronic Component]]
+[[Category:Items]]

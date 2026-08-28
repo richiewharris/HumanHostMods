@@ -1,0 +1,87 @@
+{{Nav}}
+
+The building system in ''Human Host'' places static structures (foundations, walls, functional objects, and traps) into the world. Placements are saved to disk and persist across sessions.
+
+Open the build menu with '''B'''. The menu is split into five categories, each corresponding to an internal asset bundle:
+
+{| class="wikitable"
+! Category !! What it contains !! Asset bundle
+|-
+| '''[[Foundations]]''' || Floor tiles, ramps, stairs, roof pieces || <code>build_base</code>
+|-
+| '''[[Walls]]''' || Walls, doors, windows, fences || <code>build_wall</code>
+|-
+| '''[[Functions]]''' || Workbenches, chests, beds, lights, generators || <code>build_function</code>
+|-
+| '''[[Ores]]''' || Placeable mineable rocks (mostly for base decor and resource caches) || <code>build_ore</code>
+|-
+| '''[[Traps]]''' || [[Spike]], [[Sensor Spike]], [[Laser]], [[Rot Blade]] || <code>build_trap</code>
+|}
+
+== Placement rules ==
+
+* '''Snapping.''' Foundations snap to a grid; walls snap to foundation edges.
+* '''Support.''' Walls without foundation support collapse. Foundations without terrain or pillar support collapse.
+* '''Terrain.''' You can build on natural terrain or on top of foundations. Sloped terrain requires ramp foundations or leveling ([[Mining]] to flatten).
+* '''Overlaps.''' Placements can't clip through existing structures.
+* '''Repair.''' Every structure has durability; hit with a repair tool + matching material to restore.
+
+== Destruction ==
+
+Everything you build can be destroyed by zombies, explosions, and other threats. Structure HP scales with material tier:
+
+* '''Wood tier''': low HP, cheap
+* '''Stone tier''': medium HP, moderate cost
+* '''Metal tier''': high HP, expensive, requires Furnace
+* '''Reinforced (endgame)''': very high HP, requires steel and biochemical reagents
+
+== Storage containers ==
+
+Storage containers are placed from the '''Functions''' menu. Sizes:
+
+{| class="wikitable"
+! Container !! Slots !! Requires
+|-
+| Wooden Chest || 8 || Wood x8
+|-
+| Iron Chest || 16 || Iron Ingot x4 + Wood x4
+|}
+
+Additional storage variants may be added by community mods; see [[Mods]].
+
+== Traps ==
+
+Traps are the primary passive defense against horde nights. The addressables catalog lists fifteen trap assets, backed internally by four <code>Trap_Base</code> subclasses in the <code>Trap</code> assembly. Grouped by mechanism:
+
+'''Spike traps''' (passive damage on step):
+* [[IronSpike Single]] · [[IronSpike Trap]]
+* [[LogSpike Single]] · [[LogSpike Trap]]
+* [[SpearSpike Single]] · [[SpearSpike Trap]]
+* [[Nail Trap]]
+
+'''Rotating / mechanical''':
+* [[Rotating Blade]] · [[Rotating Saw]]
+* [[Bladed Pole]]
+
+'''Sensor-triggered''':
+* [[Sensor Spike]]
+
+'''Deployed variants''':
+* [[IronPipe Trap]]
+
+'''Trigger / detection''':
+* [[Laser Trap]] (beam trip; can chain to other devices)
+
+'''Log traps''':
+* [[Spiked Trunk]] · [[Spiked Great Trunk]]
+
+The "Single" vs "Trap" distinction distinguishes a one-shot single-spike placement from a multi-spike area version of the same base class.
+
+== See also ==
+
+* [[Foundations]] · [[Walls]] · [[Functions]] · [[Ores]] · [[Traps]]: category detail pages
+* [[Crafting]]: building materials
+* [[Combat]]: horde night mechanics and base defense strategy
+* [[Mods]]: community additions including new traps and container types
+
+[[Category:Building]]

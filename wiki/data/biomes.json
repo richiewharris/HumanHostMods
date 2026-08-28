@@ -1,0 +1,82 @@
+[
+  {
+    "Slug": "mossy_forest",
+    "PageTitle": "Mossy Forest",
+    "BundleFile": "terrain_mossy_forest_assets_all_75679006f96cea93dbabb926bda24732.bundle",
+    "Tier": 1,
+    "Climate": "Temperate, damp",
+    "Threat": "Low"
+  },
+  {
+    "Slug": "mountain_forest",
+    "PageTitle": "Mountain Forest",
+    "BundleFile": "terrain_mountain_forest_assets_all_49e2ce738bc672a981ec15600dc2807c.bundle",
+    "Tier": 2,
+    "Climate": "Cool, alpine",
+    "Threat": "Medium"
+  },
+  {
+    "Slug": "tropical_jungle",
+    "PageTitle": "Tropical Jungle",
+    "BundleFile": "terrain_tropical_jungle_assets_all_204a8626800b78b6ecf09ca91de1314e.bundle",
+    "Tier": 2,
+    "Climate": "Hot, wet",
+    "Threat": "Medium"
+  },
+  {
+    "Slug": "tropical_swamp",
+    "PageTitle": "Tropical Swamp",
+    "BundleFile": "terrain_tropical_swamp_assets_all_b1aaabeed58b82f2a701dfb0d932e9ad.bundle",
+    "Tier": 2,
+    "Climate": "Hot, wet",
+    "Threat": "Medium-High"
+  },
+  {
+    "Slug": "desert",
+    "PageTitle": "Desert",
+    "BundleFile": "terrain_desert_assets_all_89654d551739b23147e9dc2ea2648a92.bundle",
+    "Tier": 3,
+    "Climate": "Hot, arid",
+    "Threat": "Medium"
+  },
+  {
+    "Slug": "desert_rocky",
+    "PageTitle": "Desert Rocky",
+    "BundleFile": "terrain_desert_rocky_assets_all_3fc007f99a32b4f3fc4583788c65a7a3.bundle",
+    "Tier": 3,
+    "Climate": "Hot, arid, rocky",
+    "Threat": "Medium"
+  },
+  {
+    "Slug": "winter_forest",
+    "PageTitle": "Winter Forest",
+    "BundleFile": "terrain_winter_forest_assets_all_60767eb8a2760d0033e7a9843f3e2908.bundle",
+    "Tier": 3,
+    "Climate": "Cold, snowy",
+    "Threat": "Medium"
+  },
+  {
+    "Slug": "winter_town",
+    "PageTitle": "Winter Town",
+    "BundleFile": "terrain_winter_town_assets_all_4aa20ac8ae943ecd4ded8d8ff9be927c.bundle",
+    "Tier": 3,
+    "Climate": "Cold, urban",
+    "Threat": "High"
+  },
+  {
+    "Slug": "war_zone",
+    "PageTitle": "Warzone",
+    "BundleFile": "terrain_war_zone_assets_all_bab7d0fc8b8fb3bdf4f043e85aadd365.bundle",
+    "Tier": 4,
+    "Climate": "Ruined urban",
+    "Threat": "Extreme"
+  },
+  {
+    "Slug": "wasteland",
+    "PageTitle": "Wasteland",
+    "BundleFile": "terrain_wasteland_assets_all_c64a126af69186b8acc243c556686def.bundle",
+    "Tier": 4,
+    "Climate": "Toxic, barren",
+    "Threat": "High"
+  }
+]

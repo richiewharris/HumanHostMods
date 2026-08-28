@@ -1,0 +1,34 @@
+{{Nav}}
+
+The '''HHMods Weapons''' plugin (part of the [[HHMods]] suite) adds four deployable and thrown weapon types to the base game.
+
+== Weapons added ==
+
+{| class="wikitable"
+! Weapon !! Type !! Notes
+|-
+| '''Proximity Mine''' || Deployable trap || Area-damage trap triggered by nearby mass. Registered as a custom <code>Trap_Base</code> subclass.
+|-
+| '''Impact Grenade''' || Throwable || Detonates on impact instead of on a fuse. Reuses the existing bow-throw path.
+|-
+| '''Throwing Axe''' || Throwable || Returns to the player's hand via an animation event. Consumes the [[Pitcher]] perk factor from [[HHMods Perks]] if present.
+|-
+| '''Nailgun''' || Ranged || Rapid-fire ranged weapon that also repairs friendly [[Building|structures]] in an AoE via <code>Tool_Interacter.Repair_Once</code>.
+|}
+
+== Technical ==
+
+* '''Proximity Mine''': subclasses <code>Trap_Base</code>; registered via <code>Trap_Mgr</code>.
+* '''Impact Grenade''': mimics existing bow throw path in <code>Weapon_Range.Get_Bow_Special_Info</code>. Explosion + area damage via existing damage pipeline.
+* '''Throwing Axe''': same as Grenade path with animation-event recall; multiplies range and damage by the Pitcher factor if that perk is installed.
+* '''Nailgun''': ranged-weapon subclass with AoE repair postfix on <code>Tool_Interacter.Repair_Once(Build_Info)</code>.
+
+== See also ==
+
+* [[HHMods]]: the full suite
+* [[Weapons]]: base-game weapon system
+* [[Traps]]: base-game trap system
+* [[Mods]]: all community mods
+
+[[Category:Mods]]
+[[Category:HHMods]]

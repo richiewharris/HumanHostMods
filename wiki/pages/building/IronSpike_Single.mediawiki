@@ -1,0 +1,25 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''IronSpike Single''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
+
+== Behavior ==
+
+TBD: trigger conditions, damage, cooldown.
+
+== Placement ==
+
+TBD.
+
+== Technical ==
+
+Asset id: <code>BT_IronSpike_Single</code>. Backed by class <code>Trap_Spike</code> (assembly <code>Trap</code>), derived from <code>Trap_Base</code>. Traps are registered via <code>Trap_Mgr._ins</code>.
+
+== See also ==
+
+* [[Building]]: trap placement in the build menu
+* [[Combat]]: horde night defense strategy
+
+[[Category:Traps]]
+[[Category:Building]]

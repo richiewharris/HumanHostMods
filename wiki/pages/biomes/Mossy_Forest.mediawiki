@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Mossy Forest
+| terrain    = terrain_mossy_forest
+| climate    = Temperate, damp
+| threat     = Low
+| pois       = [[Airport]], [[Diner]], [[Mall]], [[Pool]], [[School]]
+| vehicles   = [[Mossy Forest Vehicles]]
+}}
+
+The '''Mossy Forest''' is a tier-1 biome in ''[[Human Host]]''. Climate: Temperate, damp. Threat level: Low.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_mossy_forest</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+[[Airport]], [[Diner]], [[Mall]], [[Pool]], [[School]]
+
+== Loot crates ==
+
+[[Mossy Loot Crate]]
+
+== Vehicles ==
+
+[[Mossy Forest Vehicles]]
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

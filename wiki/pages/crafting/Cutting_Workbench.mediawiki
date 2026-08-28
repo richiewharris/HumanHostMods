@@ -1,0 +1,115 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = Cutting Workbench
+| image    = WB_Cutting.png
+| category = Crafting
+}}
+
+The '''Cutting Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+Cuts hides into cloth, and large materials into workable components.
+
+Internal enum value: <code>WorkbenchType.CuttingWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Cutting</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (38 unique, from 558 raw entries in `WB_Cutting.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Damaged Planks]] || 1 || 3 || [[Wood]] x1-14, [[Rope]] x1-4 || 18 shapes
+|-
+| [[Plank Old]] || 1 || 3 || [[Damaged Planks]] x1, [[Glue]] x1-2 || 18 shapes
+|-
+| [[Plank Poplar]] || 1 || 3 || [[Plank Old]] x1, [[Duct Tape]] x1-2 || 18 shapes
+|-
+| [[Plank Red Oak]] || 1 || 3 || [[Plank Poplar]] x1, [[Wood Red]] x1-4, [[Feather]] x1-2 || 18 shapes
+|-
+| [[Plank Ebony]] || 1 || 3 || [[Plank Red Oak]] x1, [[Wood Black]] x1-2, [[Nails]] x1-4 || 18 shapes
+|-
+| [[Damaged Brick]] || 1 || 4 || [[Brick]] x1-14 || 18 shapes
+|-
+| [[Cellular Brick]] || 1 || 4 || [[Damaged Brick]] x1, [[Sand]] x1-14 || 18 shapes
+|-
+| [[High-Pressure Lime Brick]] || 1 || 4 || [[Cellular Brick]] x1, [[Limestone]] x1-14 || 18 shapes
+|-
+| [[Silicon Sulfide Brick]] || 1 || 4 || [[High-Pressure Lime Brick]] x1, [[Sulfur]] x1-14 || 18 shapes
+|-
+| [[Carbon-Bonded Brick]] || 1 || 4 || [[Silicon Sulfide Brick]] x1, [[Charcoal]] x2-28 || 18 shapes
+|-
+| [[Cement]] || 1 || 6 || [[Cement]] x1-14 || 18 shapes
+|-
+| [[Concrete]] || 1 || 6 || [[Cement]] x1, [[Concrete]] x1-14 || 18 shapes
+|-
+| [[Ferrock Concrete]] || 1 || 6 || [[Concrete]] x1, [[Scrap Iron]] x2-28 || 18 shapes
+|-
+| [[Reinforced Concrete]] || 1 || 6 || [[Ferrock Concrete]] x1, [[Rebar]] x1-14 || 18 shapes
+|-
+| [[Titanium Mesh Concrete]] || 1 || 6 || [[Reinforced Concrete]] x1, [[Titanium Ore]] x1-14 || 18 shapes
+|-
+| [[Rust Iron]] || 1 || 7 || [[Scrap Iron]] x5-70 || 18 shapes
+|-
+| [[Pig Iron]] || 1 || 7 || [[Rust Iron]] x1, [[Iron Ore]] x1-14 || 18 shapes
+|-
+| [[Wrought Iron]] || 1 || 7 || [[Pig Iron]] x1, [[Forged Iron]] x1-14 || 18 shapes
+|-
+| [[Cast Iron]] || 1 || 7 || [[Wrought Iron]] x1, [[Graphite Ore]] x1-14 || 18 shapes
+|-
+| [[Chrome Iron]] || 1 || 7 || [[Cast Iron]] x1, [[Chrome Ore]] x1-14 || 18 shapes
+|-
+| [[Copper Alloy]] || 1 || 8 || [[Forged Copper]] x1-14 || 18 shapes
+|-
+| [[Titanium Alloy]] || 1 || 8 || [[Copper Alloy]] x1, [[Forged Titanium]] x1-14, [[Graphite Ore]] x1-14 || 18 shapes
+|-
+| [[High-Speed Steel]] || 1 || 8 || [[Titanium Alloy]] x1, [[Forged Steel]] x1-14 || 18 shapes
+|-
+| [[Chrome Alloy]] || 1 || 8 || [[High-Speed Steel]] x1, [[Forged Chrome]] x1-14 || 18 shapes
+|-
+| [[Tungsten Steel]] || 1 || 8 || [[Chrome Alloy]] x1, [[Forged Tungsten]] x1-14 || 18 shapes
+|-
+| [[Glass]] || 1 || 8 || [[Glass]] x8 || 1
+|-
+| [[Glass]] || 1 || 2 || [[Glass]] x2 || 3 shapes
+|-
+| [[Glass]] || 1 || 1 || [[Glass]] x1 || 4 shapes
+|-
+| [[Glass]] || 1 || 4 || [[Glass]] x4 || 4 shapes
+|-
+| [[Glass]] || 1 || 14 || [[Glass]] x14 || 3 shapes
+|-
+| [[Glass]] || 1 || 12 || [[Glass]] x12 || 1
+|-
+| [[Glass]] || 1 || 6 || [[Glass]] x6 || 1
+|-
+| [[Glass]] || 1 || 3 || [[Glass]] x3 || 1
+|-
+| [[Marble]] || 1 || 5 || [[Marble]] x1-14 || 18 shapes
+|-
+| [[Epidote]] || 1 || 5 || [[Marble]] x1, [[Epidote]] x1-14 || 18 shapes
+|-
+| [[Chrismatite]] || 1 || 5 || [[Epidote]] x1, [[Chrismatite]] x1-14 || 18 shapes
+|-
+| [[Lapis Lazuli]] || 1 || 5 || [[Chrismatite]] x1, [[Lapis Lazuli]] x1-14 || 18 shapes
+|-
+| [[Obsidian]] || 1 || 5 || [[Lapis Lazuli]] x1, [[Obsidian]] x1-14 || 18 shapes
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

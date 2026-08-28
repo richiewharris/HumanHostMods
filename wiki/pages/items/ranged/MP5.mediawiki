@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox weapon
+| name       = MP5
+| image      = MP5.png
+| type       = Ranged Weapons
+| type = Ranged
+| subtype = Firearm
+}}
+
+The '''MP5''' is a ranged weapons in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+
+== Technical ==
+
+Addressable asset id: <code>RW_MP5</code>.
+
+== See also ==
+
+* [[Ranged Weapons]]
+
+[[Category:Ranged Weapons]]

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Trap_Laser",
+    "FullName": "Trap_Laser",
+    "Assembly": "Trap",
+    "PageTitle": "Laser"
+  },
+  {
+    "Name": "Trap_RotBlade",
+    "FullName": "Trap_RotBlade",
+    "Assembly": "Trap",
+    "PageTitle": "Rot Blade"
+  },
+  {
+    "Name": "Trap_SensorSpike",
+    "FullName": "Trap_SensorSpike",
+    "Assembly": "Trap",
+    "PageTitle": "Sensor Spike"
+  },
+  {
+    "Name": "Trap_Spike",
+    "FullName": "Trap_Spike",
+    "Assembly": "Trap",
+    "PageTitle": "Spike"
+  }
+]

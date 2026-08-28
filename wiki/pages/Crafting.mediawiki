@@ -1,0 +1,91 @@
+{{Nav}}
+
+Crafting in ''Human Host'' is workbench-gated: most recipes require you to stand next to a specific workbench, and unlocking a new workbench is the primary marker of tech progression. The game defines '''eleven''' workbench types.
+
+== Workbenches ==
+
+{| class="wikitable sortable"
+! Workbench !! Category !! Specialty
+|-
+| '''[[HandMade]]''' || Inventory || The from-anywhere craft menu. Stone axe, pickaxe, basic tools.
+|-
+| '''[[Campfire]]''' || Utility || Early-tier utility items and light.
+|-
+| '''[[Carpentry Workbench]]''' || Craft || Wooden weapons, bows, wooden building parts, arrows.
+|-
+| '''[[Cutting Workbench]]''' || Craft || Processes larger materials into workable components.
+|-
+| '''[[Furnace]]''' || Smelting || Ore into ingot conversion (iron, copper, tin, steel).
+|-
+| '''[[Anvil Workbench]]''' || Metal || Metal weapons, armor, tools from smelted ingots.
+|-
+| '''[[Cement Mixer]]''' || Building || Concrete for reinforced structures.
+|-
+| '''[[Mechanical Workbench]]''' || Vehicles || Vehicle parts, wheels, engines, chassis fittings.
+|-
+| '''[[Electronics Workbench]]''' || Tech || Circuits, sensors, [[Lua Programming|Lua computers]].
+|-
+| '''[[Biochemical Workbench]]''' || Chemistry || Reagents, medicine, explosives, gunpowder.
+|-
+| '''[[Gun Workbench]]''' || Firearms || Firearms, ammunition, weapon mods.
+|}
+
+Internal enum: <code>WorkbenchType</code> (assembly <code>UI</code>).
+
+== Inventory (HandMade) crafting ==
+
+A small set of essential tools can be crafted from any location with no external workbench, via the '''Inventory''' menu (default: '''C'''). These are handled by the internal '''HandMade''' workbench. Common HandMade recipes include:
+
+* '''Stone Axe''': Wood + Stone
+* '''Stone Pickaxe''': Wood + Stone
+
+== Progression path ==
+
+Workbenches unlock roughly in this order, gated by biome and ore availability:
+
+{| class="wikitable"
+! Tier !! Workbench !! Unlocked by !! Enables
+|-
+| 0 || HandMade || Start || Stone tools
+|-
+| 0 || Campfire || Wood + Stone || Utility items
+|-
+| 1 || Carpentry || Wood tools || Bows, wooden weapons, arrows
+|-
+| 1 || Cutting || Basic tools || Cut materials
+|-
+| 2 || Furnace || Stone + Iron Ore || Iron / copper / steel ingots
+|-
+| 2 || Anvil || Furnace + Iron Ingots || Metal weapons, armor
+|-
+| 3 || Cement Mixer || Stone + Sand || Reinforced structures
+|-
+| 3 || Mechanical || Metal tier || Vehicle parts, engines
+|-
+| 4 || Electronics || Copper + rare metals || Circuits, [[Lua Programming|Lua computers]]
+|-
+| 4 || Biochemical || Jungle reagents || Medicine, gunpowder
+|-
+| 4 || Gun || Electronics + Biochemical || Firearms, ammunition
+|}
+
+== Recipes ==
+
+Each workbench page carries the full extracted recipe list for that station, cross-linked to the atomic material pages:
+
+* [[Campfire]] · [[Carpentry Workbench]] · [[Cutting Workbench]]
+* [[Furnace]] · [[Anvil Workbench]] · [[Cement Mixer]]
+* [[Mechanical Workbench]] · [[Electronics Workbench]]
+* [[Biochemical Workbench]] · [[Gun Workbench]]
+* [[HandMade]]
+
+The [[Recipes]] hub cross-lists every material with its "crafted at" and "used in" recipes for search.
+
+== See also ==
+
+* [[Building]]: placement mechanics for structures, including built workbenches
+* [[Perks]]: factor catalog including craft-related factors
+* [[Mining]]: sourcing ores for the Furnace tier
+* [[Mods]]: community additions including new recipes
+
+[[Category:Crafting]]

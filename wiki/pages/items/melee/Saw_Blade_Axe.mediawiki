@@ -1,0 +1,33 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox weapon
+| name       = Saw Blade Axe
+| image      = Saw_Blade_Axe.png
+| type       = Melee Weapons
+| workbench = [[Anvil Workbench]] or [[Carpentry Workbench]]
+| type = Melee
+| subtype = Axe
+}}
+
+The '''Saw Blade Axe''' is a melee weapons in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+
+== Technical ==
+
+Addressable asset id: <code>AXE_Saw_Blade_Axe</code>.
+
+== See also ==
+
+* [[Melee Weapons]]
+
+[[Category:Melee Weapons]]

@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Winter Town
+| terrain    = terrain_winter_town
+| climate    = Cold, urban
+| threat     = High
+| pois       = None
+| vehicles   = None
+}}
+
+The '''Winter Town''' is a tier-3 biome in ''[[Human Host]]''. Climate: Cold, urban. Threat level: High.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_winter_town</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+None
+
+== Loot crates ==
+
+None
+
+== Vehicles ==
+
+None
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

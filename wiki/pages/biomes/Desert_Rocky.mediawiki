@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Desert Rocky
+| terrain    = terrain_desert_rocky
+| climate    = Hot, arid, rocky
+| threat     = Medium
+| pois       = None
+| vehicles   = None
+}}
+
+The '''Desert Rocky''' is a tier-3 biome in ''[[Human Host]]''. Climate: Hot, arid, rocky. Threat level: Medium.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_desert_rocky</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+None
+
+== Loot crates ==
+
+None
+
+== Vehicles ==
+
+None
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

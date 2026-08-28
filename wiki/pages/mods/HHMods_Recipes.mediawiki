@@ -1,0 +1,28 @@
+{{Nav}}
+
+The '''HHMods Recipes''' plugin (part of the [[HHMods]] suite) adds three community recipes to the base game's [[Crafting|workbench system]].
+
+== Recipes added ==
+
+{| class="wikitable"
+! Recipe !! Workbench !! Notes
+|-
+| '''Water''' || [[Campfire]] || Player-craftable water. Adds a first-tier source that doesn't require looting.
+|-
+| '''Gunpowder''' || [[Biochemical Workbench]] || Enables firearm ammunition without waiting on late-tier salvage.
+|-
+| '''Steel Chest''' || [[Furnace]] || A 24-slot storage container, larger than the base Wooden (8) and Iron (16) chests.
+|}
+
+== Technical ==
+
+Each recipe is registered at plugin startup via <code>HHMods.Core.RecipeRegistry.Register</code>. This appends a <code>PerIconData</code> to the correct <code>CraftItemData.perIconData</code> for the target <code>WorkbenchType</code>. Idempotent across scene reloads.
+
+== See also ==
+
+* [[HHMods]]: the full suite
+* [[Crafting]]: base-game workbench progression
+* [[Mods]]: all community mods
+
+[[Category:Mods]]
+[[Category:HHMods]]

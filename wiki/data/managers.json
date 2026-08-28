@@ -1,0 +1,282 @@
+[
+  {
+    "Name": "AI_Agen_Mgr",
+    "FullName": "AI_Agen_Mgr",
+    "Assembly": "AI"
+  },
+  {
+    "Name": "AO_AutoAdjustment",
+    "FullName": "AO_AutoAdjustment",
+    "Assembly": "Visual"
+  },
+  {
+    "Name": "Bullets_Topinfo_Updator",
+    "FullName": "Bullets_Topinfo_Updator",
+    "Assembly": "Hand_Tools"
+  },
+  {
+    "Name": "CamController",
+    "FullName": "CamController",
+    "Assembly": "Camera"
+  },
+  {
+    "Name": "Car_Mgr",
+    "FullName": "Car_Mgr",
+    "Assembly": "Car"
+  },
+  {
+    "Name": "Char_GPUI_Render_Mgr",
+    "FullName": "Char_GPUI_Render_Mgr",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "Code_Translator",
+    "FullName": "Code_Translator",
+    "Assembly": "Car"
+  },
+  {
+    "Name": "Craft_Mgr",
+    "FullName": "Craft_Mgr",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "Creature_Mgr",
+    "FullName": "Creature_Mgr",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "Equipment_Mgr",
+    "FullName": "Equipment_Mgr",
+    "Assembly": "Equipment"
+  },
+  {
+    "Name": "Error_Report_Panel",
+    "FullName": "Error_Report_Panel",
+    "Assembly": "Global_Funcs"
+  },
+  {
+    "Name": "GPUI_Dead_Body_Mgr",
+    "FullName": "GPUI_Dead_Body_Mgr",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "GPUI_NoneGameObject_Mgr",
+    "FullName": "GPUI_NoneGameObject_Mgr",
+    "Assembly": "Optimize"
+  },
+  {
+    "Name": "G_Config_Setter",
+    "FullName": "G_Config_Setter",
+    "Assembly": "G_Save"
+  },
+  {
+    "Name": "G_Mode",
+    "FullName": "G_Mode",
+    "Assembly": "Use_F"
+  },
+  {
+    "Name": "G_MyCircularBarMgr",
+    "FullName": "G_MyCircularBarMgr",
+    "Assembly": "Circular_Bar"
+  },
+  {
+    "Name": "G_RPG_UI_Mgr",
+    "FullName": "G_RPG_UI_Mgr",
+    "Assembly": "RPG_UI"
+  },
+  {
+    "Name": "G_Save_EditorSetter",
+    "FullName": "G_Save_EditorSetter",
+    "Assembly": "G_Save"
+  },
+  {
+    "Name": "G_ScreenDamage",
+    "FullName": "G_ScreenDamage",
+    "Assembly": "ScreenDamage"
+  },
+  {
+    "Name": "G_TerrainTesseColPool",
+    "FullName": "G_TerrainTesseColPool",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "GameSettings",
+    "FullName": "GameSettings",
+    "Assembly": "GameSettings"
+  },
+  {
+    "Name": "Global_Infos",
+    "FullName": "Global_Infos",
+    "Assembly": "Global_Funcs"
+  },
+  {
+    "Name": "Global_Update",
+    "FullName": "Global_Update",
+    "Assembly": "Global_Funcs"
+  },
+  {
+    "Name": "GrassSpawnManager",
+    "FullName": "GrassSpawnManager",
+    "Assembly": "Build_System"
+  },
+  {
+    "Name": "Imposter_Manager",
+    "FullName": "Imposter_Manager",
+    "Assembly": "Optimize"
+  },
+  {
+    "Name": "Init",
+    "FullName": "Init",
+    "Assembly": "Build_System"
+  },
+  {
+    "Name": "Item_Slot_Mgr",
+    "FullName": "Item_Slot_Mgr",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "Language_Mgr",
+    "FullName": "Language_Mgr",
+    "Assembly": "Language"
+  },
+  {
+    "Name": "Loot_Mgr",
+    "FullName": "Loot_Mgr",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "MCS_Manager",
+    "FullName": "MCS_Manager",
+    "Assembly": "Optimize"
+  },
+  {
+    "Name": "Merchant_Mgr",
+    "FullName": "Merchant_Mgr",
+    "Assembly": "Merchant"
+  },
+  {
+    "Name": "My_Pool_Core",
+    "FullName": "My_Pool_Core",
+    "Assembly": "My_Pool"
+  },
+  {
+    "Name": "NPC_Horde_Mgr",
+    "FullName": "NPC_Horde_Mgr",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "NPC_Spawner_Mgr",
+    "FullName": "NPC_Spawner_Mgr",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "NotificationSystem",
+    "FullName": "NotificationSystem",
+    "Assembly": "Notifications"
+  },
+  {
+    "Name": "Player_HotKeys",
+    "FullName": "Player_HotKeys",
+    "Assembly": "Player_HotKeys"
+  },
+  {
+    "Name": "Player_Input",
+    "FullName": "Player_Input",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "Player_Mgr",
+    "FullName": "Player_Mgr",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "Player_Respawner",
+    "FullName": "Player_Respawner",
+    "Assembly": "Player"
+  },
+  {
+    "Name": "Point_Lights_Mgr",
+    "FullName": "Point_Lights_Mgr",
+    "Assembly": "Optimize"
+  },
+  {
+    "Name": "SFE_Mgr",
+    "FullName": "SFE_Mgr",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "SaveDataManager",
+    "FullName": "SaveDataManager",
+    "Assembly": "SaveData"
+  },
+  {
+    "Name": "ScenePropManager",
+    "FullName": "ScenePropManager",
+    "Assembly": "Build_System"
+  },
+  {
+    "Name": "Skill_Mgr",
+    "FullName": "Skill_Mgr",
+    "Assembly": "Creature"
+  },
+  {
+    "Name": "Smash_Fallen_Manager",
+    "FullName": "Smash_Fallen_Manager",
+    "Assembly": "Build_System"
+  },
+  {
+    "Name": "Sound_Mgr",
+    "FullName": "Sound_Mgr",
+    "Assembly": "Sound_FX"
+  },
+  {
+    "Name": "TerrainTreeManager",
+    "FullName": "TerrainTreeManager",
+    "Assembly": "Build_System"
+  },
+  {
+    "Name": "Terrain_Dig",
+    "FullName": "Terrain_Dig",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "Terrain_Loader_Manager",
+    "FullName": "Terrain_Loader_Manager",
+    "Assembly": "Terrain"
+  },
+  {
+    "Name": "Tool_Interact_Mgr",
+    "FullName": "Tool_Interact_Mgr",
+    "Assembly": "Hand_Tools"
+  },
+  {
+    "Name": "Trap_Mgr",
+    "FullName": "Trap_Mgr",
+    "Assembly": "Trap"
+  },
+  {
+    "Name": "UI_Control",
+    "FullName": "UI_Control",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "Use_F",
+    "FullName": "Use_F",
+    "Assembly": "Use_F"
+  },
+  {
+    "Name": "Weather_Controller",
+    "FullName": "Weather_Controller",
+    "Assembly": "Weather"
+  },
+  {
+    "Name": "Workshop_UI",
+    "FullName": "Workshop_UI",
+    "Assembly": "SteamManager"
+  },
+  {
+    "Name": "World_Map_Mgr",
+    "FullName": "World_Map_Mgr",
+    "Assembly": "Player"
+  }
+]

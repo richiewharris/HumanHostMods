@@ -1,0 +1,49 @@
+{{Nav}}
+
+The '''HHMods Suite''' is a set of BepInEx plugins for ''Human Host'', delivered as six independently-installable plugins sharing one core library. Any subset can be installed without breaking the others.
+
+== Plugins ==
+
+{| class="wikitable"
+! Plugin !! Purpose
+|-
+| '''HHMods.Core''' || Shared library: perk / recipe / minimap-layer registries, save sidecar, notification helpers. Loaded first via BepInEx dependency ordering.
+|-
+| '''[[HHMods Minimap]]''' || Minimap HUD panel, layer registry service, built-in layers, filter UI.
+|-
+| '''[[HHMods Perks]]''' || Adds [[Alchemist]], [[Metallurgist]], [[Geologist]], [[Panning Out]], [[Pitcher]] perks.
+|-
+| '''[[HHMods Recipes]]''' || Adds Water (Campfire), Gunpowder (Biochemical), Steel Chest (Furnace) recipes.
+|-
+| '''[[HHMods QoL]]''' || Hunger / thirst polish, empty-container tooltip, linked / filtered containers.
+|-
+| '''[[HHMods Vehicles]]''' || Gyroscope, Headlights, Tow bar, Collector, Impact Shielding vehicle attachments.
+|-
+| '''[[HHMods Weapons]]''' || Proximity mine, Impact Grenade, Throwing Axe, Nailgun.
+|}
+
+== Architecture ==
+
+Every "adding something to a game data structure" lives behind a registry in <code>HHMods.Core</code>:
+
+* '''<code>PerkRegistry.Register</code>''': builds a runtime perk, wraps in a talent, appends to the correct <code>All_Skills_Set</code> collection. Idempotent.
+* '''<code>RecipeRegistry.Register</code>''': appends a <code>PerIconData</code> to the target <code>WorkbenchType</code>. Idempotent.
+* '''<code>MinimapLayerRegistry.Register</code>''': in-memory layer list the Minimap subscribes to. Handles the "layer added before minimap loaded" case via a lazy queue.
+
+Cross-plugin dependencies are soft: the Geologist perk in HHMods Perks checks for the presence of HHMods Minimap via reflection, so any subset loads without breaking.
+
+== Save / load convention ==
+
+Each plugin persists its state to <code>Human Host_Data/Save/Save_XX/mod_&lt;pluginId&gt;.json</code>. <code>HHMods.Core.ModSidecar&lt;T&gt;</code> handles atomic write, versioning, and load fallback. The game's <code>SaveDataManager.Save_All_StorageBox_Data</code> and slot-load events are the sync points.
+
+== Load order ==
+
+<code>HHMods.Core</code> is a <code>[BepInPlugin]</code> with a dummy Awake so BepInEx guarantees it loads first. Every other plugin declares <code>[BepInDependency("io.hh.core", HardDependency)]</code>.
+
+== See also ==
+
+* [[Mods]]: all community mods
+* [[Modding]]: BepInEx and general modding
+
+[[Category:Mods]]
+[[Category:HHMods]]

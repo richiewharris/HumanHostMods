@@ -1,0 +1,223 @@
+{
+  "TotalKeys": 12771,
+  "Ores": [
+    "BO_Chrismatite",
+    "BO_Clay",
+    "BO_Epidote",
+    "BO_Lapis_Lazuli",
+    "BO_Limestone",
+    "BO_Marble",
+    "BO_Obsidian",
+    "BO_Ore_Chrome",
+    "BO_Ore_Copper",
+    "BO_Ore_Graphite",
+    "BO_Ore_Iron",
+    "BO_Ore_Nitrate",
+    "BO_Ore_Titanium",
+    "BO_Ore_Tungsten",
+    "BO_Sand",
+    "BO_Sulfur"
+  ],
+  "Foods": [
+    "Cactus",
+    "Canned_Beef",
+    "Canned_Fruit",
+    "Canned_Noodles",
+    "Canned_Rice",
+    "Canned_Tuna",
+    "Mushroom",
+    "Pine_Cone",
+    "Sausage"
+  ],
+  "Waters": [
+    "Bottled_Water",
+    "Energy_Drink",
+    "Fruit_Juice",
+    "Soda"
+  ],
+  "RefinedResources": [
+    "RII_Recipe_Sack",
+    "RII_Wood",
+    "RII_Wood_Black",
+    "RII_Wood_Red"
+  ],
+  "Ammunition": [
+    "Bullet_Tip_Chrome",
+    "Bullet_Tip_Copper",
+    "Bullet_Tip_Steel",
+    "Bullet_Tip_Titanium",
+    "Bullet_Tip_Tungsten"
+  ],
+  "MeleeWeapons": [
+    "AXE_FireAxe_01",
+    "AXE_FireAxe_02",
+    "AXE_Iron_Axe",
+    "AXE_Metal_Hatchet",
+    "AXE_Saw_Blade_Axe",
+    "BIG_Iron_Hammer",
+    "BIG_Mace",
+    "DAG_Bone_Knife",
+    "DAG_Combat_Knife_01",
+    "DAG_Combat_Knife_02",
+    "DAG_Fruit_Knife",
+    "DAG_Hunting_Knife",
+    "DAG_Shiv",
+    "DAG_Stone_Knife_01",
+    "DAG_Stone_Knife_02",
+    "SPEAR_Iron_Spear",
+    "SPEAR_Iron_Spear_02",
+    "SPEAR_Iron_Spear_03",
+    "SPEAR_Stone_Spear",
+    "SPEAR_Wooden_Spear"
+  ],
+  "RangedWeapons": [
+    "RW_12x70mm_AmmoBox",
+    "RW_45ACP_AmmoBox",
+    "RW_5.56x45_AmmoBox",
+    "RW_7.62x39_AmmoBox",
+    "RW_7.62x51_AmmoBox",
+    "RW_7.62x54_AmmoBox",
+    "RW_9x19_AmmoBox",
+    "RW_AKM",
+    "RW_AKM-G_Mode",
+    "RW_Arrow_Frag",
+    "RW_Arrow_Iron",
+    "RW_Arrow_Stone",
+    "RW_Bow_Long",
+    "RW_Bow_Short",
+    "RW_Bow_Short_RF",
+    "RW_FAMAS_F1",
+    "RW_Holo_Sight",
+    "RW_M1891_01",
+    "RW_M1891_02",
+    "RW_M1911_01",
+    "RW_M1911_02",
+    "RW_M1A",
+    "RW_M3_SMG",
+    "RW_MP5",
+    "RW_R870_01",
+    "RW_R870_02",
+    "RW_RedDot_Sight",
+    "RW_Scope_X12",
+    "RW_Scope_X2",
+    "RW_Scope_X4",
+    "RW_Scope_X6",
+    "RW_Scope_X8"
+  ],
+  "Tools": [
+    "TOOL_Iron_Pickaxe",
+    "TOOL_Stone_Axe",
+    "TOOL_Stone_Pickaxe"
+  ],
+  "Traps": [
+    "BT_Bladed_Pole",
+    "BT_IronPipe_Trap",
+    "BT_IronSpike_Single",
+    "BT_IronSpike_Trap",
+    "BT_Laser_Trap",
+    "BT_LogSpike_Single",
+    "BT_LogSpike_Trap",
+    "BT_Nail_Trap",
+    "BT_Rotating_Blade",
+    "BT_Rotating_Saw",
+    "BT_Sensor_Spike",
+    "BT_SpearSpike_Single",
+    "BT_SpearSpike_Trap",
+    "BT_Spiked_Great_Trunk",
+    "BT_Spiked_Trunk"
+  ],
+  "BuildTiers": [
+    {
+      "TierName": "Wood",
+      "TierPrefix": "1",
+      "Materials": [
+        "Damaged Planks",
+        "Plank Ebony",
+        "Plank Old",
+        "Plank Poplar",
+        "Plank Red Oak"
+      ]
+    },
+    {
+      "TierName": "Brick",
+      "TierPrefix": "2",
+      "Materials": [
+        "Carbon-Bonded Brick",
+        "Cellular Brick",
+        "Damaged Brick",
+        "High-Pressure Lime Brick",
+        "Silicon Sulfide Brick"
+      ]
+    },
+    {
+      "TierName": "Cement / Concrete",
+      "TierPrefix": "3",
+      "Materials": [
+        "Cement",
+        "Concrete",
+        "Ferrock Concrete",
+        "Reinforced Concrete",
+        "Titanium Mesh Concrete"
+      ]
+    },
+    {
+      "TierName": "Iron",
+      "TierPrefix": "4",
+      "Materials": [
+        "Cast Iron",
+        "Chrome Iron",
+        "Pig Iron",
+        "Rust Iron",
+        "Wrought Iron"
+      ]
+    },
+    {
+      "TierName": "Alloy / Steel",
+      "TierPrefix": "5",
+      "Materials": [
+        "Chrome Alloy",
+        "Copper Alloy",
+        "High-Speed Steel",
+        "Titanium Alloy",
+        "Tungsten Steel"
+      ]
+    },
+    {
+      "TierName": "Glass",
+      "TierPrefix": "6",
+      "Materials": [
+        "Glass"
+      ]
+    },
+    {
+      "TierName": "Decorative Stone",
+      "TierPrefix": "7",
+      "Materials": [
+        "Chrismatite",
+        "Epidote",
+        "Lapis Lazuli",
+        "Marble",
+        "Obsidian"
+      ]
+    }
+  ],
+  "Functions": [
+    "BF_Dead_Backpack",
+    "BF_Forged_Iron_Crate",
+    "BF_Ladder_Log",
+    "BF_Sleeping_Bag",
+    "BF_Solar_Lamp",
+    "BF_Torch_Build",
+    "BF_WB_Anvil",
+    "BF_WB_Biochemical",
+    "BF_WB_Campfire",
+    "BF_WB_Carpentry",
+    "BF_WB_Concrete_Mixer",
+    "BF_WB_Cutting",
+    "BF_WB_Electronic",
+    "BF_WB_Furnace",
+    "BF_WB_Gunsmith",
+    "BF_WB_Mechanical",
+    "BF_Wooden_Crate"
+  ]
+}

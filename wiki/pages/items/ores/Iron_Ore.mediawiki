@@ -1,0 +1,41 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Iron Ore
+| image      = Ore_Iron.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Iron Ore''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Forged Iron]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Pig Iron]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Iron</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

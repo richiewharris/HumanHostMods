@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Stone
+| image      = Stone.png
+| type       = Material
+}}
+
+'''Stone''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Clay]] x50 || [[Campfire]] || 100 || 1
+|-
+| [[Cobblestone]] x1 || [[Furnace]] || 3 || 1
+|-
+| [[Sand]] x50 || [[Cement Mixer]] || 25 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

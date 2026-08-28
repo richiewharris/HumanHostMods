@@ -1,0 +1,31 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Copper Ore
+| image      = Ore_Copper.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Copper Ore''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Copper</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

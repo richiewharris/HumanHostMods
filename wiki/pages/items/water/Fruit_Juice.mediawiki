@@ -1,0 +1,31 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Fruit Juice
+| image      = Fruit_Juice.png
+| type       = Water
+| source = Looted from containers and zombie corpses
+}}
+
+The '''Fruit Juice''' is a water in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+
+== Technical ==
+
+Addressable asset id: <code>FWI_Fruit_Juice_Icon</code>.
+
+== See also ==
+
+* [[Food and Water]]
+
+[[Category:Water]]

@@ -1,0 +1,22 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Mossy Forest Vehicles''' bundle groups all vehicle chassis native to the [[Mossy Forest]] biome.
+
+== Chassis ==
+
+TBD: list of biome-specific chassis.
+
+== Notes ==
+
+Asset bundle: <code>cars_mossy</code>
+
+== See also ==
+
+* [[Vehicles]]: overview of the vehicle system
+* [[Vehicle Parts]]: parts shared across all biomes
+* [[Mossy Forest]]: biome overview
+
+[[Category:Vehicles]]
+[[Category:Mossy Forest]]

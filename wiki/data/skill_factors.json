@@ -1,0 +1,140 @@
+[
+  {
+    "Field": "_adrlinMeleeDmg_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "adrlinMeleeDmg"
+  },
+  {
+    "Field": "_adrlinStaCost_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "adrlinStaCost"
+  },
+  {
+    "Field": "_adrlinWaterCost_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "adrlinWaterCost"
+  },
+  {
+    "Field": "_bareBluntHitDownProb_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "bareBluntHitDownProb"
+  },
+  {
+    "Field": "_bladeHitProb_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "bladeHitProb"
+  },
+  {
+    "Field": "_bowDamage_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "bowDamage"
+  },
+  {
+    "Field": "_bowDrop_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "bowDrop"
+  },
+  {
+    "Field": "_fireRecoil_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "fireRecoil"
+  },
+  {
+    "Field": "_fireSpread_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "fireSpread"
+  },
+  {
+    "Field": "_foodWaterDecrease_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "foodWaterDecrease"
+  },
+  {
+    "Field": "_gunDamage_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "gunDamage"
+  },
+  {
+    "Field": "_maxHP_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "maxHP"
+  },
+  {
+    "Field": "_maxStamina_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "maxStamina"
+  },
+  {
+    "Field": "_meleeDamage_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "meleeDamage"
+  },
+  {
+    "Field": "_minerDmg_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "minerDmg"
+  },
+  {
+    "Field": "_moraleDmg_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "moraleDmg"
+  },
+  {
+    "Field": "_repair_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "repair"
+  },
+  {
+    "Field": "_silenceStepDmg_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "silenceStepDmg"
+  },
+  {
+    "Field": "_silentStepReduce_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "silentStepReduce"
+  },
+  {
+    "Field": "_softLandDmgReduce_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "softLandDmgReduce"
+  },
+  {
+    "Field": "_staminaRege_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "staminaRege"
+  },
+  {
+    "Field": "_stoneSkinDmgReduce_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "stoneSkinDmgReduce"
+  },
+  {
+    "Field": "_woodJackDmg_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "woodJackDmg"
+  }
+]

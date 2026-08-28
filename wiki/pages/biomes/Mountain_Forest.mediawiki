@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Mountain Forest
+| terrain    = terrain_mountain_forest
+| climate    = Cool, alpine
+| threat     = Medium
+| pois       = [[AV House]], [[Country House]], [[Country House II]], [[Factory Zone]]
+| vehicles   = [[Mountain Forest Vehicles]]
+}}
+
+The '''Mountain Forest''' is a tier-2 biome in ''[[Human Host]]''. Climate: Cool, alpine. Threat level: Medium.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_mountain_forest</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+[[AV House]], [[Country House]], [[Country House II]], [[Factory Zone]]
+
+== Loot crates ==
+
+[[Mountain Loot Crate]]
+
+== Vehicles ==
+
+[[Mountain Forest Vehicles]]
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

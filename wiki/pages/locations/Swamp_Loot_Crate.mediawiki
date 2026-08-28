@@ -1,0 +1,23 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Swamp Loot Crate''' is a lootable container variant that spawns in the [[Tropical Swamp]] biome of ''[[Human Host]]''.
+
+== Contents ==
+
+Contents scale to the biome tier. Common items include salvage, ammunition, and biome-appropriate resources.
+
+== Location ==
+
+Native biome: [[Tropical Swamp]]
+
+Asset bundle: <code>shc_crates_swamp</code>
+
+== See also ==
+
+* [[Loot Crates]]: all crate variants
+* [[Tropical Swamp]]: biome overview
+
+[[Category:Loot Crates]]
+[[Category:Tropical Swamp]]

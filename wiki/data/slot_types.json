@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Nothing",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "Hand_R",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "Hand_L",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "Equip",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "Ammo",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "GunAttach",
+    "Assembly": "Item_Info"
+  },
+  {
+    "Name": "Merchant",
+    "Assembly": "Item_Info"
+  }
+]

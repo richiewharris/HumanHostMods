@@ -1,0 +1,76 @@
+{{Nav}}
+
+Vehicles in ''Human Host'' are a major system: not just transportation, but ''programmable'' mobile bases. Every wheeled vehicle can be scripted in [[Lua Programming|Lua]], enabling autonomous defenders, patrolling turrets, and self-driving delivery rigs.
+
+== Vehicle categories ==
+
+{| class="wikitable"
+! Category !! Examples !! Native biomes
+|-
+| Bicycles || Standard, cargo || All
+|-
+| Cars || Sedan, buggy, truck || Biome-specific
+|-
+| Trucks / rigs || Flatbed, tow, cargo || Desert, Warzone
+|-
+| Specialty || Snowmobile, dune buggy || Snowy, Desert
+|}
+
+The game ships six vehicle bundles, one per biome variant ([[Desert]], [[Mossy Forest]], [[Mountain Forest]], [[Tropical Jungle|Rainforest]], [[Winter Forest|Snowy]], [[Warzone]]). Chassis found in a biome tend to be climate-appropriate: snowmobiles in Snowy, dune buggies in Desert.
+
+== Vehicle Parts ==
+
+Every vehicle is assembled from '''parts''' (see [[Vehicle Parts]]). Parts fall into categories:
+
+* '''Chassis / frame''': the backbone
+* '''Wheels''': tire types (offroad, road, snow, sand)
+* '''Engine''': power source (combustion, electric, pedal)
+* '''Body panels''': armor / storage / cosmetic
+* '''Attachments''': cargo racks, mounts
+
+== Lua programming ==
+
+The game's most distinctive vehicle feature is '''Lua-powered automation'''. Every vehicle exposes a script slot accepting a Lua program that runs each tick.
+
+Available Lua API (via <code>Car_Coding.LoadPlayerCode</code>):
+
+{| class="wikitable"
+! Function group !! Purpose
+|-
+| <code>Accelerate/Reverse/Steer_*</code> || Basic driving control
+|-
+| <code>Rotate/Lock_Rot/Set_Rot_Angle</code> || Orientation control (useful for turrets)
+|-
+| Sensor readouts || Read nearby entity positions, wheel state, fuel
+|}
+
+Typical uses:
+
+* '''Patrol vehicles''': follow a waypoint circuit
+* '''Auto-turret cars''': track and shoot the nearest zombie
+* '''Convoy AI''': followers that stay X meters behind a lead vehicle
+
+See [[Lua Programming]] for the full API reference and example scripts.
+
+== Building your first vehicle ==
+
+# Salvage or craft a '''chassis''' (Wood tier is cheapest; use it to learn).
+# Add '''wheels'''; three or more required for stability.
+# Add an '''engine''' matched to your fuel source.
+# Add a '''seat'''; needed to pilot.
+# Optional: attach body panels, storage boxes.
+# Optional: load a Lua script.
+
+Vehicles are physics-simulated Unity objects; unstable designs will flip, sag, or drag on terrain.
+
+== Storage ==
+
+Vehicles function as mobile storage. Cargo racks and mounted chests contribute inventory slots that persist through the vehicle. Larger rigs can carry hundreds of slots, the reason experienced players eventually convert their base into a rolling one.
+
+== See also ==
+
+* [[Vehicle Parts]]: full parts catalog
+* [[Lua Programming]]: scripting API
+* [[Mods]]: community-added vehicle attachments
+
+[[Category:Vehicles]]

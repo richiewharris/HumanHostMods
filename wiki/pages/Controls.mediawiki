@@ -1,0 +1,75 @@
+{{Nav}}
+{{Stub}}
+
+Default keyboard and mouse bindings for ''Human Host''. All bindings are rebindable in the '''Options → Controls''' menu.
+
+== Movement ==
+
+{| class="wikitable"
+! Action !! Default key
+|-
+| Move forward || W
+|-
+| Move back || S
+|-
+| Strafe left / right || A / D
+|-
+| Sprint || Left Shift
+|-
+| Jump || Space
+|-
+| Crouch || Left Ctrl
+|-
+| Interact || E
+|}
+
+== Combat ==
+
+{| class="wikitable"
+! Action !! Default key
+|-
+| Primary attack || Left Mouse Button
+|-
+| Aim / block || Right Mouse Button
+|-
+| Reload || R
+|-
+| Swap weapon || Q
+|}
+
+== Inventory ==
+
+{| class="wikitable"
+! Action !! Default key
+|-
+| Open inventory || I or Tab
+|-
+| Open crafting menu || C
+|-
+| Open build menu || B
+|-
+| Hotbar slots 1–9 || 1–9
+|}
+
+== Vehicles ==
+
+Once seated in a vehicle, movement keys drive the vehicle. Additional bindings:
+
+{| class="wikitable"
+! Action !! Default key
+|-
+| Enter / exit vehicle || F
+|-
+| Handbrake || Space
+|-
+| Toggle headlights || L (see [[Headlights]])
+|-
+| Horn || H
+|}
+
+== See also ==
+* [[Combat]]
+* [[Vehicles]]
+* '''Modders:''' the [[Modding]] page documents how <code>Player_HotKeys._ins</code> exposes every action for rebinding at runtime.
+
+[[Category:Interface]]

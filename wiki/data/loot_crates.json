@@ -1,0 +1,38 @@
+[
+  {
+    "Slug": "desert",
+    "PageTitle": "Desert Loot Crate",
+    "Biome": "Desert",
+    "BundleFile": "shc_crates_desert_assets_all_1bea646873685c84c8a17503d6e0f69a.bundle"
+  },
+  {
+    "Slug": "mossy",
+    "PageTitle": "Mossy Loot Crate",
+    "Biome": "Mossy Forest",
+    "BundleFile": "shc_crates_mossy_assets_all_719d08f3bd00d609ae7352853ec3f12d.bundle"
+  },
+  {
+    "Slug": "mountain",
+    "PageTitle": "Mountain Loot Crate",
+    "Biome": "Mountain Forest",
+    "BundleFile": "shc_crates_mountain_assets_all_a516b8edc0b05ea1aa8dfbae6b4475f1.bundle"
+  },
+  {
+    "Slug": "snowy",
+    "PageTitle": "Snowy Loot Crate",
+    "Biome": "Winter Forest",
+    "BundleFile": "shc_crates_snowy_assets_all_7072a703cd8475a58d9c254a20504a1e.bundle"
+  },
+  {
+    "Slug": "swamp",
+    "PageTitle": "Swamp Loot Crate",
+    "Biome": "Tropical Swamp",
+    "BundleFile": "shc_crates_swamp_assets_all_a36fd0635b8d1d0a4fa6210bdd33ef40.bundle"
+  },
+  {
+    "Slug": "warzone",
+    "PageTitle": "Warzone Loot Crate",
+    "Biome": "Warzone",
+    "BundleFile": "shc_crates_warzone_assets_all_7bc7a53c399326d9d4ed2f2be269d0d6.bundle"
+  }
+]

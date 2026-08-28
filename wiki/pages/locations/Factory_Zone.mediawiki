@@ -1,0 +1,33 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Factory Zone''' is a point of interest found in the [[Mountain Forest]] biome of ''[[Human Host]]''.
+
+== Overview ==
+
+This POI is a pre-built structure containing higher-density loot than surrounding terrain, typically defended by an elevated concentration of zombies. See [[Locations]] for the full POI list.
+
+== Location ==
+
+Native biome: [[Mountain Forest]]
+
+Asset bundle: <code>sh_mountain_factoryzone</code>
+
+== Loot ==
+
+TBD. Common categories found in this POI type:
+* Salvageable equipment
+* Ammunition
+* Food and water
+
+== Strategy ==
+
+TBD.
+
+== See also ==
+
+* [[Locations]]: full POI list
+* [[Mountain Forest]]: the biome this POI spawns in
+
+[[Category:Locations]]

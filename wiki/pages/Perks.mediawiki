@@ -1,0 +1,87 @@
+{{Nav}}
+
+The perk system in ''Human Host'' (internally called '''Skills''') is divided into three trees corresponding to the three main play modes: '''Survive''', '''Craft''', and '''Fight'''. You earn perk points by leveling up (gaining XP from any activity in the matching category).
+
+Every perk maps to a runtime '''factor multiplier''' (<code>_xxx_Factor</code>) on the player's <code>Char_Skills</code> component. The current game exposes '''23 factor fields''' (see below); most of which correspond to a leveled perk.
+
+== Trees ==
+
+{| class="wikitable"
+! Tree !! Focus !! Internal set
+|-
+| '''Survive''' || Foraging, mining, food / water efficiency, movement || <code>All_Skills_Set._SurviveSkills</code>
+|-
+| '''Craft''' || Workbench output, resource yield, structure durability || <code>All_Skills_Set._CraftSkills</code>
+|-
+| '''Fight''' || Damage output, damage resistance, weapon-specific bonuses || <code>All_Skills_Set._FightSkills</code>
+|}
+
+== Factor catalog ==
+
+The following table maps each in-game skill effect to the runtime factor it modifies. This is what mod authors patch when they add or amplify perks. Perk display names in-game may differ from the human-readable page titles used here; the factor field name is the authoritative identifier.
+
+{| class="wikitable sortable"
+! Factor field !! Effect
+|-
+| <code>_adrlinMeleeDmg_Factor</code>       || Adrenaline: melee damage bonus (low-HP trigger)
+|-
+| <code>_adrlinStaCost_Factor</code>        || Adrenaline: reduced stamina cost
+|-
+| <code>_adrlinWaterCost_Factor</code>      || Adrenaline: reduced water consumption
+|-
+| <code>_bareBluntHitDownProb_Factor</code> || Bare fists / blunt: knockdown chance
+|-
+| <code>_bladeHitProb_Factor</code>         || Blade weapons: hit / crit chance
+|-
+| <code>_bowDamage_Factor</code>            || Bow damage
+|-
+| <code>_bowDrop_Factor</code>              || Bow arrow drop (reduces gravity effect on arrows)
+|-
+| <code>_fireRecoil_Factor</code>           || Firearms: recoil reduction
+|-
+| <code>_fireSpread_Factor</code>           || Firearms: shot spread reduction
+|-
+| <code>_foodWaterDecrease_Factor</code>    || Reduces food + water depletion rate
+|-
+| <code>_gunDamage_Factor</code>            || Firearm damage
+|-
+| <code>_maxHP_Factor</code>                || Increases max health
+|-
+| <code>_maxStamina_Factor</code>           || Increases max stamina
+|-
+| <code>_meleeDamage_Factor</code>          || General melee damage
+|-
+| <code>_minerDmg_Factor</code>             || Mining damage per swing (faster ore extraction)
+|-
+| <code>_moraleDmg_Factor</code>            || Morale damage: used against NPC morale mechanic
+|-
+| <code>_repair_Factor</code>               || Repair efficiency at workbenches
+|-
+| <code>_silenceStepDmg_Factor</code>       || Silent step: bonus damage on backstab / first hit
+|-
+| <code>_silentStepReduce_Factor</code>     || Silent step: reduced footstep sound radius
+|-
+| <code>_softLandDmgReduce_Factor</code>    || Fall damage reduction
+|-
+| <code>_staminaRege_Factor</code>          || Stamina regeneration rate
+|-
+| <code>_stoneSkinDmgReduce_Factor</code>   || Stone Skin incoming-damage reduction
+|-
+| <code>_woodJackDmg_Factor</code>          || Wood-chopping damage per swing
+|}
+
+All factors live on <code>Char_Skills</code> in the <code>Creature</code> assembly.
+
+== Respec ==
+
+Perk points can be refunded at a workbench specific to your character (Early Access: exact respec UI is still evolving).
+
+== See also ==
+
+* [[Combat]]: how Fight factors apply
+* [[Crafting]]: how Craft factors apply
+* [[Mining]]: how Survive factors apply
+* [[Modding]]: using <code>Skill_Mgr._ins</code> to read player factor values
+* [[Mods]]: community perk additions
+
+[[Category:Perks]]

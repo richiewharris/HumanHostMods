@@ -1,0 +1,20 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Forged Iron Crate
+| image      = Forged_Iron_Crate.png
+| type       = Refined Metal
+}}
+
+'''Forged Iron Crate''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

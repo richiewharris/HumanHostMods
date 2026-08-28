@@ -1,0 +1,58 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Forged Steel
+| image      = Forged_Steel.png
+| type       = Refined Metal
+}}
+
+'''Forged Steel''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Beads Steel]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Bullet Tip Steel]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[FAMAS F1]] x1 || [[Gun Workbench]] || 8 || 1
+|-
+| [[FireAxe 02]] x1 || [[Anvil Workbench]] || 8 || 1
+|-
+| [[Gear]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[High-Speed Steel]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Hunting Knife]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[IronSpike Single]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[IronSpike Trap]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[Laser Trap]] x1 || [[Mechanical Workbench]] || 5 || 1
+|-
+| [[M1A]] x1 || [[Gun Workbench]] || 10 || 1
+|-
+| [[MP5]] x1 || [[Gun Workbench]] || 5 || 1
+|-
+| [[Rebar]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[Simple Generator]] x1 || [[Electronics Workbench]] || 2 || 1
+|-
+| [[Simple Motor]] x1 || [[Electronics Workbench]] || 2 || 1
+|-
+| [[Spiked BaseballBat 02]] x1 || [[Anvil Workbench]] || 2 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

@@ -1,0 +1,72 @@
+<mainpage-leftcolumn-start />
+<!-- The <mainpage-leftcolumn-start />, <mainpage-endcolumn />, and <mainpage-rightcolumn-start /> tags define Fandom's two-column home-page layout and accommodate the main-page ad. Please don't remove them. -->
+
+Welcome to the '''{{SITENAME}}'''! A collaborative community reference for ''Human Host'', the open-world zombie survival crafting game by [https://store.steampowered.com/app/2393970/Human_Host/ Virtual Matrix Studio]. Everything you see is destructible. Everything you build can be programmed. Every night, the horde comes.
+
+This wiki is an online encyclopedia which [[w:Help:Editing|anyone can edit]] and contribute to, [[Special:CreatePage|creating a new page]] or [[Special:AllPages|improving an existing one]]. If you're new and don't know where to start, feel free to reach out to one of our [[Special:ListUsers/sysop|administrators]] or check out [[w:Help:Getting Started|these Fandom help pages]]!
+
+==New here?==
+* '''[[Getting Started]]''': first-hour walkthrough
+* '''[[Controls]]''': default keybinds
+* '''[[Combat]]''': melee, ranged, and blocking
+* '''[[Food and Water]]''': the two survival clocks
+* '''[[Mining]]''': terrain tunneling and ore
+
+==Core systems==
+* '''[[Crafting]]''': the eleven workbenches
+* '''[[Building]]''': foundations, walls, functions, traps
+* '''[[Perks]]''': Survive / Craft / Fight trees, 23 factors
+* '''[[Vehicles]]''': parts, [[Lua Programming|Lua scripting]]
+* '''[[Weapons]]''': melee, ranged, throwable
+
+==The world==
+* '''[[Biomes]]''': ten procedural biomes
+* '''[[Locations]]''': POIs and loot crates
+* '''[[Items]]''': every pickup
+
+==Extending the game==
+* '''[[Modding]]''': BepInEx and how to write plugins
+* '''[[Mods]]''': community mods you can install today
+
+==Progression at a glance==
+Progression is biome-driven: each biome gates new resources, and each resource tier unlocks a workbench that produces the tools to survive the next biome.
+
+# '''[[Mossy Forest]]''': starting biome. Wood, Stone, [[Campfire]], [[HandMade]] crafting.
+# '''[[Mountain Forest]]''' / '''[[Winter Forest]]''': Iron, [[Furnace]], [[Anvil Workbench]], first metal weapons.
+# '''[[Tropical Jungle]]''' / '''[[Tropical Swamp]]''': organic reagents, [[Biochemical Workbench]], [[Cutting Workbench]].
+# '''[[Desert]]''' / '''[[Desert Rocky]]''': advanced ores, [[Mechanical Workbench]], vehicle upgrades.
+# '''[[Winter Town]]''' / '''[[Wasteland]]''': mid-late loot, [[Electronics Workbench]], [[Gun Workbench]].
+# '''[[Warzone]]''': endgame threat tier.
+
+<mainpage-endcolumn /><mainpage-rightcolumn-start />
+==About the game==
+'''Human Host''' is an open-world survival crafting game with unusually deep systems:
+
+* '''Genre:''' Open-world survival, base-building, tower defense
+* '''Developer:''' Virtual Matrix Studio
+* '''Released:''' 2026-04-05 (Early Access)
+* '''Engine:''' Unity 2022.3 (Mono, with BepInEx pre-installed)
+
+Distinctive features include destructible everything (terrain, buildings, trees), horde-night tower defense, [[Lua Programming|Lua-programmable vehicles]] that can be turned into autonomous defenders, and a save-to-disk world that persists your tunnels and bases across sessions.
+
+==Join the conversation==
+'''Discussions''' is the central meeting place where you can connect with other fans. Share news, chat about trending topics, and talk about what you love most. [[Special:Forum|Head over to Discussions]] to start the conversation.
+
+==Helping out==
+''Need help building out this community?''
+
+* [[Project:Wiki rules|Rules of this wiki]]
+* [[Project:Policies|Policies of this wiki]]
+* [[Project:Accessibility checklist|Accessibility checklist]]
+* [[w:Help:Getting Started|Getting started]]
+* [[w:Help:Contributing|How to contribute]]
+* [[w:Help:Community Management|Managing your community]]
+* [[w:Help:Growing your wiki|Growing your wiki]]
+* [[w:Help:Contents|Guides]]
+* [[w:Help:Index|All Help articles]]
+
+You can also be part of the larger Fandom family of communities. Visit [[w:c:community|Fandom's Community Central]].
+<mainpage-endcolumn />
+[[Category:{{SITENAME}}]]
+__NOTOC__
+__noeditsection__

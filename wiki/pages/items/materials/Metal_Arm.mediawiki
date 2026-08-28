@@ -1,0 +1,20 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Metal Arm
+| image      = Metal_Arm.png
+| type       = Material
+}}
+
+'''Metal Arm''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

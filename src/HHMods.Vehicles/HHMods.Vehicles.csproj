@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.Vehicles</AssemblyName>
+    <RootNamespace>HHMods.Vehicles</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HHMods.Core\HHMods.Core.csproj" />
+  </ItemGroup>
+</Project>

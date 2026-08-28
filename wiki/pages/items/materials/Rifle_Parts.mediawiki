@@ -1,0 +1,34 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Rifle Parts
+| image      = Rifle_Parts.png
+| type       = Weapon Component
+}}
+
+'''Rifle Parts''' is a weapon component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[AKM]] x1 || [[Gun Workbench]] || 1 || 1
+|-
+| [[FAMAS F1]] x1 || [[Gun Workbench]] || 1 || 1
+|-
+| [[M1891 01]] x1 || [[Gun Workbench]] || 1 || 1
+|-
+| [[M1A]] x1 || [[Gun Workbench]] || 1 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Weapon Component]]
+[[Category:Items]]

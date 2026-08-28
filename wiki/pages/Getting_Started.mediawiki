@@ -1,0 +1,75 @@
+{{Nav}}
+
+Your goal in the first hour: '''gather basic materials, build a shelter, survive the first horde night.''' Everything else is optional.
+
+'''Note''' (Early Access): several survival subsystems are not yet in the build. There are no natural water bodies, no water collection, no cooking, no huntable animals, and no merchants. Food and water restoration is currently via looted canned goods and water bottles (from zombie corpses and loot containers) plus foraged plants (mushrooms, cactuses, pine cones).
+
+== Character creation ==
+
+At world start you'll pick a starting biome. First-timers should start in '''[[Mossy Forest]]''' (mild climate, abundant wood and stone, low horde threat). Save [[Desert]], [[Warzone]], and [[Wasteland]] for later runs. [[Mountain Forest]] is a solid second choice once you have basic tools.
+
+Your character has three vital stats to manage:
+* '''Health''': regenerates slowly if fed and hydrated
+* '''Food''': depletes over time (see [[Food and Water]])
+* '''Water''': depletes faster than food (see [[Food and Water]])
+
+== First 15 minutes: gather ==
+
+# Chop trees for '''Wood''' and hit rocks for '''Stone''' with your bare fists.
+# Open the crafting menu (default '''C''') and use the [[HandMade]] recipes to craft a '''Stone Axe''' and '''Stone Pickaxe'''. Trees and rocks yield much faster with tools.
+# Loot any container or zombie corpse you find. '''Water bottles''' come only from loot; there's no way to collect water yet.
+# Pick up forageable plants as you move: mushrooms, cactuses, pine cones. These are your main food source alongside canned goods from containers.
+
+== First 30 minutes: shelter ==
+
+Open the build menu (default '''B''') and place a small enclosed shelter:
+# Place a foundation (Wood or Stone)
+# Wall it in on three sides, leaving a gap for a door
+# Add a roof to block zombie drop-ins
+# Place any workbenches you have inside
+
+You now have somewhere to hold out through the first horde night.
+
+== First hour: workbenches ==
+
+Craft your first workbench. Options in tier order:
+
+* '''[[Campfire]]''': early utility station
+* '''[[Carpentry Workbench]]''': wooden weapons, bows, arrows
+* '''[[Cutting Workbench]]''': cloth and material processing
+* '''[[Furnace]]''' (needs Iron Ore): unlocks metal tier
+
+Each workbench you unlock gates a new recipe list. See [[Crafting]] for the full progression.
+
+== Night 1: the horde ==
+
+The horde arrives at nightfall. On a fresh world in [[Mossy Forest]] expect small numbers of slow zombies. Your options:
+
+* '''Hide.''' Bar the door, stay inside, wait it out.
+* '''Fight.''' A Stone Axe plus full stamina can handle a couple of zombies at once. Use terrain: chokepoints, doorways.
+* '''Run.''' Zombies are slower than a sprinting player. Sprinting drains stamina fast.
+
+Do not engage more than a handful of zombies in melee on night 1.
+
+== Day 2 onward ==
+
+* '''[[Mining]]''': dig into a hillside to find Iron Ore and Coal.
+* '''[[Furnace]]''' and '''[[Anvil Workbench]]''': smelt Iron and forge metal weapons.
+* '''[[Perks]]''': spend your first skill point.
+* '''[[Vehicles]]''': salvage or craft a vehicle to speed up biome exploration.
+
+== Common early mistakes ==
+
+* '''Building in the open.''' Fine for a workbench cluster; risky for shelter. Zombies path around walls but freely across open ground.
+* '''Sprinting for fun.''' Sprint drains stamina and food. Walk when it's not urgent.
+* '''Starting in [[Warzone]].''' The name is not a metaphor.
+
+== See also ==
+
+* [[Controls]]: default keybinds
+* [[Combat]]: damage, stamina, blocking
+* [[Crafting]]: full workbench progression
+* [[Biomes]]: pick your next expedition
+
+[[Category:Guides]]
+[[Category:Getting Started]]

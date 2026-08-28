@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.Minimap</AssemblyName>
+    <RootNamespace>HHMods.Minimap</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HHMods.Core\HHMods.Core.csproj" />
+  </ItemGroup>
+</Project>

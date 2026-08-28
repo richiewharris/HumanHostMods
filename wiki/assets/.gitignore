@@ -1,0 +1,5 @@
+# All extracted / uploaded assets are regenerable via AssetRipper + the uploader.
+# They can be several GB and don't belong in version control.
+raw/
+curated/
+*.log

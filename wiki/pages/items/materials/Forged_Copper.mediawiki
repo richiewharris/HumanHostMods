@@ -1,0 +1,62 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Forged Copper
+| image      = Forged_Copper.png
+| type       = Refined Metal
+}}
+
+'''Forged Copper''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 1 || 8 || [[Wood]] x4, [[Scrap Brass]] x10 || 1
+|-
+| [[Furnace]] || 1 || 8 || [[Wood]] x4, [[Copper Ore]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Beads Copper]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Bullet Shell]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Bullet Tip Copper]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Copper Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Copper Wire]] x5 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[FireAxe 01]] x1 || [[Anvil Workbench]] || 4 || 1
+|-
+| [[FireAxe 02]] x1 || [[Anvil Workbench]] || 6 || 1
+|-
+| [[Gear]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[Iron Axe]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[Iron Hammer]] x1 || [[Anvil Workbench]] || 5 || 1
+|-
+| [[Mace]] x1 || [[Anvil Workbench]] || 10 || 1
+|-
+| [[Transformer]] x1 || [[Electronics Workbench]] || 2 || 1
+|-
+| [[Wooden Spiked Club 02]] x1 || [[Anvil Workbench]] || 2 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

@@ -1,0 +1,67 @@
+{{Nav}}
+
+Everything you can pick up, carry, or store in ''Human Host'' is an '''item'''. Items are categorized by slot type (where they equip / stack) and by the internal <code>Icon_Info</code> component that defines their icon, tag, and stats.
+
+== Categories ==
+
+{| class="wikitable"
+! Category !! Examples !! Bundle
+|-
+| '''[[Equipment]]''' || Armor, tools, headlamps || <code>equipments</code>
+|-
+| '''[[Resources]]''' || Wood, Stone, Iron Ore, Cloth || <code>resource_items</code>
+|-
+| '''Food / Water consumables''' || Canned goods, water bottles (looted); mushrooms, cactuses, pine cones (foraged) || <code>food_water</code>
+|-
+| '''[[Ammunition]]''' || Arrows, bolts, bullets, nails, gunpowder rounds || <code>resource_ammo</code>
+|-
+| '''[[Ground Debris]]''' || Salvageable trash, scrap materials || <code>ground_debris</code>
+|}
+
+== Slots ==
+
+Every item has a '''slot type''' (internal enum <code>Slot_Type</code> in the <code>Item_Info</code> assembly) that determines where it can go. Human Host uses a hand-based equipment model where weapons and tools go into a left- or right-hand slot rather than a generic hotbar.
+
+{| class="wikitable"
+! Slot !! Purpose
+|-
+| '''Nothing''' || Ignored / no-slot marker (used for unequipped or purely storage items)
+|-
+| '''Hand_R''' || Right hand (primary weapon or tool)
+|-
+| '''Hand_L''' || Left hand (off-hand weapon, shield, torch)
+|-
+| '''Equip''' || Wearable equipment (armor, headlamp, backpack)
+|-
+| '''Ammo''' || Ammunition routed to the current weapon
+|-
+| '''GunAttach''' || Firearm attachments (scopes, silencers, magazines)
+|-
+| '''Merchant''' || Reserved for merchant NPC inventory (system not yet surfaced in the current build)
+|}
+
+== Tags ==
+
+Items carry '''tags''' (an <code>Icon_Info._Tags</code> array). Tags drive:
+
+* '''Recipe matching''': a "wood" recipe accepts any tagged wood item
+* '''Cross-references''': search by tag on this wiki (planned)
+
+Common tags: <code>wood</code>, <code>stone</code>, <code>metal</code>, <code>ore</code>, <code>ingot</code>, <code>ammo</code>, <code>fuel</code>.
+
+== Weight ==
+
+Items weigh: carry too much and you slow down and lose stamina faster. Weight is stored per-item; heavier items (metal ingots, ammunition) discourage over-hoarding without a vehicle or base storage.
+
+== Stacking ==
+
+Most items stack. Stack sizes vary. Some items (weapons with durability, unique items) do not stack.
+
+== See also ==
+
+* [[Equipment]] · [[Resources]] · [[Ammunition]] · [[Ground Debris]]: category detail pages
+* [[Crafting]]: how items combine into new items
+* [[Building]]: placement / structure items
+* [[Mods]]: community additions including tag-based storage filtering
+
+[[Category:Items]]

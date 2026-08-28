@@ -1,0 +1,1179 @@
+{
+  "CraftTypes": [
+    {
+      "Name": "CraftItemData",
+      "FullName": "Craft_Items/CraftItemData",
+      "Assembly": "UI",
+      "BaseType": "ValueType",
+      "IsAbstract": false,
+      "IsMonoBehaviour": false,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "BigCategory",
+          "TypeName": "Tag_Menu",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "LayoutCellSize",
+          "TypeName": "Vector2",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "LayoutSpacing",
+          "TypeName": "Vector2",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "DisplayName",
+          "TypeName": "Boolean",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "perIconData",
+          "TypeName": "PerIconData[]",
+          "Visibility": "internal",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "Craft_Items",
+      "FullName": "Craft_Items",
+      "Assembly": "UI",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_workbenchType",
+          "TypeName": "WorkbenchType",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_mustKeepOpen",
+          "TypeName": "Boolean",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_Craft_Window",
+          "TypeName": "GameObject",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ProgressBar",
+          "TypeName": "UIProgressBar",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_CraftWindow_Title",
+          "TypeName": "Text",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ProgressBarItemName",
+          "TypeName": "Text",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ProgressBarNumber",
+          "TypeName": "Text",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_CraftSlotProto",
+          "TypeName": "Craft_Slot",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_MatSlotProto",
+          "TypeName": "Mat_Slot",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_craftButtonImg",
+          "TypeName": "Image",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_cancelCraftIcon",
+          "TypeName": "Sprite",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_InputNumber",
+          "TypeName": "InputField",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_Grid_CraftIcon",
+          "TypeName": "GridLayoutGroup",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_AllBigButtons",
+          "TypeName": "Tag_Menu[]",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_CraftItemsData",
+          "TypeName": "CraftItemData[]",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ButtonToCraftData",
+          "TypeName": "Dictionary\u00602",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_CraftToMatsData",
+          "TypeName": "Dictionary\u00602",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_slotInfos",
+          "TypeName": "Slot_Info[]",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_belongBIkey",
+          "TypeName": "String",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_charSkills",
+          "TypeName": "Char_Skills",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_qualityTypeCount",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_playerInput",
+          "TypeName": "Player_Input",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_itemSlotMgr",
+          "TypeName": "Item_Slot_Mgr",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftMgr",
+          "TypeName": "Craft_Mgr",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_activeCraftSlots",
+          "TypeName": "List\u00601",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_currCraftableItems",
+          "TypeName": "PerIconData[]",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_activeFrame",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_activeMatSlots",
+          "TypeName": "List\u00601",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_currNeedMats",
+          "TypeName": "PerMatData[]",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_lastNeedMats",
+          "TypeName": "PerMatData[]",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_currSelectCraftItem",
+          "TypeName": "Tag_Menu",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftIcon",
+          "TypeName": "Sprite",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftIconColor",
+          "TypeName": "Color",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftItemCamStack",
+          "TypeName": "Boolean",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftCount",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_currCraftCount",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftItemName",
+          "TypeName": "String",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftItemInGameName",
+          "TypeName": "String",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftItemRef",
+          "TypeName": "AssetReference",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftNum",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftSeconds",
+          "TypeName": "Single",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_startTimePoint",
+          "TypeName": "Single",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftingIconInfo",
+          "TypeName": "Icon_Info",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_inCrafting",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "Craft_Mgr",
+      "FullName": "Craft_Mgr",
+      "Assembly": "UI",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_TagSwitchSFX",
+          "TypeName": "AudioClip",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_CancelCraftSFX",
+          "TypeName": "AudioClip",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_TorchExtinguishSFX",
+          "TypeName": "AudioClip",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_WorkbenchSFXs",
+          "TypeName": "WorkbenchSFX[]",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ins",
+          "TypeName": "Craft_Mgr",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_PlayerCraftItem",
+          "TypeName": "Craft_Items",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_BuildToopTip",
+          "TypeName": "GameObject",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_workbenchSFX_Dict",
+          "TypeName": "Dictionary\u00602",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_DataCraft",
+          "TypeName": "Data_Slots_All",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_saveID",
+          "TypeName": "String",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_craftItems",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_workbenchTrans",
+          "TypeName": "Transform",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_lastActiveCraftItem",
+          "TypeName": "Craft_Items",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_On_GetBelongBIkey",
+          "TypeName": "UnityEvent\u00602",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_On_GetAroundCrateBelongBIkey",
+          "TypeName": "UnityEvent\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_campfireAroundCratesBelongKey",
+          "TypeName": "String",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_openedTrans",
+          "TypeName": "Transform",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_disToPlayerWhenOpen",
+          "TypeName": "Single",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_cor_CheckDis",
+          "TypeName": "Coroutine",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "PerIconData",
+      "FullName": "Craft_Items/PerIconData",
+      "Assembly": "UI",
+      "BaseType": "ValueType",
+      "IsAbstract": false,
+      "IsMonoBehaviour": false,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "iconRef",
+          "TypeName": "AssetReference",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "craftNum",
+          "TypeName": "Int32",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "iconInfo",
+          "TypeName": "Icon_Info",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "craftSeconds",
+          "TypeName": "Single",
+          "Visibility": "internal",
+          "IsSerialized": true
+        },
+        {
+          "Name": "matsData",
+          "TypeName": "PerMatData[]",
+          "Visibility": "internal",
+          "IsSerialized": true
+        }
+      ]
+    }
+  ],
+  "BuildInfoTypes": [
+    {
+      "Name": "Build_Info",
+      "FullName": "Build_Info",
+      "Assembly": "Build_System",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_Type",
+          "TypeName": "Type",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ItemType",
+          "TypeName": "ItemType",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_interactType",
+          "TypeName": "InteractType",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_Collectable_Info",
+          "TypeName": "CollectItemInfo",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_Ground_Debris_Type",
+          "TypeName": "Ground_Debris_Type",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "CanBeRepair",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_AlignToSurface",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_NoRuntimeSmash",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isDynamicBI",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isGPUIsysHouseGrass",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isBigProp",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_IsFurniBI",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ParticleColor",
+          "TypeName": "Color",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_PreviewCoreShrink",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "SysHouseTop",
+          "TypeName": "SystemHouseSpawner",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "SysHouseBISibling",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "SysHouseTopSibling",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "terraTreeSpawner",
+          "TypeName": "TerrainTreeSpawner",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "GPUI_MatrixIndex",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "treeHeightScale",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "treeWidthScale",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "belongTerrain",
+          "TypeName": "Terrain",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "scenePropSpawner",
+          "TypeName": "ScenePropSpawner",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "scenePropIndex",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_canGet1_WhenDel",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Dictionary_Key",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "BelongChunk",
+          "TypeName": "SaveLoad_Chunk",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "BaIs_All",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "BaIsExistStatus",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Spawned_BaIs",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "BaIs_HP_Lefts",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "OrigBaIsCount",
+          "TypeName": "Int32",
+          "Visibility": "internal",
+          "IsSerialized": false
+        },
+        {
+          "Name": "ContactBIs",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Shards_HP_All",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_Build_Mass",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isFromPool",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Shards_HP_Left",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_lastHPLeft",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "DamagedRender",
+          "TypeName": "MeshRenderer",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_ManualActiveSysHouseBI",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "selfMeshfilter",
+          "TypeName": "MeshFilter",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "selfMeshRenderer",
+          "TypeName": "MeshRenderer",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "selfMeshCollider",
+          "TypeName": "MeshCollider",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "ItemInfo",
+          "TypeName": "Item_Info",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "NoRotate",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "MaxSize",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Size",
+          "TypeName": "Vector3",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "top_Info",
+          "TypeName": "Top_Info",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "DelEmptyBI",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "RotorRigi",
+          "TypeName": "Rigidbody",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "FatherRotor_BI",
+          "TypeName": "Build_Info",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "ShardsSmashedCount",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "ShardsFallenCount",
+          "TypeName": "Int32",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "shards_Groups",
+          "TypeName": "List\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "LastBounds",
+          "TypeName": "Bounds",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "LastCycleDir",
+          "TypeName": "Vector3",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_convexModel",
+          "TypeName": "MeshCollider",
+          "Visibility": "private",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Origin_LocalPos",
+          "TypeName": "Vector3",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Origin_LocalRot",
+          "TypeName": "Vector3",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "CJ",
+          "TypeName": "ConfigurableJoint",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "IsCoding",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "BIsUnderRotor",
+          "TypeName": "HashSet\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "RotorMassCenter",
+          "TypeName": "MassCenter_Handler",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "SpawnedAlready",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_lastHitBigWallTime",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_belongTerraTop",
+          "TypeName": "Terrain_Top",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "lodGroup",
+          "TypeName": "LODGroup",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_soundObj",
+          "TypeName": "Sound_Object",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_skinnedMR",
+          "TypeName": "SkinnedMeshRenderer",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_name",
+          "TypeName": "String",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_poolInsParent_Handler",
+          "TypeName": "PoolInsParent_OnDestroy_Handler",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_lossyScaleFactor",
+          "TypeName": "Single",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "cor_DelayReleaseIns",
+          "TypeName": "Coroutine",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isBackToPool",
+          "TypeName": "Boolean",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "_origHP_All",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_origBaI_HP",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "originLods",
+          "TypeName": "LOD[]",
+          "Visibility": "private",
+          "IsSerialized": false
+        }
+      ]
+    }
+  ],
+  "RecipeAdjacentTypes": [
+    {
+      "Name": "\u003CDelay_1_Frame_Load_CraftData\u003Ed__22",
+      "FullName": "Craft_Mgr/\u003CDelay_1_Frame_Load_CraftData\u003Ed__22",
+      "Assembly": "UI",
+      "BaseType": "Object",
+      "IsAbstract": false,
+      "IsMonoBehaviour": false,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "\u003C\u003E1__state",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003C\u003E2__current",
+          "TypeName": "Object",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003C\u003E4__this",
+          "TypeName": "Craft_Mgr",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__75",
+      "FullName": "SaveLoad_Chunk/\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__75",
+      "Assembly": "Build_System",
+      "BaseType": "Object",
+      "IsAbstract": false,
+      "IsMonoBehaviour": false,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "\u003C\u003E1__state",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003C\u003E2__current",
+          "TypeName": "Object",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003C\u003E4__this",
+          "TypeName": "SaveLoad_Chunk",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "\u003CBuild_Top\u003E5__2",
+          "TypeName": "Transform",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003CAll_BIs\u003E5__3",
+          "TypeName": "List\u00601",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003CframeProcessStart\u003E5__4",
+          "TypeName": "Single",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003Ci\u003E5__5",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003Ckey\u003E5__6",
+          "TypeName": "Int32",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003CBI_AssetKey\u003E5__7",
+          "TypeName": "String",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
+          "Name": "\u003CisFromPool\u003E5__8",
+          "TypeName": "Boolean",
+          "Visibility": "private",
+          "IsSerialized": false
+        }
+      ]
+    },
+    {
+      "Name": "Craft_NumberInput_Handler",
+      "FullName": "Craft_NumberInput_Handler",
+      "Assembly": "UI",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_InputField",
+          "TypeName": "InputField",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isFocus",
+          "TypeName": "Boolean",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "Craft_Slot",
+      "FullName": "Craft_Slot",
+      "Assembly": "UI",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_IconImage",
+          "TypeName": "Image",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_IconNameText",
+          "TypeName": "Text",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_TagMenu",
+          "TypeName": "Tag_Menu",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "Craft_Window_Handler",
+      "FullName": "Craft_Window_Handler",
+      "Assembly": "UI",
+      "BaseType": "MonoBehaviour",
+      "IsAbstract": false,
+      "IsMonoBehaviour": true,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "_belongCraftItem",
+          "TypeName": "Craft_Items",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    },
+    {
+      "Name": "HandCraftBullet",
+      "FullName": "Item_Slot_Mgr/HandCraftBullet",
+      "Assembly": "UI",
+      "BaseType": "ValueType",
+      "IsAbstract": false,
+      "IsMonoBehaviour": false,
+      "IsScriptableObject": false,
+      "Fields": [
+        {
+          "Name": "BulletMat",
+          "TypeName": "String",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Damage_F",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Range_F",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Recoil_F",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Dummy_Rate",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "Stuck_Rate",
+          "TypeName": "Single",
+          "Visibility": "public",
+          "IsSerialized": true
+        }
+      ]
+    }
+  ]
+}

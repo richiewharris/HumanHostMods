@@ -1,0 +1,41 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Titanium Ore
+| image      = Ore_Titanium.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Titanium Ore''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Forged Titanium]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Titanium Mesh Concrete]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Titanium</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

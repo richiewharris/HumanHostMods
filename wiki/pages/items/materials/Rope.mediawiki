@@ -1,0 +1,90 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Rope
+| image      = Rope.png
+| type       = Raw Material
+}}
+
+'''Rope''' is a raw material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Damaged Planks]] x1 || [[Cutting Workbench]] || 1-4 || 18 shapes
+|-
+| [[IronPipe Trap]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[Ladder Log]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Log Doorway]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Fence 02]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Fence Gate]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Floor]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Pillar]] x1 || [[Carpentry Workbench]] || 1 || 1
+|-
+| [[Log Platform]] x1 || [[Carpentry Workbench]] || 4 || 1
+|-
+| [[Log Wall]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Window Wall]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Metal Arm]] x1 || [[Anvil Workbench]] || 8 || 1
+|-
+| [[Metal Chest]] x1 || [[Anvil Workbench]] || 12 || 1
+|-
+| [[Metal Foot]] x1 || [[Anvil Workbench]] || 8 || 1
+|-
+| [[Metal Hand]] x1 || [[Anvil Workbench]] || 4 || 1
+|-
+| [[Metal Hatchet]] x1 || [[Anvil Workbench]] || 3 || 1
+|-
+| [[Metal Head]] x1 || [[Anvil Workbench]] || 8 || 1
+|-
+| [[Metal Leg]] x1 || [[Anvil Workbench]] || 10 || 1
+|-
+| [[Metal Shield]] x1 || [[Anvil Workbench]] || 12 || 1
+|-
+| [[Plank Door]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Saw Blade Axe]] x1 || [[Anvil Workbench]] || 2 || 1
+|-
+| [[Simple Generator]] x1 || [[Electronics Workbench]] || 5 || 1
+|-
+| [[Simple Motor]] x1 || [[Electronics Workbench]] || 5 || 1
+|-
+| [[Small Log Stairs]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Wood Arm]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Wood Chest]] x1 || [[Carpentry Workbench]] || 12 || 1
+|-
+| [[Wood Foot]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Wood Hand]] x1 || [[Carpentry Workbench]] || 4 || 1
+|-
+| [[Wood Head]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Wood Leg]] x1 || [[Carpentry Workbench]] || 10 || 1
+|-
+| [[Wood Shield]] x1 || [[Carpentry Workbench]] || 12 || 1
+|-
+| [[Wooden Crate]] x1 || [[Carpentry Workbench]] || 2 || 1
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

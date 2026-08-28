@@ -1,0 +1,47 @@
+<!--
+Upload as: Template:Infobox vehicle
+Usage:
+{{Infobox vehicle
+| name        = Buggy
+| image       = Buggy.png
+| chassis     = Light frame
+| biome       = [[Desert]]
+| wheels      = 4
+| seats       = 2
+| topspeed    = 90 km/h
+| storage     = 8 slots
+| lua         = Yes
+| power       = Combustion
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-vehicle pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Photograph of {{{name|{{PAGENAME}}}}}}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{chassis|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Chassis</h3><div class="pi-data-value">{{{chassis}}}</div></div>}}
+{{#if:{{{biome|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Native biome</h3><div class="pi-data-value">{{{biome}}}</div></div>}}
+{{#if:{{{wheels|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Wheels</h3><div class="pi-data-value">{{{wheels}}}</div></div>}}
+{{#if:{{{seats|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Seats</h3><div class="pi-data-value">{{{seats}}}</div></div>}}
+{{#if:{{{topspeed|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Top speed</h3><div class="pi-data-value">{{{topspeed}}}</div></div>}}
+{{#if:{{{storage|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Storage</h3><div class="pi-data-value">{{{storage}}}</div></div>}}
+{{#if:{{{power|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Power</h3><div class="pi-data-value">{{{power}}}</div></div>}}
+{{#if:{{{lua|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Lua-programmable</h3><div class="pi-data-value">{{{lua}}}</div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+<pre>
+{{Infobox vehicle
+| name        =
+| image       =
+| chassis     =
+| biome       =
+| wheels      =
+| seats       =
+| topspeed    =
+| storage     =
+| power       = Combustion | Electric | Pedal
+| lua         = Yes | No
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

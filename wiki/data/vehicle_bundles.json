@@ -1,0 +1,38 @@
+[
+  {
+    "Slug": "desert",
+    "PageTitle": "Desert Vehicles",
+    "Biome": "Desert",
+    "BundleFile": "cars_desert_assets_all_f2198e051c21f6953e9797a02e5222c0.bundle"
+  },
+  {
+    "Slug": "mossy",
+    "PageTitle": "Mossy Forest Vehicles",
+    "Biome": "Mossy Forest",
+    "BundleFile": "cars_mossy_assets_all_1a1d4095e127de48b592e45b9562b737.bundle"
+  },
+  {
+    "Slug": "mountain",
+    "PageTitle": "Mountain Forest Vehicles",
+    "Biome": "Mountain Forest",
+    "BundleFile": "cars_mountain_assets_all_97d198f966a323799cee99f11385ad46.bundle"
+  },
+  {
+    "Slug": "rainforest",
+    "PageTitle": "Tropical Jungle Vehicles",
+    "Biome": "Tropical Jungle",
+    "BundleFile": "cars_rainforest_assets_all_dd59d6aeb84f6cf2b60dcd48ff547e9f.bundle"
+  },
+  {
+    "Slug": "warzone",
+    "PageTitle": "Warzone Vehicles",
+    "Biome": "Warzone",
+    "BundleFile": "cars_warzone_assets_all_c48e4f151c2dccc37e8fe53520a204de.bundle"
+  },
+  {
+    "Slug": "snowy",
+    "PageTitle": "Winter Forest Vehicles",
+    "Biome": "Winter Forest",
+    "BundleFile": "cars_snowy_assets_all_6a35b407b1ecfe3158019e2baa036520.bundle"
+  }
+]

@@ -1,0 +1,68 @@
+{{Nav}}
+
+The world of ''Human Host'' is divided into ten procedurally generated biomes. Each biome has its own terrain, climate, native resources, vehicle chassis, and horde composition: and progression follows the tier of biome you can safely explore.
+
+== Biome list ==
+
+{| class="wikitable sortable"
+! Biome !! Tier !! Climate !! Threat !! Key resources
+|-
+| '''[[Mossy Forest]]''' || 1 || Temperate, damp || Low || Wood, Stone, mushrooms, water
+|-
+| '''[[Mountain Forest]]''' || 2 || Cool, alpine || Medium || Iron Ore, Coal, Stone
+|-
+| '''[[Tropical Jungle]]''' || 2 || Hot, wet || Medium || Reagents, exotic wood, rubber
+|-
+| '''[[Tropical Swamp]]''' || 2 || Hot, wet || Medium–High || Reagents, medicinal plants
+|-
+| '''[[Desert]]''' || 3 || Hot, arid || Medium || Sandstone, cactus, salvaged parts
+|-
+| '''[[Desert Rocky]]''' || 3 || Hot, arid, rocky || Medium || Copper Ore, obsidian
+|-
+| '''[[Winter Forest]]''' || 3 || Cold, snowy || Medium || Wood, animal furs, ice water
+|-
+| '''[[Winter Town]]''' || 3 || Cold, urban || High || Salvaged loot, canned food
+|-
+| '''[[Wasteland]]''' || 4 || Toxic, barren || High || Rare metals, chemicals
+|-
+| '''[[Warzone]]''' || 4 || Ruined urban || Extreme || Military gear, high-tier ammo
+|}
+
+Tier is informal: the game does not gate biomes explicitly, but attempting a Tier 4 biome with Tier 1 gear ends predictably.
+
+== Progression path ==
+
+A typical early-game progression:
+
+# Spawn in '''[[Mossy Forest]]'''. Build a base, craft a [[Campfire]], survive a few nights.
+# Push into '''[[Mountain Forest]]''' for Iron and Coal. Unlock [[Furnace]] + [[Anvil Workbench]] and metal weapons.
+# Detour to '''[[Tropical Jungle]]''' or '''[[Tropical Swamp]]''' for [[Biochemical Workbench]] reagents.
+# Scavenge '''[[Winter Town]]''' or '''[[Desert]]''' for mid-tier salvage and vehicle parts.
+# End-game: '''[[Wasteland]]''' and '''[[Warzone]]''' for the top-tier loot.
+
+== Points of interest by biome ==
+
+Each biome contains scripted POIs: pre-built structures with high-density loot and elevated threat. See [[Locations]] for the full list. Notable examples:
+
+* '''Forest (Mossy Forest):''' [[Airport]], [[Mall]], [[Pool]], [[School]], [[Diner]]
+* '''[[Mountain Forest]]:''' [[Country House]], [[Country House II]], [[AV House]], [[Factory Zone]]
+* '''[[Warzone]]:''' [[Warzone Buildings]] (dense ruined-city cluster)
+
+== Loot crates ==
+
+Every biome has its own crate variant with biome-appropriate loot:
+
+* [[Forest Loot Crate]] · [[Mossy Loot Crate]] · [[Mountain Loot Crate]] · [[Desert Loot Crate]] · [[Snowy Loot Crate]] · [[Swamp Loot Crate]] · [[Warzone Loot Crate]]
+
+== Vehicles ==
+
+Vehicle chassis are biome-native: the game ships six vehicle sets, one per biome variant. See [[Vehicles]].
+
+== See also ==
+
+* [[Weather]]: biome climate effects
+* [[Mining]]: biome-specific ores
+* [[Locations]]: POI details
+
+[[Category:Biomes]]
+[[Category:World]]

@@ -1,0 +1,25 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Rotating Blade''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
+
+== Behavior ==
+
+TBD: trigger conditions, damage, cooldown.
+
+== Placement ==
+
+TBD.
+
+== Technical ==
+
+Asset id: <code>BT_Rotating_Blade</code>. Backing class not automatically identified; likely a data variant of a Trap_Base subclass. Traps are registered via <code>Trap_Mgr._ins</code>.
+
+== See also ==
+
+* [[Building]]: trap placement in the build menu
+* [[Combat]]: horde night defense strategy
+
+[[Category:Traps]]
+[[Category:Building]]

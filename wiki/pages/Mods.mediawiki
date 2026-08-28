@@ -1,0 +1,36 @@
+{{Nav}}
+
+'''Mods''' are community-authored plugins that extend or modify ''Human Host''. All mods for the game currently ship as BepInEx plugins (BepInEx is pre-installed with the game).
+
+For instructions on installing mods and writing your own, see '''[[Modding]]'''.
+
+== Featured mod suites ==
+
+=== [[HHMods|The HHMods Suite]] ===
+
+A 22-mod suite spanning five categories, developed against the game's public managers. Each mod ships as an independent plugin that can be added or removed without breaking the others.
+
+{| class="wikitable"
+! Plugin !! Category !! Highlights
+|-
+| '''[[HHMods Minimap]]''' || HUD || Toggleable minimap using the game's built-in [[CompassPro]]. Public layer API.
+|-
+| '''[[HHMods Perks]]''' || Perks || Five new perks: [[Alchemist]], [[Metallurgist]], [[Geologist]], [[Panning Out]], [[Pitcher]].
+|-
+| '''[[HHMods Recipes]]''' || Crafting || Water, Gunpowder, Steel Chest recipes.
+|-
+| '''[[HHMods QoL]]''' || Quality of life || Color-coded hunger / thirst, empty-container tooltip, filtered / linked containers.
+|-
+| '''[[HHMods Vehicles]]''' || Vehicles || Gyroscope, Headlights, Tow bar, Collector, Impact Shielding.
+|-
+| '''[[HHMods Weapons]]''' || Weapons || Proximity Mine, Impact Grenade, Throwing Axe, Nailgun.
+|}
+
+See [[HHMods]] for the full suite overview and architecture.
+
+== See also ==
+
+* [[Modding]]: BepInEx installation, plugin development
+* [[Mgr_Hub]]: central manager singleton exposed to plugins
+
+[[Category:Mods]]

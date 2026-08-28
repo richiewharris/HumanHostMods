@@ -1,0 +1,31 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Nitrate Ore
+| image      = Ore_Nitrate.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Nitrate Ore''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Nitrate</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Damaged Planks
+| type       = Material
+}}
+
+'''Damaged Planks''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 3 || [[Wood]] x1-14, [[Rope]] x1-4 || 18 shapes
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Plank Old]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+|}
+
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

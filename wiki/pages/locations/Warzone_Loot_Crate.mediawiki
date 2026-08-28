@@ -1,0 +1,23 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Warzone Loot Crate''' is a lootable container variant that spawns in the [[Warzone]] biome of ''[[Human Host]]''.
+
+== Contents ==
+
+Contents scale to the biome tier. Common items include salvage, ammunition, and biome-appropriate resources.
+
+== Location ==
+
+Native biome: [[Warzone]]
+
+Asset bundle: <code>shc_crates_warzone</code>
+
+== See also ==
+
+* [[Loot Crates]]: all crate variants
+* [[Warzone]]: biome overview
+
+[[Category:Loot Crates]]
+[[Category:Warzone]]

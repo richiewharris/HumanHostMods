@@ -1,0 +1,63 @@
+{{Nav}}
+
+''Human Host'' ships with mod-friendly infrastructure and includes '''[https://github.com/BepInEx/BepInEx BepInEx]''' 5.4.23.2 pre-installed. All game assemblies are pure Mono with debug symbols (PDBs) shipped, making decompilation and Harmony patching straightforward.
+
+This page covers the technical modding surface. For installed mods (community-authored plugins), see '''[[Mods]]'''.
+
+== Prerequisites ==
+
+* Game version 5.4.x or later (BepInEx already bundled)
+* Windows (only officially supported platform)
+* For plugin authors: '''.NET SDK 8+''', '''ILSpy''' or '''dnSpy''' for decompilation
+
+== Installing mods ==
+
+# Drop the plugin `.dll` into `<Steam>/steamapps/common/Human Host/BepInEx/plugins/`
+# Launch the game. BepInEx auto-loads any plugin in this folder.
+# Check `BepInEx/LogOutput.log` for load errors.
+
+== Writing your own mod ==
+
+The game exposes '''every major system''' through a central hub singleton (<code>Mgr_Hub._ins</code>). From there you can reach:
+
+{| class="wikitable"
+! Manager !! Purpose
+|-
+| <code>Skill_Mgr._ins</code> || Perk / skill trees, factor multipliers
+|-
+| <code>Loot_Mgr._ins</code> || Container windows, inventory
+|-
+| <code>Craft_Mgr._ins</code> || Recipe registry
+|-
+| <code>Trap_Mgr._ins</code> || Trap registration
+|-
+| <code>Terrain_Dig._ins</code> || Mining events
+|-
+| <code>World_Map_Mgr._CompassPro</code> || Minimap POI registration
+|-
+| <code>Player_HotKeys._ins</code> || Hotkey rebinding
+|-
+| <code>SaveDataManager</code> || Save-slot events
+|}
+
+Recommended patterns:
+
+* Use '''Harmony''' postfixes for anything on a manager entry point.
+* Register additions (perks, recipes, POIs, layers) through the game's own registration methods rather than mutating collections directly.
+* Persist your mod state via a sidecar file next to `Save_XX/` rather than injecting into the game save.
+
+== Lua vehicle programming ==
+
+Vehicles accept player Lua scripts via <code>Car_Coding.LoadPlayerCode(string)</code>. This is technically a mod surface (arbitrary logic per vehicle tick), but it's an in-game feature exposed to players, not a BepInEx path. See [[Lua Programming]].
+
+== Asset bundles ==
+
+Game assets ship as Unity Addressables in `Human Host_Data/StreamingAssets/aa/StandaloneWindows64/`. There are 79 bundles, split by category (biomes, weapons, vehicles, POIs, etc.). Modders wanting to inspect asset data can use '''AssetRipper''' or '''UABE'''.
+
+== Resources ==
+
+* [https://github.com/BepInEx/BepInEx BepInEx docs]: plugin authoring
+* [https://harmony.pardeike.net/ Harmony docs]: runtime patching
+* [[Mods]]: catalog of community-installed mods
+
+[[Category:Modding]]

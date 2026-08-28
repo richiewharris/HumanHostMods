@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.Weapons</AssemblyName>
+    <RootNamespace>HHMods.Weapons</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HHMods.Core\HHMods.Core.csproj" />
+  </ItemGroup>
+</Project>

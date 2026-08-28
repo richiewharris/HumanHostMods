@@ -1,0 +1,30 @@
+{{Nav}}
+
+The '''HHMods Minimap''' plugin (part of the [[HHMods]] suite) adds a toggleable minimap HUD panel using the game's built-in <code>CompassPro</code> subsystem.
+
+== Features ==
+
+* '''Toggleable minimap panel''' with zoom and hotkey rebinding
+* '''Public layer API''': other plugins can register POI layers on the minimap without hard-coupling
+* '''Built-in layers''': Player Waypoints, Merchants
+* '''Filter UI''': show / hide individual layers
+
+== Cross-mod layers ==
+
+Layers other HHMods plugins can register:
+
+* '''Ore veins''' (from [[HHMods Perks]]' [[Geologist]] perk)
+
+External mod authors can register additional layers via <code>HHMods.Minimap.LayerService.Register(LayerDefinition)</code>.
+
+== Technical ==
+
+The plugin hooks <code>World_Map_Mgr._CompassPro</code> and calls <code>CompassProPOI.RegisterPOI()</code> for each managed POI. Layer state is persisted via <code>HHMods.Core.ModSidecar</code>.
+
+== See also ==
+
+* [[HHMods]]: the full suite
+* [[Mods]]: all community mods
+
+[[Category:Mods]]
+[[Category:HHMods]]

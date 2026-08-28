@@ -1,0 +1,38 @@
+<!--
+Upload as: Template:Infobox perk
+Usage:
+{{Infobox perk
+| name     = Alchemist
+| image    = Alchemist_icon.png
+| tree     = Craft
+| tier     = 2
+| maxlv    = 5
+| effect   = Chance to double output at Biochemical/Campfire workbenches
+| factor   = _Alchemist_Factor on Char_Skills
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-perk pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Icon of {{{name|{{PAGENAME}}}}} perk}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{tree|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Skill tree</h3><div class="pi-data-value">{{{tree}}}</div></div>}}
+{{#if:{{{tier|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Tier</h3><div class="pi-data-value">{{{tier}}}</div></div>}}
+{{#if:{{{maxlv|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Max level</h3><div class="pi-data-value">{{{maxlv}}}</div></div>}}
+{{#if:{{{effect|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Effect</h3><div class="pi-data-value">{{{effect}}}</div></div>}}
+{{#if:{{{factor|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Code factor</h3><div class="pi-data-value"><code>{{{factor}}}</code></div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+<pre>
+{{Infobox perk
+| name     =
+| image    =
+| tree     = Survive | Craft | Fight
+| tier     =
+| maxlv    =
+| effect   =
+| factor   =
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

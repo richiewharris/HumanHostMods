@@ -1,0 +1,63 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = Mechanical Workbench
+| image    = WB_Mechanical.png
+| category = Crafting
+}}
+
+The '''Mechanical Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+Fabricates vehicle chassis parts, wheels, and engines.
+
+Internal enum value: <code>WorkbenchType.MechanicalWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Mechanical</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (12 unique, from 12 raw entries in `WB_Mechanical.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Rotating Blade]] || 1 || 60 || [[Simple Motor]] x1, [[CPU]] x1, [[Circuit Board]] x1, [[Electrical Wire]] x1, [[Solar Battery]] x1, [[Transformer]] x1, [[Forged Iron]] x3, [[Concrete]] x2 || 1
+|-
+| [[Rotating Saw]] || 1 || 70 || [[Circular Saw]] x2, [[Simple Motor]] x1, [[CPU]] x1, [[Circuit Board]] x1, [[Electrical Wire]] x1, [[Solar Battery]] x1, [[Transformer]] x1, [[Forged Iron]] x8 || 1
+|-
+| [[Sensor Spike]] || 1 || 80 || [[Simple Motor]] x1, [[CPU]] x1, [[Circuit Board]] x1, [[Electrical Wire]] x1, [[Solar Battery]] x1, [[Transformer]] x1, [[Forged Titanium]] x2, [[Forged Iron]] x5, [[Concrete]] x8 || 1
+|-
+| [[Laser Trap]] || 1 || 150 || [[Laser Emitter]] x2, [[Sound Sensor]] x1, [[CPU]] x1, [[Circuit Board]] x1, [[Electrical Wire]] x1, [[Solar Battery]] x1, [[Transformer]] x1, [[Forged Tungsten]] x2, [[Forged Steel]] x5 || 1
+|-
+| [[MechPlatform]] || 1 || 100 || [[Gear]] x20, [[Bearing]] x20, [[Forged Iron]] x25, [[Rebar]] x15, [[Spring]] x30, [[Nails]] x20 || 1
+|-
+| [[Main Seat]] || 1 || 120 || [[Steering Wheel]] x5, [[Gear]] x5, [[Forged Iron]] x20, [[Rebar]] x16, [[Bearing]] x10, [[Electrical Wire]] x6, [[Rubber]] x30, [[Glue]] x22, [[Spring]] x28, [[Nails]] x20 || 1
+|-
+| [[Motor]] || 1 || 240 || [[Simple Motor]] x5, [[Forged Iron]] x20, [[Gear]] x10, [[Spring]] x200, [[Electrical Wire]] x12, [[Rubber]] x20, [[Rebar]] x20, [[Concrete]] x22 || 1
+|-
+| [[Small Rubber Tire]] || 1 || 80 || [[Old Tire]] x10, [[Rubber]] x25, [[Bearing]] x18, [[Forged Iron]] x10, [[Rebar]] x10 || 1
+|-
+| [[Bicycle Generator]] || 1 || 180 || [[Simple Generator]] x5, [[Forged Iron]] x35, [[Gear]] x10, [[Bearing]] x15, [[Pulley]] x30, [[Electrical Wire]] x8, [[Rubber]] x20, [[Glue]] x15, [[Duct Tape]] x30 || 1
+|-
+| [[Solar Generator]] || 1 || 120 || [[Solar Panel]] x15, [[Transformer]] x5, [[Forged Iron]] x16, [[Electrical Wire]] x8, [[Gear]] x8, [[Bearing]] x4, [[Scrap Plastic]] x30, [[Duct Tape]] x10, [[Nails]] x6 || 1
+|-
+| [[Rotor]] || 1 || 60 || [[Simple Motor]] x1, [[Bearing]] x5, [[Circuit Board]] x2, [[Electrical Wire]] x2, [[Forged Iron]] x5, [[Rubber]] x5, [[Glue]] x8 || 1
+|-
+| [[Rotor NoHit]] || 1 || 60 || [[Simple Motor]] x1, [[Bearing]] x5, [[Circuit Board]] x2, [[Electrical Wire]] x2, [[Forged Iron]] x5, [[Rubber]] x5, [[Glue]] x8 || 1
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

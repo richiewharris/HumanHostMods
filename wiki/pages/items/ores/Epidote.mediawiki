@@ -1,0 +1,49 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Epidote
+| image      = Epidote.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Epidote''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 5 || [[Marble]] x1, [[Epidote]] x1-14 || 18 shapes
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Chrismatite]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+|-
+| [[Epidote]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Epidote</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

@@ -1,0 +1,94 @@
+{{Nav}}
+
+Mining in ''Human Host'' is more than resource-gathering. Because '''all terrain is destructible''', mining is how you dig tunnels, level building sites, and create underground bases.
+
+== How it works ==
+
+Point at any terrain surface with a Pickaxe equipped and swing. Each hit removes a small volume of terrain and yields materials based on what you dug:
+
+* '''Grass / dirt''': no yield, but flattens the terrain
+* '''Sand''': yields Sand (desert biomes)
+* '''Stone''': yields Stone
+* '''Ore veins''': yields the ore plus some Stone
+
+The internal system is driven by <code>Terrain_Dig.Dig_Terrain(RaycastHit, bool, bool)</code> and a material lookup table (<code>Skill_Mgr._MinerSoundMats</code>) that maps each terrain material to a sound and a possible ore yield.
+
+== Ore and mineral catalog ==
+
+The addressables catalog lists sixteen mineable rock and ore assets. Prefix <code>BO_</code> = "Build Ore" (the placeable mineable-block form).
+
+=== Ores (metal-bearing) ===
+
+{| class="wikitable sortable"
+! Asset ID !! Common name !! Smelts to
+|-
+| <code>BO_Ore_Iron</code>     || Iron Ore     || Iron Ingot (Rust / Pig / Wrought / Cast / Chrome variants)
+|-
+| <code>BO_Ore_Copper</code>   || Copper Ore   || Copper Ingot (Alloy variants)
+|-
+| <code>BO_Ore_Chrome</code>   || Chrome Ore   || Chrome Iron, Chrome Alloy
+|-
+| <code>BO_Ore_Titanium</code> || Titanium Ore || Titanium Alloy
+|-
+| <code>BO_Ore_Tungsten</code> || Tungsten Ore || Tungsten Steel
+|-
+| <code>BO_Ore_Graphite</code> || Graphite Ore || Charcoal (fuel), graphite refining
+|-
+| <code>BO_Ore_Nitrate</code>  || Nitrate Ore  || Nitrate (biochemical / gunpowder input)
+|}
+
+=== Non-metallic and decorative rocks ===
+
+{| class="wikitable sortable"
+! Asset ID !! Common name !! Notes
+|-
+| <code>BO_Sulfur</code>       || Sulfur       || Chemistry / gunpowder input
+|-
+| <code>BO_Clay</code>         || Clay         || Brick and cement input
+|-
+| <code>BO_Limestone</code>    || Limestone    || Cement and lime brick input
+|-
+| <code>BO_Sand</code>         || Sand         || Cement input; also from desert biomes
+|-
+| <code>BO_Marble</code>       || Marble       || Decorative building stone
+|-
+| <code>BO_Epidote</code>      || Epidote      || Decorative building stone
+|-
+| <code>BO_Lapis_Lazuli</code> || Lapis Lazuli || Decorative building stone
+|-
+| <code>BO_Obsidian</code>     || Obsidian     || Decorative building stone
+|-
+| <code>BO_Chrismatite</code>  || Chrismatite  || Rare / endgame material
+|}
+
+'''Note on biome distribution:''' the catalog names the assets but not which biome they spawn in. Exact biome-to-ore mapping should be verified in-game and added to individual ore pages. A common survival-game pattern (unconfirmed for the current build): most ores are gated to specific biomes, so building near a biome border gives access to more variety.
+
+== Perks ==
+
+The Survive tree includes a mining-damage factor:
+
+* <code>_minerDmg_Factor</code> on <code>Char_Skills</code> (see [[Miner]]): increases mining damage per swing (faster ore extraction)
+
+See [[Perks]] for the full factor catalog.
+
+== Tunneling ==
+
+Since terrain is destructible and persistent, you can dig full underground bases:
+
+* Long horizontal tunnels can serve as base corridors.
+* Tunnels count as sheltered against overhead threats and rain.
+
+Practical notes:
+
+* '''Cave-ins are not simulated.''' Dig freely.
+* '''Water intrusion is not simulated.''' Dig below sea level without flood risk.
+
+== See also ==
+
+* [[Building]]: material tiers derived from smelted ores
+* [[Crafting]]: [[Furnace]] and [[Cement Mixer]] both consume ores
+* [[Perks]]: Survive tree
+* [[Mods]]: community additions including minimap ore-layer visualization
+
+[[Category:Gameplay]]
+[[Category:Mining]]

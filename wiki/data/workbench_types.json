@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "AnvilWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "BiochemicalWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "Campfire",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "CarpentryWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "CementMixer",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "CuttingWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "ElectronicsWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "Furnace",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "GunWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "HandMade",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  },
+  {
+    "Name": "MechanicalWorkbench",
+    "EnumName": "WorkbenchType",
+    "Assembly": "UI"
+  }
+]

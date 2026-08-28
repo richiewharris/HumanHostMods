@@ -1,0 +1,43 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Graphite Ore
+| image      = Ore_Graphite.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Graphite Ore''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Cast Iron]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Gear]] x1 || [[Anvil Workbench]] || 1 || 1
+|-
+| [[Titanium Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Graphite</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

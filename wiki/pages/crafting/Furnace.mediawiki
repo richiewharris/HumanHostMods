@@ -1,0 +1,87 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = Furnace
+| image    = WB_Furnace.png
+| category = Crafting
+}}
+
+The '''Furnace''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+Smelts ore into ingots. Requires fuel (Wood or Coal).
+
+Internal enum value: <code>WorkbenchType.Furnace</code> (assembly <code>UI</code>). Prefab: <code>WB_Furnace</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (24 unique, from 24 raw entries in `WB_Furnace.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[BurningFire]] || 1 || 1200 || [[Wood]] x10 || 1
+|-
+| [[Cobblestone]] || 1 || 10 || [[Stone]] x3, [[Wood]] x1 || 1
+|-
+| [[Brick]] || 1 || 4 || [[Wood]] x2, [[Clay]] x2, [[Sand]] x1 || 1
+|-
+| [[Glass]] || 1 || 4 || [[Wood]] x2, [[Sand]] x2 || 1
+|-
+| [[Glass Tempered]] || 50 || 20 || [[Glass]] x10, [[Nitrate Powder]] x5 || 1
+|-
+| [[Forged Copper]] || 1 || 8 || [[Wood]] x4, [[Scrap Brass]] x10 || 1
+|-
+| [[Forged Copper]] || 1 || 8 || [[Wood]] x4, [[Copper Ore]] x2 || 1
+|-
+| [[Forged Iron]] || 1 || 8 || [[Wood]] x4, [[Scrap Iron]] x10 || 1
+|-
+| [[Forged Iron]] || 1 || 8 || [[Wood]] x4, [[Iron Ore]] x2 || 1
+|-
+| [[Forged Steel]] || 1 || 4 || [[Wood]] x4, [[Forged Iron]] x2, [[Charcoal]] x2 || 1
+|-
+| [[Forged Titanium]] || 1 || 4 || [[Wood]] x4, [[Titanium Ore]] x2, [[Charcoal]] x2 || 1
+|-
+| [[Forged Chrome]] || 1 || 4 || [[Wood]] x4, [[Chrome Ore]] x2, [[Charcoal]] x2 || 1
+|-
+| [[Forged Tungsten]] || 1 || 4 || [[Wood]] x4, [[Tungsten Ore]] x2, [[Charcoal]] x2 || 1
+|-
+| [[Bullet Tip Copper]] || 5 || 2 || [[Forged Copper]] x1, [[Clay]] x1 || 1
+|-
+| [[Bullet Tip Steel]] || 5 || 2.4 || [[Forged Steel]] x1, [[Clay]] x1 || 1
+|-
+| [[Bullet Tip Titanium]] || 5 || 2.8 || [[Forged Titanium]] x1, [[Clay]] x1 || 1
+|-
+| [[Bullet Tip Chrome]] || 5 || 3.2 || [[Forged Chrome]] x1, [[Clay]] x1 || 1
+|-
+| [[Bullet Tip Tungsten]] || 5 || 3.6 || [[Forged Tungsten]] x1, [[Clay]] x1 || 1
+|-
+| [[Beads Copper]] || 10 || 2 || [[Forged Copper]] x1, [[Clay]] x1 || 1
+|-
+| [[Beads Steel]] || 10 || 2.4 || [[Forged Steel]] x1, [[Clay]] x1 || 1
+|-
+| [[Beads Titanium]] || 10 || 2.8 || [[Forged Titanium]] x1, [[Clay]] x1 || 1
+|-
+| [[Beads Chrome]] || 10 || 3.2 || [[Forged Chrome]] x1, [[Clay]] x1 || 1
+|-
+| [[Beads Tungsten]] || 10 || 3.6 || [[Forged Tungsten]] x1, [[Clay]] x1 || 1
+|-
+| [[Bullet Shell]] || 5 || 2.2 || [[Forged Copper]] x1, [[Clay]] x1 || 1
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.Perks</AssemblyName>
+    <RootNamespace>HHMods.Perks</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HHMods.Core\HHMods.Core.csproj" />
+    <ProjectReference Include="..\HHMods.Minimap\HHMods.Minimap.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+<!--
+Upload as: Template:Recipe
+Compact inline recipe row. Usage:
+{{Recipe
+| station = [[Furnace]]
+| inputs  = [[Iron Ore]] x2, [[Wood]] x1
+| output  = [[Iron Ingot]] x1
+| time    = 5s
+}}
+-->
+<includeonly>{| class="wikitable" style="margin:0.3em 0;"
+|- style="background:#eee;"
+! style="text-align:right;padding:2px 8px;" | Workbench
+| style="padding:2px 8px;" | {{{station|-}}}
+|-
+! style="text-align:right;padding:2px 8px;" | Inputs
+| style="padding:2px 8px;" | {{{inputs|-}}}
+|-
+! style="text-align:right;padding:2px 8px;" | Output
+| style="padding:2px 8px;" | {{{output|-}}}
+{{#if:{{{time|}}}|
+{{!}}-
+{{!}} style="text-align:right;padding:2px 8px;" {{!}} '''Time'''
+{{!}} style="padding:2px 8px;" {{!}} {{{time}}}
+}}
+|}</includeonly><noinclude>
+Compact inline crafting recipe. Stack multiple to show a full crafting tree.
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,30 @@
+<Project>
+
+  <Target Name="DeployToPluginsDir" AfterTargets="Build" Condition="'$(DeployOnBuild)' == 'true'">
+    <MakeDir Directories="$(PluginsDir)" ContinueOnError="true" />
+
+    <Copy SourceFiles="$(TargetPath)"
+          DestinationFolder="$(PluginsDir)"
+          SkipUnchangedFiles="false"
+          ContinueOnError="true">
+      <Output TaskParameter="CopiedFiles" ItemName="_HHModsCopiedDll" />
+    </Copy>
+
+    <Copy SourceFiles="$(TargetDir)$(TargetName).pdb"
+          DestinationFolder="$(PluginsDir)"
+          SkipUnchangedFiles="false"
+          ContinueOnError="true"
+          Condition="Exists('$(TargetDir)$(TargetName).pdb')" />
+
+    <PropertyGroup>
+      <_HHModsDeployed>@(_HHModsCopiedDll->Count())</_HHModsDeployed>
+    </PropertyGroup>
+
+    <Message Text="Deployed $(TargetFileName) → $(PluginsDir)"
+             Importance="high"
+             Condition="'$(_HHModsDeployed)' == '1'" />
+    <Warning Text="AUTO-DEPLOY FAILED for $(TargetFileName) — game is likely running (DLL locked). Close the game and re-run build, or run scripts\deploy.ps1 after closing."
+             Condition="'$(_HHModsDeployed)' != '1'" />
+  </Target>
+
+</Project>

@@ -1,0 +1,55 @@
+<!--
+Upload as: Template:Infobox weapon
+Usage:
+{{Infobox weapon
+| name       = Nail Gun
+| image      = Nail_Gun_icon.png
+| type       = Ranged
+| subtype    = Firearm
+| damage     = 12
+| range      = 25
+| firerate   = 4/sec
+| ammo       = [[Nails]]
+| magazine   = 30
+| durability = 400
+| workbench  = [[Furnace]]
+| skill      = [[Ranged Combat]]
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-weapon pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Icon of {{{name|{{PAGENAME}}}}}}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{type|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Type</h3><div class="pi-data-value">{{{type}}}</div></div>}}
+{{#if:{{{subtype|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Subtype</h3><div class="pi-data-value">{{{subtype}}}</div></div>}}
+{{#if:{{{damage|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Damage</h3><div class="pi-data-value">{{{damage}}}</div></div>}}
+{{#if:{{{range|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Range</h3><div class="pi-data-value">{{{range}}}</div></div>}}
+{{#if:{{{firerate|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Fire rate</h3><div class="pi-data-value">{{{firerate}}}</div></div>}}
+{{#if:{{{ammo|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Ammo</h3><div class="pi-data-value">{{{ammo}}}</div></div>}}
+{{#if:{{{magazine|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Magazine</h3><div class="pi-data-value">{{{magazine}}}</div></div>}}
+{{#if:{{{durability|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Durability</h3><div class="pi-data-value">{{{durability}}}</div></div>}}
+{{#if:{{{workbench|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Workbench</h3><div class="pi-data-value">{{{workbench}}}</div></div>}}
+{{#if:{{{skill|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Skill</h3><div class="pi-data-value">{{{skill}}}</div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+Infobox for melee and ranged weapons. Set `type = Melee | Ranged | Throwable`.
+
+<pre>
+{{Infobox weapon
+| name       =
+| image      =
+| type       = Melee | Ranged | Throwable
+| subtype    = Firearm | Bow | Blade | Blunt | Explosive
+| damage     =
+| range      =
+| firerate   =
+| ammo       =
+| magazine   =
+| durability =
+| workbench  =
+| skill      =
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,22 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Warzone Vehicles''' bundle groups all vehicle chassis native to the [[Warzone]] biome.
+
+== Chassis ==
+
+TBD: list of biome-specific chassis.
+
+== Notes ==
+
+Asset bundle: <code>cars_warzone</code>
+
+== See also ==
+
+* [[Vehicles]]: overview of the vehicle system
+* [[Vehicle Parts]]: parts shared across all biomes
+* [[Warzone]]: biome overview
+
+[[Category:Vehicles]]
+[[Category:Warzone]]

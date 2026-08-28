@@ -1,0 +1,51 @@
+<!--
+Upload as: Template:Infobox item
+Usage:
+{{Infobox item
+| name       = Iron Ingot
+| image      = Iron_Ingot_icon.png
+| type       = Resource
+| slot       = Backpack
+| stack      = 20
+| weight     = 2.5
+| source     = Smelted from [[Iron Ore]]
+| workbench  = [[Furnace]]
+| tags       = metal, ingot
+}}
+-->
+<includeonly><div class="portable-infobox pi-background pi-theme-default pi-layout-default">
+<h2 class="pi-item pi-item-spacing pi-title">{{{name|{{PAGENAME}}}}}</h2>
+{{#if:{{{image|}}}|<figure class="pi-item pi-image">[[File:{{{image}}}|300px|center|alt={{{alt|Icon of {{{name|{{PAGENAME}}}}}}}}]]{{#if:{{{caption|}}}|<figcaption>{{{caption}}}</figcaption>}}</figure>}}
+<section class="pi-item pi-group">
+{{#if:{{{type|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Type</h3><div class="pi-data-value">{{{type}}}</div></div>}}
+{{#if:{{{slot|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Slot</h3><div class="pi-data-value">{{{slot}}}</div></div>}}
+{{#if:{{{stack|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Max stack</h3><div class="pi-data-value">{{{stack}}}</div></div>}}
+{{#if:{{{weight|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Weight</h3><div class="pi-data-value">{{{weight}}}</div></div>}}
+{{#if:{{{source|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Source</h3><div class="pi-data-value">{{{source}}}</div></div>}}
+{{#if:{{{workbench|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Workbench</h3><div class="pi-data-value">{{{workbench}}}</div></div>}}
+{{#if:{{{tags|}}}|<div class="pi-item pi-data"><h3 class="pi-data-label">Tags</h3><div class="pi-data-value">{{{tags}}}</div></div>}}
+</section>
+</div></includeonly><noinclude>
+== Usage ==
+Generic infobox for any inventory item that isn't a weapon, vehicle part, or perk. See [[Template:Infobox weapon]] for weapons.
+
+<pre>
+{{Infobox item
+| name       =
+| image      =
+| alt        =   (accessibility: describe the image for screen readers; defaults to "Icon of <name>")
+| caption    =   (optional; must add context, not repeat alt text)
+| type       = Resource | Equipment | Food | Water | Ammo
+| slot       = Hand_R | Hand_L | Equip | Ammo | GunAttach
+| stack      =
+| weight     =
+| source     =
+| workbench  =
+| tags       =
+}}
+</pre>
+
+'''Accessibility:''' every field defaults are used when omitted; leave empty rather than filling with a placeholder like "N/A" so the row is hidden. Always provide '''alt''' text for informative images (see [[Human host Wiki:Accessibility checklist]]).
+
+[[Category:Templates]]
+</noinclude>

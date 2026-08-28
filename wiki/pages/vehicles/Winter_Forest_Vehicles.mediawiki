@@ -1,0 +1,22 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+The '''Winter Forest Vehicles''' bundle groups all vehicle chassis native to the [[Winter Forest]] biome.
+
+== Chassis ==
+
+TBD: list of biome-specific chassis.
+
+== Notes ==
+
+Asset bundle: <code>cars_snowy</code>
+
+== See also ==
+
+* [[Vehicles]]: overview of the vehicle system
+* [[Vehicle Parts]]: parts shared across all biomes
+* [[Winter Forest]]: biome overview
+
+[[Category:Vehicles]]
+[[Category:Winter Forest]]

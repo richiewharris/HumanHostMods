@@ -1,0 +1,53 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox station
+| name     = Biochemical Workbench
+| image    = WB_Biochemical_Workbench.png
+| category = Crafting
+}}
+
+The '''Biochemical Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+
+Refines reagents into medicine, explosives, and gunpowder.
+
+Internal enum value: <code>WorkbenchType.BiochemicalWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Biochemical</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (7 unique, from 7 raw entries in `WB_Biochemical.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Nitrate Powder]] || 1 || 8 || [[Nitrate Ore]] x5 || 1
+|-
+| [[Gun Powder]] || 5 || 12 || [[Nitrate Powder]] x1, [[Sulfur]] x1, [[Charcoal]] x2 || 1
+|-
+| [[Medical Bandage]] || 1 || 15 || [[Medical Gauze]] x15, [[Medical Tape]] x5, [[Alcohol]] x1 || 1
+|-
+| [[Antibiotics]] || 1 || 20 || [[Expired Sandwich]] x5, [[Nitrate Powder]] x5, [[Bottled Water]] x1 || 1
+|-
+| [[Medical Case]] || 1 || 30 || [[Medical Gauze]] x30, [[Medical Tape]] x15, [[Iodophor]] x1, [[Scalpel]] x1, [[Anesthetic]] x1, [[Syringe]] x1 || 1
+|-
+| [[Medkit]] || 1 || 15 || [[Medical Gauze]] x20, [[Medical Tape]] x5, [[Iodophor]] x1, [[Alcohol]] x1 || 1
+|-
+| [[Pain Killer]] || 1 || 15 || [[Anesthetic]] x1, [[Alcohol]] x1, [[Starch]] x20, [[Nitrate Powder]] x4, [[Bottled Water]] x1 || 1
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Placement ==
+
+TBD: build cost and placement footprint.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

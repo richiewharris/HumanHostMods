@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Desert
+| terrain    = terrain_desert
+| climate    = Hot, arid
+| threat     = Medium
+| pois       = None
+| vehicles   = [[Desert Vehicles]]
+}}
+
+The '''Desert''' is a tier-3 biome in ''[[Human Host]]''. Climate: Hot, arid. Threat level: Medium.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_desert</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+None
+
+== Loot crates ==
+
+[[Desert Loot Crate]]
+
+== Vehicles ==
+
+[[Desert Vehicles]]
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

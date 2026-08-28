@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Weapon_Melee",
+    "Assembly": "Hand_Tools",
+    "BaseKind": "Tool_Interacter"
+  },
+  {
+    "Name": "Weapon_Range",
+    "Assembly": "Hand_Tools",
+    "BaseKind": "Tool_Interacter"
+  }
+]

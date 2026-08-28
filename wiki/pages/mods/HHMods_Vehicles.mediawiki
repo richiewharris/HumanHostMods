@@ -1,0 +1,36 @@
+{{Nav}}
+
+The '''HHMods Vehicles''' plugin (part of the [[HHMods]] suite) adds five attachment types to the base game's [[Vehicles|vehicle system]].
+
+== Attachments added ==
+
+{| class="wikitable"
+! Attachment !! Purpose
+|-
+| '''Gyroscope''' || Stability aid that flattens the center of mass. Helpful for tall or top-heavy builds.
+|-
+| '''Headlights''' || Vehicle-mounted directional light for night driving. UI panel for on / off.
+|-
+| '''Tow bar''' || Joint between two vehicle roots. Chain vehicles into convoys. Experimental under stress.
+|-
+| '''Collector''' || Auto-pickup for nearby loot into vehicle inventory. Draws extra power like a wheel.
+|-
+| '''Impact Shielding''' || Reduces damage from vehicle collisions and impacts.
+|}
+
+== Technical ==
+
+* '''Gyroscope''': Harmony postfix on <code>Top_Info.Calculate_Mass_Center</code>.
+* '''Headlights''': Unity <code>Light</code> component attached to the <code>Build_Info</code> transform.
+* '''Tow bar''': Unity <code>HingeJoint</code> / <code>ConfigurableJoint</code> between vehicle roots. Save / load extension.
+* '''Collector''': periodic sphere query, auto-insert via <code>Loot_Mgr</code>.
+* '''Impact Shielding''': Harmony prefix on <code>Battle_Info.MinusHP(float)</code>.
+
+== See also ==
+
+* [[HHMods]]: the full suite
+* [[Vehicles]]: base-game vehicle system
+* [[Mods]]: all community mods
+
+[[Category:Mods]]
+[[Category:HHMods]]

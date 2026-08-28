@@ -1,0 +1,7 @@
+<!-- Upload as: Template:Nav -->
+<includeonly><div style="border:1px solid #ccc;background:#f8f8f8;padding:0.5em 1em;margin:0.5em 0;border-radius:4px;">
+'''Human Host Wiki:''' [[Human host Wiki|Home]] · [[Getting Started]] · [[Biomes]] · [[Weapons]] · [[Items]] · [[Crafting]] · [[Building]] · [[Vehicles]] · [[Perks]] · [[Locations]] · [[Modding]] · [[Mods]]
+</div></includeonly><noinclude>
+Top-of-page navigation bar. Place `{{Nav}}` on every content page.
+[[Category:Templates]]
+</noinclude>

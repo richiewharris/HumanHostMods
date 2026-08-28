@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox biome
+| name       = Wasteland
+| terrain    = terrain_wasteland
+| climate    = Toxic, barren
+| threat     = High
+| pois       = None
+| vehicles   = None
+}}
+
+The '''Wasteland''' is a tier-4 biome in ''[[Human Host]]''. Climate: Toxic, barren. Threat level: High.
+
+== Terrain ==
+
+Terrain bundle: <code>terrain_wasteland</code>. See [[Biomes]] for the full biome list.
+
+== Points of interest ==
+
+None
+
+== Loot crates ==
+
+None
+
+== Vehicles ==
+
+None
+
+== See also ==
+
+* [[Biomes]]: biome overview
+* [[Locations]]: full POI list
+
+[[Category:Biomes]]

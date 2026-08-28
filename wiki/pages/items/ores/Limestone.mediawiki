@@ -1,0 +1,41 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox item
+| name       = Limestone
+| image      = Limestone.png
+| type       = Ore
+| source = Mined from terrain
+}}
+
+The '''Limestone''' is a ore in ''[[Human Host]]''.
+
+== Description ==
+
+TBD.
+
+== Source ==
+
+TBD.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Cement]] x1 || [[Cement Mixer]] || 2 || 1
+|-
+| [[High-Pressure Lime Brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+
+== Technical ==
+
+Addressable asset id: <code>BO_Limestone</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

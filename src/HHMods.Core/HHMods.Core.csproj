@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HHMods.Core</AssemblyName>
+    <RootNamespace>HHMods.Core</RootNamespace>
+    <Description>Shared plumbing for the Human Host mod suite.</Description>
+  </PropertyGroup>
+</Project>

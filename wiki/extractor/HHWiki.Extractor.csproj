@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Opt out of the HHMods deploy-to-plugins-dir target inherited from ../../Directory.Build.targets.
+         This is a build-time wiki tool, not a BepInEx plugin. -->
+    <DeployOnBuild>false</DeployOnBuild>
+    <RootNamespace>HHWiki.Extractor</RootNamespace>
+    <AssemblyName>hhwiki-extractor</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.5" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+</Project>

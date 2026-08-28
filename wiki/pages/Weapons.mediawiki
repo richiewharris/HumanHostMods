@@ -1,0 +1,64 @@
+{{Nav}}
+
+Weapons in ''Human Host'' divide into three primary categories, each with its own crafting pipeline and combat dynamics.
+
+== Categories ==
+
+{| class="wikitable"
+! Category !! Examples !! Ammo
+|-
+| '''[[Melee Weapons]]''' || Axe, sword, hammer, spear || None
+|-
+| '''[[Ranged Weapons]]''' || Bow, crossbow, rifle || Yes ([[Ammunition]])
+|-
+| '''Throwables''' || Grenade, molotov || Self-consuming
+|}
+
+The game ships two internal weapon bundles: <code>melee_weapon</code> and <code>range_weapon</code>. Internal base classes: <code>Weapon_Melee</code> and <code>Weapon_Range</code>, both derived from <code>Tool_Interacter</code>.
+
+== Universal stats ==
+
+Every weapon shares these stats (visible in the [[Template:Infobox weapon|infobox]] on each weapon page):
+
+* '''Damage''': base damage per hit or per projectile
+* '''Range''': melee reach or projectile max distance
+* '''Fire rate''': attacks per second
+* '''Durability''': hits before break; repairable at the matching workbench
+* '''Ammo''' (ranged only): ammo type and magazine size
+
+== Damage ==
+
+All damage flows through a single method (<code>Battle_Info.MinusHP</code>). This means damage-modifier factors (see [[Perks]]) apply uniformly to all weapon types. See [[Combat]] for the full damage pipeline.
+
+== Melee weapons ==
+
+Melee is your baseline: no ammo, moderate damage, high stamina cost. Blades outperform blunt against unarmored zombies; blunt outperforms blades against armored / heavy variants. See [[Melee Weapons]].
+
+== Ranged weapons ==
+
+Ranged weapons trade ammo scarcity for range and safety. Bows are early-game craftable at [[Carpentry Workbench]]. Firearms are assembled at the [[Gun Workbench]] and require gunpowder (via the [[Biochemical Workbench]]).
+
+Categories:
+
+* '''Bows''': silent, wooden, common
+* '''Crossbows''': higher damage, slower reload
+* '''Firearms''': highest damage, loud (attracts zombies), gunpowder ammo
+
+See [[Ranged Weapons]] and [[Ammunition]].
+
+== Throwables ==
+
+Throwables deal area damage and are consumed on throw.
+
+== Repair ==
+
+Every weapon has durability. Weapons at 0 durability become unusable but not destroyed. Return them to the matching workbench with the crafting material to repair.
+
+== See also ==
+
+* [[Combat]]: general combat mechanics
+* [[Ammunition]]: projectile types
+* [[Perks]]: Fight-tree factors
+* [[Mods]]: community weapon additions
+
+[[Category:Weapons]]

@@ -1,0 +1,57 @@
+{{Nav}}
+
+Combat in ''Human Host'' spans '''melee''', '''ranged''', '''throwable''', and '''vehicle''' engagement, with stamina and durability as the two universal constraints.
+
+== Damage pipeline ==
+
+All damage in the game, from zombies, environmental hazards, and explosions, funnels through a single entry point (<code>Battle_Info.MinusHP</code>). This has two practical consequences:
+
+* '''Armor works uniformly.''' A helmet reduces zombie-bite damage the same way it reduces vehicle-collision damage.
+* '''Damage mods stack predictably.''' Perk factors that reduce incoming damage apply to every source.
+
+== Melee ==
+
+Melee weapons split into '''blades''' (higher damage) and '''blunt''' (higher stagger). See [[Melee Weapons]].
+
+* '''Stamina.''' Each swing drains stamina. Out of stamina means swings do minimal damage.
+* '''Durability.''' Every hit deducts durability. Repair at the matching workbench.
+* '''Blocking.''' Right mouse raises a weapon or shield; blocks reduce damage proportional to weapon block value.
+
+== Ranged ==
+
+Ranged weapons include bows, crossbows, and firearms. See [[Ranged Weapons]] and [[Ammunition]].
+
+* '''Ammo scarcity''' is the primary balance lever early game. Hoard for horde nights.
+* '''Fire rate''' vs '''magazine size''' is the second tradeoff.
+* '''Aim sway''' increases at low stamina.
+
+== Throwables ==
+
+Grenades and other throwables deal area damage and are consumed on throw.
+
+== Blocking and staggering ==
+
+Weapon block values are printed in each weapon's [[Template:Infobox weapon|infobox]]. Blocking timed near an incoming hit reduces damage and staggers the attacker. Staggered zombies take a brief bonus-damage window.
+
+== Horde nights ==
+
+Every in-game night triggers a horde spawn. Horde size scales with:
+
+* '''Player level'''
+* '''Base value''' (larger, more elaborate bases attract more zombies)
+* '''Biome''' ([[Warzone]] and [[Wasteland]] have permanently elevated horde densities)
+
+Base defense tips:
+
+* '''Traps.''' Spike variants, sensor spikes, rotating blades, and laser trip-triggers chew through hordes efficiently. See [[Building#Traps]] for the full catalog.
+* '''Chokepoints.''' Force a single-file approach; one melee player can hold a doorway.
+* '''Elevation.''' Zombies are poor climbers.
+
+== See also ==
+
+* [[Weapons]]: full weapon list
+* [[Perks]]: Fight-tree factors
+* [[Traps]]: passive defense
+* [[Mods]]: community weapon additions
+
+[[Category:Gameplay]]
