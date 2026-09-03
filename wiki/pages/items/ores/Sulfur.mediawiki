@@ -1,34 +1,28 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Sulfur
 | image      = Sulfur.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 15
 }}
-
-The '''Sulfur''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Sulfur''' is a mineable rock in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 19 downstream recipes at the [[Biochemical Workbench]] and the [[Cutting Workbench]], including [[Sulfurized Quartz Brick]], [[Gunpowder]], among others. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Gun Powder]] x5 || [[Biochemical Workbench]] || 1 || 1
+| [[Gunpowder]] x5 || [[Biochemical Workbench]] || 1 || 1
 |-
-| [[Silicon Sulfide Brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+| [[Sulfurized Quartz Brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |}
-
 
 == Technical ==
 
@@ -38,4 +32,4 @@ Addressable asset id: <code>BO_Sulfur</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

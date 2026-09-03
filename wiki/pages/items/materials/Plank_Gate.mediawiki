@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Plank Gate
+| type       = Building Material
+| block          = 320
+| stack          = 20
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Plank Gate''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 20 || [[Plank Fence]] x1, [[Planks]] x30, [[Nails]] x12 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

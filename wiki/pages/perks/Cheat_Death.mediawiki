@@ -1,0 +1,53 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Cheat Death
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Cheat Death''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+Immune to 1 lethal attack and restores 
+[ *% ] HP, cooldown [ * ] sec.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Immune to 1 lethal attack and restores 
+'''5%''' HP, cooldown '''300''' sec.
+|-
+| 2 || Immune to 1 lethal attack and restores 
+'''7%''' HP, cooldown '''290''' sec.
+|-
+| 3 || Immune to 1 lethal attack and restores 
+'''10%''' HP, cooldown '''270''' sec.
+|-
+| 4 || Immune to 1 lethal attack and restores 
+'''14%''' HP, cooldown '''240''' sec.
+|-
+| 5 || Immune to 1 lethal attack and restores 
+'''20%''' HP, cooldown '''200''' sec.
+|-
+| 6 || Immune to 1 lethal attack and restores 
+'''28%''' HP, cooldown '''150''' sec.
+|-
+| 7 || Immune to 1 lethal attack and restores 
+'''40%''' HP, cooldown '''90''' sec.
+|-
+| 8 || Immune to 1 lethal attack and restores 
+'''50%''' HP, cooldown '''20''' sec.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

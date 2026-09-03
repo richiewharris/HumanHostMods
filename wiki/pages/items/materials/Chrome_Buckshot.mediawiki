@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Chrome Buckshot
+| type       = Refined Metal
+| stack          = 500
+| value          = 2
+}}
+
+== Description ==
+
+'''Chrome Buckshot''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 1 downstream recipes at the [[Gunsmith Workbench]], including [[12x70mm Chrome]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 10 || 3.2 || [[Chrome Ingot]] x1, [[Clay]] x1 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[12x70mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

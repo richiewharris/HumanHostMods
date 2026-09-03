@@ -1,12 +1,210 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 The '''Snowy Loot Crate''' is a lootable container variant that spawns in the [[Winter Forest]] biome of ''[[Human Host]]''.
 
-== Contents ==
+== Loot rate sets ==
 
-Contents scale to the biome tier. Common items include salvage, ammunition, and biome-appropriate resources.
+Every crate in this biome pulls from one of the rate sets below. The ''Spawn rate'' column is the probability that a category yields an item when the crate rolls; the ''Stack factor'' scales the stack size for stackable categories.
+
+=== Food_Loot ===
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Category !! Spawn rate !! Stack factor
+|-
+| Food <small>(食物)</small> || 10% || 1
+|-
+| Water <small>(水)</small> || 10% || 1
+|-
+| Spoiled food <small>(腐败食物)</small> || 2% || 1
+|}
+=== Military_Loot ===
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Category !! Spawn rate !! Stack factor
+|-
+| Ammunition <small>(弹药)</small> || 10% || 1
+|-
+| Gun parts <small>(枪械零件)</small> || 3% || 1
+|-
+| Firearm kits <small>(枪械包)</small> || 1% || 1
+|-
+| Police equipment <small>(警用装备)</small> || 1% || 1
+|-
+| Gun attachments <small>(枪械附件)</small> || 1% || 1
+|-
+| Firearms <small>(枪械)</small> || 1% || 1
+|-
+| Military equipment <small>(军用装备)</small> || 0.5% || 1
+|}
+=== Snow_Common ===
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Category !! Spawn rate !! Stack factor
+|-
+| Salvage materials <small>(废旧材料)</small> || 10% || 1
+|-
+| Tools <small>(工具)</small> || 5% || 1
+|-
+| Office supplies <small>(办公用品)</small> || 2.5% || 1
+|-
+| Cloth <small>(布料)</small> || 2% || 1
+|-
+| Ammunition <small>(弹药)</small> || 1.25% || 1
+|-
+| Bones <small>(骨头)</small> || 1% || 1
+|-
+| Snow-exclusive <small>(雪地特供)</small> || 1% || 1
+|-
+| Feathers <small>(羽毛)</small> || 0.5% || 0.5x
+|-
+| Lighting <small>(灯具)</small> || 0.5% || 1
+|-
+| Tool kits <small>(工具包)</small> || 0.3% || 1
+|-
+| Food <small>(食物)</small> || 0.25% || 1
+|-
+| Water <small>(水)</small> || 0.25% || 1
+|-
+| Gun parts <small>(枪械零件)</small> || 0.2% || 1
+|-
+| Firearm kits <small>(枪械包)</small> || 0.1% || 1
+|-
+| Melee weapons <small>(近战武器)</small> || 0.1% || 1
+|-
+| Spoiled food <small>(腐败食物)</small> || 0.1% || 1
+|-
+| Civilian equipment <small>(民用装备)</small> || 0.05% || 1
+|-
+| Firearms <small>(枪械)</small> || 0.05% || 1
+|-
+| Gun attachments <small>(枪械附件)</small> || 0.05% || 1
+|}
+== Crate variants ==
+
+The following in-game crate prefabs spawn in this biome, each keyed to a rate set from above.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Prefab !! Rate set
+|-
+| <code>MetalBoxes_05</code> || Food_Loot
+|-
+| <code>Crate_Group_13</code> || Military_Loot
+|-
+| <code>Crate_Group_14</code> || Military_Loot
+|-
+| <code>Crate_Group_3</code> || Military_Loot
+|-
+| <code>Crate_Group_4</code> || Military_Loot
+|-
+| <code>Crate_Group_8</code> || Military_Loot
+|-
+| <code>MetalBoxes_01</code> || Military_Loot
+|-
+| <code>MetalBoxes_02</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_01</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_02</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_03</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_04</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_05</code> || Military_Loot
+|-
+| <code>MilitaryBoxes_06</code> || Military_Loot
+|-
+| <code>TarpaulinBox_01</code> || Military_Loot
+|-
+| <code>TarpaulinBox_02</code> || Military_Loot
+|-
+| <code>TarpaulinBox_03</code> || Military_Loot
+|-
+| <code>WoodLargeBoxes_05</code> || Military_Loot
+|-
+| <code>WoodLargeBoxes_06</code> || Military_Loot
+|-
+| <code>WoodLargeBoxes_07</code> || Military_Loot
+|-
+| <code>WoodLargeBoxes_08</code> || Military_Loot
+|-
+| <code>WoodLargeBoxes_10</code> || Military_Loot
+|-
+| <code>Cardboards_01</code> || Snow_Common
+|-
+| <code>Cardboards_02</code> || Snow_Common
+|-
+| <code>Cardboards_03</code> || Snow_Common
+|-
+| <code>Cardboards_04</code> || Snow_Common
+|-
+| <code>Cardboards_05</code> || Snow_Common
+|-
+| <code>Cardboards_06</code> || Snow_Common
+|-
+| <code>Crate_Group_1</code> || Snow_Common
+|-
+| <code>Crate_Group_10</code> || Snow_Common
+|-
+| <code>Crate_Group_11</code> || Snow_Common
+|-
+| <code>Crate_Group_12</code> || Snow_Common
+|-
+| <code>Crate_Group_15</code> || Snow_Common
+|-
+| <code>Crate_Group_2</code> || Snow_Common
+|-
+| <code>Crate_Group_5</code> || Snow_Common
+|-
+| <code>Crate_Group_6</code> || Snow_Common
+|-
+| <code>Crate_Group_7</code> || Snow_Common
+|-
+| <code>Crate_Group_9</code> || Snow_Common
+|-
+| <code>MetalBoxes_03</code> || Snow_Common
+|-
+| <code>MetalBoxes_04</code> || Snow_Common
+|-
+| <code>Suitcases_01</code> || Snow_Common
+|-
+| <code>Suitcases_02</code> || Snow_Common
+|-
+| <code>Suitcases_03</code> || Snow_Common
+|-
+| <code>Suitcases_04</code> || Snow_Common
+|-
+| <code>Toolboxes_01</code> || Snow_Common
+|-
+| <code>Toolboxes_02</code> || Snow_Common
+|-
+| <code>Toolboxes_03</code> || Snow_Common
+|-
+| <code>Toolboxes_04</code> || Snow_Common
+|-
+| <code>WoodBoxes_01</code> || Snow_Common
+|-
+| <code>WoodBoxes_02</code> || Snow_Common
+|-
+| <code>WoodBoxes_03</code> || Snow_Common
+|-
+| <code>WoodBoxes_04</code> || Snow_Common
+|-
+| <code>WoodBoxes_05</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_01</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_02</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_03</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_04</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_09</code> || Snow_Common
+|-
+| <code>WoodLargeBoxes_11</code> || Snow_Common
+|}
 
 == Location ==
 

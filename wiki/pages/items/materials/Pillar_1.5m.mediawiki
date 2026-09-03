@@ -1,14 +1,22 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Pillar 1.5m
 | type       = Material
 }}
 
-'''Pillar 1.5m''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Pillar 1.5m''' is an item in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 2 || 8 || [[Log Pillar]] x1, [[Planks]] x10, [[Nails]] x6 || 1
+|}
 
 == See also ==
 

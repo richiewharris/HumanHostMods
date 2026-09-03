@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox enemy
+| name       = Big Zombie 03
+| category   = Big zombie
+| biome      = Warzone
+| hp         = 200
+}}
+
+'''Big Zombie 03''' is a Big zombie encountered in the [[Warzone]] biome of ''[[Human Host]]''.
+
+== Stats ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Health         || 200 HP
+|-
+| Stamina        || 100
+|-
+| Stamina regen  || 10/sec
+|}
+
+== Technical ==
+
+Prefab id: <code>Z_Man_Big_03</code> (bundle <code>zb_warzone</code>). Backed by <code>Char_Status</code> + <code>Zombie_Input</code> on the prefab.
+
+== See also ==
+
+* [[Enemies]]: the full enemy catalog
+* [[Warzone]]: biome overview
+
+[[Category:Enemies]]
+[[Category:Big zombie]]

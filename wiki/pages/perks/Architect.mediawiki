@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Architect
+| tree     = Craft
+| maxLevel = 5
+| buff     = No
+}}
+
+'''Architect''' is a Craft-tree passive that scales with level; the table above shows the exact effect at each of its 5 ranks.
+
+== Effect ==
+
+When crafting building and vehicle structures, there is a [ *% ] chance that no materials are consumed.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || When crafting building and vehicle structures, there is a '''5%''' chance that no materials are consumed.
+|-
+| 2 || When crafting building and vehicle structures, there is a '''12%''' chance that no materials are consumed.
+|-
+| 3 || When crafting building and vehicle structures, there is a '''23%''' chance that no materials are consumed.
+|-
+| 4 || When crafting building and vehicle structures, there is a '''35%''' chance that no materials are consumed.
+|-
+| 5 || When crafting building and vehicle structures, there is a '''50%''' chance that no materials are consumed.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Craft tree]]

@@ -1,14 +1,17 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Forged Iron
 | image      = Forged_Iron.png
 | type       = Refined Metal
+| stack          = 100
+| value          = 100
 }}
 
-'''Forged Iron''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Forged Iron''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 52 downstream recipes at 6 different workbenches, including [[Wrought Iron]], [[M1891 01]], [[R870 01]], [[Rotating Circular Saw]], [[Rotating Blade]], [[M1911]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
@@ -25,77 +28,76 @@
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[AKM]] x1 || [[Gun Workbench]] || 10 || 1
+| [[AKM]] x1 || [[Gunsmith Workbench]] || 10 || 1
 |-
 | [[Bicycle Generator]] x1 || [[Mechanical Workbench]] || 35 || 1
 |-
-| [[FireAxe 01]] x1 || [[Anvil Workbench]] || 8 || 1
+| [[Crude Axe]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Forged Iron Crate]] x1 || [[Anvil Workbench]] || 5 || 1
+| [[Curved Handle Iron Axe]] x1 || [[Anvil]] || 5 || 1
 |-
-| [[Forged Steel]] x1 || [[Furnace]] || 2 || 1
+| [[Driver's Seat]] x1 || [[Mechanical Workbench]] || 20 || 1
 |-
-| [[Fruit Knife]] x1 || [[Anvil Workbench]] || 3 || 1
+| [[Electric Motor Engine]] x1 || [[Mechanical Workbench]] || 20 || 1
 |-
-| [[Iron Arrowhead]] x5 || [[Anvil Workbench]] || 2 || 1
+| [[Flexible Rotor]] x1 || [[Mechanical Workbench]] || 5 || 1
 |-
-| [[Iron Axe]] x1 || [[Anvil Workbench]] || 5 || 1
+| [[Fruit Knife]] x1 || [[Anvil]] || 3 || 1
 |-
-| [[Iron Hammer]] x1 || [[Anvil Workbench]] || 20 || 1
+| [[Iron Arrowhead]] x5 || [[Anvil]] || 2 || 1
 |-
-| [[Iron Pickaxe]] x1 || [[Anvil Workbench]] || 12 || 1
+| [[Iron Bar Spike]] x1 || [[Anvil]] || 4 || 1
 |-
-| [[IronPipe Trap]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Iron Fire Axe]] x1 || [[Anvil]] || 8 || 1
 |-
-| [[IronSpike Single]] x1 || [[Anvil Workbench]] || 4 || 1
+| [[Iron Hammer]] x1 || [[Anvil]] || 20 || 1
 |-
-| [[IronSpike Trap]] x1 || [[Anvil Workbench]] || 4 || 1
+| [[Iron Pipe Spike]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[M1891 01]] x1 || [[Gun Workbench]] || 8 || 1
+| [[M1891 01]] x1 || [[Gunsmith Workbench]] || 8 || 1
 |-
-| [[M1911 01]] x1 || [[Gun Workbench]] || 5 || 1
+| [[M1911]] x1 || [[Gunsmith Workbench]] || 5 || 1
 |-
-| [[M3 SMG]] x1 || [[Gun Workbench]] || 5 || 1
-|-
-| [[Machete]] x1 || [[Anvil Workbench]] || 15 || 1
-|-
-| [[Machete 02]] x1 || [[Anvil Workbench]] || 10 || 1
-|-
-| [[Main Seat]] x1 || [[Mechanical Workbench]] || 20 || 1
+| [[M3]] x1 || [[Gunsmith Workbench]] || 5 || 1
 |-
 | [[MechPlatform]] x1 || [[Mechanical Workbench]] || 25 || 1
 |-
-| [[Metal Hatchet]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Nails]] x10 || [[Anvil]] || 1 || 1
 |-
-| [[Motor]] x1 || [[Mechanical Workbench]] || 20 || 1
+| [[Pickaxe]] x1 || [[Anvil]] || 12 || 1
 |-
-| [[Nails]] x10 || [[Anvil Workbench]] || 1 || 1
-|-
-| [[R870 01]] x1 || [[Gun Workbench]] || 10 || 1
+| [[R870 01]] x1 || [[Gunsmith Workbench]] || 10 || 1
 |-
 | [[Rotating Blade]] x1 || [[Mechanical Workbench]] || 3 || 1
 |-
-| [[Rotating Saw]] x1 || [[Mechanical Workbench]] || 8 || 1
+| [[Rotating Circular Saw]] x1 || [[Mechanical Workbench]] || 8 || 1
 |-
 | [[Rotor]] x1 || [[Mechanical Workbench]] || 5 || 1
 |-
-| [[Rotor NoHit]] x1 || [[Mechanical Workbench]] || 5 || 1
+| [[Rusty Machete]] x1 || [[Anvil]] || 15 || 1
 |-
 | [[Sensor Spike]] x1 || [[Mechanical Workbench]] || 5 || 1
 |-
-| [[Shiv]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Shiv]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[Small Rubber Tire]] x1 || [[Mechanical Workbench]] || 10 || 1
+| [[Short Machete]] x1 || [[Anvil]] || 10 || 1
+|-
+| [[Single Iron Bar Spike]] x1 || [[Anvil]] || 4 || 1
 |-
 | [[Solar Generator]] x1 || [[Mechanical Workbench]] || 16 || 1
 |-
-| [[Spiked BaseballBat 01]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Spiked BaseballBat 01]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Steel Ingot]] x1 || [[Furnace]] || 2 || 1
 |-
 | [[Transformer]] x1 || [[Electronics Workbench]] || 2 || 1
 |-
+| [[Wheel]] x1 || [[Mechanical Workbench]] || 10 || 1
+|-
 | [[Wrought Iron]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Wrought Iron Storage Box]] x1 || [[Anvil]] || 5 || 1
 |}
-
 
 == See also ==
 

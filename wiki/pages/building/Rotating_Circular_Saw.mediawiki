@@ -1,0 +1,44 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+The '''Rotating Circular Saw''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
+
+== Behavior ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Trap damage       || 250 per trigger
+|-
+| Trigger interval  || 1s
+|-
+| Hit-react force   || 0.1
+|-
+| Self-damage       || 2 per trigger
+|-
+| Hits allies       || No (zombies only)
+|-
+| Smashable         || No
+|-
+| Placement         || Dynamic (moving)
+|-
+| Rotation period   || 2s
+|-
+| Rotation speed    || 1000
+|}
+
+== Placement ==
+
+TBD: placement footprint and world-space clearance.
+
+== Technical ==
+
+Asset id: <code>BT_Rotating_Saw</code>. Backing class not automatically identified; likely a data variant of a Trap_Base subclass. Traps are registered via <code>Trap_Mgr._ins</code>.
+
+== See also ==
+
+* [[Building]]: trap placement in the build menu
+* [[Combat]]: horde night defense strategy
+
+[[Category:Traps]]
+[[Category:Building]]

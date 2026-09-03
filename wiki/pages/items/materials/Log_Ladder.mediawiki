@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Log Ladder
+| type       = Building Material
+| block          = 30
+| stack          = 100
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Log Ladder''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 20 || [[Wood]] x15, [[Hemp Rope]] x3 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

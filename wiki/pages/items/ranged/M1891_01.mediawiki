@@ -1,25 +1,112 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox weapon
 | name       = M1891 01
 | image      = M1891_01.png
 | type       = Ranged Weapons
-| type = Ranged
 | subtype = Firearm
+| damage         = 50
+| headshot       = 3x
+| hitdown        = 10%
+| magazine       = 5
+| ammo           = 7.62 x 54mm
+| durability     = 200
+| repairable     = Yes
+| wear           = 5 per use
+| value          = 400
+| tag            = Gun
 }}
-
-The '''M1891 01''' is a ranged weapons in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''M1891 01''' is a ranged weapon in ''[[Human Host]]'', crafted at the [[Gunsmith Workbench]].
 
-== Source ==
+== Crafted at ==
 
-TBD.
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Gunsmith Workbench]] || 1 || 20 || [[Rifle Parts]] x1, [[Forged Iron]] x8, [[Wood]] x6, [[Waste plastic]] x12, [[Tape]] x10, [[Spring]] x8 || 1
+|}
 
+== Loot sources ==
+
+'''M1891 01''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Desert]] || Desert_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 1% <small>(Firearms)</small> || Crate_Group_15
+|-
+| [[Mossy Forest]] || Forest_House || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 1% <small>(Firearms)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Forest_House || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Tropical Swamp]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Tropical Swamp]] || Warzone_Common || 0.05% <small>(Firearms)</small> || Cardboards_03
+|-
+| [[Tropical Swamp]] || RainForest_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Warzone]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Warzone]] || Warzone_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Winter Forest]] || Snow_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
+
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
+== Tier scaling ==
+
+Items in ''[[Human Host]]'' roll one of six quality tiers on drop or craft. Each tier scales the base stats by a fixed multiplier and colors the item's inventory chip accordingly. See [[Tiers]] for the full reference.
+
+{| class="wikitable" style="font-size:0.9em; text-align:center;"
+|+ Tier scaling
+! Stat
+! style="background:#626262; color:#fff; text-shadow:0 0 3px #000;" | T1<br /><small>Common</small>
+! style="background:#46D200; color:#fff; text-shadow:0 0 3px #000;" | T2<br /><small>Uncommon</small>
+! style="background:#6188FF; color:#fff; text-shadow:0 0 3px #000;" | T3<br /><small>Rare</small>
+! style="background:#A273FF; color:#fff; text-shadow:0 0 3px #000;" | T4<br /><small>Epic</small>
+! style="background:#E7C600; color:#fff; text-shadow:0 0 3px #000;" | T5<br /><small>Legendary</small>
+! style="background:#D28B00; color:#fff; text-shadow:0 0 3px #000;" | T6<br /><small>Mythic</small>
+|-
+| Damage
+| 50
+| 100
+| 175
+| 275
+| 375
+| 500
+|-
+| Durability
+| 200
+| 300
+| 450
+| 650
+| 900
+| 1200
+|-
+| Hitdown
+| 10%
+| 12%
+| 14%
+| 16%
+| 18%
+| 20%
+|}
 
 == Technical ==
 

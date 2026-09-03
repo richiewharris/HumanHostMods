@@ -6,20 +6,12 @@
 | name       = AKM-G Mode
 | image      = AKM-G_Mode.png
 | type       = Ranged Weapons
-| type = Ranged
 | subtype = Firearm
 }}
 
-The '''AKM-G Mode''' is a ranged weapons in ''[[Human Host]]''.
-
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
-
+'''AKM-G Mode''' is a ranged weapon in ''[[Human Host]]'', assembled at the [[Gun Workbench]] or salvaged.
 
 == Technical ==
 

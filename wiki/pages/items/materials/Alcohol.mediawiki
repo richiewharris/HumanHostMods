@@ -1,14 +1,17 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Alcohol
 | image      = Alcohol.png
 | type       = Medical
+| stack          = 20
+| value          = 50
 }}
 
-'''Alcohol''' is a medical in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Alcohol''' is a medical consumable in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 3 downstream recipes at the [[Biochemical Workbench]], including [[Painkiller]], [[Medkit]], [[Medical Bandage]]. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
@@ -19,9 +22,8 @@
 |-
 | [[Medkit]] x1 || [[Biochemical Workbench]] || 1 || 1
 |-
-| [[Pain Killer]] x1 || [[Biochemical Workbench]] || 1 || 1
+| [[Painkiller]] x1 || [[Biochemical Workbench]] || 1 || 1
 |}
-
 
 == See also ==
 

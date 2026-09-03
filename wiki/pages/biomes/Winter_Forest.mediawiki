@@ -1,6 +1,5 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox biome
 | name       = Winter Forest
@@ -24,6 +23,20 @@ None
 == Loot crates ==
 
 [[Snowy Loot Crate]]
+
+== Loot at a glance ==
+
+Crates in this biome roll from the loot rate sets below. Only the top few categories per set are shown here; the full breakdown and every crate variant lives on [[Snowy Loot Crate]].
+
+{| class="wikitable" style="font-size:0.9em;"
+! Rate set !! Top categories
+|-
+| Food_Loot || Food (10%), Water (10%), Spoiled food (2%)
+|-
+| Military_Loot || Ammunition (10%), Gun parts (3%), Firearm kits (1%)
+|-
+| Snow_Common || Salvage materials (10%), Tools (5%), Office supplies (2.5%)
+|}
 
 == Vehicles ==
 

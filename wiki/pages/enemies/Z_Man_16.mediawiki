@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox enemy
+| name       = Zombie Man 16
+| category   = Zombie
+| biome      = Warzone
+| hp         = 100
+}}
+
+'''Zombie Man 16''' is a Zombie encountered in the [[Warzone]] biome of ''[[Human Host]]''.
+
+== Stats ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Health         || 100 HP
+|-
+| Stamina        || 100
+|-
+| Stamina regen  || 10/sec
+|}
+
+== Technical ==
+
+Prefab id: <code>Z_Man_16</code> (bundle <code>zb_warzone</code>). Backed by <code>Char_Status</code> + <code>Zombie_Input</code> on the prefab.
+
+== See also ==
+
+* [[Enemies]]: the full enemy catalog
+* [[Warzone]]: biome overview
+
+[[Category:Enemies]]
+[[Category:Zombie]]

@@ -1,20 +1,24 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Pig Iron
 | type       = Refined Metal
+| block          = 375
+| stack          = 100
+| tag            = BuildMat
 }}
 
-'''Pig Iron''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Pig Iron''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Wrought Iron]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Workbench !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[Cutting Workbench]] || 1 || 7 || [[Rust Iron]] x1, [[Iron Ore]] x1-14 || 18 shapes
+| [[Cutting Workbench]] || 1 || 7 || [[Scrap Metal]] x1, [[Iron Ore]] x1-14 || 18 shapes
 |}
 
 == Used in ==
@@ -24,7 +28,6 @@
 |-
 | [[Wrought Iron]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
 |}
-
 
 == See also ==
 

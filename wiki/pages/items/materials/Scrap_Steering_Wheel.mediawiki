@@ -1,0 +1,29 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Scrap Steering Wheel
+| type       = Salvage
+| stack          = 5
+| value          = 200
+}}
+
+== Description ==
+
+'''Scrap Steering Wheel''' is a salvaged component in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 1 downstream recipes at the [[Mechanical Workbench]], including [[Driver's Seat]]. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Driver's Seat]] x1 || [[Mechanical Workbench]] || 5 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Salvage]]
+[[Category:Items]]

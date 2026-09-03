@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox enemy
+| name       = Boss 02
+| category   = Boss
+| biome      = Warzone
+| hp         = 4000
+}}
+
+'''Boss 02''' is a Boss encountered in the [[Warzone]] biome of ''[[Human Host]]''.
+
+== Stats ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Health         || 4000 HP
+|-
+| Stamina        || 100
+|-
+| Stamina regen  || 10/sec
+|}
+
+== Technical ==
+
+Prefab id: <code>Z_Boss_02</code> (bundle <code>zb_warzone</code>). Backed by <code>Char_Status</code> + <code>Zombie_Input</code> on the prefab.
+
+== See also ==
+
+* [[Enemies]]: the full enemy catalog
+* [[Warzone]]: biome overview
+
+[[Category:Enemies]]
+[[Category:Boss]]

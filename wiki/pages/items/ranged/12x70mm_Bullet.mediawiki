@@ -1,0 +1,65 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox weapon
+| name       = 12x70mm Bullet
+| image      = 12x70mm_AmmoBox.png
+| type       = Ammo
+| subtype = Cased
+| stack          = 500
+| value          = 10
+| tag            = 12x70
+}}
+
+== Description ==
+
+'''12x70mm Bullet''' is an ammunition round in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting).
+
+== Loot sources ==
+
+'''12x70mm Bullet''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Desert]] || Desert_Common || 1.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 0.625% <small>(Ammunition)</small> || Crate_Group_15
+|-
+| [[Mossy Forest]] || Forest_House || 0.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 0.625% <small>(Ammunition)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Forest_House || 0.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Tropical Swamp]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Tropical Swamp]] || Warzone_Common || 1.25% <small>(Ammunition)</small> || Cardboards_03
+|-
+| [[Tropical Swamp]] || RainForest_Common || 1.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Warzone]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Warzone]] || Warzone_Common || 1.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Military_Loot || 10% <small>(Ammunition)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Winter Forest]] || Snow_Common || 1.25% <small>(Ammunition)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
+
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
+== Technical ==
+
+Addressable asset id: <code>RW_12x70mm_AmmoBox</code>.
+
+== See also ==
+
+* [[Ranged Weapons]]
+
+[[Category:Ammo]]

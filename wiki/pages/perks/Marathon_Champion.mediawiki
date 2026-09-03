@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Marathon Champion
+| tree     = Fight
+| maxLevel = 5
+| buff     = No
+}}
+
+'''Marathon Champion''' is a Fight-tree passive that scales with level; the table above shows the exact effect at each of its 5 ranks.
+
+== Effect ==
+
+Increases max stamina by [ * ].
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Increases max stamina by '''20'''.
+|-
+| 2 || Increases max stamina by '''40'''.
+|-
+| 3 || Increases max stamina by '''60'''.
+|-
+| 4 || Increases max stamina by '''80'''.
+|-
+| 5 || Increases max stamina by '''100'''.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Fight tree]]

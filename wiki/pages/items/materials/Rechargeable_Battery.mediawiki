@@ -1,0 +1,29 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Rechargeable Battery
+| type       = Melee Weapon
+| stack          = 50
+| value          = 250
+}}
+
+== Description ==
+
+'''Rechargeable Battery''' is a melee weapon in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 1 downstream recipes at the [[Electronics Workbench]], including [[Solar Battery]]. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Solar Battery]] x1 || [[Electronics Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Melee Weapon]]
+[[Category:Items]]

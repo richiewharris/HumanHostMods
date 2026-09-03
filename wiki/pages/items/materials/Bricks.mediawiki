@@ -1,0 +1,37 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Bricks
+| type       = Building Material
+| stack          = 200
+| value          = 10
+}}
+
+== Description ==
+
+'''Bricks''' is a building material in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Damaged brick]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 1 || 4 || [[Wood]] x2, [[Clay]] x2, [[Sand]] x1 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Damaged brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

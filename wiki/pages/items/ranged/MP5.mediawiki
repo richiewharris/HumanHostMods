@@ -1,25 +1,113 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox weapon
 | name       = MP5
 | image      = MP5.png
-| type       = Ranged Weapons
-| type = Ranged
+| type       = Firearms
 | subtype = Firearm
+| damage         = 18
+| headshot       = 3x
+| hitdown        = 2%
+| magazine       = 30
+| firerate       = 800 / min
+| ammo           = 9 x 19mm
+| durability     = 500
+| repairable     = Yes
+| wear           = 5 per use
+| value          = 300
+| tag            = Gun
 }}
-
-The '''MP5''' is a ranged weapons in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''MP5''' is a ranged weapon in ''[[Human Host]]'', crafted at the [[Gunsmith Workbench]].
 
-== Source ==
+== Crafted at ==
 
-TBD.
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Gunsmith Workbench]] || 1 || 20 || [[Submachine Gun Parts]] x1, [[Steel Ingot]] x5, [[Waste plastic]] x8, [[Tape]] x8, [[Spring]] x6 || 1
+|}
 
+== Loot sources ==
+
+'''MP5''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Desert]] || Desert_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 1% <small>(Firearms)</small> || Crate_Group_15
+|-
+| [[Mossy Forest]] || Forest_House || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 1% <small>(Firearms)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Forest_House || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Tropical Swamp]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Tropical Swamp]] || Warzone_Common || 0.05% <small>(Firearms)</small> || Cardboards_03
+|-
+| [[Tropical Swamp]] || RainForest_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Warzone]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Warzone]] || Warzone_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Military_Loot || 1% <small>(Firearms)</small> || MetalBoxes_01, MetalBoxes_02, MilitaryBoxes_01, <small>+18 more</small>
+|-
+| [[Winter Forest]] || Snow_Common || 0.05% <small>(Firearms)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
+
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
+== Tier scaling ==
+
+Items in ''[[Human Host]]'' roll one of six quality tiers on drop or craft. Each tier scales the base stats by a fixed multiplier and colors the item's inventory chip accordingly. See [[Tiers]] for the full reference.
+
+{| class="wikitable" style="font-size:0.9em; text-align:center;"
+|+ Tier scaling
+! Stat
+! style="background:#626262; color:#fff; text-shadow:0 0 3px #000;" | T1<br /><small>Common</small>
+! style="background:#46D200; color:#fff; text-shadow:0 0 3px #000;" | T2<br /><small>Uncommon</small>
+! style="background:#6188FF; color:#fff; text-shadow:0 0 3px #000;" | T3<br /><small>Rare</small>
+! style="background:#A273FF; color:#fff; text-shadow:0 0 3px #000;" | T4<br /><small>Epic</small>
+! style="background:#E7C600; color:#fff; text-shadow:0 0 3px #000;" | T5<br /><small>Legendary</small>
+! style="background:#D28B00; color:#fff; text-shadow:0 0 3px #000;" | T6<br /><small>Mythic</small>
+|-
+| Damage
+| 18
+| 36
+| 63
+| 99
+| 135
+| 180
+|-
+| Durability
+| 500
+| 750
+| 1125
+| 1625
+| 2250
+| 3000
+|-
+| Hitdown
+| 2%
+| 2%
+| 3%
+| 3%
+| 4%
+| 4%
+|}
 
 == Technical ==
 
@@ -29,4 +117,4 @@ Addressable asset id: <code>RW_MP5</code>.
 
 * [[Ranged Weapons]]
 
-[[Category:Ranged Weapons]]
+[[Category:Firearms]]

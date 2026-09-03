@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Tungsten steel alloy
+| type       = Refined Metal
+| block          = 800
+| stack          = 100
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Tungsten steel alloy''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Cutting Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 8 || [[Chrome Alloy]] x1, [[Tungsten Ingot]] x1-14 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

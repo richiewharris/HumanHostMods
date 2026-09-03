@@ -27,12 +27,12 @@
     "Slug": "swamp",
     "PageTitle": "Swamp Loot Crate",
     "Biome": "Tropical Swamp",
-    "BundleFile": "shc_crates_swamp_assets_all_a36fd0635b8d1d0a4fa6210bdd33ef40.bundle"
+    "BundleFile": "shc_crates_swamp_assets_all_b25e4a99d157b3dc05159a5661965ead.bundle"
   },
   {
     "Slug": "warzone",
     "PageTitle": "Warzone Loot Crate",
     "Biome": "Warzone",
-    "BundleFile": "shc_crates_warzone_assets_all_7bc7a53c399326d9d4ed2f2be269d0d6.bundle"
+    "BundleFile": "shc_crates_warzone_assets_all_3bb75b0ef70bcf437e6af6f67d9a8492.bundle"
   }
 ]

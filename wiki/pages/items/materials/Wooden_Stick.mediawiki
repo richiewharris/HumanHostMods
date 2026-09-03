@@ -1,26 +1,59 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Wooden Stick
 | image      = Wooden_Stick.png
 | type       = Material
+| damage         = 10
+| headshot       = 2x
+| hitdown        = 5%
+| durability     = 30
+| repairable     = Yes
+| wear           = 5 per use
 }}
 
-'''Wooden Stick''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Wooden Stick''' is an item in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 2 downstream recipes at the [[Carpentry Workbench]], including [[Single Spear Spike]], [[Spear Spike]]. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[SpearSpike Single]] x1 || [[Carpentry Workbench]] || 2 || 1
+| [[Single Spear Spike]] x1 || [[Carpentry Workbench]] || 2 || 1
 |-
-| [[SpearSpike Trap]] x1 || [[Carpentry Workbench]] || 2 || 1
+| [[Spear Spike]] x1 || [[Carpentry Workbench]] || 2 || 1
 |}
 
+== Loot sources ==
 
+'''Wooden Stick''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Desert_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Forest_House || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 0.1% <small>(Melee weapons)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Forest_House || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 0.1% <small>(Melee weapons)</small> || Crate_Group_15
+|-
+| [[Tropical Swamp]] || Warzone_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_03
+|-
+| [[Tropical Swamp]] || RainForest_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Warzone]] || Warzone_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Snow_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
+
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
 == See also ==
 
 * [[Crafting]]: workbench overview

@@ -114,6 +114,12 @@
     "PerkGuess": "silentStepReduce"
   },
   {
+    "Field": "_silentStepViewReduce_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "silentStepViewReduce"
+  },
+  {
     "Field": "_softLandDmgReduce_Factor",
     "FieldType": "Single",
     "Assembly": "Creature",
@@ -136,5 +142,11 @@
     "FieldType": "Single",
     "Assembly": "Creature",
     "PerkGuess": "woodJackDmg"
+  },
+  {
+    "Field": "_woodJackYield_Factor",
+    "FieldType": "Single",
+    "Assembly": "Creature",
+    "PerkGuess": "woodJackYield"
   }
 ]

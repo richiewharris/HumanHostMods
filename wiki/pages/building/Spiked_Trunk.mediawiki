@@ -1,16 +1,31 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 The '''Spiked Trunk''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
 
 == Behavior ==
 
-TBD: trigger conditions, damage, cooldown.
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Trap damage       || 125 per trigger
+|-
+| Trigger interval  || 0.5s
+|-
+| Hit-react force   || 0.1
+|-
+| Self-damage       || 2 per trigger
+|-
+| Hits allies       || Yes (allies + zombies)
+|-
+| Smashable         || Yes
+|-
+| Placement         || Static
+|}
 
 == Placement ==
 
-TBD.
+TBD: placement footprint and world-space clearance.
 
 == Technical ==
 

@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+Every item in ''[[Human Host]]'' rolls one of 6 quality tiers when it drops from loot or comes out of a workbench. Higher tiers hit harder, last longer, and are rarer. This page is the reference for the exact multipliers and the color codes the game paints on each item's inventory chip.
+
+== Tier chart ==
+
+{| class="wikitable" style="font-size:0.95em; text-align:center;"
+! Tier !! Name !! Color !! Hex !! Damage x !! Durability x !! Hitdown x !! Blade x !! Loot rate
+|-
+| '''T1''' || Common || style="background:#626262;" |  || <code>#626262</code> || 1 || 1 || 1 || 1 || 51.5%
+|-
+| '''T2''' || Uncommon || style="background:#46D200;" |  || <code>#46D200</code> || 2 || 1.5 || 1.2 || 1.2 || 25.0%
+|-
+| '''T3''' || Rare || style="background:#6188FF;" |  || <code>#6188FF</code> || 3.5 || 2.25 || 1.4 || 1.4 || 15.0%
+|-
+| '''T4''' || Epic || style="background:#A273FF;" |  || <code>#A273FF</code> || 5.5 || 3.25 || 1.6 || 1.6 || 5.0%
+|-
+| '''T5''' || Legendary || style="background:#E7C600;" |  || <code>#E7C600</code> || 7.5 || 4.5 || 1.8 || 1.8 || 2.5%
+|-
+| '''T6''' || Mythic || style="background:#D28B00;" |  || <code>#D28B00</code> || 10 || 6 || 2 || 2 || 1.0%
+|}
+
+== How tier scaling works ==
+
+Each item has a set of base stats (damage, durability, hit-down probability, blade-slash probability) declared on its Icon_Info prefab. When the item is generated at a given tier, the runtime multiplies those base values by the tier's factor. A ''Tier 6'' Iron Hammer, for example, deals 10x the base damage and lasts 6x as long as its ''Tier 1'' counterpart, while its knockdown chance doubles from the base.
+
+Loot rates reflect the runtime spawn weights before any player-perk modifiers (a Char_Skills ''_lootQualityRateBoost'' shifts the roll toward higher tiers).
+
+Every weapon and tool page lists its own tier-scaling table under the ''Tier scaling'' heading, using this page's multipliers applied to the item's base stat line.
+
+[[Category:Reference]]

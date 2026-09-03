@@ -1,35 +1,45 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Charcoal
 | image      = Charcoal.png
 | type       = Component
+| stack          = 200
+| value          = 10
 }}
 
-'''Charcoal''' is a component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Charcoal''' is a crafted component in ''[[Human Host]]'', crafted at the [[Campfire]]. It appears as an ingredient in 24 downstream recipes at 4 different workbenches, including [[Carbonized crystalline brick]], [[Titanium Ingot]], [[Tungsten Ingot]], [[Chrome Ingot]], [[Rebar]], [[Gunpowder]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Campfire]] || 1 || 4 || [[Wood]] x2 || 1
+|}
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Carbon-Bonded Brick]] x1 || [[Cutting Workbench]] || 2-28 || 18 shapes
+| [[Carbonized crystalline brick]] x1 || [[Cutting Workbench]] || 2-28 || 18 shapes
 |-
-| [[Forged Chrome]] x1 || [[Furnace]] || 2 || 1
+| [[Chrome Ingot]] x1 || [[Furnace]] || 2 || 1
 |-
-| [[Forged Steel]] x1 || [[Furnace]] || 2 || 1
+| [[Gunpowder]] x5 || [[Biochemical Workbench]] || 2 || 1
 |-
-| [[Forged Titanium]] x1 || [[Furnace]] || 2 || 1
+| [[Rebar]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[Forged Tungsten]] x1 || [[Furnace]] || 2 || 1
+| [[Steel Ingot]] x1 || [[Furnace]] || 2 || 1
 |-
-| [[Gun Powder]] x5 || [[Biochemical Workbench]] || 2 || 1
+| [[Titanium Ingot]] x1 || [[Furnace]] || 2 || 1
 |-
-| [[Rebar]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Tungsten Ingot]] x1 || [[Furnace]] || 2 || 1
 |}
-
 
 == See also ==
 

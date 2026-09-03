@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Wood Grille
+| type       = Raw Material
+| block          = 24
+| stack          = 50
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Wood Grille''' is a raw material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 8 || [[Planks]] x10, [[Nails]] x5 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

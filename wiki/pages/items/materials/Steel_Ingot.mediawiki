@@ -1,0 +1,67 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Steel Ingot
+| type       = Material
+| stack          = 100
+| value          = 150
+}}
+
+== Description ==
+
+'''Steel Ingot''' is an item in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 33 downstream recipes at 6 different workbenches, including [[High-speed steel]], [[Steel Buckshot]], [[Steel Bullet Tip]], [[Simple Generator]], [[MP5]], [[Laser Trap]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 1 || 4 || [[Wood]] x4, [[Forged Iron]] x2, [[Charcoal]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[FAMAS F1]] x1 || [[Gunsmith Workbench]] || 8 || 1
+|-
+| [[Gear]] x1 || [[Anvil]] || 1 || 1
+|-
+| [[High-speed steel]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Hunting Knife]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Iron Bar Spike]] x1 || [[Anvil]] || 1 || 1
+|-
+| [[Laser Trap]] x1 || [[Mechanical Workbench]] || 5 || 1
+|-
+| [[M1A]] x1 || [[Gunsmith Workbench]] || 10 || 1
+|-
+| [[MP5]] x1 || [[Gunsmith Workbench]] || 5 || 1
+|-
+| [[Rebar]] x1 || [[Anvil]] || 1 || 1
+|-
+| [[Simple Generator]] x1 || [[Electronics Workbench]] || 2 || 1
+|-
+| [[Simple Motor]] x1 || [[Electronics Workbench]] || 2 || 1
+|-
+| [[Single Iron Bar Spike]] x1 || [[Anvil]] || 1 || 1
+|-
+| [[Spiked BaseballBat 02]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Steel Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Steel Bullet Tip]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Steel Fire Axe]] x1 || [[Anvil]] || 8 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

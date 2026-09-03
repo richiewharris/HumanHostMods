@@ -1,0 +1,139 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+The '''HandMade''' catalog is the game's basic 'craft by hand' interface: recipes you can craft without any workbench, as long as you have the ingredients on you. All 10 [[Crafting|workbenches]] and most early-game tools live here, which makes HandMade the effective bootstrap for every progression path in ''[[Human Host]]''.
+
+Total: 44 recipes across 6 categories.
+
+== Medical, tools, base essentials ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Simple Bandage]] || 1 || 8 || [[Damaged Cloth]] x2
+|-
+| [[Fracture Splint]] || 1 || 8 || [[Plant Fiber]] x15, [[Wood]] x10
+|-
+| [[Stone Axe]] || 1 || 5 || [[Wood]] x8, [[Stone]] x6, [[Hemp Rope]] x2
+|-
+| [[Crude Stone Pickaxe]] || 1 || 8 || [[Wood]] x10, [[Stone]] x20, [[Hemp Rope]] x2
+|-
+| [[ReviveP Sleeping Bag]] || 1 || 8 || [[Damaged Cloth]] x5, [[Hemp Rope]] x2
+|-
+| [[Hemp Rope]] || 1 || 5 || [[Plant Fiber]] x2
+|-
+| [[Torch]] || 1 || 8 || [[Wood]] x10, [[Hemp Rope]] x2
+|-
+| [[Tool Kit]] || 100 || 15 || [[Gear]] x2, [[Nails]] x5, [[Scrap Brass]] x15, [[Waste plastic]] x20, [[Glue]] x25
+|-
+| [[Sap]] || 100 || 60 || [[Wood]] x50, [[Plant Fiber]] x200
+|}
+
+== Melee weapons ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Stone Knife]] || 1 || 6 || [[Stone]] x4
+|-
+| [[Sharp Stone Knife]] || 1 || 6 || [[Wood]] x2, [[Stone]] x4, [[Plant Fiber]] x8
+|-
+| [[Wooden Stick]] || 1 || 8 || [[Wood]] x10
+|-
+| [[Crude Wooden Club]] || 1 || 10 || [[Wood]] x15
+|-
+| [[Bone Club]] || 1 || 10 || [[Animal Bone]] x15
+|-
+| [[Bone Knife]] || 1 || 8 || [[Animal Bone]] x8
+|-
+| [[Wooden Spear]] || 1 || 10 || [[Wood]] x18
+|-
+| [[Crude Stone Spear]] || 1 || 10 || [[Wooden Stick]] x1, [[Stone Knife]] x2, [[Hemp Rope]] x2
+|}
+
+== Bows and arrows ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Wooden Bow]] || 1 || 11 || [[Wood]] x20, [[Hemp Rope]] x8, [[Tape]] x4, [[Glue]] x3
+|-
+| [[Longbow]] || 1 || 16 || [[Wood]] x30, [[Hemp Rope]] x10, [[Leather]] x5, [[Tape]] x10, [[Glue]] x8
+|-
+| [[Reinforced Wooden Bow]] || 1 || 16 || [[Forged Iron]] x5, [[Redwood]] x20, [[Hemp Rope]] x15, [[Leather]] x10, [[Tape]] x12, [[Glue]] x10
+|-
+| [[Stone Arrow]] || 1 || 1 || [[Stone]] x1, [[Wood]] x1, [[Tape]] x1
+|-
+| [[Iron Arrow]] || 1 || 1.5 || [[Iron Arrowhead]] x1, [[Wood]] x1, [[Feathers]] x1, [[Tape]] x1
+|-
+| [[Talon Arrow]] || 1 || 2.5 || [[Iron Arrowhead]] x2, [[Wood]] x1, [[Tape]] x1
+|}
+
+== Bone armor ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Bone Shield]] || 1 || 30 || [[Animal Bone]] x25, [[Hemp Rope]] x12
+|-
+| [[Bone Helmet]] || 1 || 25 || [[Animal Bone]] x20, [[Hemp Rope]] x8
+|-
+| [[Bone Breastplate]] || 1 || 30 || [[Animal Bone]] x25, [[Hemp Rope]] x12
+|-
+| [[Bone Vambraces]] || 1 || 18 || [[Animal Bone]] x18, [[Hemp Rope]] x8
+|-
+| [[Bone Bracers]] || 1 || 15 || [[Animal Bone]] x14, [[Hemp Rope]] x4
+|-
+| [[Bone Leg Armor]] || 1 || 20 || [[Animal Bone]] x20, [[Hemp Rope]] x10
+|-
+| [[Bone Greaves]] || 1 || 18 || [[Animal Bone]] x18, [[Hemp Rope]] x8
+|}
+
+== Workbenches and base building ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Campfire]] || 1 || 12 || [[Wood]] x10, [[Stone]] x15, [[Plant Fiber]] x20
+|-
+| [[Damaged Wooden Boards]] || 1 || 3 || [[Wood]] x8, [[Hemp Rope]] x2
+|-
+| [[Carpentry Workbench]] || 1 || 25 || [[Wood]] x30, [[Stone]] x10, [[Hemp Rope]] x5
+|-
+| [[Cutting Workbench]] || 1 || 40 || [[Scrap Iron]] x40
+|-
+| [[Furnace]] || 1 || 20 || [[Scrap Iron]] x50, [[Scrap Brass]] x20
+|-
+| [[Anvil]] || 1 || 30 || [[Wood]] x24, [[Forged Iron]] x20, [[Steel Ingot]] x6
+|-
+| [[Gunsmith Workbench]] || 1 || 35 || [[Planks]] x26, [[Forged Iron]] x20, [[Forged Copper]] x10, [[Rebar]] x10, [[Tape]] x20, [[Spring]] x22, [[Waste plastic]] x30, [[Nails]] x4
+|-
+| [[Concrete Mixer]] || 1 || 45 || [[Forged Iron]] x40, [[Rebar]] x20
+|-
+| [[Biochemical Workbench]] || 1 || 60 || [[Planks]] x16, [[Glass]] x28, [[Rebar]] x8, [[Tape]] x20, [[Nails]] x6, [[Expired Sandwich]] x80
+|-
+| [[WB Electronic]] || 1 || 55 || [[Planks]] x22, [[Rebar]] x14, [[Copper Wire]] x30, [[Tape]] x25, [[Spring]] x25, [[Nails]] x8
+|-
+| [[Mechanical Workbench]] || 1 || 50 || [[Wood]] x35, [[Forged Iron]] x30, [[Forged Copper]] x20, [[Tape]] x30, [[Spring]] x20, [[Waste plastic]] x30, [[Nails]] x6
+|}
+
+== Traps ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Output !! Qty !! Time (s) !! Inputs
+|-
+| [[Log Spike]] || 1 || 12 || [[Wood]] x15
+|-
+| [[Nail Trap]] || 1 || 20 || [[Planks]] x1, [[Nails]] x2
+|-
+| [[Single Log Spike]] || 1 || 12 || [[Wood]] x15
+|}
+
+== Progression notes ==
+
+The HandMade catalog is the only way to place workbenches into the world. Every workbench recipe under ''Workbenches and base building'' is what lets you unlock the crafting tree it hosts. A common early-game path is: craft rope + wooden club + wooden stick by hand, harvest scrap iron from the world, use the HandMade [[Furnace]] recipe to smelt Forged Iron, then use HandMade to place the [[Anvil]] which unlocks the metal weapon tree (including the [[Iron Hammer]]).
+
+Because the game does not encode this as a hard recipe prerequisite (see [[Recipes]] for the shape of a recipe entry), it is a soft progression: nothing stops you from finding pre-built workbenches or scavenged ingredients out in the world, but the intended bootstrap goes through HandMade first.
+
+[[Category:Crafting]]
+[[Category:Reference]]

@@ -1,6 +1,6 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
+
 
 {{Infobox station
 | name     = Electronics Workbench
@@ -8,9 +8,11 @@
 | category = Crafting
 }}
 
-The '''Electronics Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+== Description ==
 
-Fabricates circuits, sensors, and Lua computers for vehicles and traps.
+The '''Electronics Workbench''' assembles circuits, sensors, generators, and vehicle electronics. It defines 6 raw recipe entries (6 unique after consolidating shape variants), producing outputs including [[Electrical Wire]], [[Simple Generator]], [[Simple Motor]], [[Solar Battery]], [[Sound Sensor]], [[Transformer]].
+
+== Technical ==
 
 Internal enum value: <code>WorkbenchType.ElectronicsWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Electronic</code>.
 
@@ -22,23 +24,32 @@ Internal enum value: <code>WorkbenchType.ElectronicsWorkbench</code> (assembly <
 |-
 | [[Electrical Wire]] || 1 || 10 || [[Copper Wire]] x10, [[Rubber]] x2 || 1
 |-
-| [[Solar Battery]] || 1 || 20 || [[Solar Panel]] x1, [[Rechar Battery]] x1, [[Electrical Wire]] x2 || 1
+| [[Solar Battery]] || 1 || 20 || [[Solar Panel]] x1, [[Rechargeable Battery]] x1, [[Electrical Wire]] x2 || 1
 |-
-| [[Simple Motor]] || 1 || 60 || [[Magnet]] x5, [[Bearing]] x3, [[Pulley]] x6, [[Copper Wire]] x10, [[Forged Steel]] x2, [[Rope]] x5, [[Rubber]] x3, [[Duct Tape]] x4, [[Glue]] x2 || 1
+| [[Simple Motor]] || 1 || 60 || [[Magnet]] x5, [[Bearing]] x3, [[Pulley]] x6, [[Copper Wire]] x10, [[Steel Ingot]] x2, [[Hemp Rope]] x5, [[Rubber]] x3, [[Tape]] x4, [[Glue]] x2 || 1
 |-
-| [[Simple Generator]] || 1 || 60 || [[Magnet]] x5, [[Bearing]] x3, [[Pulley]] x6, [[Copper Wire]] x10, [[Forged Steel]] x2, [[Rope]] x5, [[Rubber]] x3, [[Duct Tape]] x4, [[Glue]] x2 || 1
+| [[Simple Generator]] || 1 || 60 || [[Magnet]] x5, [[Bearing]] x3, [[Pulley]] x6, [[Copper Wire]] x10, [[Steel Ingot]] x2, [[Hemp Rope]] x5, [[Rubber]] x3, [[Tape]] x4, [[Glue]] x2 || 1
 |-
-| [[Transformer]] || 1 || 30 || [[Magnet]] x2, [[Copper Wire]] x5, [[Forged Iron]] x2, [[Forged Copper]] x2, [[Scrap Plastic]] x12, [[Duct Tape]] x4, [[Glue]] x2 || 1
+| [[Transformer]] || 1 || 30 || [[Magnet]] x2, [[Copper Wire]] x5, [[Forged Iron]] x2, [[Forged Copper]] x2, [[Waste plastic]] x12, [[Tape]] x4, [[Glue]] x2 || 1
 |-
-| [[Sound Sensor]] || 1 || 30 || [[Clap-on Light]] x1, [[Magnet]] x2, [[Electrical Wire]] x2, [[Duct Tape]] x2, [[Glue]] x1 || 1
+| [[Sound Sensor]] || 1 || 30 || [[Clap-on light]] x1, [[Magnet]] x2, [[Electrical Wire]] x2, [[Tape]] x2, [[Glue]] x1 || 1
 |}
 
 ''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
 
 
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface. See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 55s || [[Planks]] x22, [[Rebar]] x14, [[Copper Wire]] x30, [[Tape]] x25, [[Spring]] x25, [[Nails]] x8 || 1
+|}
 == Placement ==
 
-TBD: build cost and placement footprint.
+TBD: physical footprint and world-space clearance.
 
 == Prerequisites ==
 

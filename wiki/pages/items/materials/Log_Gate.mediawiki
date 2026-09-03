@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Log Gate
+| type       = Building Material
+| block          = 225
+| stack          = 20
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Log Gate''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 15 || [[Log Fence]] x1, [[Wood]] x20, [[Hemp Rope]] x2 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

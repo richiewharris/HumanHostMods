@@ -1,0 +1,27 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+{{Stub}}
+
+{{Infobox weapon
+| name       = .45 ACP Bullet
+| image      = 45ACP_AmmoBox.png
+| type       = Ammo
+| subtype = Cased
+| stack          = 500
+| value          = 6
+| tag            = 0.45
+}}
+
+== Description ==
+
+'''.45 ACP Bullet''' is an ammunition round in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting).
+
+== Technical ==
+
+Addressable asset id: <code>RW_45ACP_AmmoBox</code>.
+
+== See also ==
+
+* [[Ranged Weapons]]
+
+[[Category:Ammo]]

@@ -1,0 +1,43 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Yellow Wax Stone
+| image      = Chrismatite.png
+| type       = Rock
+| source = Mined from terrain
+| stack          = 200
+| value          = 300
+}}
+
+== Description ==
+
+'''Yellow Wax Stone''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 36 downstream recipes at the [[Cutting Workbench]], including [[Lapis Lazuli]], [[Yellow Wax Stone]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 5 || [[Epidote]] x1, [[Yellow Wax Stone]] x1-14 || 18 shapes
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Lapis Lazuli]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+|-
+| [[Yellow Wax Stone]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+== Technical ==
+
+Addressable asset id: <code>BO_Chrismatite</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Rock]]

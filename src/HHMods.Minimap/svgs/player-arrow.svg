@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 36" width="26" height="36">
+<title>Player position arrow</title>
+<desc>The character marker: a kite-shaped arrow with a translucent black fill and a solid white outline. Rotate about 12.5, 20.5 to set facing.</desc>
+<path d="M12.5 1.5L24 34L12.5 27L1 34Z" fill="#000000" fill-opacity="0.55" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+</svg>

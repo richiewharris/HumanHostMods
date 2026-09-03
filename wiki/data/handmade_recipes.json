@@ -1,0 +1,819 @@
+{
+  "WorkbenchTypeId": 0,
+  "Categories": [
+    {
+      "CategoryLabel": "Category_0",
+      "Recipes": [
+        {
+          "OutputGuid": "3bb0a3f5fa02668449321f956fa94c5b",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "88e47f080fb36644c81bb2ff11a8bb9c",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "78fdd35ced604804f910e424a5ed5668",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "55ce13b18db204541aa17cfeb2dc0045",
+              "NeedCount": 15
+            },
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 10
+            }
+          ]
+        },
+        {
+          "OutputGuid": "09130db20b8eb6a4fbf1708fca3b9842",
+          "CraftNum": 1,
+          "CraftSeconds": 5,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 8
+            },
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 6
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "14056f95f2621094e9a71711fb6a9a50",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "6ca1d9084ac645f4ba974d8b75ecf159",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "88e47f080fb36644c81bb2ff11a8bb9c",
+              "NeedCount": 5
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "f5064fe7ab6419f4095aef0443a5f14d",
+          "CraftNum": 1,
+          "CraftSeconds": 5,
+          "Inputs": [
+            {
+              "Guid": "55ce13b18db204541aa17cfeb2dc0045",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "79143a6a4e8c36d4bbf65800b1eeb059",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "d7c0630e010d5964085266e27a2a2a0a",
+          "CraftNum": 100,
+          "CraftSeconds": 15,
+          "Inputs": [
+            {
+              "Guid": "235dfae2d8b6d724ab27fbf391ebec75",
+              "NeedCount": 2
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 5
+            },
+            {
+              "Guid": "ba7ca915ae348f54ca5ecd8d0f8561d2",
+              "NeedCount": 15
+            },
+            {
+              "Guid": "d4ba8c34406374e478452b2a2e2bdc49",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "33e6c335464c4664fba6c7a7dc5433b7",
+              "NeedCount": 25
+            }
+          ]
+        },
+        {
+          "OutputGuid": "0629c36c30f2ec144b40ff8f5ab227b3",
+          "CraftNum": 100,
+          "CraftSeconds": 60,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 50
+            },
+            {
+              "Guid": "55ce13b18db204541aa17cfeb2dc0045",
+              "NeedCount": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryLabel": "Category_1",
+      "Recipes": [
+        {
+          "OutputGuid": "6ab17ff85f8fbee47a4f749eb558761c",
+          "CraftNum": 1,
+          "CraftSeconds": 6,
+          "Inputs": [
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 4
+            }
+          ]
+        },
+        {
+          "OutputGuid": "47652f31a06e49743bdad9a12f14fbb2",
+          "CraftNum": 1,
+          "CraftSeconds": 6,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 2
+            },
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 4
+            },
+            {
+              "Guid": "55ce13b18db204541aa17cfeb2dc0045",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "3e30db18678528d42a8e8eaacd558618",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 10
+            }
+          ]
+        },
+        {
+          "OutputGuid": "0bd9b9d93559e0a4085c497807878eb0",
+          "CraftNum": 1,
+          "CraftSeconds": 10,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 15
+            }
+          ]
+        },
+        {
+          "OutputGuid": "3ee4c46122e7a67498f0141614a7e8b8",
+          "CraftNum": 1,
+          "CraftSeconds": 10,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 15
+            }
+          ]
+        },
+        {
+          "OutputGuid": "fe230d6596042564b965409fd7fea0bf",
+          "CraftNum": 1,
+          "CraftSeconds": 8,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "0133723691cda0a4fabb8a561774b198",
+          "CraftNum": 1,
+          "CraftSeconds": 10,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 18
+            }
+          ]
+        },
+        {
+          "OutputGuid": "4ea3fd75db734e1409dde12cafe00bf1",
+          "CraftNum": 1,
+          "CraftSeconds": 10,
+          "Inputs": [
+            {
+              "Guid": "3e30db18678528d42a8e8eaacd558618",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "6ab17ff85f8fbee47a4f749eb558761c",
+              "NeedCount": 2
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryLabel": "Category_2",
+      "Recipes": [
+        {
+          "OutputGuid": "37dc5751e16e116458c3d2e4cb1bc806",
+          "CraftNum": 1,
+          "CraftSeconds": 11,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 8
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 4
+            },
+            {
+              "Guid": "33e6c335464c4664fba6c7a7dc5433b7",
+              "NeedCount": 3
+            }
+          ]
+        },
+        {
+          "OutputGuid": "9a6375b0ee3646d47a37407704e53395",
+          "CraftNum": 1,
+          "CraftSeconds": 16,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "228b9cff093081e469c966f7f0b491e2",
+              "NeedCount": 5
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "33e6c335464c4664fba6c7a7dc5433b7",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "2de5c66474df6e549bf7c7aeafb1abcb",
+          "CraftNum": 1,
+          "CraftSeconds": 16,
+          "Inputs": [
+            {
+              "Guid": "7cdd1222de58be149815c0d6647bb151",
+              "NeedCount": 5
+            },
+            {
+              "Guid": "07f72c1eb229b1f4d8591bc51ff2dcfb",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 15
+            },
+            {
+              "Guid": "228b9cff093081e469c966f7f0b491e2",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 12
+            },
+            {
+              "Guid": "33e6c335464c4664fba6c7a7dc5433b7",
+              "NeedCount": 10
+            }
+          ]
+        },
+        {
+          "OutputGuid": "68a128a508434d54c9c6eac35d5318a9",
+          "CraftNum": 1,
+          "CraftSeconds": 1,
+          "Inputs": [
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 1
+            }
+          ]
+        },
+        {
+          "OutputGuid": "db71a70a6894de641a2fb6805f855fec",
+          "CraftNum": 1,
+          "CraftSeconds": 1.5,
+          "Inputs": [
+            {
+              "Guid": "7d3f37d1744a74b4883e318b74fd592f",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "1c20e747cadb5c04bae2c67f413ffd9f",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 1
+            }
+          ]
+        },
+        {
+          "OutputGuid": "8e69f4e5f4657c2419b5cd4e63f2ca81",
+          "CraftNum": 1,
+          "CraftSeconds": 2.5,
+          "Inputs": [
+            {
+              "Guid": "7d3f37d1744a74b4883e318b74fd592f",
+              "NeedCount": 2
+            },
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryLabel": "Category_3",
+      "Recipes": [
+        {
+          "OutputGuid": "5096ee8a40f4233458b26a8ba5b13f82",
+          "CraftNum": 1,
+          "CraftSeconds": 30,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 25
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 12
+            }
+          ]
+        },
+        {
+          "OutputGuid": "6a1b8e440e4f7a04ba579e1a2c704f3e",
+          "CraftNum": 1,
+          "CraftSeconds": 25,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "eb5fa5d02d628a74c84d07ecb30396a4",
+          "CraftNum": 1,
+          "CraftSeconds": 30,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 25
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 12
+            }
+          ]
+        },
+        {
+          "OutputGuid": "faee3ff988621df469ccede77dc19727",
+          "CraftNum": 1,
+          "CraftSeconds": 18,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 18
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "f56f50474e69bbb47850893a8dd88b06",
+          "CraftNum": 1,
+          "CraftSeconds": 15,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 14
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 4
+            }
+          ]
+        },
+        {
+          "OutputGuid": "1bbf55365cdb26b49b6a3d5c542762a0",
+          "CraftNum": 1,
+          "CraftSeconds": 20,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 10
+            }
+          ]
+        },
+        {
+          "OutputGuid": "1cde7fb000ed5014a86452845bccdce9",
+          "CraftNum": 1,
+          "CraftSeconds": 18,
+          "Inputs": [
+            {
+              "Guid": "8e7b7458626870a458d875033c846d45",
+              "NeedCount": 18
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryLabel": "Category_4",
+      "Recipes": [
+        {
+          "OutputGuid": "b17f5230fe9d4ba48aca3c259ca03bab",
+          "CraftNum": 1,
+          "CraftSeconds": 12,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 15
+            },
+            {
+              "Guid": "55ce13b18db204541aa17cfeb2dc0045",
+              "NeedCount": 20
+            }
+          ]
+        },
+        {
+          "OutputGuid": "fec2d7301c6a6da4d89670a8a721023f",
+          "CraftNum": 1,
+          "CraftSeconds": 3,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 8
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "579a1f0dc1cb1bb4f9f32ea4f0746aac",
+          "CraftNum": 1,
+          "CraftSeconds": 25,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "a7faccf0e1fa41f4784b5fb5a93d42a0",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "f5064fe7ab6419f4095aef0443a5f14d",
+              "NeedCount": 5
+            }
+          ]
+        },
+        {
+          "OutputGuid": "e49faa9dc637a3349ab78cdfcb2f5230",
+          "CraftNum": 1,
+          "CraftSeconds": 40,
+          "Inputs": [
+            {
+              "Guid": "819d1d5e9f4684745913ea7b3442fa77",
+              "NeedCount": 40
+            }
+          ]
+        },
+        {
+          "OutputGuid": "4f2a16922a5462343868ed4190ec395b",
+          "CraftNum": 1,
+          "CraftSeconds": 20,
+          "Inputs": [
+            {
+              "Guid": "819d1d5e9f4684745913ea7b3442fa77",
+              "NeedCount": 50
+            },
+            {
+              "Guid": "ba7ca915ae348f54ca5ecd8d0f8561d2",
+              "NeedCount": 20
+            }
+          ]
+        },
+        {
+          "OutputGuid": "ba0d44cb22a6a8341bcacee9dc5322b4",
+          "CraftNum": 1,
+          "CraftSeconds": 30,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 24
+            },
+            {
+              "Guid": "7cdd1222de58be149815c0d6647bb151",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "821aebf2ff9feea43b58b17b23d6a125",
+              "NeedCount": 6
+            }
+          ]
+        },
+        {
+          "OutputGuid": "037420d76c922e64ebc3e284f3104d3c",
+          "CraftNum": 1,
+          "CraftSeconds": 35,
+          "Inputs": [
+            {
+              "Guid": "3d82185a12c75084ab02356f92ea25ec",
+              "NeedCount": 26
+            },
+            {
+              "Guid": "7cdd1222de58be149815c0d6647bb151",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "4890e0c10e810404aa20420e49e33c57",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "f8ab58744b40bf54fb38f0c385ba644c",
+              "NeedCount": 10
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "d2f5eb8d492179647a448f98ff62adf8",
+              "NeedCount": 22
+            },
+            {
+              "Guid": "d4ba8c34406374e478452b2a2e2bdc49",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 4
+            }
+          ]
+        },
+        {
+          "OutputGuid": "d2c63f7beb28c1346a08b922d28557ab",
+          "CraftNum": 1,
+          "CraftSeconds": 45,
+          "Inputs": [
+            {
+              "Guid": "7cdd1222de58be149815c0d6647bb151",
+              "NeedCount": 40
+            },
+            {
+              "Guid": "f8ab58744b40bf54fb38f0c385ba644c",
+              "NeedCount": 20
+            }
+          ]
+        },
+        {
+          "OutputGuid": "b094d9f54358cc44fa67fdfb8e477b60",
+          "CraftNum": 1,
+          "CraftSeconds": 60,
+          "Inputs": [
+            {
+              "Guid": "3d82185a12c75084ab02356f92ea25ec",
+              "NeedCount": 16
+            },
+            {
+              "Guid": "baab047dbb2c54a47a1ce8a59f2ceec1",
+              "NeedCount": 28
+            },
+            {
+              "Guid": "f8ab58744b40bf54fb38f0c385ba644c",
+              "NeedCount": 8
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 6
+            },
+            {
+              "Guid": "0c6771d1026b7744b8f28b7d2fb786f1",
+              "NeedCount": 80
+            }
+          ]
+        },
+        {
+          "OutputGuid": "6308f354f1198c14594ceb48b5f8a08a",
+          "CraftNum": 1,
+          "CraftSeconds": 55,
+          "Inputs": [
+            {
+              "Guid": "3d82185a12c75084ab02356f92ea25ec",
+              "NeedCount": 22
+            },
+            {
+              "Guid": "f8ab58744b40bf54fb38f0c385ba644c",
+              "NeedCount": 14
+            },
+            {
+              "Guid": "7a7aa9732db40124390aac40c346f78a",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 25
+            },
+            {
+              "Guid": "d2f5eb8d492179647a448f98ff62adf8",
+              "NeedCount": 25
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 8
+            }
+          ]
+        },
+        {
+          "OutputGuid": "81b2cf3bb775c1a4b9059ea60345a836",
+          "CraftNum": 1,
+          "CraftSeconds": 50,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 35
+            },
+            {
+              "Guid": "7cdd1222de58be149815c0d6647bb151",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "4890e0c10e810404aa20420e49e33c57",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "e0233852a8ff00642ba77bfb8f46203a",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "d2f5eb8d492179647a448f98ff62adf8",
+              "NeedCount": 20
+            },
+            {
+              "Guid": "d4ba8c34406374e478452b2a2e2bdc49",
+              "NeedCount": 30
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryLabel": "Category_5",
+      "Recipes": [
+        {
+          "OutputGuid": "3856c331d2449994f9c0ffe127951015",
+          "CraftNum": 1,
+          "CraftSeconds": 12,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 15
+            }
+          ]
+        },
+        {
+          "OutputGuid": "5c89e5589b1065f439ab18a18770a1ac",
+          "CraftNum": 1,
+          "CraftSeconds": 20,
+          "Inputs": [
+            {
+              "Guid": "3d82185a12c75084ab02356f92ea25ec",
+              "NeedCount": 1
+            },
+            {
+              "Guid": "961f0034fb6dde6478ff2931ec2e6932",
+              "NeedCount": 2
+            }
+          ]
+        },
+        {
+          "OutputGuid": "0b1193972cfaf1040afaecae1afc7789",
+          "CraftNum": 1,
+          "CraftSeconds": 12,
+          "Inputs": [
+            {
+              "Guid": "0ddbabcee7601a149be867215cf5c2f7",
+              "NeedCount": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

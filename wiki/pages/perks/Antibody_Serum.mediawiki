@@ -1,0 +1,44 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Antibody Serum
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Antibody Serum''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+After losing HP from an attack: [ *% ] chance to disable attacker's sprint for [ * ] sec.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || After losing HP from an attack: '''5%''' chance to disable attacker's sprint for '''5''' sec.
+|-
+| 2 || After losing HP from an attack: '''7%''' chance to disable attacker's sprint for '''10''' sec.
+|-
+| 3 || After losing HP from an attack: '''10%''' chance to disable attacker's sprint for '''18''' sec.
+|-
+| 4 || After losing HP from an attack: '''14%''' chance to disable attacker's sprint for '''28''' sec.
+|-
+| 5 || After losing HP from an attack: '''20%''' chance to disable attacker's sprint for '''40''' sec.
+|-
+| 6 || After losing HP from an attack: '''28%''' chance to disable attacker's sprint for '''55''' sec.
+|-
+| 7 || After losing HP from an attack: '''40%''' chance to disable attacker's sprint for '''75''' sec.
+|-
+| 8 || After losing HP from an attack: '''50%''' chance to disable attacker's sprint for '''100''' sec.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

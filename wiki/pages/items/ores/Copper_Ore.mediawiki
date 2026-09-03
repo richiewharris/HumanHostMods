@@ -1,24 +1,26 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Copper Ore
 | image      = Ore_Copper.png
 | type       = Ore
 | source = Mined from terrain
+| stack          = 200
+| value          = 25
 }}
-
-The '''Copper Ore''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Copper Ore''' is a mineable ore in ''[[Human Host]]'', obtained by [[Mining|mining]] terrain deposits. It appears as an ingredient in 1 downstream recipes at the [[Furnace]], including [[Forged Copper]]. See the ''Used in'' table for the full consumer list.
 
-== Source ==
+== Used in ==
 
-TBD.
-
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Forged Copper]] x1 || [[Furnace]] || 2 || 1
+|}
 
 == Technical ==
 

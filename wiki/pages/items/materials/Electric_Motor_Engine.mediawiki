@@ -1,0 +1,31 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Electric Motor Engine
+| type       = Electronic Component
+| block          = 100
+| stack          = 5
+| value          = 300
+| tag            = CarMat
+}}
+
+== Description ==
+
+'''Electric Motor Engine''' is an electronic component in ''[[Human Host]]'', crafted at the [[Mechanical Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Mechanical Workbench]] || 1 || 240 || [[Simple Motor]] x5, [[Forged Iron]] x20, [[Gear]] x10, [[Spring]] x200, [[Electrical Wire]] x12, [[Rubber]] x20, [[Rebar]] x20, [[Concrete]] x22 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Electronic Component]]
+[[Category:Items]]

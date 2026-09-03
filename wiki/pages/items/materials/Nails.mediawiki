@@ -1,81 +1,92 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Nails
 | image      = Nails.png
 | type       = Component
+| stack          = 300
+| value          = 5
+| tag            = Ã¥Â·Â¥Ã¥â€¦Â·
 }}
 
-'''Nails''' is a component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Nails''' is a crafted component in ''[[Human Host]]'', crafted at the [[Anvil]]. It appears as an ingredient in 47 downstream recipes at 4 different workbenches, including [[Ebony Wood]], [[Plank Wall]], [[Wood pillar]], [[Sloped Plank Roof]], [[Wood Grille]], [[Plank Roof]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Anvil]] || 10 || 10 || [[Forged Iron]] x1 || 1
+|}
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Forged Iron Crate]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Driver's Seat]] x1 || [[Mechanical Workbench]] || 20 || 1
 |-
-| [[Mace]] x1 || [[Anvil Workbench]] || 20 || 1
-|-
-| [[Main Seat]] x1 || [[Mechanical Workbench]] || 20 || 1
+| [[Ebony Wood]] x1 || [[Cutting Workbench]] || 1-4 || 18 shapes
 |-
 | [[MechPlatform]] x1 || [[Mechanical Workbench]] || 20 || 1
 |-
 | [[Pillar 1.5m]] x2 || [[Carpentry Workbench]] || 6 || 1
 |-
-| [[Plank Doorway]] x1 || [[Carpentry Workbench]] || 10 || 1
-|-
-| [[Plank Ebony]] x1 || [[Cutting Workbench]] || 1-4 || 18 shapes
+| [[Plank Door Frame]] x1 || [[Carpentry Workbench]] || 10 || 1
 |-
 | [[Plank Fence]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
-| [[Plank Fence Gate]] x1 || [[Carpentry Workbench]] || 12 || 1
-|-
 | [[Plank Floor]] x1 || [[Carpentry Workbench]] || 10 || 1
 |-
-| [[Plank HalfWallSlope]] x2 || [[Carpentry Workbench]] || 10 || 1
-|-
-| [[Plank Pillar 1m]] x3 || [[Carpentry Workbench]] || 6 || 1
-|-
-| [[Plank Pillar 3m]] x1 || [[Carpentry Workbench]] || 4 || 1
+| [[Plank Gate]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
 | [[Plank Platform]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
+| [[Plank Roof]] x1 || [[Carpentry Workbench]] || 12 || 1
+|-
 | [[Plank Stairs]] x1 || [[Carpentry Workbench]] || 25 || 1
+|-
+| [[Plank Wall]] x2 || [[Carpentry Workbench]] || 12 || 1
 |-
 | [[Plank Wall]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
-| [[Plank Wall 1.5m]] x2 || [[Carpentry Workbench]] || 12 || 1
+| [[Plank Window Frame]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
-| [[Plank Window Bars]] x1 || [[Carpentry Workbench]] || 5 || 1
+| [[Scrap Iron Door]] x1 || [[Anvil]] || 15 || 1
 |-
-| [[Plank Window Wall]] x1 || [[Carpentry Workbench]] || 12 || 1
+| [[Simple Spiked Club]] x1 || [[Anvil]] || 6 || 1
 |-
-| [[Saw Blade Axe]] x1 || [[Anvil Workbench]] || 3 || 1
+| [[Sloped Plank]] x2 || [[Carpentry Workbench]] || 10 || 1
 |-
-| [[Scrap Iron Door]] x1 || [[Anvil Workbench]] || 15 || 1
+| [[Sloped Plank Roof]] x1 || [[Carpentry Workbench]] || 12 || 1
 |-
 | [[Small Plank Stairs]] x1 || [[Carpentry Workbench]] || 10 || 1
 |-
 | [[Solar Generator]] x1 || [[Mechanical Workbench]] || 6 || 1
 |-
-| [[Spiked BaseballBat 01]] x1 || [[Anvil Workbench]] || 18 || 1
+| [[Spiked Axe]] x1 || [[Anvil]] || 3 || 1
 |-
-| [[Spiked BaseballBat 02]] x1 || [[Anvil Workbench]] || 24 || 1
+| [[Spiked BaseballBat 01]] x1 || [[Anvil]] || 18 || 1
 |-
-| [[Straight Plank Roof]] x1 || [[Carpentry Workbench]] || 12 || 1
+| [[Spiked BaseballBat 02]] x1 || [[Anvil]] || 24 || 1
 |-
-| [[Tilted Plank Roof]] x1 || [[Carpentry Workbench]] || 12 || 1
+| [[Spiked Club]] x1 || [[Anvil]] || 32 || 1
 |-
-| [[Wooden Spiked Club]] x1 || [[Anvil Workbench]] || 32 || 1
+| [[Spiked Flail]] x1 || [[Anvil]] || 20 || 1
 |-
-| [[Wooden Spiked Club 02]] x1 || [[Anvil Workbench]] || 12 || 1
+| [[Spiked Wooden Staff]] x1 || [[Anvil]] || 12 || 1
 |-
-| [[Wooden Spiked Club 03]] x1 || [[Anvil Workbench]] || 6 || 1
+| [[Wood Grille]] x1 || [[Carpentry Workbench]] || 5 || 1
+|-
+| [[Wood pillar]] x3 || [[Carpentry Workbench]] || 6 || 1
+|-
+| [[Wood pillar]] x1 || [[Carpentry Workbench]] || 4 || 1
+|-
+| [[Wrought Iron Storage Box]] x1 || [[Anvil]] || 10 || 1
 |}
-
 
 == See also ==
 

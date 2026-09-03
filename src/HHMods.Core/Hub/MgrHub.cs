@@ -37,6 +37,8 @@ namespace HHMods.Core
         public static global::SaveDataManager Save => HubOrNull?._SaveDataMgr;
         public static global::Car_Mgr Cars => HubOrNull?._CarMgr;
         public static global::Equipment_Mgr Equipment => HubOrNull?._EquipmentMgr;
+        public static global::CamController Cam => HubOrNull?._CamController;
+        public static global::Global_Infos GlobalInfos => HubOrNull?._GlobalInfos;
 
         /// <summary>The active local player's Char_Skills component, or null.</summary>
         public static global::Char_Skills LocalCharSkills

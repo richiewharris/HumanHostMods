@@ -1,6 +1,6 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
+
 
 {{Infobox station
 | name     = Carpentry Workbench
@@ -8,9 +8,11 @@
 | category = Crafting
 }}
 
-The '''Carpentry Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+== Description ==
 
-Crafts wooden weapons (bows, spears), arrows, and wooden building parts.
+The '''Carpentry Workbench''' produces wooden weapons, bows, arrows, and plank-based building pieces. It defines 44 raw recipe entries (44 unique after consolidating shape variants), producing outputs including [[Bladed Pole]], [[Log Door Frame]], [[Log Fence]], [[Log Floor]], [[Log Gate]], [[Log Ladder]], [[Log Pillar]], [[Log Platform]], plus 34 more.
+
+== Technical ==
 
 Internal enum value: <code>WorkbenchType.CarpentryWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Carpentry</code>.
 
@@ -20,85 +22,85 @@ Internal enum value: <code>WorkbenchType.CarpentryWorkbench</code> (assembly <co
 |+ Recipes (44 unique, from 44 raw entries in `WB_Carpentry.prefab`)
 ! Output !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[Plank]] || 1 || 2 || [[Wood]] x2, [[Glue]] x1 || 1
+| [[Planks]] || 1 || 2 || [[Wood]] x2, [[Glue]] x1 || 1
 |-
-| [[Wooden Crate]] || 1 || 8 || [[Plank]] x10, [[Rope]] x2 || 1
+| [[Wooden Storage Box]] || 1 || 8 || [[Planks]] x10, [[Hemp Rope]] x2 || 1
 |-
-| [[Plank Door]] || 1 || 10 || [[Plank]] x15, [[Rope]] x8 || 1
+| [[Plank Door]] || 1 || 10 || [[Planks]] x15, [[Hemp Rope]] x8 || 1
 |-
-| [[Ladder Log]] || 1 || 20 || [[Wood]] x15, [[Rope]] x3 || 1
+| [[Log Ladder]] || 1 || 20 || [[Wood]] x15, [[Hemp Rope]] x3 || 1
 |-
-| [[Log Fence 01]] || 1 || 10 || [[Wood]] x10 || 1
+| [[Simple Fence]] || 1 || 10 || [[Wood]] x10 || 1
 |-
-| [[Log Fence 02]] || 1 || 10 || [[Log Fence 01]] x1, [[Wood]] x20, [[Rope]] x2 || 1
+| [[Log Fence]] || 1 || 10 || [[Simple Fence]] x1, [[Wood]] x20, [[Hemp Rope]] x2 || 1
 |-
-| [[Log Fence Gate]] || 1 || 15 || [[Log Fence 02]] x1, [[Wood]] x20, [[Rope]] x2 || 1
+| [[Log Gate]] || 1 || 15 || [[Log Fence]] x1, [[Wood]] x20, [[Hemp Rope]] x2 || 1
 |-
-| [[Log Pillar]] || 1 || 4 || [[Wood]] x5, [[Rope]] x1 || 1
+| [[Log Pillar]] || 1 || 4 || [[Wood]] x5, [[Hemp Rope]] x1 || 1
 |-
-| [[Log Floor]] || 1 || 8 || [[Wood]] x20, [[Rope]] x2 || 1
+| [[Log Floor]] || 1 || 8 || [[Wood]] x20, [[Hemp Rope]] x2 || 1
 |-
-| [[Log Platform]] || 1 || 12 || [[Wood]] x25, [[Rope]] x4 || 1
+| [[Log Platform]] || 1 || 12 || [[Wood]] x25, [[Hemp Rope]] x4 || 1
 |-
-| [[Log Wall]] || 1 || 10 || [[Wood]] x30, [[Rope]] x2 || 1
+| [[Log Wall]] || 1 || 10 || [[Wood]] x30, [[Hemp Rope]] x2 || 1
 |-
-| [[Log Window Wall]] || 1 || 10 || [[Wood]] x25, [[Rope]] x3 || 1
+| [[Log Window Frame]] || 1 || 10 || [[Wood]] x25, [[Hemp Rope]] x3 || 1
 |-
-| [[Log Doorway]] || 1 || 10 || [[Wood]] x20, [[Rope]] x2 || 1
+| [[Log Door Frame]] || 1 || 10 || [[Wood]] x20, [[Hemp Rope]] x2 || 1
 |-
-| [[Small Log Stairs]] || 1 || 15 || [[Wood]] x20, [[Rope]] x3 || 1
+| [[Small Log Stairs]] || 1 || 15 || [[Wood]] x20, [[Hemp Rope]] x3 || 1
 |-
 | [[Log Stair]] || 1 || 25 || [[Wood]] x50, [[Plant Fiber]] x6 || 1
 |-
-| [[Plank Fence]] || 1 || 12 || [[Log Fence 02]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Plank Fence]] || 1 || 12 || [[Log Fence]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Plank Fence Gate]] || 1 || 20 || [[Plank Fence]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Plank Gate]] || 1 || 20 || [[Plank Fence]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Plank Pillar 1m]] || 3 || 9 || [[Log Pillar]] x1, [[Plank]] x9, [[Nails]] x6 || 1
+| [[Wood pillar]] || 3 || 9 || [[Log Pillar]] x1, [[Planks]] x9, [[Nails]] x6 || 1
 |-
-| [[Pillar 1.5m]] || 2 || 8 || [[Log Pillar]] x1, [[Plank]] x10, [[Nails]] x6 || 1
+| [[Pillar 1.5m]] || 2 || 8 || [[Log Pillar]] x1, [[Planks]] x10, [[Nails]] x6 || 1
 |-
-| [[Plank Pillar 3m]] || 1 || 8 || [[Log Pillar]] x1, [[Plank]] x8, [[Nails]] x4 || 1
+| [[Wood pillar]] || 1 || 8 || [[Log Pillar]] x1, [[Planks]] x8, [[Nails]] x4 || 1
 |-
-| [[Plank Floor]] || 1 || 8 || [[Log Floor]] x1, [[Plank]] x20, [[Nails]] x10 || 1
+| [[Plank Floor]] || 1 || 8 || [[Log Floor]] x1, [[Planks]] x20, [[Nails]] x10 || 1
 |-
-| [[Plank Platform]] || 1 || 12 || [[Log Platform]] x1, [[Plank]] x25, [[Nails]] x12 || 1
+| [[Plank Platform]] || 1 || 12 || [[Log Platform]] x1, [[Planks]] x25, [[Nails]] x12 || 1
 |-
-| [[Plank Wall 1.5m]] || 2 || 12 || [[Log Wall]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Plank Wall]] || 2 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Plank Wall]] || 1 || 12 || [[Log Wall]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Plank Wall]] || 1 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Plank HalfWallSlope]] || 2 || 8 || [[Log Wall]] x1, [[Plank]] x25, [[Nails]] x10 || 1
+| [[Sloped Plank]] || 2 || 8 || [[Log Wall]] x1, [[Planks]] x25, [[Nails]] x10 || 1
 |-
-| [[Straight Plank Roof]] || 1 || 12 || [[Log Wall]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Plank Roof]] || 1 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Tilted Plank Roof]] || 1 || 12 || [[Log Wall]] x1, [[Plank]] x30, [[Nails]] x12 || 1
+| [[Sloped Plank Roof]] || 1 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
 |-
-| [[Plank Window Bars]] || 1 || 8 || [[Plank]] x10, [[Nails]] x5 || 1
+| [[Wood Grille]] || 1 || 8 || [[Planks]] x10, [[Nails]] x5 || 1
 |-
-| [[Small Plank Stairs]] || 1 || 18 || [[Small Log Stairs]] x1, [[Plank]] x20, [[Nails]] x10 || 1
+| [[Small Plank Stairs]] || 1 || 18 || [[Small Log Stairs]] x1, [[Planks]] x20, [[Nails]] x10 || 1
 |-
-| [[Plank Stairs]] || 1 || 30 || [[Log Stair]] x1, [[Plank]] x50, [[Nails]] x25 || 1
+| [[Plank Stairs]] || 1 || 30 || [[Log Stair]] x1, [[Planks]] x50, [[Nails]] x25 || 1
 |-
-| [[Plank Window Wall]] || 1 || 12 || [[Log Window Wall]] x1, [[Plank]] x25, [[Nails]] x12 || 1
+| [[Plank Window Frame]] || 1 || 12 || [[Log Window Frame]] x1, [[Planks]] x25, [[Nails]] x12 || 1
 |-
-| [[Plank Doorway]] || 1 || 12 || [[Log Doorway]] x1, [[Plank]] x20, [[Nails]] x10 || 1
+| [[Plank Door Frame]] || 1 || 12 || [[Log Door Frame]] x1, [[Planks]] x20, [[Nails]] x10 || 1
 |-
-| [[Wood Shield]] || 1 || 30 || [[Plank]] x35, [[Rope]] x12 || 1
+| [[Wooden Shield]] || 1 || 30 || [[Planks]] x35, [[Hemp Rope]] x12 || 1
 |-
-| [[Wood Head]] || 1 || 25 || [[Plank]] x20, [[Rope]] x8 || 1
+| [[Wooden Helmet]] || 1 || 25 || [[Planks]] x20, [[Hemp Rope]] x8 || 1
 |-
-| [[Wood Chest]] || 1 || 30 || [[Plank]] x35, [[Rope]] x12 || 1
+| [[Wooden Breastplate]] || 1 || 30 || [[Planks]] x35, [[Hemp Rope]] x12 || 1
 |-
-| [[Wood Arm]] || 1 || 18 || [[Plank]] x18, [[Rope]] x8 || 1
+| [[Wooden Vambraces]] || 1 || 18 || [[Planks]] x18, [[Hemp Rope]] x8 || 1
 |-
-| [[Wood Hand]] || 1 || 15 || [[Plank]] x16, [[Rope]] x4 || 1
+| [[Wooden Bracers]] || 1 || 15 || [[Planks]] x16, [[Hemp Rope]] x4 || 1
 |-
-| [[Wood Leg]] || 1 || 20 || [[Plank]] x20, [[Rope]] x10 || 1
+| [[Wooden Leg Armor]] || 1 || 20 || [[Planks]] x20, [[Hemp Rope]] x10 || 1
 |-
-| [[Wood Foot]] || 1 || 18 || [[Plank]] x18, [[Rope]] x8 || 1
+| [[Wooden Greaves]] || 1 || 18 || [[Planks]] x18, [[Hemp Rope]] x8 || 1
 |-
-| [[SpearSpike Trap]] || 1 || 16 || [[Wooden Stick]] x2, [[Iron Arrowhead]] x1 || 1
+| [[Spear Spike]] || 1 || 16 || [[Wooden Stick]] x2, [[Iron Arrowhead]] x1 || 1
 |-
 | [[Bladed Pole]] || 1 || 20 || [[Log Pillar]] x1, [[Iron Arrowhead]] x2 || 1
 |-
@@ -106,15 +108,24 @@ Internal enum value: <code>WorkbenchType.CarpentryWorkbench</code> (assembly <co
 |-
 | [[Spiked Great Trunk]] || 1 || 40 || [[Log Pillar]] x5, [[Iron Arrowhead]] x8 || 1
 |-
-| [[SpearSpike Single]] || 1 || 16 || [[Wooden Stick]] x2, [[Iron Arrowhead]] x1 || 1
+| [[Single Spear Spike]] || 1 || 16 || [[Wooden Stick]] x2, [[Iron Arrowhead]] x1 || 1
 |}
 
 ''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
 
 
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface. See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 25s || [[Wood]] x30, [[Stone]] x10, [[Hemp Rope]] x5 || 1
+|}
 == Placement ==
 
-TBD: build cost and placement footprint.
+TBD: physical footprint and world-space clearance.
 
 == Prerequisites ==
 

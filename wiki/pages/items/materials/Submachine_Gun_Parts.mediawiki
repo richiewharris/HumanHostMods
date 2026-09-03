@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Submachine Gun Parts
+| type       = Material
+| durability     = 10
+| wear           = 5 per use
+| value          = 300
+}}
+
+== Description ==
+
+'''Submachine Gun Parts''' is an item in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 2 downstream recipes at the [[Gunsmith Workbench]], including [[MP5]], [[M3]]. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[M3]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[MP5]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

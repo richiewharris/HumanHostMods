@@ -1,58 +1,60 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Clay
 | image      = Clay.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 10
 }}
-
-The '''Clay''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Clay''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Campfire]]. It appears as an ingredient in 14 downstream recipes at 3 different workbenches, including [[Steel Buckshot]], [[Copper Buckshot]], [[Tungsten Bullet Tip]], [[Titanium Buckshot]], [[Bullet Shell]], [[Tungsten Buckshot]], among others. See the ''Used in'' table for the full consumer list.
 
-== Source ==
+== Crafted at ==
 
-TBD.
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Campfire]] || 50 || 50 || [[Wood]] x10, [[Stone]] x100, [[Bottled Water]] x1 || 1
+|}
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Beads Chrome]] x10 || [[Furnace]] || 1 || 1
-|-
-| [[Beads Copper]] x10 || [[Furnace]] || 1 || 1
-|-
-| [[Beads Steel]] x10 || [[Furnace]] || 1 || 1
-|-
-| [[Beads Titanium]] x10 || [[Furnace]] || 1 || 1
-|-
-| [[Beads Tungsten]] x10 || [[Furnace]] || 1 || 1
-|-
-| [[Brick]] x1 || [[Furnace]] || 2 || 1
+| [[Bricks]] x1 || [[Furnace]] || 2 || 1
 |-
 | [[Bullet Shell]] x5 || [[Furnace]] || 1 || 1
 |-
-| [[Bullet Tip Chrome]] x5 || [[Furnace]] || 1 || 1
+| [[Cement]] x1 || [[Concrete Mixer]] || 2 || 1
 |-
-| [[Bullet Tip Copper]] x5 || [[Furnace]] || 1 || 1
+| [[Chrome Buckshot]] x10 || [[Furnace]] || 1 || 1
 |-
-| [[Bullet Tip Steel]] x5 || [[Furnace]] || 1 || 1
+| [[Chrome Bullet Tip]] x5 || [[Furnace]] || 1 || 1
 |-
-| [[Bullet Tip Titanium]] x5 || [[Furnace]] || 1 || 1
+| [[Copper Buckshot]] x10 || [[Furnace]] || 1 || 1
 |-
-| [[Bullet Tip Tungsten]] x5 || [[Furnace]] || 1 || 1
+| [[Copper Bullet Tip]] x5 || [[Furnace]] || 1 || 1
 |-
-| [[Cement]] x1 || [[Cement Mixer]] || 2 || 1
+| [[Iron Arrowhead]] x5 || [[Anvil]] || 1 || 1
 |-
-| [[Iron Arrowhead]] x5 || [[Anvil Workbench]] || 1 || 1
+| [[Steel Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Steel Bullet Tip]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Titanium Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Titanium Bullet Tip]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Tungsten Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Tungsten Bullet Tip]] x5 || [[Furnace]] || 1 || 1
 |}
-
 
 == Technical ==
 
@@ -62,4 +64,4 @@ Addressable asset id: <code>BO_Clay</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

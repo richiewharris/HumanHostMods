@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Jacked Grunt
+| tree     = Fight
+| maxLevel = 5
+| buff     = No
+}}
+
+'''Jacked Grunt''' is a Fight-tree passive that scales with level; the table above shows the exact effect at each of its 5 ranks.
+
+== Effect ==
+
+Reduces firearm recoil by [ *% ].
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Reduces firearm recoil by '''10%'''.
+|-
+| 2 || Reduces firearm recoil by '''20%'''.
+|-
+| 3 || Reduces firearm recoil by '''35%'''.
+|-
+| 4 || Reduces firearm recoil by '''55%'''.
+|-
+| 5 || Reduces firearm recoil by '''80%'''.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Fight tree]]

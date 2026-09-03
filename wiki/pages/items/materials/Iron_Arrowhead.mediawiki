@@ -1,14 +1,25 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Iron Arrowhead
 | image      = Iron_Arrowhead.png
 | type       = Component
+| stack          = 200
+| value          = 5
 }}
 
-'''Iron Arrowhead''' is a component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Iron Arrowhead''' is a crafted component in ''[[Human Host]]'', crafted at the [[Anvil]]. It appears as an ingredient in 5 downstream recipes at the [[Carpentry Workbench]], including [[Spiked Great Trunk]], [[Single Spear Spike]], [[Spiked Trunk]], [[Spear Spike]], [[Bladed Pole]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Anvil]] || 5 || 5 || [[Forged Iron]] x2, [[Clay]] x1 || 1
+|}
 
 == Used in ==
 
@@ -17,15 +28,14 @@
 |-
 | [[Bladed Pole]] x1 || [[Carpentry Workbench]] || 2 || 1
 |-
-| [[SpearSpike Single]] x1 || [[Carpentry Workbench]] || 1 || 1
+| [[Single Spear Spike]] x1 || [[Carpentry Workbench]] || 1 || 1
 |-
-| [[SpearSpike Trap]] x1 || [[Carpentry Workbench]] || 1 || 1
+| [[Spear Spike]] x1 || [[Carpentry Workbench]] || 1 || 1
 |-
 | [[Spiked Great Trunk]] x1 || [[Carpentry Workbench]] || 8 || 1
 |-
 | [[Spiked Trunk]] x1 || [[Carpentry Workbench]] || 4 || 1
 |}
-
 
 == See also ==
 

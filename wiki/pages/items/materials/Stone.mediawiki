@@ -1,14 +1,17 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Stone
 | image      = Stone.png
 | type       = Material
+| stack          = 500
+| value          = 1
 }}
 
-'''Stone''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Stone''' is an item in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 3 downstream recipes at 3 different workbenches, including [[Cobblestone]], [[Sand]], [[Clay]]. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
@@ -19,9 +22,8 @@
 |-
 | [[Cobblestone]] x1 || [[Furnace]] || 3 || 1
 |-
-| [[Sand]] x50 || [[Cement Mixer]] || 25 || 1
+| [[Sand]] x50 || [[Concrete Mixer]] || 25 || 1
 |}
-
 
 == See also ==
 

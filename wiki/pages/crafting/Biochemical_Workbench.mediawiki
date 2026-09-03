@@ -1,6 +1,6 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
+
 
 {{Infobox station
 | name     = Biochemical Workbench
@@ -8,9 +8,11 @@
 | category = Crafting
 }}
 
-The '''Biochemical Workbench''' is one of the eleven workbench types in ''[[Human Host]]''.
+== Description ==
 
-Refines reagents into medicine, explosives, and gunpowder.
+The '''Biochemical Workbench''' processes chemistry: gunpowder, explosives, medicines, and reagents. It defines 7 raw recipe entries (7 unique after consolidating shape variants), producing outputs including [[Antibiotics]], [[Gunpowder]], [[Medical Bandage]], [[Medical Case]], [[Medkit]], [[Nitrate Powder]], [[Painkiller]].
+
+== Technical ==
 
 Internal enum value: <code>WorkbenchType.BiochemicalWorkbench</code> (assembly <code>UI</code>). Prefab: <code>WB_Biochemical</code>.
 
@@ -22,7 +24,7 @@ Internal enum value: <code>WorkbenchType.BiochemicalWorkbench</code> (assembly <
 |-
 | [[Nitrate Powder]] || 1 || 8 || [[Nitrate Ore]] x5 || 1
 |-
-| [[Gun Powder]] || 5 || 12 || [[Nitrate Powder]] x1, [[Sulfur]] x1, [[Charcoal]] x2 || 1
+| [[Gunpowder]] || 5 || 12 || [[Nitrate Powder]] x1, [[Sulfur]] x1, [[Charcoal]] x2 || 1
 |-
 | [[Medical Bandage]] || 1 || 15 || [[Medical Gauze]] x15, [[Medical Tape]] x5, [[Alcohol]] x1 || 1
 |-
@@ -32,15 +34,24 @@ Internal enum value: <code>WorkbenchType.BiochemicalWorkbench</code> (assembly <
 |-
 | [[Medkit]] || 1 || 15 || [[Medical Gauze]] x20, [[Medical Tape]] x5, [[Iodophor]] x1, [[Alcohol]] x1 || 1
 |-
-| [[Pain Killer]] || 1 || 15 || [[Anesthetic]] x1, [[Alcohol]] x1, [[Starch]] x20, [[Nitrate Powder]] x4, [[Bottled Water]] x1 || 1
+| [[Painkiller]] || 1 || 15 || [[Anesthetic]] x1, [[Alcohol]] x1, [[Starch]] x20, [[Nitrate Powder]] x4, [[Bottled Water]] x1 || 1
 |}
 
 ''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
 
 
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface. See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 60s || [[Planks]] x16, [[Glass]] x28, [[Rebar]] x8, [[Tape]] x20, [[Nails]] x6, [[Expired Sandwich]] x80 || 1
+|}
 == Placement ==
 
-TBD: build cost and placement footprint.
+TBD: physical footprint and world-space clearance.
 
 == Prerequisites ==
 

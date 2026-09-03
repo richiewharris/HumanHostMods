@@ -1,24 +1,26 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Tungsten Ore
 | image      = Ore_Tungsten.png
 | type       = Ore
 | source = Mined from terrain
+| stack          = 200
+| value          = 150
 }}
-
-The '''Tungsten Ore''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Tungsten Ore''' is a mineable ore in ''[[Human Host]]'', obtained by [[Mining|mining]] terrain deposits. It appears as an ingredient in 1 downstream recipes at the [[Furnace]], including [[Tungsten Ingot]]. See the ''Used in'' table for the full consumer list.
 
-== Source ==
+== Used in ==
 
-TBD.
-
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Tungsten Ingot]] x1 || [[Furnace]] || 2 || 1
+|}
 
 == Technical ==
 

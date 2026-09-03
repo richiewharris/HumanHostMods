@@ -1,6 +1,5 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox biome
 | name       = Mossy Forest
@@ -24,6 +23,22 @@ Terrain bundle: <code>terrain_mossy_forest</code>. See [[Biomes]] for the full b
 == Loot crates ==
 
 [[Mossy Loot Crate]]
+
+== Loot at a glance ==
+
+Crates in this biome roll from the loot rate sets below. Only the top few categories per set are shown here; the full breakdown and every crate variant lives on [[Mossy Loot Crate]].
+
+{| class="wikitable" style="font-size:0.9em;"
+! Rate set !! Top categories
+|-
+| Food_Loot || Food (10%), Water (10%), Spoiled food (2%)
+|-
+| Forest_House || Salvage materials (10%), Tools (5%), Feathers (4%)
+|-
+| Forest_House+Ammo || Salvage materials (10%), Tools (5%), Feathers (4%)
+|-
+| Military_Loot || Ammunition (10%), Gun parts (3%), Firearm kits (1%)
+|}
 
 == Vehicles ==
 

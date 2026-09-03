@@ -1,0 +1,33 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Redwood
+| type       = Raw Material
+| stack          = 500
+| value          = 5
+}}
+
+== Description ==
+
+'''Redwood''' is a raw material in ''[[Human Host]]'', harvested from the world (trees, rocks, salvage). It appears as an ingredient in 20 downstream recipes at the [[Cutting Workbench]] and the [[Gunsmith Workbench]], including [[Red Oak]], [[M1A]], [[R870 01]], among others. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[M1A]] x1 || [[Gunsmith Workbench]] || 6 || 1
+|-
+| [[R870 01]] x1 || [[Gunsmith Workbench]] || 6 || 1
+|-
+| [[Red Oak]] x1 || [[Cutting Workbench]] || 1-4 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

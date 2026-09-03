@@ -1,77 +1,62 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Wood
 | image      = Wood.png
 | type       = Raw Material
+| stack          = 500
+| value          = 2
 }}
 
-'''Wood''' is a raw material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Wood''' is a raw material in ''[[Human Host]]'', harvested from the world (trees, rocks, salvage). It appears as an ingredient in 64 downstream recipes at 6 different workbenches, including [[Damaged Wooden Boards]], [[Forged Iron]], [[Forged Copper]], [[Log Fence]], [[Log Door Frame]], [[Small Log Stairs]], among others. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[AKM]] x1 || [[Gun Workbench]] || 6 || 1
+| [[AKM]] x1 || [[Gunsmith Workbench]] || 6 || 1
 |-
-| [[Brick]] x1 || [[Furnace]] || 2 || 1
+| [[Blade Baseball Bat]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[BurningFire]] x1 || [[Campfire]] || 10 || 1
-|-
-| [[BurningFire]] x1 || [[Furnace]] || 10 || 1
+| [[Bricks]] x1 || [[Furnace]] || 2 || 1
 |-
 | [[Charcoal]] x1 || [[Campfire]] || 2 || 1
+|-
+| [[Chrome Ingot]] x1 || [[Furnace]] || 4 || 1
 |-
 | [[Clay]] x50 || [[Campfire]] || 10 || 1
 |-
 | [[Cobblestone]] x1 || [[Furnace]] || 1 || 1
 |-
-| [[Damaged Planks]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+| [[Crude Axe]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[FireAxe 01]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Curved Handle Iron Axe]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[FireAxe 02]] x1 || [[Anvil Workbench]] || 10 || 1
-|-
-| [[Forged Chrome]] x1 || [[Furnace]] || 4 || 1
+| [[Damaged Wooden Boards]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |-
 | [[Forged Copper]] x1 || [[Furnace]] || 4 || 2 shapes
 |-
 | [[Forged Iron]] x1 || [[Furnace]] || 4 || 2 shapes
 |-
-| [[Forged Steel]] x1 || [[Furnace]] || 4 || 1
-|-
-| [[Forged Titanium]] x1 || [[Furnace]] || 4 || 1
-|-
-| [[Forged Tungsten]] x1 || [[Furnace]] || 4 || 1
-|-
 | [[Glass]] x1 || [[Furnace]] || 2 || 1
 |-
-| [[Iron Axe]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Iron Fire Axe]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Iron Hammer]] x1 || [[Anvil Workbench]] || 15 || 1
+| [[Iron Hammer]] x1 || [[Anvil]] || 15 || 1
 |-
-| [[Iron Pickaxe]] x1 || [[Anvil Workbench]] || 12 || 1
+| [[Log Door Frame]] x1 || [[Carpentry Workbench]] || 20 || 1
 |-
-| [[Iron Spear]] x1 || [[Anvil Workbench]] || 15 || 1
-|-
-| [[Iron Spear 02]] x1 || [[Anvil Workbench]] || 15 || 1
-|-
-| [[Iron Spear 03]] x1 || [[Anvil Workbench]] || 15 || 1
-|-
-| [[Ladder Log]] x1 || [[Carpentry Workbench]] || 15 || 1
-|-
-| [[Log Doorway]] x1 || [[Carpentry Workbench]] || 20 || 1
-|-
-| [[Log Fence 01]] x1 || [[Carpentry Workbench]] || 10 || 1
-|-
-| [[Log Fence 02]] x1 || [[Carpentry Workbench]] || 20 || 1
-|-
-| [[Log Fence Gate]] x1 || [[Carpentry Workbench]] || 20 || 1
+| [[Log Fence]] x1 || [[Carpentry Workbench]] || 20 || 1
 |-
 | [[Log Floor]] x1 || [[Carpentry Workbench]] || 20 || 1
+|-
+| [[Log Gate]] x1 || [[Carpentry Workbench]] || 20 || 1
+|-
+| [[Log Ladder]] x1 || [[Carpentry Workbench]] || 15 || 1
 |-
 | [[Log Pillar]] x1 || [[Carpentry Workbench]] || 5 || 1
 |-
@@ -81,35 +66,48 @@
 |-
 | [[Log Wall]] x1 || [[Carpentry Workbench]] || 30 || 1
 |-
-| [[Log Window Wall]] x1 || [[Carpentry Workbench]] || 25 || 1
+| [[Log Window Frame]] x1 || [[Carpentry Workbench]] || 25 || 1
 |-
-| [[M1891 01]] x1 || [[Gun Workbench]] || 6 || 1
+| [[M1891 01]] x1 || [[Gunsmith Workbench]] || 6 || 1
 |-
-| [[Mace]] x1 || [[Anvil Workbench]] || 12 || 1
+| [[Pickaxe]] x1 || [[Anvil]] || 12 || 1
 |-
-| [[Metal Hatchet]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Planks]] x1 || [[Carpentry Workbench]] || 2 || 1
 |-
-| [[Plank]] x1 || [[Carpentry Workbench]] || 2 || 1
+| [[Rebar]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[Rebar]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Rusty Long Stick Blade]] x1 || [[Anvil]] || 15 || 1
 |-
-| [[Saw Blade Axe]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Rusty Long Stick Machete]] x1 || [[Anvil]] || 15 || 1
+|-
+| [[Rusty Spear]] x1 || [[Anvil]] || 15 || 1
+|-
+| [[Simple Fence]] x1 || [[Carpentry Workbench]] || 10 || 1
+|-
+| [[Simple Spiked Club]] x1 || [[Anvil]] || 10 || 1
 |-
 | [[Small Log Stairs]] x1 || [[Carpentry Workbench]] || 20 || 1
 |-
-| [[Spiked BaseballBat 01]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked Axe]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Spiked BaseballBat 02]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked BaseballBat 01]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Wooden Club Blade]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked BaseballBat 02]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Wooden Spiked Club]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked Club]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Wooden Spiked Club 02]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked Flail]] x1 || [[Anvil]] || 12 || 1
 |-
-| [[Wooden Spiked Club 03]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Spiked Wooden Staff]] x1 || [[Anvil]] || 10 || 1
+|-
+| [[Steel Fire Axe]] x1 || [[Anvil]] || 10 || 1
+|-
+| [[Steel Ingot]] x1 || [[Furnace]] || 4 || 1
+|-
+| [[Titanium Ingot]] x1 || [[Furnace]] || 4 || 1
+|-
+| [[Tungsten Ingot]] x1 || [[Furnace]] || 4 || 1
 |}
-
 
 == See also ==
 

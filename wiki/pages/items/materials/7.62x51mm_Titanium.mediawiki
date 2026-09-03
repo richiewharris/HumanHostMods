@@ -1,14 +1,22 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = 7.62x51mm Titanium
 | type       = Refined Metal
 }}
 
-'''7.62x51mm Titanium''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''7.62x51mm Titanium''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Gunsmith Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Gunsmith Workbench]] || 1 || 2.8 || [[Titanium Bullet Tip]] x1, [[Bullet Shell]] x1, [[Gunpowder]] x3 || 1
+|}
 
 == See also ==
 

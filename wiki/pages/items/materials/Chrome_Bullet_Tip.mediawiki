@@ -1,0 +1,47 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Chrome Bullet Tip
+| type       = Refined Metal
+| stack          = 500
+| value          = 2
+}}
+
+== Description ==
+
+'''Chrome Bullet Tip''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 6 downstream recipes at the [[Gunsmith Workbench]], including [[7.62x39mm Chrome]], [[7.62x51mm Chrome]], [[7.62x54mm Chrome]], [[9x19mm Chrome]], [[D45 Chrome]], [[5.56x45mm Chrome]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 5 || 3.2 || [[Chrome Ingot]] x1, [[Clay]] x1 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[5.56x45mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x39mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x51mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x54mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

@@ -1,0 +1,47 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Steel Bullet Tip
+| type       = Ammunition Component
+| stack          = 500
+| value          = 2
+}}
+
+== Description ==
+
+'''Steel Bullet Tip''' is an ammunition component in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 6 downstream recipes at the [[Gunsmith Workbench]], including [[7.62x39mm Steel]], [[7.62x51mm Steel]], [[7.62x54mm Steel]], [[9x19mm Steel]], [[D45 Steel]], [[5.56x45mm Steel]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 5 || 2.4 || [[Steel Ingot]] x1, [[Clay]] x1 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[5.56x45mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x39mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x51mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[7.62x54mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Ammunition Component]]
+[[Category:Items]]

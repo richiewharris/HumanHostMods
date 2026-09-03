@@ -1,20 +1,24 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Titanium Alloy
 | type       = Refined Metal
+| block          = 575
+| stack          = 100
+| tag            = BuildMat
 }}
 
-'''Titanium Alloy''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Titanium Alloy''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[High-speed steel]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Workbench !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[Cutting Workbench]] || 1 || 8 || [[Copper Alloy]] x1, [[Forged Titanium]] x1-14, [[Graphite Ore]] x1-14 || 18 shapes
+| [[Cutting Workbench]] || 1 || 8 || [[Copper Alloy]] x1, [[Titanium Ingot]] x1-14, [[Graphite Ore]] x1-14 || 18 shapes
 |}
 
 == Used in ==
@@ -22,9 +26,8 @@
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[High-Speed Steel]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+| [[High-speed steel]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
 |}
-
 
 == See also ==
 

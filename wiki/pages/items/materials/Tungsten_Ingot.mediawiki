@@ -1,0 +1,45 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Tungsten Ingot
+| type       = Refined Metal
+| stack          = 100
+| value          = 300
+}}
+
+== Description ==
+
+'''Tungsten Ingot''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 22 downstream recipes at 4 different workbenches, including [[Tungsten steel alloy]], [[Tungsten Buckshot]], [[Laser Trap]], [[Tungsten Steel Knife]], [[Tungsten Bullet Tip]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 1 || 4 || [[Wood]] x4, [[Tungsten Ore]] x2, [[Charcoal]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Laser Trap]] x1 || [[Mechanical Workbench]] || 2 || 1
+|-
+| [[Tungsten Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Tungsten Bullet Tip]] x5 || [[Furnace]] || 1 || 1
+|-
+| [[Tungsten steel alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Tungsten Steel Knife]] x1 || [[Anvil]] || 3 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 32" width="88" height="32" color="#8d7c58">
+<title>Bezel scrollwork tile</title>
+<desc>One repeat unit of the minimap bezel ornament: a mirrored pair of volutes. Tiles horizontally at 88 units. Stroke uses currentColor.</desc>
+<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+<path id="volute-left" d="M0 21C10 7 26 7 32 15C35 20 31 24 28 21C26 19 28 16 31 17"/>
+<path id="volute-right" d="M88 21C78 7 62 7 56 15C53 20 57 24 60 21C62 19 60 16 57 17"/>
+</g>
+</svg>

@@ -1,0 +1,44 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Armor Patch
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Armor Patch''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+After an armor part is hit, [ *% ] of the damage is distributed evenly across all armor parts.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || After an armor part is hit, '''5%''' of the damage is distributed evenly across all armor parts.
+|-
+| 2 || After an armor part is hit, '''10%''' of the damage is distributed evenly across all armor parts.
+|-
+| 3 || After an armor part is hit, '''18%''' of the damage is distributed evenly across all armor parts.
+|-
+| 4 || After an armor part is hit, '''28%''' of the damage is distributed evenly across all armor parts.
+|-
+| 5 || After an armor part is hit, '''40%''' of the damage is distributed evenly across all armor parts.
+|-
+| 6 || After an armor part is hit, '''55%''' of the damage is distributed evenly across all armor parts.
+|-
+| 7 || After an armor part is hit, '''75%''' of the damage is distributed evenly across all armor parts.
+|-
+| 8 || After an armor part is hit, '''100%''' of the damage is distributed evenly across all armor parts.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

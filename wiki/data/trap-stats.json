@@ -1,0 +1,161 @@
+[
+    {
+        "internal_id":  "Bladed_Pole",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  100,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "IronPipe_Trap",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  100,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "IronSpike_Single",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  120,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "IronSpike_Trap",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  120,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "Laser_Trap",
+        "_isDynamicTrap":  1,
+        "_AllowHitAlly":  0,
+        "_TriggerInterval":  0,
+        "_TrapDamage":  300,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  0,
+        "_LaserContinueSeconds":  2,
+        "_PerZombieHitInterval":  1
+    },
+    {
+        "internal_id":  "LogSpike_Single",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  40,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "LogSpike_Trap",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  40,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "Nail_Trap",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  0,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  60,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "Rotating_Blade",
+        "_isDynamicTrap":  1,
+        "_AllowHitAlly":  0,
+        "_TriggerInterval":  1,
+        "_TrapDamage":  200,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  0,
+        "_RotSeconds":  2,
+        "_RotSpeedFactor":  1000
+    },
+    {
+        "internal_id":  "Rotating_Saw",
+        "_isDynamicTrap":  1,
+        "_AllowHitAlly":  0,
+        "_TriggerInterval":  1,
+        "_TrapDamage":  250,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  0,
+        "_RotSeconds":  2,
+        "_RotSpeedFactor":  1000
+    },
+    {
+        "internal_id":  "Sensor_Spike",
+        "_isDynamicTrap":  1,
+        "_AllowHitAlly":  0,
+        "_TriggerInterval":  1,
+        "_TrapDamage":  300,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  0,
+        "_spikeBackSeconds":  1,
+        "_spikeStartLoPosY":  0.182,
+        "_spikeEndLoPosY":  0.96
+    },
+    {
+        "internal_id":  "SpearSpike_Single",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  80,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "SpearSpike_Trap",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  80,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "Spiked_Great_Trunk",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  150,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    },
+    {
+        "internal_id":  "Spiked_Trunk",
+        "_isDynamicTrap":  0,
+        "_AllowHitAlly":  1,
+        "_TriggerInterval":  0.5,
+        "_TrapDamage":  125,
+        "_HitReact":  0.1,
+        "_TrapSelfDmg":  2,
+        "_AllowSelfSmash":  1
+    }
+]

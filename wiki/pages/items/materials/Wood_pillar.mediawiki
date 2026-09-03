@@ -1,0 +1,32 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Wood pillar
+| type       = Raw Material
+| block          = 42
+| stack          = 50
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Wood pillar''' is a raw material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 3 || 9 || [[Log Pillar]] x1, [[Planks]] x9, [[Nails]] x6 || 1
+|-
+| [[Carpentry Workbench]] || 1 || 8 || [[Log Pillar]] x1, [[Planks]] x8, [[Nails]] x4 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

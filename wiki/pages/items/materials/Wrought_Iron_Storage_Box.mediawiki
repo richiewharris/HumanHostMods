@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Wrought Iron Storage Box
+| type       = Material
+| block          = 64
+| stack          = 20
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Wrought Iron Storage Box''' is an item in ''[[Human Host]]'', crafted at the [[Anvil]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Anvil]] || 1 || 12 || [[Forged Iron]] x5, [[Nails]] x10, [[Spring]] x5, [[Tape]] x2 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

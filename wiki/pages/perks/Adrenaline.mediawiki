@@ -1,0 +1,134 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Adrenaline
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Adrenaline''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+The attack that first reduces HP below 
+[ *% ] triggers the Adrenaline effect.
+
+Melee damage + [ *% ],
+Stamina consumption - [ *% ],
+Super Armor Chance + [ *% ],
+Water consumption + [ *% ],
+
+for [ * ] seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || The attack that first reduces HP below 
+'''5%''' triggers the Adrenaline effect.
+
+Melee damage + '''5%''',
+Stamina consumption - '''5%''',
+Super Armor Chance + '''5%''',
+Water consumption + '''345%''',
+
+for '''20''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 2 || The attack that first reduces HP below 
+'''7%''' triggers the Adrenaline effect.
+
+Melee damage + '''10%''',
+Stamina consumption - '''7%''',
+Super Armor Chance + '''7%''',
+Water consumption + '''325%''',
+
+for '''30''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 3 || The attack that first reduces HP below 
+'''10%''' triggers the Adrenaline effect.
+
+Melee damage + '''18%''',
+Stamina consumption - '''10%''',
+Super Armor Chance + '''10%''',
+Water consumption + '''300%''',
+
+for '''50''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 4 || The attack that first reduces HP below 
+'''14%''' triggers the Adrenaline effect.
+
+Melee damage + '''28%''',
+Stamina consumption - '''14%''',
+Super Armor Chance + '''14%''',
+Water consumption + '''270%''',
+
+for '''80''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 5 || The attack that first reduces HP below 
+'''20%''' triggers the Adrenaline effect.
+
+Melee damage + '''40%''',
+Stamina consumption - '''20%''',
+Super Armor Chance + '''20%''',
+Water consumption + '''235%''',
+
+for '''120''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 6 || The attack that first reduces HP below 
+'''28%''' triggers the Adrenaline effect.
+
+Melee damage + '''55%''',
+Stamina consumption - '''28%''',
+Super Armor Chance + '''28%''',
+Water consumption + '''195%''',
+
+for '''170''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 7 || The attack that first reduces HP below 
+'''40%''' triggers the Adrenaline effect.
+
+Melee damage + '''75%''',
+Stamina consumption - '''40%''',
+Super Armor Chance + '''40%''',
+Water consumption + '''150%''',
+
+for '''230''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|-
+| 8 || The attack that first reduces HP below 
+'''50%''' triggers the Adrenaline effect.
+
+Melee damage + '''100%''',
+Stamina consumption - '''50%''',
+Super Armor Chance + '''50%''',
+Water consumption + '''100%''',
+
+for '''300''' seconds.
+
+[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

@@ -1,0 +1,89 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox weapon
+| name       = Reinforced Wooden Bow
+| image      = Bow_Short_RF.png
+| type       = Ranged Weapon
+| subtype = Bow
+| damage         = 1.3
+| headshot       = 3x
+| magazine       = 1
+| durability     = 125
+| repairable     = Yes
+| wear           = 5 per use
+| value          = 150
+| tag            = Bow
+}}
+
+== Description ==
+
+'''Reinforced Wooden Bow''' is a ranged weapon in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting).
+
+== Loot sources ==
+
+'''Reinforced Wooden Bow''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Desert_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Forest_House || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 0.1% <small>(Melee weapons)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Forest_House || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 0.1% <small>(Melee weapons)</small> || Crate_Group_15
+|-
+| [[Tropical Swamp]] || Warzone_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_03
+|-
+| [[Tropical Swamp]] || RainForest_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Warzone]] || Warzone_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Snow_Common || 0.1% <small>(Melee weapons)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
+
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
+== Tier scaling ==
+
+Items in ''[[Human Host]]'' roll one of six quality tiers on drop or craft. Each tier scales the base stats by a fixed multiplier and colors the item's inventory chip accordingly. See [[Tiers]] for the full reference.
+
+{| class="wikitable" style="font-size:0.9em; text-align:center;"
+|+ Tier scaling
+! Stat
+! style="background:#626262; color:#fff; text-shadow:0 0 3px #000;" | T1<br /><small>Common</small>
+! style="background:#46D200; color:#fff; text-shadow:0 0 3px #000;" | T2<br /><small>Uncommon</small>
+! style="background:#6188FF; color:#fff; text-shadow:0 0 3px #000;" | T3<br /><small>Rare</small>
+! style="background:#A273FF; color:#fff; text-shadow:0 0 3px #000;" | T4<br /><small>Epic</small>
+! style="background:#E7C600; color:#fff; text-shadow:0 0 3px #000;" | T5<br /><small>Legendary</small>
+! style="background:#D28B00; color:#fff; text-shadow:0 0 3px #000;" | T6<br /><small>Mythic</small>
+|-
+| Damage
+| 1.3
+| 2.6
+| 4.6
+| 7.2
+| 9.8
+| 13
+|-
+| Durability
+| 125
+| 188
+| 281
+| 406
+| 562
+| 750
+|}
+
+== Technical ==
+
+Addressable asset id: <code>RW_Bow_Short_RF</code>.
+
+== See also ==
+
+* [[Ranged Weapons]]
+
+[[Category:Ranged Weapon]]

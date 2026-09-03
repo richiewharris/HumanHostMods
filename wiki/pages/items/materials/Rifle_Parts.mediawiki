@@ -1,29 +1,32 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Rifle Parts
 | image      = Rifle_Parts.png
 | type       = Weapon Component
+| durability     = 10
+| wear           = 5 per use
+| value          = 400
 }}
 
-'''Rifle Parts''' is a weapon component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Rifle Parts''' is a weapon assembly component in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 4 downstream recipes at the [[Gunsmith Workbench]], including [[M1891 01]], [[M1A]], [[AKM]], [[FAMAS F1]]. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[AKM]] x1 || [[Gun Workbench]] || 1 || 1
+| [[AKM]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[FAMAS F1]] x1 || [[Gun Workbench]] || 1 || 1
+| [[FAMAS F1]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[M1891 01]] x1 || [[Gun Workbench]] || 1 || 1
+| [[M1891 01]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[M1A]] x1 || [[Gun Workbench]] || 1 || 1
+| [[M1A]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |}
-
 
 == See also ==
 

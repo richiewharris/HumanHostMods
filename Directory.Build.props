@@ -40,6 +40,9 @@
     <Reference Include="Item_Info"><HintPath>$(ManagedDir)\Item_Info.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Notifications"><HintPath>$(ManagedDir)\Notifications.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="CompassPro"><HintPath>$(ManagedDir)\CompassPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Weather"><HintPath>$(ManagedDir)\Weather.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Kybernetik.Animancer"><HintPath>$(ManagedDir)\Kybernetik.Animancer.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Language"><HintPath>$(ManagedDir)\Language.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Car"><HintPath>$(ManagedDir)\Car.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Bicycle"><HintPath>$(ManagedDir)\Bicycle.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Hand_Tools"><HintPath>$(ManagedDir)\Hand_Tools.dll</HintPath><Private>false</Private></Reference>

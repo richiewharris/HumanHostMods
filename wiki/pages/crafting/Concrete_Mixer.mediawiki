@@ -1,0 +1,56 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+
+{{Infobox station
+| name     = Concrete Mixer
+| image    = WB_Concrete_Mixer.png
+| category = Crafting
+}}
+
+== Description ==
+
+The '''Concrete Mixer''' mixes concrete and cement compounds for reinforced structures. It defines 3 raw recipe entries (3 unique after consolidating shape variants), producing outputs including [[Cement]], [[Concrete]], [[Sand]].
+
+== Technical ==
+
+Internal enum value: <code>WorkbenchType.CementMixer</code> (assembly <code>UI</code>). Prefab: <code>WB_Concrete_Mixer</code>.
+
+== Recipes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+|+ Recipes (3 unique, from 3 raw entries in `WB_Concrete_Mixer.prefab`)
+! Output !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Sand]] || 50 || 30 || [[Stone]] x25, [[Cobblestone]] x25, [[Bottled Water]] x1 || 1
+|-
+| [[Cement]] || 1 || 4 || [[Lime]] x2, [[Clay]] x2 || 1
+|-
+| [[Concrete]] || 1 || 4 || [[Cement]] x1, [[Cobblestone]] x4, [[Sand]] x2 || 1
+|}
+
+''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
+
+
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface. See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 45s || [[Forged Iron]] x40, [[Rebar]] x20 || 1
+|}
+== Placement ==
+
+TBD: physical footprint and world-space clearance.
+
+== Prerequisites ==
+
+TBD: which workbench(es) this depends on.
+
+== See also ==
+
+* [[Crafting]]: the full workbench catalog
+
+[[Category:Crafting Stations]]

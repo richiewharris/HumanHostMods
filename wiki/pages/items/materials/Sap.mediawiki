@@ -1,0 +1,29 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Sap
+| type       = Material
+| stack          = 200
+| value          = 5
+}}
+
+== Description ==
+
+'''Sap''' is an item in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 1 downstream recipes at the [[Campfire]], including [[Glue]]. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Glue]] x100 || [[Campfire]] || 20 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

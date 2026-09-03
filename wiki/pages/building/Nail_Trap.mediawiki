@@ -1,16 +1,40 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 The '''Nail Trap''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
 
 == Behavior ==
 
-TBD: trigger conditions, damage, cooldown.
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Trap damage       || 60 per trigger
+|-
+| Trigger interval  || 0.5s
+|-
+| Hit-react force   || 0.1
+|-
+| Self-damage       || 2 per trigger
+|-
+| Hits allies       || No (zombies only)
+|-
+| Smashable         || Yes
+|-
+| Placement         || Static
+|}
 
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface (no workbench required). See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 20s || [[Planks]] x1, [[Nails]] x2 || 1
+|}
 == Placement ==
 
-TBD.
+TBD: placement footprint and world-space clearance.
 
 == Technical ==
 

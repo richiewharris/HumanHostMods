@@ -1,0 +1,40 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+The '''Single Spear Spike''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
+
+== Behavior ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Trap damage       || 80 per trigger
+|-
+| Trigger interval  || 0.5s
+|-
+| Hit-react force   || 0.1
+|-
+| Self-damage       || 2 per trigger
+|-
+| Hits allies       || Yes (allies + zombies)
+|-
+| Smashable         || Yes
+|-
+| Placement         || Static
+|}
+
+== Placement ==
+
+TBD: placement footprint and world-space clearance.
+
+== Technical ==
+
+Asset id: <code>BT_SpearSpike_Single</code>. Backed by class <code>Trap_Spike</code> (assembly <code>Trap</code>), derived from <code>Trap_Base</code>. Traps are registered via <code>Trap_Mgr._ins</code>.
+
+== See also ==
+
+* [[Building]]: trap placement in the build menu
+* [[Combat]]: horde night defense strategy
+
+[[Category:Traps]]
+[[Category:Building]]

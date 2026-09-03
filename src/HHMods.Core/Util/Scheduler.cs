@@ -9,7 +9,7 @@ namespace HHMods.Core
     ///   1. A main-thread action queue (<see cref="Post"/>) for anything called from non-Unity threads.
     ///   2. Polling for <see cref="GameEvents"/>.HubReady — fires once Mgr_Hub._ins is non-null.
     /// </summary>
-    internal class Scheduler : MonoBehaviour
+    public class Scheduler : MonoBehaviour
     {
         private static readonly Queue<Action> _queue = new Queue<Action>();
         private static readonly object _gate = new object();

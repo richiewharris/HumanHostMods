@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox enemy
+| name       = Zombie Woman 06
+| category   = Zombie
+| biome      = Tropical Jungle
+| hp         = 100
+}}
+
+'''Zombie Woman 06''' is a Zombie encountered in the [[Tropical Jungle]] biome of ''[[Human Host]]''.
+
+== Stats ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Health         || 100 HP
+|-
+| Stamina        || 100
+|-
+| Stamina regen  || 10/sec
+|}
+
+== Technical ==
+
+Prefab id: <code>Z_Woman_06</code> (bundle <code>zb_rainforest</code>). Backed by <code>Char_Status</code> + <code>Zombie_Input</code> on the prefab.
+
+== See also ==
+
+* [[Enemies]]: the full enemy catalog
+* [[Tropical Jungle]]: biome overview
+
+[[Category:Enemies]]
+[[Category:Zombie]]

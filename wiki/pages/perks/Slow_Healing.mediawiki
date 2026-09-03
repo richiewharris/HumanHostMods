@@ -1,0 +1,44 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Slow Healing
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Slow Healing''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+Restores 1 HP every [ * ] seconds.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Restores 1 HP every '''145''' seconds.
+|-
+| 2 || Restores 1 HP every '''110''' seconds.
+|-
+| 3 || Restores 1 HP every '''80''' seconds.
+|-
+| 4 || Restores 1 HP every '''55''' seconds.
+|-
+| 5 || Restores 1 HP every '''35''' seconds.
+|-
+| 6 || Restores 1 HP every '''20''' seconds.
+|-
+| 7 || Restores 1 HP every '''10''' seconds.
+|-
+| 8 || Restores 1 HP every '''5''' seconds.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

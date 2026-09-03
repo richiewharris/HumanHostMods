@@ -1,15 +1,34 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Small Log Stairs
 | image      = Small_Log_Stairs.png
 | type       = Material
+| block          = 108
+| stack          = 50
+| tag            = BuildMat
 }}
 
-'''Small Log Stairs''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Small Log Stairs''' is an item in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]]. It appears as an ingredient in 1 downstream recipes at the [[Carpentry Workbench]], including [[Small Plank Stairs]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 15 || [[Wood]] x20, [[Hemp Rope]] x3 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Small Plank Stairs]] x1 || [[Carpentry Workbench]] || 1 || 1
+|}
 
 == See also ==
 

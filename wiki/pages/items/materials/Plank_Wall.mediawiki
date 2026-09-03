@@ -1,15 +1,28 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Plank Wall
 | image      = Plank_Wall.png
 | type       = Building Material
+| block          = 250
+| stack          = 50
+| tag            = BuildMat
 }}
 
-'''Plank Wall''' is a building material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Plank Wall''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 2 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
+|-
+| [[Carpentry Workbench]] || 1 || 12 || [[Log Wall]] x1, [[Planks]] x30, [[Nails]] x12 || 1
+|}
 
 == See also ==
 

@@ -1,0 +1,44 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Chain Reinforcements
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Chain Reinforcements''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+When a part of the armor is about to be shattered, its destruction is delayed by [ * ] seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || When a part of the armor is about to be shattered, its destruction is delayed by '''5''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 2 || When a part of the armor is about to be shattered, its destruction is delayed by '''10''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 3 || When a part of the armor is about to be shattered, its destruction is delayed by '''18''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 4 || When a part of the armor is about to be shattered, its destruction is delayed by '''28''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 5 || When a part of the armor is about to be shattered, its destruction is delayed by '''40''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 6 || When a part of the armor is about to be shattered, its destruction is delayed by '''55''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 7 || When a part of the armor is about to be shattered, its destruction is delayed by '''75''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|-
+| 8 || When a part of the armor is about to be shattered, its destruction is delayed by '''100''' seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

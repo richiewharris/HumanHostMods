@@ -1,15 +1,27 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Solar Generator
 | image      = Solar_Generator.png
 | type       = Electronic Component
+| block          = 80
+| stack          = 5
+| value          = 350
+| tag            = CarMat
 }}
 
-'''Solar Generator''' is a electronic component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Solar Generator''' is an electronic component in ''[[Human Host]]'', crafted at the [[Mechanical Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Mechanical Workbench]] || 1 || 120 || [[Solar Panel]] x15, [[Transformer]] x5, [[Forged Iron]] x16, [[Electrical Wire]] x8, [[Gear]] x8, [[Bearing]] x4, [[Waste plastic]] x30, [[Tape]] x10, [[Nails]] x6 || 1
+|}
 
 == See also ==
 

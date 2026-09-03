@@ -1,23 +1,18 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Epidote
 | image      = Epidote.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 200
 }}
-
-The '''Epidote''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Epidote''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 36 downstream recipes at the [[Cutting Workbench]], including [[Yellow Wax Stone]], [[Epidote]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
@@ -32,11 +27,10 @@ TBD.
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Chrismatite]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
-|-
 | [[Epidote]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Yellow Wax Stone]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
 |}
-
 
 == Technical ==
 
@@ -46,4 +40,4 @@ Addressable asset id: <code>BO_Epidote</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

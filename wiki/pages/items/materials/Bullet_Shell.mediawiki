@@ -1,80 +1,88 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Bullet Shell
 | type       = Ammunition Component
 }}
 
-'''Bullet Shell''' is a ammunition component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Bullet Shell''' is an ammunition component in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 30 downstream recipes at the [[Gunsmith Workbench]], including [[D45 Chrome]], [[5.56x45mm Chrome]], [[7.62x39mm Chrome]], [[9x19mm Chrome]], [[7.62x39mm Titanium]], [[7.62x51mm Titanium]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 5 || 2.2 || [[Forged Copper]] x1, [[Clay]] x1 || 1
+|}
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[5.56x45mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[5.56x45mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[5.56x45mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[5.56x45mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[5.56x45mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[5.56x45mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[5.56x45mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[5.56x45mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[5.56x45mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[5.56x45mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x39mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x39mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x39mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x39mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x39mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x39mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x39mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x39mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x39mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x39mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x51mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x51mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x51mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x51mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x51mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x51mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x51mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x51mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x51mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x51mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x54mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x54mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x54mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x54mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x54mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x54mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x54mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x54mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[7.62x54mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[7.62x54mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[9x19mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[9x19mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[9x19mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[9x19mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[9x19mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[9x19mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[9x19mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[9x19mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[9x19mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[9x19mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[D45 Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[D45 Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[D45 Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[D45 Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[D45 Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[D45 Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[D45 Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[D45 Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[D45 Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[D45 Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |}
-
 
 == See also ==
 

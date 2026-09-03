@@ -1,23 +1,18 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Marble
 | image      = Marble.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 100
 }}
-
-The '''Marble''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Marble''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 36 downstream recipes at the [[Cutting Workbench]], including [[Epidote]], [[Marble]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
@@ -37,7 +32,6 @@ TBD.
 | [[Marble]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |}
 
-
 == Technical ==
 
 Addressable asset id: <code>BO_Marble</code>.
@@ -46,4 +40,4 @@ Addressable asset id: <code>BO_Marble</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

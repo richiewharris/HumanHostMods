@@ -1,0 +1,31 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Driver's Seat
+| type       = Material
+| block          = 50
+| stack          = 5
+| value          = 300
+| tag            = CarMat
+}}
+
+== Description ==
+
+'''Driver's Seat''' is an item in ''[[Human Host]]'', crafted at the [[Mechanical Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Mechanical Workbench]] || 1 || 120 || [[Scrap Steering Wheel]] x5, [[Gear]] x5, [[Forged Iron]] x20, [[Rebar]] x16, [[Bearing]] x10, [[Electrical Wire]] x6, [[Rubber]] x30, [[Glue]] x22, [[Spring]] x28, [[Nails]] x20 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

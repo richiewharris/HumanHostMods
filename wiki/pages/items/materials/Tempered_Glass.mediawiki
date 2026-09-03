@@ -1,0 +1,29 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Tempered Glass
+| type       = Building Material
+| stack          = 1000
+| value          = 1
+}}
+
+== Description ==
+
+'''Tempered Glass''' is a building material in ''[[Human Host]]'', crafted at the [[Furnace]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 50 || 20 || [[Glass]] x10, [[Nitrate Powder]] x5 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

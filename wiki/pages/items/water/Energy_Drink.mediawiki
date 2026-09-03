@@ -1,25 +1,57 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Energy Drink
 | image      = Energy_Drink.png
-| type       = Water
+| type       = Food
 | source = Looted from containers and zombie corpses
+| stack          = 10
+| value          = 200
+| tag            = Water
 }}
-
-The '''Energy Drink''' is a water in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Energy Drink''' is an edible food item in ''[[Human Host]]'', looted from containers and zombie corpses, or foraged in the wild.
 
-== Source ==
+== Loot sources ==
 
-TBD.
+'''Energy Drink''' spawns from world loot crates. The table below lists every biome-rate-set combination that can drop the item, the summed category spawn rate for that set, and the crate prefabs that pull from it.
 
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Biome !! Rate set !! Category rate !! Sample crates
+|-
+| [[Desert]] || Food_Loot || 10% <small>(Water)</small> || MetalBoxes_05
+|-
+| [[Desert]] || Desert_Common || 0.25% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Mossy Forest]] || Food_Loot || 10% <small>(Water)</small> || MetalBoxes_05
+|-
+| [[Mossy Forest]] || Forest_House || 0.5% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mossy Forest]] || Forest_House+Ammo || 0.5% <small>(Water)</small> || Crate_Group_15
+|-
+| [[Mountain Forest]] || Food_Loot || 10% <small>(Water)</small> || MetalBoxes_05
+|-
+| [[Mountain Forest]] || Forest_House || 0.5% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+33 more</small>
+|-
+| [[Mountain Forest]] || Forest_House+Ammo || 0.5% <small>(Water)</small> || Crate_Group_15
+|-
+| [[Tropical Swamp]] || RainForest_Common || 0.25% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_04, <small>+34 more</small>
+|-
+| [[Tropical Swamp]] || Warzone_Common || 0.1% <small>(Water)</small> || Cardboards_03
+|-
+| [[Warzone]] || Food_Loot || 10% <small>(Water)</small> || MetalBoxes_05
+|-
+| [[Warzone]] || Warzone_Common || 0.1% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|-
+| [[Winter Forest]] || Food_Loot || 10% <small>(Water)</small> || MetalBoxes_05
+|-
+| [[Winter Forest]] || Snow_Common || 0.25% <small>(Water)</small> || Cardboards_01, Cardboards_02, Cardboards_03, <small>+34 more</small>
+|}
 
+''See [[Desert Loot Crate]] and the other biome loot pages for the full rate set breakdown.''
 == Technical ==
 
 Addressable asset id: <code>FWI_Energy_Drink_Icon</code>.
@@ -28,4 +60,4 @@ Addressable asset id: <code>FWI_Energy_Drink_Icon</code>.
 
 * [[Food and Water]]
 
-[[Category:Water]]
+[[Category:Food]]

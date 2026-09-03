@@ -1,15 +1,26 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Plank Door
 | image      = Plank_Door.png
 | type       = Building Material
+| block          = 120
+| stack          = 10
+| tag            = BuildMat
 }}
 
-'''Plank Door''' is a building material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Plank Door''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 10 || [[Planks]] x15, [[Hemp Rope]] x8 || 1
+|}
 
 == See also ==
 

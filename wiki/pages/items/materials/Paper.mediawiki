@@ -1,31 +1,33 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Paper
 | image      = Paper.png
 | type       = Raw Material
+| stack          = 500
+| value          = 2
 }}
 
-'''Paper''' is a raw material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Paper''' is a raw material in ''[[Human Host]]'', harvested from the world (trees, rocks, salvage). It appears as an ingredient in 5 downstream recipes at the [[Gunsmith Workbench]], including [[12x70mm Chrome]], [[12x70mm Tungsten]], [[12x70mm Titanium]], [[12x70mm Copper]], [[12x70mm Steel]]. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[12x70mm Chrome]] x1 || [[Gun Workbench]] || 1 || 1
+| [[12x70mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[12x70mm Copper]] x1 || [[Gun Workbench]] || 1 || 1
+| [[12x70mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[12x70mm Steel]] x1 || [[Gun Workbench]] || 1 || 1
+| [[12x70mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[12x70mm Titanium]] x1 || [[Gun Workbench]] || 1 || 1
+| [[12x70mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |-
-| [[12x70mm Tungsten]] x1 || [[Gun Workbench]] || 1 || 1
+| [[12x70mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
 |}
-
 
 == See also ==
 

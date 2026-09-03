@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox enemy
+| name       = Big Zombie 01
+| category   = Big zombie
+| biome      = Mossy Forest
+| hp         = 250
+}}
+
+'''Big Zombie 01''' is a Big zombie encountered in the [[Mossy Forest]] biome of ''[[Human Host]]''.
+
+== Stats ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Health         || 250 HP
+|-
+| Stamina        || 100
+|-
+| Stamina regen  || 10/sec
+|}
+
+== Technical ==
+
+Prefab id: <code>Z_Man_Big_01</code> (bundle <code>zb_forest</code>). Backed by <code>Char_Status</code> + <code>Zombie_Input</code> on the prefab.
+
+== See also ==
+
+* [[Enemies]]: the full enemy catalog
+* [[Mossy Forest]]: biome overview
+
+[[Category:Enemies]]
+[[Category:Big zombie]]

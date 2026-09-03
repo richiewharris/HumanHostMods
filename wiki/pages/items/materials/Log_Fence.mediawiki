@@ -1,0 +1,40 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Log Fence
+| type       = Building Material
+| block          = 250
+| stack          = 50
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Log Fence''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]]. It appears as an ingredient in 2 downstream recipes at the [[Carpentry Workbench]], including [[Plank Fence]], [[Log Gate]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 10 || [[Simple Fence]] x1, [[Wood]] x20, [[Hemp Rope]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Log Gate]] x1 || [[Carpentry Workbench]] || 1 || 1
+|-
+| [[Plank Fence]] x1 || [[Carpentry Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

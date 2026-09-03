@@ -1,0 +1,198 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+Every zombie and boss variant in ''[[Human Host]]'', grouped by the biome bundle it ships in. Base HP is shown; per-difficulty scaling is applied by the runtime and is not captured in the prefab.
+
+== All biomes ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Boss 01]] || Boss || 2000 || 100 || 10/sec
+|-
+| [[Boss 02]] || Boss || 4000 || 100 || 10/sec
+|}
+
+== Desert ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 22]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 27]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 30]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 35]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 37]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Mossy Forest ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 02]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 03]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 06]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 08]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 10]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 40]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 41]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 42]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Big Zombie 01]] || Big zombie || 250 || 100 || 10/sec
+|-
+| [[Zombie Woman 02]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 03]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 07]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 11]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 16]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 17]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Mountain Forest ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Boss 01]] || Boss || 2000 || 100 || 10/sec
+|-
+| [[Boss 01 (variant)]] || Boss || 2000 || 100 || 10/sec
+|-
+| [[Zombie Man 04]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 09]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 20 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 21]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 23]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 24]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 24 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 26]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 32]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 33]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Big Zombie 02]] || Big zombie || 200 || 100 || 10/sec
+|-
+| [[Zombie Woman 01]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 08]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 14]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 15]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Tropical Jungle ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 01]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 29]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 34]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 06]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 12]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Warzone ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Boss 02]] || Boss || 4000 || 100 || 10/sec
+|-
+| [[Zombie Man 14]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 15]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 16]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 17]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 18]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 19]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 20]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 25]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Big Zombie 03]] || Big zombie || 200 || 100 || 10/sec
+|}
+
+== Wasteland ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 05]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 31]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 39]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 05]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 10]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Winter Forest ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 07]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 12]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 13]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 04]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 09]] || Zombie || 100 || 100 || 10/sec
+|}
+
+== Winter Town ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Enemy !! Category !! HP !! Stamina !! Regen
+|-
+| [[Zombie Man 15 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 16 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Man 19 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 14 (variant)]] || Zombie || 100 || 100 || 10/sec
+|-
+| [[Zombie Woman 15 (variant)]] || Zombie || 100 || 100 || 10/sec
+|}
+
+[[Category:Reference]]

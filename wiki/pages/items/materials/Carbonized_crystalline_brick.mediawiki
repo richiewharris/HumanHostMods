@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Carbonized crystalline brick
+| type       = Building Material
+| block          = 100
+| stack          = 100
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Carbonized crystalline brick''' is a building material in ''[[Human Host]]'', crafted at the [[Cutting Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 4 || [[Sulfurized Quartz Brick]] x1, [[Charcoal]] x2-28 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

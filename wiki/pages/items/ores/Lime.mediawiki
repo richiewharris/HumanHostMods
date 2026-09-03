@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Lime
+| image      = Limestone.png
+| type       = Rock
+| source = Mined from terrain
+| stack          = 200
+| value          = 25
+}}
+
+== Description ==
+
+'''Lime''' is a mineable rock in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 19 downstream recipes at the [[Concrete Mixer]] and the [[Cutting Workbench]], including [[High-pressure lime brick]], [[Cement]], among others. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Cement]] x1 || [[Concrete Mixer]] || 2 || 1
+|-
+| [[High-pressure lime brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+== Technical ==
+
+Addressable asset id: <code>BO_Limestone</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Rock]]

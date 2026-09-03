@@ -1,20 +1,24 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
-| name       = High-Pressure Lime Brick
+| name       = High-pressure lime brick
 | type       = Building Material
+| block          = 80
+| stack          = 100
+| tag            = BuildMat
 }}
 
-'''High-Pressure Lime Brick''' is a building material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''High-pressure lime brick''' is a building material in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Sulfurized Quartz Brick]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Workbench !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[Cutting Workbench]] || 1 || 4 || [[Cellular Brick]] x1, [[Limestone]] x1-14 || 18 shapes
+| [[Cutting Workbench]] || 1 || 4 || [[Honeycomb brick]] x1, [[Lime]] x1-14 || 18 shapes
 |}
 
 == Used in ==
@@ -22,9 +26,8 @@
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Silicon Sulfide Brick]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+| [[Sulfurized Quartz Brick]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
 |}
-
 
 == See also ==
 

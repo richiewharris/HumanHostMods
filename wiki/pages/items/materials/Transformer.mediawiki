@@ -1,14 +1,25 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Transformer
 | image      = Transformer.png
 | type       = Electronic Component
+| stack          = 10
+| value          = 300
 }}
 
-'''Transformer''' is a electronic component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Transformer''' is an electronic component in ''[[Human Host]]'', crafted at the [[Electronics Workbench]]. It appears as an ingredient in 5 downstream recipes at the [[Mechanical Workbench]], including [[Laser Trap]], [[Solar Generator]], [[Sensor Spike]], [[Rotating Blade]], [[Rotating Circular Saw]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Electronics Workbench]] || 1 || 30 || [[Magnet]] x2, [[Copper Wire]] x5, [[Forged Iron]] x2, [[Forged Copper]] x2, [[Waste plastic]] x12, [[Tape]] x4, [[Glue]] x2 || 1
+|}
 
 == Used in ==
 
@@ -19,13 +30,12 @@
 |-
 | [[Rotating Blade]] x1 || [[Mechanical Workbench]] || 1 || 1
 |-
-| [[Rotating Saw]] x1 || [[Mechanical Workbench]] || 1 || 1
+| [[Rotating Circular Saw]] x1 || [[Mechanical Workbench]] || 1 || 1
 |-
 | [[Sensor Spike]] x1 || [[Mechanical Workbench]] || 1 || 1
 |-
 | [[Solar Generator]] x1 || [[Mechanical Workbench]] || 5 || 1
 |}
-
 
 == See also ==
 

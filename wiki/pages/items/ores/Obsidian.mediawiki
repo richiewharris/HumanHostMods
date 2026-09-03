@@ -1,23 +1,18 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Obsidian
 | image      = Obsidian.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 500
 }}
-
-The '''Obsidian''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Obsidian''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Obsidian]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
@@ -35,7 +30,6 @@ TBD.
 | [[Obsidian]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |}
 
-
 == Technical ==
 
 Addressable asset id: <code>BO_Obsidian</code>.
@@ -44,4 +38,4 @@ Addressable asset id: <code>BO_Obsidian</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

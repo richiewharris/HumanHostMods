@@ -59,6 +59,39 @@ root.SetHandler((game, outDir) =>
     Console.WriteLine($"[extractor] catalog: keys={catRes.TotalKeys}, entries={catRes.TotalEntries}, GUID-mapped={catRes.GuidCount}");
     Emit(outDir, "guid_name_map",    catRes.GuidToName);
 
+    // Tier / quality system (damage/dura/hitdown/blade multipliers + tooltip color codes)
+    var tierConfig = TierExtractor.Extract(game.FullName);
+    if (tierConfig != null)
+    {
+        Emit(outDir, "tier_config", tierConfig);
+    }
+    else
+    {
+        Console.WriteLine("[extractor] tier_config: extraction returned nothing (see log)");
+    }
+
+    // Perks / talents (Fight / Survive / Craft categories, per-level replacement values)
+    var perks = PerkExtractor.Extract(game.FullName);
+    if (perks != null)
+    {
+        Emit(outDir, "perks", perks);
+    }
+    else
+    {
+        Console.WriteLine("[extractor] perks: extraction returned nothing (see log)");
+    }
+
+    // HandMade recipes (crafted "by hand" in the basic crafting interface, no workbench required)
+    var handCraft = HandCraftExtractor.Extract(game.FullName);
+    if (handCraft != null)
+    {
+        Emit(outDir, "handmade_recipes", handCraft);
+    }
+    else
+    {
+        Console.WriteLine("[extractor] handmade_recipes: extraction returned nothing (see log)");
+    }
+
     Console.WriteLine();
     Console.WriteLine("[extractor] done.");
 }, gameOpt, outOpt);

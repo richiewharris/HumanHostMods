@@ -18,7 +18,7 @@
   {
     "Slug": "tropical_jungle",
     "PageTitle": "Tropical Jungle",
-    "BundleFile": "terrain_tropical_jungle_assets_all_204a8626800b78b6ecf09ca91de1314e.bundle",
+    "BundleFile": "terrain_tropical_jungle_assets_all_28f672b1d86b2d4b1db1b26061caf49c.bundle",
     "Tier": 2,
     "Climate": "Hot, wet",
     "Threat": "Medium"
@@ -74,7 +74,7 @@
   {
     "Slug": "wasteland",
     "PageTitle": "Wasteland",
-    "BundleFile": "terrain_wasteland_assets_all_c64a126af69186b8acc243c556686def.bundle",
+    "BundleFile": "terrain_wasteland_assets_all_73190c6434315b01f709bc64199075cb.bundle",
     "Tier": 4,
     "Climate": "Toxic, barren",
     "Threat": "High"

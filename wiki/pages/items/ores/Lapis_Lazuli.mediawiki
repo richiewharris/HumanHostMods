@@ -1,30 +1,25 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Lapis Lazuli
 | image      = Lapis_Lazuli.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 400
 }}
-
-The '''Lapis Lazuli''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Lapis Lazuli''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 36 downstream recipes at the [[Cutting Workbench]], including [[Obsidian]], [[Lapis Lazuli]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Workbench !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[Cutting Workbench]] || 1 || 5 || [[Chrismatite]] x1, [[Lapis Lazuli]] x1-14 || 18 shapes
+| [[Cutting Workbench]] || 1 || 5 || [[Yellow Wax Stone]] x1, [[Lapis Lazuli]] x1-14 || 18 shapes
 |}
 
 == Used in ==
@@ -37,7 +32,6 @@ TBD.
 | [[Obsidian]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
 |}
 
-
 == Technical ==
 
 Addressable asset id: <code>BO_Lapis_Lazuli</code>.
@@ -46,4 +40,4 @@ Addressable asset id: <code>BO_Lapis_Lazuli</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

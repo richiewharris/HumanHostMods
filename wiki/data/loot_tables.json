@@ -1,0 +1,1767 @@
+{
+    "tag_translations":  {
+                             "皮革":  {
+                                        "English":  "Leather",
+                                        "Tags":  [
+
+                                                 ]
+                                    },
+                             "枪械附件":  {
+                                          "English":  "Gun attachments",
+                                          "Tags":  [
+                                                       "Scope"
+                                                   ]
+                                      },
+                             "工具包":  {
+                                         "English":  "Tool kits",
+                                         "Tags":  [
+
+                                                  ]
+                                     },
+                             "沙漠特供":  {
+                                          "English":  "Desert-exclusive",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "医用原料":  {
+                                          "English":  "Medical supplies",
+                                          "Tags":  [
+                                                       "SimpleBandage",
+                                                       "MedicalBandage",
+                                                       "MedicalCase",
+                                                       "Medkit",
+                                                       "PainKiller",
+                                                       "Antibiotics",
+                                                       "FractureSplint"
+                                                   ]
+                                      },
+                             "废墟特供":  {
+                                          "English":  "Ruin-exclusive",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "弹药":  {
+                                        "English":  "Ammunition",
+                                        "Tags":  [
+                                                     ".45",
+                                                     "9x19",
+                                                     "5.56x45",
+                                                     "7.62x39",
+                                                     "7.62x51",
+                                                     "7.62x54",
+                                                     "12x70",
+                                                     "Arrow"
+                                                 ]
+                                    },
+                             "废旧材料":  {
+                                          "English":  "Salvage materials",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "食物":  {
+                                        "English":  "Food",
+                                        "Tags":  [
+                                                     "Food"
+                                                 ]
+                                    },
+                             "工具":  {
+                                        "English":  "Tools",
+                                        "Tags":  [
+
+                                                 ]
+                                    },
+                             "民用装备":  {
+                                          "English":  "Civilian equipment",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "羽毛":  {
+                                        "English":  "Feathers",
+                                        "Tags":  [
+
+                                                 ]
+                                    },
+                             "布料":  {
+                                        "English":  "Cloth",
+                                        "Tags":  [
+
+                                                 ]
+                                    },
+                             "枪械零件":  {
+                                          "English":  "Gun parts",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "枪械包":  {
+                                         "English":  "Firearm kits",
+                                         "Tags":  [
+
+                                                  ]
+                                     },
+                             "军用装备":  {
+                                          "English":  "Military equipment",
+                                          "Tags":  [
+                                                       "Head",
+                                                       "Chest",
+                                                       "ArmArmor",
+                                                       "LegArmor",
+                                                       "HandArmor",
+                                                       "FootArmor",
+                                                       "Shield"
+                                                   ]
+                                      },
+                             "办公用品":  {
+                                          "English":  "Office supplies",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "腐败食物":  {
+                                          "English":  "Spoiled food",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "雨林特供":  {
+                                          "English":  "Jungle-exclusive",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "警用装备":  {
+                                          "English":  "Police equipment",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "近战武器":  {
+                                          "English":  "Melee weapons",
+                                          "Tags":  [
+                                                       "MeleeWeapon",
+                                                       "Bow"
+                                                   ]
+                                      },
+                             "枪械":  {
+                                        "English":  "Firearms",
+                                        "Tags":  [
+                                                     "Gun"
+                                                 ]
+                                    },
+                             "雪地特供":  {
+                                          "English":  "Snow-exclusive",
+                                          "Tags":  [
+
+                                                   ]
+                                      },
+                             "骨头":  {
+                                        "English":  "Bones",
+                                        "Tags":  [
+
+                                                 ]
+                                    },
+                             "水":  {
+                                       "English":  "Water",
+                                       "Tags":  [
+                                                    "Water"
+                                                ]
+                                   },
+                             "灯具":  {
+                                        "English":  "Lighting",
+                                        "Tags":  [
+
+                                                 ]
+                                    }
+                         },
+    "biomes":  {
+                   "desert":  {
+                                  "rate_sets":  {
+                                                    "Desert_Common":  [
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "沙漠特供"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0025,
+                                                                              "tag":  "水"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0025,
+                                                                              "tag":  "食物"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "腐败食物"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "近战武器"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.002,
+                                                                              "tag":  "枪械零件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "枪械"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "枪械附件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0125,
+                                                                              "tag":  "弹药"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.05,
+                                                                              "tag":  "工具"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.1,
+                                                                              "tag":  "废旧材料"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.025,
+                                                                              "tag":  "办公用品"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.005,
+                                                                              "tag":  "灯具"
+                                                                          },
+                                                                          {
+                                                                              "stack":  0.5,
+                                                                              "rate":  0.005,
+                                                                              "tag":  "羽毛"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "骨头"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.02,
+                                                                              "tag":  "布料"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "枪械包"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.003,
+                                                                              "tag":  "工具包"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.005,
+                                                                              "tag":  "医用原料"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "民用装备"
+                                                                          }
+                                                                      ],
+                                                    "Food_Loot":  [
+                                                                      {
+                                                                          "stack":  1,
+                                                                          "rate":  0.1,
+                                                                          "tag":  "水"
+                                                                      },
+                                                                      {
+                                                                          "stack":  1,
+                                                                          "rate":  0.1,
+                                                                          "tag":  "食物"
+                                                                      },
+                                                                      {
+                                                                          "stack":  1,
+                                                                          "rate":  0.02,
+                                                                          "tag":  "腐败食物"
+                                                                      }
+                                                                  ],
+                                                    "Military_Loot":  [
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.03,
+                                                                              "tag":  "枪械零件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "枪械"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "枪械附件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.1,
+                                                                              "tag":  "弹药"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "枪械包"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "警用装备"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.005,
+                                                                              "tag":  "军用装备"
+                                                                          }
+                                                                      ]
+                                                },
+                                  "crates":  {
+                                                 "Cardboards_01":  "Desert_Common",
+                                                 "Cardboards_02":  "Desert_Common",
+                                                 "Cardboards_03":  "Desert_Common",
+                                                 "Cardboards_04":  "Desert_Common",
+                                                 "Cardboards_05":  "Desert_Common",
+                                                 "Cardboards_06":  "Desert_Common",
+                                                 "MetalBoxes_01":  "Military_Loot",
+                                                 "MetalBoxes_02":  "Military_Loot",
+                                                 "MetalBoxes_03":  "Desert_Common",
+                                                 "MetalBoxes_04":  "Desert_Common",
+                                                 "MetalBoxes_05":  "Food_Loot",
+                                                 "MilitaryBoxes_01":  "Military_Loot",
+                                                 "MilitaryBoxes_02":  "Military_Loot",
+                                                 "MilitaryBoxes_03":  "Military_Loot",
+                                                 "MilitaryBoxes_04":  "Military_Loot",
+                                                 "MilitaryBoxes_05":  "Military_Loot",
+                                                 "MilitaryBoxes_06":  "Military_Loot",
+                                                 "Suitcases_01":  "Desert_Common",
+                                                 "Suitcases_02":  "Desert_Common",
+                                                 "Suitcases_03":  "Desert_Common",
+                                                 "Suitcases_04":  "Desert_Common",
+                                                 "TarpaulinBox_01":  "Military_Loot",
+                                                 "TarpaulinBox_02":  "Military_Loot",
+                                                 "TarpaulinBox_03":  "Military_Loot",
+                                                 "Toolboxes_01":  "Desert_Common",
+                                                 "Toolboxes_02":  "Desert_Common",
+                                                 "Toolboxes_03":  "Desert_Common",
+                                                 "Toolboxes_04":  "Desert_Common",
+                                                 "WoodBoxes_01":  "Desert_Common",
+                                                 "WoodBoxes_02":  "Desert_Common",
+                                                 "WoodBoxes_03":  "Desert_Common",
+                                                 "WoodBoxes_04":  "Desert_Common",
+                                                 "WoodBoxes_05":  "Desert_Common",
+                                                 "WoodLargeBoxes_01":  "Desert_Common",
+                                                 "WoodLargeBoxes_02":  "Desert_Common",
+                                                 "WoodLargeBoxes_03":  "Desert_Common",
+                                                 "WoodLargeBoxes_04":  "Desert_Common",
+                                                 "WoodLargeBoxes_05":  "Military_Loot",
+                                                 "WoodLargeBoxes_06":  "Military_Loot",
+                                                 "WoodLargeBoxes_07":  "Military_Loot",
+                                                 "WoodLargeBoxes_08":  "Military_Loot",
+                                                 "WoodLargeBoxes_09":  "Desert_Common",
+                                                 "WoodLargeBoxes_10":  "Military_Loot",
+                                                 "WoodLargeBoxes_11":  "Desert_Common",
+                                                 "Crate_Group_1":  "Desert_Common",
+                                                 "Crate_Group_10":  "Desert_Common",
+                                                 "Crate_Group_11":  "Desert_Common",
+                                                 "Crate_Group_12":  "Desert_Common",
+                                                 "Crate_Group_13":  "Military_Loot",
+                                                 "Crate_Group_14":  "Military_Loot",
+                                                 "Crate_Group_15":  "Desert_Common",
+                                                 "Crate_Group_2":  "Desert_Common",
+                                                 "Crate_Group_3":  "Military_Loot",
+                                                 "Crate_Group_4":  "Military_Loot",
+                                                 "Crate_Group_5":  "Desert_Common",
+                                                 "Crate_Group_6":  "Desert_Common",
+                                                 "Crate_Group_7":  "Desert_Common",
+                                                 "Crate_Group_8":  "Military_Loot",
+                                                 "Crate_Group_9":  "Desert_Common"
+                                             }
+                              },
+                   "mossy":  {
+                                 "rate_sets":  {
+                                                   "Food_Loot":  [
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.1,
+                                                                         "tag":  "水"
+                                                                     },
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.1,
+                                                                         "tag":  "食物"
+                                                                     },
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.02,
+                                                                         "tag":  "腐败食物"
+                                                                     }
+                                                                 ],
+                                                   "Forest_House+Ammo":  [
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.005,
+                                                                                 "tag":  "水"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.005,
+                                                                                 "tag":  "食物"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.002,
+                                                                                 "tag":  "腐败食物"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.001,
+                                                                                 "tag":  "近战武器"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.02,
+                                                                                 "tag":  "枪械零件"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "枪械"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "枪械附件"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.00625,
+                                                                                 "tag":  "弹药"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.05,
+                                                                                 "tag":  "工具"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.1,
+                                                                                 "tag":  "废旧材料"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.025,
+                                                                                 "tag":  "办公用品"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.005,
+                                                                                 "tag":  "灯具"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  0.5,
+                                                                                 "rate":  0.04,
+                                                                                 "tag":  "羽毛"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "枪械包"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.003,
+                                                                                 "tag":  "工具包"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.001,
+                                                                                 "tag":  "民用装备"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0075,
+                                                                                 "tag":  "警用装备"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.005,
+                                                                                 "tag":  "军用装备"
+                                                                             }
+                                                                         ],
+                                                   "Forest_House":  [
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.005,
+                                                                            "tag":  "水"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.005,
+                                                                            "tag":  "食物"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.002,
+                                                                            "tag":  "腐败食物"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.001,
+                                                                            "tag":  "近战武器"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.002,
+                                                                            "tag":  "枪械零件"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.0005,
+                                                                            "tag":  "枪械"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.0005,
+                                                                            "tag":  "枪械附件"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.0025,
+                                                                            "tag":  "弹药"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.05,
+                                                                            "tag":  "工具"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.1,
+                                                                            "tag":  "废旧材料"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.025,
+                                                                            "tag":  "办公用品"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.005,
+                                                                            "tag":  "灯具"
+                                                                        },
+                                                                        {
+                                                                            "stack":  0.5,
+                                                                            "rate":  0.04,
+                                                                            "tag":  "羽毛"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.01,
+                                                                            "tag":  "骨头"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.0035,
+                                                                            "tag":  "皮革"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.02,
+                                                                            "tag":  "布料"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.001,
+                                                                            "tag":  "枪械包"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.003,
+                                                                            "tag":  "工具包"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.005,
+                                                                            "tag":  "医用原料"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.0005,
+                                                                            "tag":  "民用装备"
+                                                                        }
+                                                                    ],
+                                                   "Military_Loot":  [
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.03,
+                                                                             "tag":  "枪械零件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械附件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.1,
+                                                                             "tag":  "弹药"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械包"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "警用装备"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.005,
+                                                                             "tag":  "军用装备"
+                                                                         }
+                                                                     ]
+                                               },
+                                 "crates":  {
+                                                "Cardboards_01":  "Forest_House",
+                                                "Cardboards_02":  "Forest_House",
+                                                "Cardboards_03":  "Forest_House",
+                                                "Cardboards_04":  "Forest_House",
+                                                "Cardboards_05":  "Forest_House",
+                                                "Cardboards_06":  "Forest_House",
+                                                "MetalBoxes_01":  "Military_Loot",
+                                                "MetalBoxes_02":  "Military_Loot",
+                                                "MetalBoxes_03":  "Forest_House",
+                                                "MetalBoxes_04":  "Forest_House",
+                                                "MetalBoxes_05":  "Food_Loot",
+                                                "MilitaryBoxes_01":  "Military_Loot",
+                                                "MilitaryBoxes_02":  "Military_Loot",
+                                                "MilitaryBoxes_03":  "Military_Loot",
+                                                "MilitaryBoxes_04":  "Military_Loot",
+                                                "MilitaryBoxes_05":  "Military_Loot",
+                                                "MilitaryBoxes_06":  "Military_Loot",
+                                                "Suitcases_01":  "Forest_House",
+                                                "Suitcases_02":  "Forest_House",
+                                                "Suitcases_03":  "Forest_House",
+                                                "Suitcases_04":  "Forest_House",
+                                                "TarpaulinBox_01":  "Military_Loot",
+                                                "TarpaulinBox_02":  "Military_Loot",
+                                                "TarpaulinBox_03":  "Military_Loot",
+                                                "Toolboxes_01":  "Forest_House",
+                                                "Toolboxes_02":  "Forest_House",
+                                                "Toolboxes_03":  "Forest_House",
+                                                "Toolboxes_04":  "Forest_House",
+                                                "WoodBoxes_01":  "Forest_House",
+                                                "WoodBoxes_02":  "Forest_House",
+                                                "WoodBoxes_03":  "Forest_House",
+                                                "WoodBoxes_04":  "Forest_House",
+                                                "WoodBoxes_05":  "Forest_House",
+                                                "WoodLargeBoxes_01":  "Forest_House",
+                                                "WoodLargeBoxes_02":  "Forest_House",
+                                                "WoodLargeBoxes_03":  "Forest_House",
+                                                "WoodLargeBoxes_04":  "Forest_House",
+                                                "WoodLargeBoxes_05":  "Military_Loot",
+                                                "WoodLargeBoxes_06":  "Military_Loot",
+                                                "WoodLargeBoxes_07":  "Military_Loot",
+                                                "WoodLargeBoxes_08":  "Military_Loot",
+                                                "WoodLargeBoxes_09":  "Forest_House",
+                                                "WoodLargeBoxes_10":  "Military_Loot",
+                                                "WoodLargeBoxes_11":  "Forest_House",
+                                                "Crate_Group_1":  "Forest_House",
+                                                "Crate_Group_10":  "Forest_House",
+                                                "Crate_Group_11":  "Forest_House",
+                                                "Crate_Group_12":  "Forest_House",
+                                                "Crate_Group_13":  "Military_Loot",
+                                                "Crate_Group_14":  "Military_Loot",
+                                                "Crate_Group_15":  "Forest_House+Ammo",
+                                                "Crate_Group_2":  "Forest_House",
+                                                "Crate_Group_3":  "Military_Loot",
+                                                "Crate_Group_4":  "Military_Loot",
+                                                "Crate_Group_5":  "Forest_House",
+                                                "Crate_Group_6":  "Forest_House",
+                                                "Crate_Group_7":  "Forest_House",
+                                                "Crate_Group_8":  "Military_Loot",
+                                                "Crate_Group_9":  "Forest_House"
+                                            }
+                             },
+                   "mountain":  {
+                                    "rate_sets":  {
+                                                      "Food_Loot":  [
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.1,
+                                                                            "tag":  "水"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.1,
+                                                                            "tag":  "食物"
+                                                                        },
+                                                                        {
+                                                                            "stack":  1,
+                                                                            "rate":  0.02,
+                                                                            "tag":  "腐败食物"
+                                                                        }
+                                                                    ],
+                                                      "Forest_House+Ammo":  [
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.005,
+                                                                                    "tag":  "水"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.005,
+                                                                                    "tag":  "食物"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.002,
+                                                                                    "tag":  "腐败食物"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.001,
+                                                                                    "tag":  "近战武器"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.02,
+                                                                                    "tag":  "枪械零件"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.01,
+                                                                                    "tag":  "枪械"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.01,
+                                                                                    "tag":  "枪械附件"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.00625,
+                                                                                    "tag":  "弹药"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.05,
+                                                                                    "tag":  "工具"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.1,
+                                                                                    "tag":  "废旧材料"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.025,
+                                                                                    "tag":  "办公用品"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.005,
+                                                                                    "tag":  "灯具"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  0.5,
+                                                                                    "rate":  0.04,
+                                                                                    "tag":  "羽毛"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.01,
+                                                                                    "tag":  "枪械包"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.003,
+                                                                                    "tag":  "工具包"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.001,
+                                                                                    "tag":  "民用装备"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.0075,
+                                                                                    "tag":  "警用装备"
+                                                                                },
+                                                                                {
+                                                                                    "stack":  1,
+                                                                                    "rate":  0.005,
+                                                                                    "tag":  "军用装备"
+                                                                                }
+                                                                            ],
+                                                      "Forest_House":  [
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.005,
+                                                                               "tag":  "水"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.005,
+                                                                               "tag":  "食物"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.002,
+                                                                               "tag":  "腐败食物"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.001,
+                                                                               "tag":  "近战武器"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.002,
+                                                                               "tag":  "枪械零件"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.0005,
+                                                                               "tag":  "枪械"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.0005,
+                                                                               "tag":  "枪械附件"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.0025,
+                                                                               "tag":  "弹药"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.05,
+                                                                               "tag":  "工具"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.1,
+                                                                               "tag":  "废旧材料"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.025,
+                                                                               "tag":  "办公用品"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.005,
+                                                                               "tag":  "灯具"
+                                                                           },
+                                                                           {
+                                                                               "stack":  0.5,
+                                                                               "rate":  0.04,
+                                                                               "tag":  "羽毛"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.01,
+                                                                               "tag":  "骨头"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.0035,
+                                                                               "tag":  "皮革"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.02,
+                                                                               "tag":  "布料"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.001,
+                                                                               "tag":  "枪械包"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.003,
+                                                                               "tag":  "工具包"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.005,
+                                                                               "tag":  "医用原料"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.0005,
+                                                                               "tag":  "民用装备"
+                                                                           }
+                                                                       ],
+                                                      "Military_Loot":  [
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.03,
+                                                                                "tag":  "枪械零件"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.01,
+                                                                                "tag":  "枪械"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.01,
+                                                                                "tag":  "枪械附件"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.1,
+                                                                                "tag":  "弹药"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.01,
+                                                                                "tag":  "枪械包"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.01,
+                                                                                "tag":  "警用装备"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.005,
+                                                                                "tag":  "军用装备"
+                                                                            }
+                                                                        ]
+                                                  },
+                                    "crates":  {
+                                                   "Cardboards_01":  "Forest_House",
+                                                   "Cardboards_02":  "Forest_House",
+                                                   "Cardboards_03":  "Forest_House",
+                                                   "Cardboards_04":  "Forest_House",
+                                                   "Cardboards_05":  "Forest_House",
+                                                   "Cardboards_06":  "Forest_House",
+                                                   "MetalBoxes_01":  "Military_Loot",
+                                                   "MetalBoxes_02":  "Military_Loot",
+                                                   "MetalBoxes_03":  "Forest_House",
+                                                   "MetalBoxes_04":  "Forest_House",
+                                                   "MetalBoxes_05":  "Food_Loot",
+                                                   "MilitaryBoxes_01":  "Military_Loot",
+                                                   "MilitaryBoxes_02":  "Military_Loot",
+                                                   "MilitaryBoxes_03":  "Military_Loot",
+                                                   "MilitaryBoxes_04":  "Military_Loot",
+                                                   "MilitaryBoxes_05":  "Military_Loot",
+                                                   "MilitaryBoxes_06":  "Military_Loot",
+                                                   "Suitcases_01":  "Forest_House",
+                                                   "Suitcases_02":  "Forest_House",
+                                                   "Suitcases_03":  "Forest_House",
+                                                   "Suitcases_04":  "Forest_House",
+                                                   "TarpaulinBox_01":  "Military_Loot",
+                                                   "TarpaulinBox_02":  "Military_Loot",
+                                                   "TarpaulinBox_03":  "Military_Loot",
+                                                   "Toolboxes_01":  "Forest_House",
+                                                   "Toolboxes_02":  "Forest_House",
+                                                   "Toolboxes_03":  "Forest_House",
+                                                   "Toolboxes_04":  "Forest_House",
+                                                   "WoodBoxes_01":  "Forest_House",
+                                                   "WoodBoxes_02":  "Forest_House",
+                                                   "WoodBoxes_03":  "Forest_House",
+                                                   "WoodBoxes_04":  "Forest_House",
+                                                   "WoodBoxes_05":  "Forest_House",
+                                                   "WoodLargeBoxes_01":  "Forest_House",
+                                                   "WoodLargeBoxes_02":  "Forest_House",
+                                                   "WoodLargeBoxes_03":  "Forest_House",
+                                                   "WoodLargeBoxes_04":  "Forest_House",
+                                                   "WoodLargeBoxes_05":  "Military_Loot",
+                                                   "WoodLargeBoxes_06":  "Military_Loot",
+                                                   "WoodLargeBoxes_07":  "Military_Loot",
+                                                   "WoodLargeBoxes_08":  "Military_Loot",
+                                                   "WoodLargeBoxes_09":  "Forest_House",
+                                                   "WoodLargeBoxes_10":  "Military_Loot",
+                                                   "WoodLargeBoxes_11":  "Forest_House",
+                                                   "Crate_Group_1":  "Forest_House",
+                                                   "Crate_Group_10":  "Forest_House",
+                                                   "Crate_Group_11":  "Forest_House",
+                                                   "Crate_Group_12":  "Forest_House",
+                                                   "Crate_Group_13":  "Military_Loot",
+                                                   "Crate_Group_14":  "Military_Loot",
+                                                   "Crate_Group_15":  "Forest_House+Ammo",
+                                                   "Crate_Group_2":  "Forest_House",
+                                                   "Crate_Group_3":  "Military_Loot",
+                                                   "Crate_Group_4":  "Military_Loot",
+                                                   "Crate_Group_5":  "Forest_House",
+                                                   "Crate_Group_6":  "Forest_House",
+                                                   "Crate_Group_7":  "Forest_House",
+                                                   "Crate_Group_8":  "Military_Loot",
+                                                   "Crate_Group_9":  "Forest_House"
+                                               }
+                                },
+                   "snowy":  {
+                                 "rate_sets":  {
+                                                   "Food_Loot":  [
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.1,
+                                                                         "tag":  "水"
+                                                                     },
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.1,
+                                                                         "tag":  "食物"
+                                                                     },
+                                                                     {
+                                                                         "stack":  1,
+                                                                         "rate":  0.02,
+                                                                         "tag":  "腐败食物"
+                                                                     }
+                                                                 ],
+                                                   "Military_Loot":  [
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.03,
+                                                                             "tag":  "枪械零件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械附件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.1,
+                                                                             "tag":  "弹药"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械包"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "警用装备"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.005,
+                                                                             "tag":  "军用装备"
+                                                                         }
+                                                                     ],
+                                                   "Snow_Common":  [
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.01,
+                                                                           "tag":  "雪地特供"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0025,
+                                                                           "tag":  "水"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0025,
+                                                                           "tag":  "食物"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.001,
+                                                                           "tag":  "腐败食物"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.001,
+                                                                           "tag":  "近战武器"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.002,
+                                                                           "tag":  "枪械零件"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0005,
+                                                                           "tag":  "枪械"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0005,
+                                                                           "tag":  "枪械附件"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0125,
+                                                                           "tag":  "弹药"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.05,
+                                                                           "tag":  "工具"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.1,
+                                                                           "tag":  "废旧材料"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.025,
+                                                                           "tag":  "办公用品"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.005,
+                                                                           "tag":  "灯具"
+                                                                       },
+                                                                       {
+                                                                           "stack":  0.5,
+                                                                           "rate":  0.005,
+                                                                           "tag":  "羽毛"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.01,
+                                                                           "tag":  "骨头"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.02,
+                                                                           "tag":  "布料"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.001,
+                                                                           "tag":  "枪械包"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.003,
+                                                                           "tag":  "工具包"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.0005,
+                                                                           "tag":  "民用装备"
+                                                                       }
+                                                                   ]
+                                               },
+                                 "crates":  {
+                                                "Cardboards_01":  "Snow_Common",
+                                                "Cardboards_02":  "Snow_Common",
+                                                "Cardboards_03":  "Snow_Common",
+                                                "Cardboards_04":  "Snow_Common",
+                                                "Cardboards_05":  "Snow_Common",
+                                                "Cardboards_06":  "Snow_Common",
+                                                "MetalBoxes_01":  "Military_Loot",
+                                                "MetalBoxes_02":  "Military_Loot",
+                                                "MetalBoxes_03":  "Snow_Common",
+                                                "MetalBoxes_04":  "Snow_Common",
+                                                "MetalBoxes_05":  "Food_Loot",
+                                                "MilitaryBoxes_01":  "Military_Loot",
+                                                "MilitaryBoxes_02":  "Military_Loot",
+                                                "MilitaryBoxes_03":  "Military_Loot",
+                                                "MilitaryBoxes_04":  "Military_Loot",
+                                                "MilitaryBoxes_05":  "Military_Loot",
+                                                "MilitaryBoxes_06":  "Military_Loot",
+                                                "Suitcases_01":  "Snow_Common",
+                                                "Suitcases_02":  "Snow_Common",
+                                                "Suitcases_03":  "Snow_Common",
+                                                "Suitcases_04":  "Snow_Common",
+                                                "TarpaulinBox_01":  "Military_Loot",
+                                                "TarpaulinBox_02":  "Military_Loot",
+                                                "TarpaulinBox_03":  "Military_Loot",
+                                                "Toolboxes_01":  "Snow_Common",
+                                                "Toolboxes_02":  "Snow_Common",
+                                                "Toolboxes_03":  "Snow_Common",
+                                                "Toolboxes_04":  "Snow_Common",
+                                                "WoodBoxes_01":  "Snow_Common",
+                                                "WoodBoxes_02":  "Snow_Common",
+                                                "WoodBoxes_03":  "Snow_Common",
+                                                "WoodBoxes_04":  "Snow_Common",
+                                                "WoodBoxes_05":  "Snow_Common",
+                                                "WoodLargeBoxes_01":  "Snow_Common",
+                                                "WoodLargeBoxes_02":  "Snow_Common",
+                                                "WoodLargeBoxes_03":  "Snow_Common",
+                                                "WoodLargeBoxes_04":  "Snow_Common",
+                                                "WoodLargeBoxes_05":  "Military_Loot",
+                                                "WoodLargeBoxes_06":  "Military_Loot",
+                                                "WoodLargeBoxes_07":  "Military_Loot",
+                                                "WoodLargeBoxes_08":  "Military_Loot",
+                                                "WoodLargeBoxes_09":  "Snow_Common",
+                                                "WoodLargeBoxes_10":  "Military_Loot",
+                                                "WoodLargeBoxes_11":  "Snow_Common",
+                                                "Crate_Group_1":  "Snow_Common",
+                                                "Crate_Group_10":  "Snow_Common",
+                                                "Crate_Group_11":  "Snow_Common",
+                                                "Crate_Group_12":  "Snow_Common",
+                                                "Crate_Group_13":  "Military_Loot",
+                                                "Crate_Group_14":  "Military_Loot",
+                                                "Crate_Group_15":  "Snow_Common",
+                                                "Crate_Group_2":  "Snow_Common",
+                                                "Crate_Group_3":  "Military_Loot",
+                                                "Crate_Group_4":  "Military_Loot",
+                                                "Crate_Group_5":  "Snow_Common",
+                                                "Crate_Group_6":  "Snow_Common",
+                                                "Crate_Group_7":  "Snow_Common",
+                                                "Crate_Group_8":  "Military_Loot",
+                                                "Crate_Group_9":  "Snow_Common"
+                                            }
+                             },
+                   "swamp":  {
+                                 "rate_sets":  {
+                                                   "Military_Loot":  [
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.03,
+                                                                             "tag":  "枪械零件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械附件"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.1,
+                                                                             "tag":  "弹药"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "枪械包"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.01,
+                                                                             "tag":  "警用装备"
+                                                                         },
+                                                                         {
+                                                                             "stack":  1,
+                                                                             "rate":  0.005,
+                                                                             "tag":  "军用装备"
+                                                                         }
+                                                                     ],
+                                                   "RainForest_Common":  [
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "雨林特供"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0025,
+                                                                                 "tag":  "水"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0025,
+                                                                                 "tag":  "食物"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.001,
+                                                                                 "tag":  "腐败食物"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.001,
+                                                                                 "tag":  "近战武器"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.002,
+                                                                                 "tag":  "枪械零件"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0005,
+                                                                                 "tag":  "枪械"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0005,
+                                                                                 "tag":  "枪械附件"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0125,
+                                                                                 "tag":  "弹药"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.05,
+                                                                                 "tag":  "工具"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.1,
+                                                                                 "tag":  "废旧材料"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.025,
+                                                                                 "tag":  "办公用品"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.005,
+                                                                                 "tag":  "灯具"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.04,
+                                                                                 "tag":  "羽毛"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "骨头"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.007,
+                                                                                 "tag":  "皮革"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.02,
+                                                                                 "tag":  "布料"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.001,
+                                                                                 "tag":  "枪械包"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.003,
+                                                                                 "tag":  "工具包"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.01,
+                                                                                 "tag":  "医用原料"
+                                                                             },
+                                                                             {
+                                                                                 "stack":  1,
+                                                                                 "rate":  0.0005,
+                                                                                 "tag":  "民用装备"
+                                                                             }
+                                                                         ],
+                                                   "Warzone_Common":  [
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.03,
+                                                                              "tag":  "废墟特供"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "水"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "食物"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "腐败食物"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "近战武器"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.002,
+                                                                              "tag":  "枪械零件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "枪械"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "枪械附件"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0125,
+                                                                              "tag":  "弹药"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.05,
+                                                                              "tag":  "工具"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.1,
+                                                                              "tag":  "废旧材料"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.025,
+                                                                              "tag":  "办公用品"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.005,
+                                                                              "tag":  "灯具"
+                                                                          },
+                                                                          {
+                                                                              "stack":  0.5,
+                                                                              "rate":  0.0025,
+                                                                              "tag":  "羽毛"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.01,
+                                                                              "tag":  "骨头"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.02,
+                                                                              "tag":  "布料"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.001,
+                                                                              "tag":  "枪械包"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.003,
+                                                                              "tag":  "工具包"
+                                                                          },
+                                                                          {
+                                                                              "stack":  1,
+                                                                              "rate":  0.0005,
+                                                                              "tag":  "民用装备"
+                                                                          }
+                                                                      ]
+                                               },
+                                 "crates":  {
+                                                "Cardboards_01":  "RainForest_Common",
+                                                "Cardboards_02":  "RainForest_Common",
+                                                "Cardboards_03":  "Warzone_Common",
+                                                "Cardboards_04":  "RainForest_Common",
+                                                "Cardboards_05":  "RainForest_Common",
+                                                "Cardboards_06":  "RainForest_Common",
+                                                "MetalBoxes_01":  "Military_Loot",
+                                                "MetalBoxes_02":  "Military_Loot",
+                                                "MetalBoxes_03":  "RainForest_Common",
+                                                "MetalBoxes_04":  "RainForest_Common",
+                                                "MetalBoxes_05":  "RainForest_Common",
+                                                "MilitaryBoxes_01":  "Military_Loot",
+                                                "MilitaryBoxes_02":  "Military_Loot",
+                                                "MilitaryBoxes_03":  "Military_Loot",
+                                                "MilitaryBoxes_04":  "Military_Loot",
+                                                "MilitaryBoxes_05":  "Military_Loot",
+                                                "MilitaryBoxes_06":  "Military_Loot",
+                                                "Suitcases_01":  "RainForest_Common",
+                                                "Suitcases_02":  "RainForest_Common",
+                                                "Suitcases_03":  "RainForest_Common",
+                                                "Suitcases_04":  "RainForest_Common",
+                                                "TarpaulinBox_01":  "Military_Loot",
+                                                "TarpaulinBox_02":  "Military_Loot",
+                                                "TarpaulinBox_03":  "Military_Loot",
+                                                "Toolboxes_01":  "RainForest_Common",
+                                                "Toolboxes_02":  "RainForest_Common",
+                                                "Toolboxes_03":  "RainForest_Common",
+                                                "Toolboxes_04":  "RainForest_Common",
+                                                "WoodBoxes_01":  "RainForest_Common",
+                                                "WoodBoxes_02":  "RainForest_Common",
+                                                "WoodBoxes_03":  "RainForest_Common",
+                                                "WoodBoxes_04":  "RainForest_Common",
+                                                "WoodBoxes_05":  "RainForest_Common",
+                                                "WoodLargeBoxes_01":  "RainForest_Common",
+                                                "WoodLargeBoxes_02":  "RainForest_Common",
+                                                "WoodLargeBoxes_03":  "RainForest_Common",
+                                                "WoodLargeBoxes_04":  "RainForest_Common",
+                                                "WoodLargeBoxes_05":  "Military_Loot",
+                                                "WoodLargeBoxes_06":  "Military_Loot",
+                                                "WoodLargeBoxes_07":  "Military_Loot",
+                                                "WoodLargeBoxes_08":  "Military_Loot",
+                                                "WoodLargeBoxes_09":  "RainForest_Common",
+                                                "WoodLargeBoxes_10":  "Military_Loot",
+                                                "WoodLargeBoxes_11":  "RainForest_Common",
+                                                "Crate_Group_1":  "RainForest_Common",
+                                                "Crate_Group_10":  "RainForest_Common",
+                                                "Crate_Group_11":  "RainForest_Common",
+                                                "Crate_Group_12":  "RainForest_Common",
+                                                "Crate_Group_13":  "Military_Loot",
+                                                "Crate_Group_14":  "Military_Loot",
+                                                "Crate_Group_15":  "RainForest_Common",
+                                                "Crate_Group_2":  "RainForest_Common",
+                                                "Crate_Group_3":  "Military_Loot",
+                                                "Crate_Group_4":  "Military_Loot",
+                                                "Crate_Group_5":  "RainForest_Common",
+                                                "Crate_Group_6":  "RainForest_Common",
+                                                "Crate_Group_7":  "RainForest_Common",
+                                                "Crate_Group_8":  "Military_Loot",
+                                                "Crate_Group_9":  "RainForest_Common"
+                                            }
+                             },
+                   "warzone":  {
+                                   "rate_sets":  {
+                                                     "Food_Loot":  [
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.1,
+                                                                           "tag":  "水"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.1,
+                                                                           "tag":  "食物"
+                                                                       },
+                                                                       {
+                                                                           "stack":  1,
+                                                                           "rate":  0.02,
+                                                                           "tag":  "腐败食物"
+                                                                       }
+                                                                   ],
+                                                     "Military_Loot":  [
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.03,
+                                                                               "tag":  "枪械零件"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.01,
+                                                                               "tag":  "枪械"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.01,
+                                                                               "tag":  "枪械附件"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.1,
+                                                                               "tag":  "弹药"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.01,
+                                                                               "tag":  "枪械包"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.01,
+                                                                               "tag":  "警用装备"
+                                                                           },
+                                                                           {
+                                                                               "stack":  1,
+                                                                               "rate":  0.005,
+                                                                               "tag":  "军用装备"
+                                                                           }
+                                                                       ],
+                                                     "Warzone_Common":  [
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.03,
+                                                                                "tag":  "废墟特供"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.001,
+                                                                                "tag":  "水"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.001,
+                                                                                "tag":  "食物"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.001,
+                                                                                "tag":  "腐败食物"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.001,
+                                                                                "tag":  "近战武器"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.002,
+                                                                                "tag":  "枪械零件"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.0005,
+                                                                                "tag":  "枪械"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.0005,
+                                                                                "tag":  "枪械附件"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.0125,
+                                                                                "tag":  "弹药"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.05,
+                                                                                "tag":  "工具"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.1,
+                                                                                "tag":  "废旧材料"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.025,
+                                                                                "tag":  "办公用品"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.005,
+                                                                                "tag":  "灯具"
+                                                                            },
+                                                                            {
+                                                                                "stack":  0.5,
+                                                                                "rate":  0.0025,
+                                                                                "tag":  "羽毛"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.01,
+                                                                                "tag":  "骨头"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.02,
+                                                                                "tag":  "布料"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.001,
+                                                                                "tag":  "枪械包"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.003,
+                                                                                "tag":  "工具包"
+                                                                            },
+                                                                            {
+                                                                                "stack":  1,
+                                                                                "rate":  0.0005,
+                                                                                "tag":  "民用装备"
+                                                                            }
+                                                                        ]
+                                                 },
+                                   "crates":  {
+                                                  "Cardboards_01":  "Warzone_Common",
+                                                  "Cardboards_02":  "Warzone_Common",
+                                                  "Cardboards_03":  "Warzone_Common",
+                                                  "Cardboards_04":  "Warzone_Common",
+                                                  "Cardboards_05":  "Warzone_Common",
+                                                  "Cardboards_06":  "Warzone_Common",
+                                                  "MetalBoxes_01":  "Military_Loot",
+                                                  "MetalBoxes_02":  "Military_Loot",
+                                                  "MetalBoxes_03":  "Warzone_Common",
+                                                  "MetalBoxes_04":  "Warzone_Common",
+                                                  "MetalBoxes_05":  "Food_Loot",
+                                                  "MilitaryBoxes_01":  "Military_Loot",
+                                                  "MilitaryBoxes_02":  "Military_Loot",
+                                                  "MilitaryBoxes_03":  "Military_Loot",
+                                                  "MilitaryBoxes_04":  "Military_Loot",
+                                                  "MilitaryBoxes_05":  "Military_Loot",
+                                                  "MilitaryBoxes_06":  "Military_Loot",
+                                                  "Suitcases_01":  "Warzone_Common",
+                                                  "Suitcases_02":  "Warzone_Common",
+                                                  "Suitcases_03":  "Warzone_Common",
+                                                  "Suitcases_04":  "Warzone_Common",
+                                                  "TarpaulinBox_01":  "Military_Loot",
+                                                  "TarpaulinBox_02":  "Military_Loot",
+                                                  "TarpaulinBox_03":  "Military_Loot",
+                                                  "Toolboxes_01":  "Warzone_Common",
+                                                  "Toolboxes_02":  "Warzone_Common",
+                                                  "Toolboxes_03":  "Warzone_Common",
+                                                  "Toolboxes_04":  "Warzone_Common",
+                                                  "WoodBoxes_01":  "Warzone_Common",
+                                                  "WoodBoxes_02":  "Warzone_Common",
+                                                  "WoodBoxes_03":  "Warzone_Common",
+                                                  "WoodBoxes_04":  "Warzone_Common",
+                                                  "WoodBoxes_05":  "Warzone_Common",
+                                                  "WoodLargeBoxes_01":  "Warzone_Common",
+                                                  "WoodLargeBoxes_02":  "Warzone_Common",
+                                                  "WoodLargeBoxes_03":  "Warzone_Common",
+                                                  "WoodLargeBoxes_04":  "Warzone_Common",
+                                                  "WoodLargeBoxes_05":  "Military_Loot",
+                                                  "WoodLargeBoxes_06":  "Military_Loot",
+                                                  "WoodLargeBoxes_07":  "Military_Loot",
+                                                  "WoodLargeBoxes_08":  "Military_Loot",
+                                                  "WoodLargeBoxes_09":  "Warzone_Common",
+                                                  "WoodLargeBoxes_10":  "Military_Loot",
+                                                  "WoodLargeBoxes_11":  "Warzone_Common",
+                                                  "Crate_Group_1":  "Warzone_Common",
+                                                  "Crate_Group_10":  "Warzone_Common",
+                                                  "Crate_Group_11":  "Warzone_Common",
+                                                  "Crate_Group_12":  "Warzone_Common",
+                                                  "Crate_Group_13":  "Military_Loot",
+                                                  "Crate_Group_14":  "Military_Loot",
+                                                  "Crate_Group_15":  "Warzone_Common",
+                                                  "Crate_Group_2":  "Warzone_Common",
+                                                  "Crate_Group_3":  "Military_Loot",
+                                                  "Crate_Group_4":  "Military_Loot",
+                                                  "Crate_Group_5":  "Warzone_Common",
+                                                  "Crate_Group_6":  "Warzone_Common",
+                                                  "Crate_Group_7":  "Warzone_Common",
+                                                  "Crate_Group_8":  "Military_Loot",
+                                                  "Crate_Group_9":  "Warzone_Common"
+                                              }
+                               }
+               }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" width="43" height="43">
+<title>North compass rose</title>
+<desc>The assembled compass badge: a translucent black disc with a heavy off-white rim, four faint intercardinal rays, and a four-pointed star whose north point runs longer than the other three.</desc>
+<circle cx="21.5" cy="21.5" r="20" fill="#000000" opacity="0.6"/>
+<circle cx="21.5" cy="21.5" r="20" fill="none" stroke="#d9d2c1" stroke-width="3" opacity="0.55"/>
+<g stroke="#efe9da" stroke-width="1.2" stroke-linecap="round" opacity="0.45">
+<line x1="26.5" y1="16.5" x2="31.5" y2="11.5"/>
+<line x1="16.5" y1="16.5" x2="11.5" y2="11.5"/>
+<line x1="26.5" y1="26.5" x2="31.5" y2="31.5"/>
+<line x1="16.5" y1="26.5" x2="11.5" y2="31.5"/>
+</g>
+<path d="M21.5 4.5L25 18L33.5 21.5L25 25L21.5 34.5L18 25L9.5 21.5L18 18Z" fill="#efe9da"/>
+</svg>

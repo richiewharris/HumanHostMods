@@ -1,15 +1,34 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Plank Fence
 | image      = Plank_Fence.png
 | type       = Building Material
+| block          = 350
+| stack          = 50
+| tag            = BuildMat
 }}
 
-'''Plank Fence''' is a building material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''Plank Fence''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]]. It appears as an ingredient in 1 downstream recipes at the [[Carpentry Workbench]], including [[Plank Gate]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 12 || [[Log Fence]] x1, [[Planks]] x30, [[Nails]] x12 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Plank Gate]] x1 || [[Carpentry Workbench]] || 1 || 1
+|}
 
 == See also ==
 

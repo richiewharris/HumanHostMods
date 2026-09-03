@@ -1,0 +1,47 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Titanium Ingot
+| type       = Refined Metal
+| stack          = 100
+| value          = 200
+}}
+
+== Description ==
+
+'''Titanium Ingot''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 23 downstream recipes at 4 different workbenches, including [[Titanium Alloy]], [[Titanium Buckshot]], [[Sensor Spike]], [[Titanium Bullet Tip]], [[Spiked Club]], [[Combat Knife]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Furnace]] || 1 || 4 || [[Wood]] x4, [[Titanium Ore]] x2, [[Charcoal]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Combat Knife]] x1 || [[Anvil]] || 3 || 1
+|-
+| [[Sensor Spike]] x1 || [[Mechanical Workbench]] || 2 || 1
+|-
+| [[Spiked Club]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Titanium Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|-
+| [[Titanium Buckshot]] x10 || [[Furnace]] || 1 || 1
+|-
+| [[Titanium Bullet Tip]] x5 || [[Furnace]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]

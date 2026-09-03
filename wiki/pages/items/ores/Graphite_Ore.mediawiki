@@ -1,23 +1,18 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Graphite Ore
 | image      = Ore_Graphite.png
 | type       = Ore
 | source = Mined from terrain
+| stack          = 200
+| value          = 100
 }}
-
-The '''Graphite Ore''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
-
-== Source ==
-
-TBD.
+'''Graphite Ore''' is a mineable ore in ''[[Human Host]]'', obtained by [[Mining|mining]] terrain deposits. It appears as an ingredient in 37 downstream recipes at the [[Anvil]] and the [[Cutting Workbench]], including [[Titanium Alloy]], [[Cast Iron]], [[Gear]], among others. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
@@ -26,11 +21,10 @@ TBD.
 |-
 | [[Cast Iron]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |-
-| [[Gear]] x1 || [[Anvil Workbench]] || 1 || 1
+| [[Gear]] x1 || [[Anvil]] || 1 || 1
 |-
 | [[Titanium Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |}
-
 
 == Technical ==
 

@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Repairman
+| tree     = Craft
+| maxLevel = 5
+| buff     = No
+}}
+
+'''Repairman''' is a Craft-tree passive that scales with level; the table above shows the exact effect at each of its 5 ranks.
+
+== Effect ==
+
+When repairing buildings/vehicles, the durability restored is increased by [ *% ].
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || When repairing buildings/vehicles, the durability restored is increased by '''60%'''.
+|-
+| 2 || When repairing buildings/vehicles, the durability restored is increased by '''90%'''.
+|-
+| 3 || When repairing buildings/vehicles, the durability restored is increased by '''140%'''.
+|-
+| 4 || When repairing buildings/vehicles, the durability restored is increased by '''210%'''.
+|-
+| 5 || When repairing buildings/vehicles, the durability restored is increased by '''300%'''.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Craft tree]]

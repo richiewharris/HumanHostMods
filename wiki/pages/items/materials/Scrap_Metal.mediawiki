@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Scrap Metal
+| type       = Salvage
+| block          = 350
+| stack          = 100
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Scrap Metal''' is a salvaged component in ''[[Human Host]]'', crafted at the [[Cutting Workbench]]. It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Pig Iron]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 7 || [[Scrap Iron]] x5-70 || 18 shapes
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Pig Iron]] x1 || [[Cutting Workbench]] || 1 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Salvage]]
+[[Category:Items]]

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 14" width="12" height="14">
+<title>Bezel diamond, cardinal</title>
+<desc>The larger diamond boss used at north, east, south and west on the minimap bezel. Twelve units wide by fourteen tall.</desc>
+<path d="M6 0L12 7L6 14L0 7Z" fill="#a89468"/>
+</svg>

@@ -1,538 +1,610 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
 
-Alphabetical index of every material in the crafting graph. For each item, the ''Produced by'' column lists the workbenches that craft it, and the ''Used in'' column shows how many recipes consume it (click the item for details).
+Complete index of every material in the crafting graph, grouped by category. Each row shows which workbenches craft the item and how many downstream recipes consume it. Click any item to jump to its page for the full recipe details.
 
-Total items: 265. See [[Crafting]] for the workbench catalog.
+Total: 261 items across 11 categories. See [[Crafting]] for the workbench catalog.
+
+== Categories ==
+
+* [[#Raw_Material|Raw Material]] (15)
+* [[#Refined_Metal|Refined Metal]] (65)
+* [[#Salvage|Salvage]] (11)
+* [[#Building_Material|Building Material]] (41)
+* [[#Component|Component]] (10)
+* [[#Electronic_Component|Electronic Component]] (12)
+* [[#Ammunition_Component|Ammunition Component]] (2)
+* [[#Weapon_Component|Weapon Component]] (3)
+* [[#Melee_Weapon|Melee Weapon]] (11)
+* [[#Medical|Medical]] (11)
+* [[#Material|Material]] (80)
+
+== Raw Material ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
-! Item !! Category !! Produced by !! Used in (recipes)
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[12x70mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Animal Bone]] || (not craftable) || 1
 |-
-| [[12x70mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Blackwood]] || (not craftable) || 18
 |-
-| [[12x70mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Ebony Wood]] || [[Cutting Workbench]] || 0
 |-
-| [[12x70mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Feathers]] || (not craftable) || 18
 |-
-| [[12x70mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Glue]] || [[Campfire]] || 34
 |-
-| [[5.56x45mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Hemp Rope]] || (not craftable) || 49
 |-
-| [[5.56x45mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Paper]] || (not craftable) || 5
 |-
-| [[5.56x45mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Plant Fiber]] || (not craftable) || 1
 |-
-| [[5.56x45mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Poplar Wood]] || [[Cutting Workbench]] || 18
 |-
-| [[5.56x45mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Redwood]] || (not craftable) || 20
 |-
-| [[7.62x39mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Rubber]] || (not craftable) || 10
 |-
-| [[7.62x39mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Starch]] || (not craftable) || 1
 |-
-| [[7.62x39mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Wood]] || (not craftable) || 64
 |-
-| [[7.62x39mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Wood Grille]] || [[Carpentry Workbench]] || 0
 |-
-| [[7.62x39mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Wood pillar]] || [[Carpentry Workbench]] || 0
+|}
+
+== Refined Metal ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[7.62x51mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[12x70mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x51mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[12x70mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x51mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[12x70mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x51mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[12x70mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x51mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[12x70mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x54mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[5.56x45mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x54mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[5.56x45mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x54mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[5.56x45mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x54mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[5.56x45mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[7.62x54mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[5.56x45mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[9x19mm Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[7.62x39mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[9x19mm Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[7.62x39mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[9x19mm Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[7.62x39mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[9x19mm Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[7.62x39mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[9x19mm Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[7.62x39mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[AKM]] || Material || [[Gun Workbench]] || 0
+| [[7.62x51mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Alcohol]] || Medical || (not craftable) || 3
+| [[7.62x51mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Anesthetic]] || Medical || (not craftable) || 2
+| [[7.62x51mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Antibiotics]] || Medical || [[Biochemical Workbench]] || 0
+| [[7.62x51mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Beads Chrome]] || Refined Metal || [[Furnace]] || 1
+| [[7.62x51mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Beads Copper]] || Refined Metal || [[Furnace]] || 1
+| [[7.62x54mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Beads Steel]] || Refined Metal || [[Furnace]] || 1
+| [[7.62x54mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Beads Titanium]] || Refined Metal || [[Furnace]] || 1
+| [[7.62x54mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Beads Tungsten]] || Refined Metal || [[Furnace]] || 1
+| [[7.62x54mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bearing]] || Component || (not craftable) || 9
+| [[7.62x54mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bicycle Generator]] || Electronic Component || [[Mechanical Workbench]] || 0
+| [[9x19mm Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bladed Pole]] || Material || [[Carpentry Workbench]] || 0
+| [[9x19mm Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bone]] || Raw Material || (not craftable) || 1
+| [[9x19mm Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bottled Water]] || Material || (not craftable) || 5
+| [[9x19mm Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Brick]] || Building Material || [[Furnace]] || 18
+| [[9x19mm Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Bullet Shell]] || Ammunition Component || [[Furnace]] || 30
+| [[Cast Iron]] || [[Cutting Workbench]] || 18
 |-
-| [[Bullet Tip Chrome]] || Refined Metal || [[Furnace]] || 6
+| [[Chrome Alloy]] || [[Cutting Workbench]] || 18
 |-
-| [[Bullet Tip Copper]] || Refined Metal || [[Furnace]] || 6
+| [[Chrome Buckshot]] || [[Furnace]] || 1
 |-
-| [[Bullet Tip Steel]] || Refined Metal || [[Furnace]] || 6
+| [[Chrome Bullet Tip]] || [[Furnace]] || 6
 |-
-| [[Bullet Tip Titanium]] || Refined Metal || [[Furnace]] || 6
+| [[Chrome Ingot]] || [[Furnace]] || 24
 |-
-| [[Bullet Tip Tungsten]] || Refined Metal || [[Furnace]] || 6
+| [[Chrome Iron]] || [[Cutting Workbench]] || 0
 |-
-| [[Carbon-Bonded Brick]] || Building Material || [[Cutting Workbench]] || 0
+| [[Copper Alloy]] || [[Cutting Workbench]] || 18
 |-
-| [[Cast Iron]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Copper Buckshot]] || [[Furnace]] || 1
 |-
-| [[Cellular Brick]] || Building Material || [[Cutting Workbench]] || 18
+| [[Copper Bullet Tip]] || [[Furnace]] || 6
 |-
-| [[Cement]] || Building Material || [[Cement Mixer]], [[Cutting Workbench]] || 37
+| [[Copper Ore]] || (not craftable) || 1
 |-
-| [[Charcoal]] || Component || [[Campfire]] || 24
+| [[Copper Wire]] || [[Anvil]] || 4
 |-
-| [[Chrismatite]] || Building Material || [[Cutting Workbench]] || 36
+| [[D45 Chrome]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Chrome Alloy]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[D45 Copper]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Chrome Iron]] || Refined Metal || [[Cutting Workbench]] || 0
+| [[D45 Steel]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Chrome Ore]] || Refined Metal || (not craftable) || 19
+| [[D45 Titanium]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Circuit Board]] || Electronic Component || (not craftable) || 6
+| [[D45 Tungsten]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Circular Saw]] || Material || (not craftable) || 1
+| [[Forged Copper]] || [[Furnace]] || 30
 |-
-| [[Clap-on Light]] || Material || (not craftable) || 1
+| [[Forged Iron]] || [[Furnace]] || 52
 |-
-| [[Clay]] || Building Material || [[Campfire]] || 14
+| [[High-speed steel]] || [[Cutting Workbench]] || 18
 |-
-| [[Cobblestone]] || Component || [[Furnace]] || 2
+| [[Pig Iron]] || [[Cutting Workbench]] || 18
 |-
-| [[Combat Knife 01]] || Melee Weapon || [[Anvil Workbench]] || 1
+| [[Scrap Brass]] || (not craftable) || 1
 |-
-| [[Combat Knife 02]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Scrap Iron]] || (not craftable) || 47
 |-
-| [[Concrete]] || Building Material || [[Cement Mixer]], [[Cutting Workbench]] || 39
+| [[Titanium Alloy]] || [[Cutting Workbench]] || 18
 |-
-| [[Copper Alloy]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Titanium Buckshot]] || [[Furnace]] || 1
 |-
-| [[Copper Ore]] || Refined Metal || (not craftable) || 1
+| [[Titanium Bullet Tip]] || [[Furnace]] || 6
 |-
-| [[Copper Wire]] || Refined Metal || [[Anvil Workbench]] || 4
+| [[Titanium Ingot]] || [[Furnace]] || 23
 |-
-| [[CPU]] || Electronic Component || (not craftable) || 4
+| [[Titanium Mesh Fusion Concrete]] || [[Cutting Workbench]] || 0
 |-
-| [[D45 Chrome]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Titanium Ore]] || (not craftable) || 19
 |-
-| [[D45 Copper]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Tungsten Buckshot]] || [[Furnace]] || 1
 |-
-| [[D45 Steel]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Tungsten Bullet Tip]] || [[Furnace]] || 6
 |-
-| [[D45 Titanium]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Tungsten Ingot]] || [[Furnace]] || 22
 |-
-| [[D45 Tungsten]] || Refined Metal || [[Gun Workbench]] || 0
+| [[Tungsten Ore]] || (not craftable) || 1
 |-
-| [[Damaged Brick]] || Building Material || [[Cutting Workbench]] || 18
+| [[Tungsten steel alloy]] || [[Cutting Workbench]] || 0
 |-
-| [[Damaged Planks]] || Material || [[Cutting Workbench]] || 18
+| [[Tungsten Steel Knife]] || [[Anvil]] || 0
 |-
-| [[Duct Tape]] || Raw Material || (not craftable) || 49
+| [[Wrought Iron]] || [[Cutting Workbench]] || 18
+|}
+
+== Salvage ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Electrical Wire]] || Electronic Component || [[Electronics Workbench]] || 12
+| [[Scrap Bracers]] || [[Anvil]] || 0
 |-
-| [[Epidote]] || Building Material || [[Cutting Workbench]] || 36
+| [[Scrap Breastplate]] || [[Anvil]] || 0
 |-
-| [[Expired Sandwich]] || Building Material || (not craftable) || 1
+| [[Scrap Greaves]] || [[Anvil]] || 0
 |-
-| [[FAMAS F1]] || Material || [[Gun Workbench]] || 0
+| [[Scrap Helmet]] || [[Anvil]] || 0
 |-
-| [[Feather]] || Raw Material || (not craftable) || 18
+| [[Scrap Iron Door]] || [[Anvil]] || 0
 |-
-| [[Ferrock Concrete]] || Building Material || [[Cutting Workbench]] || 18
+| [[Scrap Leg Armor]] || [[Anvil]] || 0
 |-
-| [[FireAxe 01]] || Material || [[Anvil Workbench]] || 0
+| [[Scrap Metal]] || [[Cutting Workbench]] || 18
 |-
-| [[FireAxe 02]] || Material || [[Anvil Workbench]] || 0
+| [[Scrap Shield]] || [[Anvil]] || 0
 |-
-| [[Forged Chrome]] || Refined Metal || [[Furnace]] || 24
+| [[Scrap Steering Wheel]] || (not craftable) || 1
 |-
-| [[Forged Copper]] || Refined Metal || [[Furnace]] || 30
+| [[Scrap Tire]] || (not craftable) || 1
 |-
-| [[Forged Iron]] || Refined Metal || [[Furnace]] || 52
+| [[Scrap Vambraces]] || [[Anvil]] || 0
+|}
+
+== Building Material ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Forged Iron Crate]] || Refined Metal || [[Anvil Workbench]] || 0
+| [[Bricks]] || [[Furnace]] || 18
 |-
-| [[Forged Steel]] || Refined Metal || [[Furnace]] || 33
+| [[Carbonized crystalline brick]] || [[Cutting Workbench]] || 0
 |-
-| [[Forged Titanium]] || Refined Metal || [[Furnace]] || 23
+| [[Cement]] || [[Concrete Mixer]], [[Cutting Workbench]] || 37
 |-
-| [[Forged Tungsten]] || Refined Metal || [[Furnace]] || 22
+| [[Clay]] || [[Campfire]] || 14
 |-
-| [[Fruit Knife]] || Material || [[Anvil Workbench]] || 1
+| [[Concrete]] || [[Concrete Mixer]], [[Cutting Workbench]] || 39
 |-
-| [[Gear]] || Component || [[Anvil Workbench]] || 7
+| [[Damaged brick]] || [[Cutting Workbench]] || 18
 |-
-| [[Glass]] || Building Material || [[Cutting Workbench]], [[Furnace]] || 19
+| [[Epidote]] || [[Cutting Workbench]] || 36
 |-
-| [[Glass Tempered]] || Building Material || [[Furnace]] || 0
+| [[Expired Sandwich]] || (not craftable) || 1
 |-
-| [[Glue]] || Raw Material || [[Campfire]] || 34
+| [[Glass]] || [[Cutting Workbench]], [[Furnace]] || 19
 |-
-| [[Graphite Ore]] || Material || (not craftable) || 37
+| [[High-pressure lime brick]] || [[Cutting Workbench]] || 18
 |-
-| [[Gun Kit]] || Weapon Component || [[Gun Workbench]] || 0
+| [[Honeycomb brick]] || [[Cutting Workbench]] || 18
 |-
-| [[Gun Powder]] || Material || [[Biochemical Workbench]] || 35
+| [[Iron Rock Concrete]] || [[Cutting Workbench]] || 18
 |-
-| [[Handgun Parts]] || Weapon Component || (not craftable) || 1
+| [[Lapis Lazuli]] || [[Cutting Workbench]] || 36
 |-
-| [[High-Pressure Lime Brick]] || Building Material || [[Cutting Workbench]] || 18
+| [[Log Door Frame]] || [[Carpentry Workbench]] || 1
 |-
-| [[High-Speed Steel]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Log Fence]] || [[Carpentry Workbench]] || 2
 |-
-| [[Hunting Knife]] || Material || [[Anvil Workbench]] || 1
+| [[Log Floor]] || [[Carpentry Workbench]] || 1
 |-
-| [[Iodophor]] || Medical || (not craftable) || 2
+| [[Log Gate]] || [[Carpentry Workbench]] || 0
 |-
-| [[Iron Arrowhead]] || Component || [[Anvil Workbench]] || 5
+| [[Log Ladder]] || [[Carpentry Workbench]] || 0
 |-
-| [[Iron Axe]] || Material || [[Anvil Workbench]] || 0
+| [[Log Pillar]] || [[Carpentry Workbench]] || 6
 |-
-| [[Iron Hammer]] || Material || [[Anvil Workbench]] || 0
+| [[Log Platform]] || [[Carpentry Workbench]] || 1
 |-
-| [[Iron Ore]] || Material || (not craftable) || 19
+| [[Log Stair]] || [[Carpentry Workbench]] || 1
 |-
-| [[Iron Pickaxe]] || Material || [[Anvil Workbench]] || 0
+| [[Log Wall]] || [[Carpentry Workbench]] || 5
 |-
-| [[Iron Spear]] || Material || [[Anvil Workbench]] || 0
+| [[Log Window Frame]] || [[Carpentry Workbench]] || 1
 |-
-| [[Iron Spear 02]] || Material || [[Anvil Workbench]] || 0
+| [[Marble]] || [[Cutting Workbench]] || 36
 |-
-| [[Iron Spear 03]] || Material || [[Anvil Workbench]] || 0
+| [[Obsidian]] || [[Cutting Workbench]] || 18
 |-
-| [[IronPipe Trap]] || Material || [[Anvil Workbench]] || 0
+| [[Plank Door]] || [[Carpentry Workbench]] || 0
 |-
-| [[IronSpike Single]] || Material || [[Anvil Workbench]] || 0
+| [[Plank Door Frame]] || [[Carpentry Workbench]] || 0
 |-
-| [[IronSpike Trap]] || Material || [[Anvil Workbench]] || 0
+| [[Plank Fence]] || [[Carpentry Workbench]] || 1
 |-
-| [[Ladder Log]] || Material || [[Carpentry Workbench]] || 0
+| [[Plank Floor]] || [[Carpentry Workbench]] || 0
 |-
-| [[Lapis Lazuli]] || Building Material || [[Cutting Workbench]] || 36
+| [[Plank Gate]] || [[Carpentry Workbench]] || 0
 |-
-| [[Laser Emitter]] || Electronic Component || (not craftable) || 1
+| [[Plank Platform]] || [[Carpentry Workbench]] || 0
 |-
-| [[Laser Trap]] || Material || [[Mechanical Workbench]] || 0
+| [[Plank Roof]] || [[Carpentry Workbench]] || 0
 |-
-| [[Limestone]] || Building Material || (not craftable) || 19
+| [[Plank Stairs]] || [[Carpentry Workbench]] || 0
 |-
-| [[Log Doorway]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Plank Wall]] || [[Carpentry Workbench]] || 0
 |-
-| [[Log Fence 01]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Plank Window Frame]] || [[Carpentry Workbench]] || 0
 |-
-| [[Log Fence 02]] || Building Material || [[Carpentry Workbench]] || 2
+| [[Planks]] || [[Carpentry Workbench]] || 26
 |-
-| [[Log Fence Gate]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Reinforced Concrete]] || [[Cutting Workbench]] || 18
 |-
-| [[Log Floor]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Sand]] || [[Concrete Mixer]] || 21
 |-
-| [[Log Pillar]] || Building Material || [[Carpentry Workbench]] || 6
+| [[Sulfur]] || (not craftable) || 19
 |-
-| [[Log Platform]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Sulfurized Quartz Brick]] || [[Cutting Workbench]] || 18
 |-
-| [[Log Stair]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Tempered Glass]] || [[Furnace]] || 0
+|}
+
+== Component ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Log Wall]] || Building Material || [[Carpentry Workbench]] || 5
+| [[Bearing]] || (not craftable) || 9
 |-
-| [[Log Window Wall]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Charcoal]] || [[Campfire]] || 24
 |-
-| [[M1891 01]] || Material || [[Gun Workbench]] || 0
+| [[Cobblestone]] || [[Furnace]] || 2
 |-
-| [[M1911 01]] || Material || [[Gun Workbench]] || 0
+| [[Gear]] || [[Anvil]] || 7
 |-
-| [[M1A]] || Material || [[Gun Workbench]] || 0
+| [[Iron Arrowhead]] || [[Anvil]] || 5
 |-
-| [[M3 SMG]] || Material || [[Gun Workbench]] || 0
+| [[Magnet]] || (not craftable) || 4
 |-
-| [[Mace]] || Material || [[Anvil Workbench]] || 0
+| [[Nails]] || [[Anvil]] || 47
 |-
-| [[Machete]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Pulley]] || (not craftable) || 3
 |-
-| [[Machete 02]] || Melee Weapon || [[Anvil Workbench]] || 1
+| [[Rebar]] || [[Anvil]] || 22
 |-
-| [[Magnet]] || Component || (not craftable) || 4
+| [[Spring]] || (not craftable) || 14
+|}
+
+== Electronic Component ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Main Seat]] || Material || [[Mechanical Workbench]] || 0
+| [[Bicycle Generator]] || [[Mechanical Workbench]] || 0
 |-
-| [[Marble]] || Building Material || [[Cutting Workbench]] || 36
+| [[Circuit Board]] || (not craftable) || 6
 |-
-| [[MechPlatform]] || Material || [[Mechanical Workbench]] || 0
+| [[Electric Motor Engine]] || [[Mechanical Workbench]] || 0
 |-
-| [[Medical Bandage]] || Medical || [[Biochemical Workbench]] || 0
+| [[Electrical Wire]] || [[Electronics Workbench]] || 12
 |-
-| [[Medical Case]] || Medical || [[Biochemical Workbench]] || 0
+| [[High-Energy Laser Emitter]] || (not craftable) || 1
 |-
-| [[Medical Gauze]] || Medical || (not craftable) || 3
+| [[Sensor Spike]] || [[Mechanical Workbench]] || 0
 |-
-| [[Medical Tape]] || Medical || (not craftable) || 3
+| [[Simple Generator]] || [[Electronics Workbench]] || 1
 |-
-| [[Medkit]] || Medical || [[Biochemical Workbench]] || 0
+| [[Simple Motor]] || [[Electronics Workbench]] || 6
 |-
-| [[Metal Arm]] || Material || [[Anvil Workbench]] || 0
+| [[Solar Generator]] || [[Mechanical Workbench]] || 0
 |-
-| [[Metal Chest]] || Material || [[Anvil Workbench]] || 0
+| [[Solar Panel]] || (not craftable) || 2
 |-
-| [[Metal Foot]] || Material || [[Anvil Workbench]] || 0
+| [[Sound Sensor]] || [[Electronics Workbench]] || 1
 |-
-| [[Metal Hand]] || Material || [[Anvil Workbench]] || 0
+| [[Transformer]] || [[Electronics Workbench]] || 5
+|}
+
+== Ammunition Component ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Metal Hatchet]] || Material || [[Anvil Workbench]] || 0
+| [[Bullet Shell]] || [[Furnace]] || 30
 |-
-| [[Metal Head]] || Material || [[Anvil Workbench]] || 0
+| [[Steel Bullet Tip]] || [[Furnace]] || 6
+|}
+
+== Weapon Component ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Metal Leg]] || Material || [[Anvil Workbench]] || 0
+| [[Handgun Parts]] || (not craftable) || 1
 |-
-| [[Metal Shield]] || Material || [[Anvil Workbench]] || 0
+| [[Rifle Parts]] || (not craftable) || 4
 |-
-| [[Motor]] || Electronic Component || [[Mechanical Workbench]] || 0
+| [[Shotgun Parts]] || (not craftable) || 1
+|}
+
+== Melee Weapon ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[MP5]] || Material || [[Gun Workbench]] || 0
+| [[Blade Baseball Bat]] || [[Anvil]] || 0
 |-
-| [[Nails]] || Component || [[Anvil Workbench]] || 47
+| [[Combat Knife]] || [[Anvil]] || 1
 |-
-| [[Nitrate Ore]] || Material || (not craftable) || 1
+| [[Rechargeable Battery]] || (not craftable) || 1
 |-
-| [[Nitrate Powder]] || Material || [[Biochemical Workbench]] || 4
+| [[Rusty Long Stick Machete]] || [[Anvil]] || 0
 |-
-| [[Obsidian]] || Building Material || [[Cutting Workbench]] || 18
+| [[Rusty Machete]] || [[Anvil]] || 0
 |-
-| [[Old Tire]] || Material || (not craftable) || 1
+| [[Short Machete]] || [[Anvil]] || 1
 |-
-| [[Pain Killer]] || Medical || [[Biochemical Workbench]] || 0
+| [[Simple Spiked Club]] || [[Anvil]] || 0
 |-
-| [[Paper]] || Raw Material || (not craftable) || 5
+| [[Solar Battery]] || [[Electronics Workbench]] || 4
 |-
-| [[Pig Iron]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Spiked BaseballBat 01]] || [[Anvil]] || 0
 |-
-| [[Pillar 1.5m]] || Material || [[Carpentry Workbench]] || 0
+| [[Spiked BaseballBat 02]] || [[Anvil]] || 0
 |-
-| [[Pipe Blade]] || Material || [[Anvil Workbench]] || 0
+| [[Spiked Club]] || [[Anvil]] || 0
+|}
+
+== Medical ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Pipe Rusty]] || Material || (not craftable) || 1
+| [[Alcohol]] || (not craftable) || 3
 |-
-| [[Plank]] || Building Material || [[Carpentry Workbench]] || 26
+| [[Anesthetic]] || (not craftable) || 2
 |-
-| [[Plank Door]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Antibiotics]] || [[Biochemical Workbench]] || 0
 |-
-| [[Plank Doorway]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Iodophor]] || (not craftable) || 2
 |-
-| [[Plank Ebony]] || Building Material || [[Cutting Workbench]] || 0
+| [[Medical Bandage]] || [[Biochemical Workbench]] || 0
 |-
-| [[Plank Fence]] || Building Material || [[Carpentry Workbench]] || 1
+| [[Medical Case]] || [[Biochemical Workbench]] || 0
 |-
-| [[Plank Fence Gate]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Medical Gauze]] || (not craftable) || 3
 |-
-| [[Plank Floor]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Medical Tape]] || (not craftable) || 3
 |-
-| [[Plank HalfWallSlope]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Medkit]] || [[Biochemical Workbench]] || 0
 |-
-| [[Plank Old]] || Building Material || [[Cutting Workbench]] || 18
+| [[Scalpel]] || (not craftable) || 1
 |-
-| [[Plank Pillar 1m]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Syringe]] || (not craftable) || 1
+|}
+
+== Material ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Item !! Produced by !! Used in (recipes)
 |-
-| [[Plank Pillar 3m]] || Building Material || [[Carpentry Workbench]] || 0
+| [[AKM]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Plank Platform]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Bladed Pole]] || [[Carpentry Workbench]] || 0
 |-
-| [[Plank Poplar]] || Building Material || [[Cutting Workbench]] || 18
+| [[Bottled Water]] || (not craftable) || 5
 |-
-| [[Plank Red Oak]] || Building Material || [[Cutting Workbench]] || 18
+| [[Chip]] || (not craftable) || 4
 |-
-| [[Plank Stairs]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Chromium Ore]] || (not craftable) || 19
 |-
-| [[Plank Wall]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Circular Saw]] || (not craftable) || 1
 |-
-| [[Plank Wall 1.5m]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Clap-on light]] || (not craftable) || 1
 |-
-| [[Plank Window Bars]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Crude Axe]] || [[Anvil]] || 0
 |-
-| [[Plank Window Wall]] || Building Material || [[Carpentry Workbench]] || 0
+| [[Curved Handle Iron Axe]] || [[Anvil]] || 0
 |-
-| [[Plant Fiber]] || Raw Material || (not craftable) || 1
+| [[Damaged Wooden Boards]] || [[Cutting Workbench]] || 18
 |-
-| [[Pulley]] || Component || (not craftable) || 3
+| [[Driver's Seat]] || [[Mechanical Workbench]] || 0
 |-
-| [[R870 01]] || Material || [[Gun Workbench]] || 0
+| [[FAMAS F1]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Rebar]] || Component || [[Anvil Workbench]] || 22
+| [[Firearm Kit]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Rechar Battery]] || Melee Weapon || (not craftable) || 1
+| [[Flexible Rotor]] || [[Mechanical Workbench]] || 0
 |-
-| [[Reinforced Concrete]] || Building Material || [[Cutting Workbench]] || 18
+| [[Fruit Knife]] || [[Anvil]] || 1
 |-
-| [[Rifle Parts]] || Weapon Component || (not craftable) || 4
+| [[Graphite Ore]] || (not craftable) || 37
 |-
-| [[Rope]] || Raw Material || (not craftable) || 49
+| [[Gunpowder]] || [[Biochemical Workbench]] || 35
 |-
-| [[Rotating Blade]] || Material || [[Mechanical Workbench]] || 0
+| [[Hunting Knife]] || [[Anvil]] || 1
 |-
-| [[Rotating Saw]] || Material || [[Mechanical Workbench]] || 0
+| [[Iron Bar Spike]] || [[Anvil]] || 0
 |-
-| [[Rotor]] || Material || [[Mechanical Workbench]] || 0
+| [[Iron Fire Axe]] || [[Anvil]] || 0
 |-
-| [[Rotor NoHit]] || Material || [[Mechanical Workbench]] || 0
+| [[Iron Hammer]] || [[Anvil]] || 0
 |-
-| [[Rubber]] || Raw Material || (not craftable) || 10
+| [[Iron Ore]] || (not craftable) || 19
 |-
-| [[Rust Iron]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Iron Pipe Spike]] || [[Anvil]] || 0
 |-
-| [[Sand]] || Building Material || [[Cement Mixer]] || 21
+| [[Laser Trap]] || [[Mechanical Workbench]] || 0
 |-
-| [[Saw Blade Axe]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Lime]] || (not craftable) || 19
 |-
-| [[Scalpel]] || Medical || (not craftable) || 1
+| [[M1891 01]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Scrap Brass]] || Refined Metal || (not craftable) || 1
+| [[M1911]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Scrap Iron]] || Refined Metal || (not craftable) || 47
+| [[M1A]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Scrap Iron Door]] || Salvage || [[Anvil Workbench]] || 0
+| [[M3]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Scrap Plastic]] || Salvage || (not craftable) || 10
+| [[MechPlatform]] || [[Mechanical Workbench]] || 0
 |-
-| [[Sensor Spike]] || Electronic Component || [[Mechanical Workbench]] || 0
+| [[MP5]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Shiv]] || Material || [[Anvil Workbench]] || 1
+| [[Nitrate Ore]] || (not craftable) || 1
 |-
-| [[Shotgun Parts]] || Weapon Component || (not craftable) || 1
+| [[Nitrate Powder]] || [[Biochemical Workbench]] || 4
 |-
-| [[Silicon Sulfide Brick]] || Building Material || [[Cutting Workbench]] || 18
+| [[Painkiller]] || [[Biochemical Workbench]] || 0
 |-
-| [[Simple Generator]] || Electronic Component || [[Electronics Workbench]] || 1
+| [[Pickaxe]] || [[Anvil]] || 0
 |-
-| [[Simple Motor]] || Electronic Component || [[Electronics Workbench]] || 6
+| [[Pillar 1.5m]] || [[Carpentry Workbench]] || 0
 |-
-| [[Small Log Stairs]] || Material || [[Carpentry Workbench]] || 1
+| [[R870 01]] || [[Gunsmith Workbench]] || 0
 |-
-| [[Small Plank Stairs]] || Material || [[Carpentry Workbench]] || 0
+| [[Red Oak]] || [[Cutting Workbench]] || 18
 |-
-| [[Small Rubber Tire]] || Raw Material || [[Mechanical Workbench]] || 0
+| [[Rotating Blade]] || [[Mechanical Workbench]] || 0
 |-
-| [[SMG Parts]] || Weapon Component || (not craftable) || 2
+| [[Rotating Circular Saw]] || [[Mechanical Workbench]] || 0
 |-
-| [[Solar Battery]] || Melee Weapon || [[Electronics Workbench]] || 4
+| [[Rotor]] || [[Mechanical Workbench]] || 0
 |-
-| [[Solar Generator]] || Electronic Component || [[Mechanical Workbench]] || 0
+| [[Rough Steel Pipe Blade]] || [[Anvil]] || 0
 |-
-| [[Solar Panel]] || Electronic Component || (not craftable) || 2
+| [[Rusted Short Pipe]] || (not craftable) || 1
 |-
-| [[Sound Sensor]] || Electronic Component || [[Electronics Workbench]] || 1
+| [[Rusty Long Stick Blade]] || [[Anvil]] || 0
 |-
-| [[SpearSpike Single]] || Material || [[Carpentry Workbench]] || 0
+| [[Rusty Spear]] || [[Anvil]] || 0
 |-
-| [[SpearSpike Trap]] || Material || [[Carpentry Workbench]] || 0
+| [[Sap]] || (not craftable) || 1
 |-
-| [[Spiked BaseballBat 01]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Shiv]] || [[Anvil]] || 1
 |-
-| [[Spiked BaseballBat 02]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Simple Fence]] || [[Carpentry Workbench]] || 1
 |-
-| [[Spiked Great Trunk]] || Material || [[Carpentry Workbench]] || 0
+| [[Single Iron Bar Spike]] || [[Anvil]] || 0
 |-
-| [[Spiked Trunk]] || Material || [[Carpentry Workbench]] || 0
+| [[Single Spear Spike]] || [[Carpentry Workbench]] || 0
 |-
-| [[Spring]] || Component || (not craftable) || 14
+| [[Sloped Plank]] || [[Carpentry Workbench]] || 0
 |-
-| [[Starch]] || Raw Material || (not craftable) || 1
+| [[Sloped Plank Roof]] || [[Carpentry Workbench]] || 0
 |-
-| [[Steering Wheel]] || Component || (not craftable) || 1
+| [[Small Log Stairs]] || [[Carpentry Workbench]] || 1
 |-
-| [[Stone]] || Material || (not craftable) || 3
+| [[Small Plank Stairs]] || [[Carpentry Workbench]] || 0
 |-
-| [[Straight Plank Roof]] || Material || [[Carpentry Workbench]] || 0
+| [[Spear Spike]] || [[Carpentry Workbench]] || 0
 |-
-| [[Sulfur]] || Building Material || (not craftable) || 19
+| [[Spiked Axe]] || [[Anvil]] || 0
 |-
-| [[Syringe]] || Medical || (not craftable) || 1
+| [[Spiked Flail]] || [[Anvil]] || 0
 |-
-| [[Tilted Plank Roof]] || Material || [[Carpentry Workbench]] || 0
+| [[Spiked Great Trunk]] || [[Carpentry Workbench]] || 0
 |-
-| [[Titanium Alloy]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Spiked Trunk]] || [[Carpentry Workbench]] || 0
 |-
-| [[Titanium Mesh Concrete]] || Refined Metal || [[Cutting Workbench]] || 0
+| [[Spiked Wooden Staff]] || [[Anvil]] || 0
 |-
-| [[Titanium Ore]] || Refined Metal || (not craftable) || 19
+| [[Steel Buckshot]] || [[Furnace]] || 1
 |-
-| [[Transformer]] || Electronic Component || [[Electronics Workbench]] || 5
+| [[Steel Fire Axe]] || [[Anvil]] || 0
 |-
-| [[Tree Sap]] || Raw Material || (not craftable) || 1
+| [[Steel Ingot]] || [[Furnace]] || 33
 |-
-| [[Tungsten Ore]] || Refined Metal || (not craftable) || 1
+| [[Stone]] || (not craftable) || 3
 |-
-| [[Tungsten Steel]] || Refined Metal || [[Cutting Workbench]] || 0
+| [[Submachine Gun Parts]] || (not craftable) || 2
 |-
-| [[Wood]] || Raw Material || (not craftable) || 66
+| [[Tape]] || (not craftable) || 49
 |-
-| [[Wood Arm]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Waste plastic]] || (not craftable) || 10
 |-
-| [[Wood Black]] || Raw Material || (not craftable) || 18
+| [[Weathered Wooden Planks]] || [[Cutting Workbench]] || 18
 |-
-| [[Wood Chest]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wheel]] || [[Mechanical Workbench]] || 0
 |-
-| [[Wood Foot]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wooden Bracers]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wood Hand]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wooden Breastplate]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wood Head]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wooden Greaves]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wood Leg]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wooden Helmet]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wood Red]] || Raw Material || (not craftable) || 20
+| [[Wooden Leg Armor]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wood Shield]] || Raw Material || [[Carpentry Workbench]] || 0
+| [[Wooden Shield]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wooden Club Blade]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Wooden Stick]] || (not craftable) || 2
 |-
-| [[Wooden Crate]] || Material || [[Carpentry Workbench]] || 0
+| [[Wooden Storage Box]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wooden Spiked Club]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Wooden Vambraces]] || [[Carpentry Workbench]] || 0
 |-
-| [[Wooden Spiked Club 02]] || Melee Weapon || [[Anvil Workbench]] || 0
+| [[Wrought Iron Storage Box]] || [[Anvil]] || 0
 |-
-| [[Wooden Spiked Club 03]] || Melee Weapon || [[Anvil Workbench]] || 0
-|-
-| [[Wooden Stick]] || Material || (not craftable) || 2
-|-
-| [[Wrought Iron]] || Refined Metal || [[Cutting Workbench]] || 18
+| [[Yellow Wax Stone]] || [[Cutting Workbench]] || 36
 |}
 
 [[Category:Crafting]]

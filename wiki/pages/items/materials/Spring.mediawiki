@@ -1,49 +1,51 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Spring
 | image      = Spring.png
 | type       = Component
+| stack          = 200
+| value          = 5
 }}
 
-'''Spring''' is a component in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Spring''' is a crafted component in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 14 downstream recipes at 3 different workbenches, including [[M1A]], [[M1891 01]], [[R870 01]], [[Firearm Kit]], [[Electric Motor Engine]], [[Driver's Seat]], among others. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[AKM]] x1 || [[Gun Workbench]] || 8 || 1
+| [[AKM]] x1 || [[Gunsmith Workbench]] || 8 || 1
 |-
-| [[FAMAS F1]] x1 || [[Gun Workbench]] || 20 || 1
+| [[Driver's Seat]] x1 || [[Mechanical Workbench]] || 28 || 1
 |-
-| [[Forged Iron Crate]] x1 || [[Anvil Workbench]] || 5 || 1
+| [[Electric Motor Engine]] x1 || [[Mechanical Workbench]] || 200 || 1
 |-
-| [[Gun Kit]] x100 || [[Gun Workbench]] || 20 || 1
+| [[FAMAS F1]] x1 || [[Gunsmith Workbench]] || 20 || 1
 |-
-| [[M1891 01]] x1 || [[Gun Workbench]] || 8 || 1
+| [[Firearm Kit]] x100 || [[Gunsmith Workbench]] || 20 || 1
 |-
-| [[M1911 01]] x1 || [[Gun Workbench]] || 2 || 1
+| [[M1891 01]] x1 || [[Gunsmith Workbench]] || 8 || 1
 |-
-| [[M1A]] x1 || [[Gun Workbench]] || 10 || 1
+| [[M1911]] x1 || [[Gunsmith Workbench]] || 2 || 1
 |-
-| [[M3 SMG]] x1 || [[Gun Workbench]] || 6 || 1
+| [[M1A]] x1 || [[Gunsmith Workbench]] || 10 || 1
 |-
-| [[Main Seat]] x1 || [[Mechanical Workbench]] || 28 || 1
+| [[M3]] x1 || [[Gunsmith Workbench]] || 6 || 1
 |-
 | [[MechPlatform]] x1 || [[Mechanical Workbench]] || 30 || 1
 |-
-| [[Motor]] x1 || [[Mechanical Workbench]] || 200 || 1
+| [[MP5]] x1 || [[Gunsmith Workbench]] || 6 || 1
 |-
-| [[MP5]] x1 || [[Gun Workbench]] || 6 || 1
+| [[R870 01]] x1 || [[Gunsmith Workbench]] || 12 || 1
 |-
-| [[R870 01]] x1 || [[Gun Workbench]] || 12 || 1
+| [[Scrap Iron Door]] x1 || [[Anvil]] || 10 || 1
 |-
-| [[Scrap Iron Door]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Wrought Iron Storage Box]] x1 || [[Anvil]] || 5 || 1
 |}
-
 
 == See also ==
 

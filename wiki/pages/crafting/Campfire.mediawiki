@@ -1,6 +1,6 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
+
 
 {{Infobox station
 | name     = Campfire
@@ -8,9 +8,11 @@
 | category = Crafting
 }}
 
-The '''Campfire''' is one of the eleven workbench types in ''[[Human Host]]''.
+== Description ==
 
-Early-tier utility station. Cooking is planned but not yet in the current build.
+The '''Campfire''' is the entry-tier utility station: charcoal, glue, and early build components. It defines 5 raw recipe entries (5 unique after consolidating shape variants), producing outputs including [[Burning]], [[Charcoal]], [[Clay]], [[Glue]], [[WIP]].
+
+== Technical ==
 
 Internal enum value: <code>WorkbenchType.Campfire</code> (assembly <code>UI</code>). Prefab: <code>WB_Campfire</code>.
 
@@ -20,11 +22,11 @@ Internal enum value: <code>WorkbenchType.Campfire</code> (assembly <code>UI</cod
 |+ Recipes (5 unique, from 5 raw entries in `WB_Campfire.prefab`)
 ! Output !! Qty !! Time (s) !! Inputs !! Variants
 |-
-| [[BurningFire]] || 1 || 1200 || [[Wood]] x10 || 1
+| [[Burning]] || 1 || 1200 || [[Wood]] x10 || 1
 |-
 | [[Charcoal]] || 1 || 4 || [[Wood]] x2 || 1
 |-
-| [[Glue]] || 100 || 100 || [[Bone]] x10, [[Tree Sap]] x20, [[Bottled Water]] x1 || 1
+| [[Glue]] || 100 || 100 || [[Animal Bone]] x10, [[Sap]] x20, [[Bottled Water]] x1 || 1
 |-
 | [[Clay]] || 50 || 50 || [[Wood]] x10, [[Stone]] x100, [[Bottled Water]] x1 || 1
 |-
@@ -34,9 +36,18 @@ Internal enum value: <code>WorkbenchType.Campfire</code> (assembly <code>UI</cod
 ''Where an ingredient shows a range (e.g. Wood x1-14), the recipe covers multiple tier-shape build variants. The 'Variants' column shows how many shapes share this recipe signature.''
 
 
+== Build cost ==
+
+Placed from the basic 'craft by hand' interface. See [[HandMade]] for the full hand-craft catalog.
+
+{| class="wikitable" style="font-size:0.9em;"
+! Craft time !! Inputs !! Yield
+|-
+| 12s || [[Wood]] x10, [[Stone]] x15, [[Plant Fiber]] x20 || 1
+|}
 == Placement ==
 
-TBD: build cost and placement footprint.
+TBD: physical footprint and world-space clearance.
 
 == Prerequisites ==
 

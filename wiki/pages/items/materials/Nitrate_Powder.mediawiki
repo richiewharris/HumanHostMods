@@ -1,14 +1,25 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Nitrate Powder
 | image      = Nitrate_Powder.png
 | type       = Material
+| stack          = 200
+| value          = 10
 }}
 
-'''Nitrate Powder''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Nitrate Powder''' is an item in ''[[Human Host]]'', crafted at the [[Biochemical Workbench]]. It appears as an ingredient in 4 downstream recipes at the [[Biochemical Workbench]] and the [[Furnace]], including [[Painkiller]], [[Tempered Glass]], [[Gunpowder]], [[Antibiotics]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Biochemical Workbench]] || 1 || 8 || [[Nitrate Ore]] x5 || 1
+|}
 
 == Used in ==
 
@@ -17,13 +28,12 @@
 |-
 | [[Antibiotics]] x1 || [[Biochemical Workbench]] || 5 || 1
 |-
-| [[Glass Tempered]] x50 || [[Furnace]] || 5 || 1
+| [[Gunpowder]] x5 || [[Biochemical Workbench]] || 1 || 1
 |-
-| [[Gun Powder]] x5 || [[Biochemical Workbench]] || 1 || 1
+| [[Painkiller]] x1 || [[Biochemical Workbench]] || 4 || 1
 |-
-| [[Pain Killer]] x1 || [[Biochemical Workbench]] || 4 || 1
+| [[Tempered Glass]] x50 || [[Furnace]] || 5 || 1
 |}
-
 
 == See also ==
 

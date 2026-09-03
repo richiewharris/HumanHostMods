@@ -1,0 +1,38 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Log Door Frame
+| type       = Building Material
+| block          = 140
+| stack          = 50
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Log Door Frame''' is a building material in ''[[Human Host]]'', crafted at the [[Carpentry Workbench]]. It appears as an ingredient in 1 downstream recipes at the [[Carpentry Workbench]], including [[Plank Door Frame]]. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Carpentry Workbench]] || 1 || 10 || [[Wood]] x20, [[Hemp Rope]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Plank Door Frame]] x1 || [[Carpentry Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Building Material]]
+[[Category:Items]]

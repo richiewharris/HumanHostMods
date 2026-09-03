@@ -1,0 +1,1875 @@
+[
+  {
+    "Category": "Fight",
+    "InternalName": "Melee Master",
+    "DisplayName": "Melee Master",
+    "Description": "Increases melee weapon damage by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Marathon Champion",
+    "DisplayName": "Marathon Champion",
+    "Description": "Increases max stamina by [ * ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Special Forces",
+    "DisplayName": "Special Forces",
+    "Description": "Increases stamina recovery rate by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Martial Artist",
+    "DisplayName": "Martial Artist",
+    "Description": "Increases unarmed damage by [ * ]. \n\nWhen struck, [ *% ] chance to gain \n[ Super Armor ] effect, preventing action interruption and knockdown from attacks.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          2,
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          4,
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          6,
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          8,
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          10,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "The Bruiser",
+    "DisplayName": "The Bruiser",
+    "Description": "When attacking unarmed or with blunt weapons: Chance to knockdown small enemies increases by [ * ] times.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          1.2
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          1.4
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          1.6
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          1.8
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Butcher",
+    "DisplayName": "Butcher",
+    "Description": "When using sharp weapons: [ Execute ] effect\u0027s trigger chance increases by [ * ] times, and adds an extra [ * ] damage.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          1.2,
+          60
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          1.4,
+          90
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          1.6,
+          140
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          1.8,
+          210
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          2,
+          300
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Gunsmith",
+    "DisplayName": "Gunsmith",
+    "Description": "Increases firearm damage by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Sharpshooter",
+    "DisplayName": "Sharpshooter",
+    "Description": "Reduces firearm bullet spread by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          30
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          45
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          65
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Jacked Grunt",
+    "DisplayName": "Jacked Grunt",
+    "Description": "Reduces firearm recoil by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          35
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          55
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Sniper",
+    "DisplayName": "Sniper",
+    "Description": "Increases firearm range by [ * ] meters.\n\nNote: maximum range cannot exceed twice the firearm\u0027s base range.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          50
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          90
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          140
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          200
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Wild Hunter",
+    "DisplayName": "Wild Hunter",
+    "Description": "Reduces arrow drop during flight by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          35
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          55
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Fight",
+    "InternalName": "Archer",
+    "DisplayName": "Archer",
+    "Description": "Increases bow damage by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          50
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          90
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          140
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          200
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Cheat Death",
+    "DisplayName": "Cheat Death",
+    "Description": "Immune to 1 lethal attack and restores \n[ *% ] HP, cooldown [ * ] sec.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5,
+          300
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          7,
+          290
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          10,
+          270
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          14,
+          240
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          20,
+          200
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          28,
+          150
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          40,
+          90
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Vital Force",
+    "DisplayName": "Vital Force",
+    "Description": "Increases Max HP by [ *% ]\u3002",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          25
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          50
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          75
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          100
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          125
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          150
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          175
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          200
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Slow Healing",
+    "DisplayName": "Slow Healing",
+    "Description": "Restores 1 HP every [ * ] seconds.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          145
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          110
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          80
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          55
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          35
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Slowed Metabolism",
+    "DisplayName": "Slowed Metabolism",
+    "Description": "Reduces the depletion rate of Food and Water by [ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          18
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          54
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          72
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Adrenaline",
+    "DisplayName": "Adrenaline",
+    "Description": "The attack that first reduces HP below \r\n[ *% ] triggers the Adrenaline effect.\r\n\r\nMelee damage \u002B [ *% ],\r\nStamina consumption - [ *% ],\r\nSuper Armor Chance \u002B [ *% ],\r\nWater consumption \u002B [ *% ],\r\n\r\nfor [ * ] seconds.\r\n\r\n[ Super Armor ]: When struck, has a chance to gain this effect, immune to action interruption and knockdown from attacks.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5,
+          5,
+          5,
+          5,
+          345,
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          7,
+          10,
+          7,
+          7,
+          325,
+          30
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          10,
+          18,
+          10,
+          10,
+          300,
+          50
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          14,
+          28,
+          14,
+          14,
+          270,
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          20,
+          40,
+          20,
+          20,
+          235,
+          120
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          28,
+          55,
+          28,
+          28,
+          195,
+          170
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          40,
+          75,
+          40,
+          40,
+          150,
+          230
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50,
+          100,
+          50,
+          50,
+          100,
+          300
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "High Morale",
+    "DisplayName": "High Morale",
+    "Description": "When Food \u0026 Water \u003E [ *% ]:\nAll damage \u002B[ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          85,
+          3
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          80,
+          5
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          75,
+          9
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          70,
+          14
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          65,
+          20
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          60,
+          28
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          55,
+          38
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Stone Skin",
+    "DisplayName": "Stone Skin",
+    "Description": "Reduces body damage from attacks by \n[ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          14
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          38
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          50
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          64
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Soft Landing",
+    "DisplayName": "Soft Landing",
+    "Description": "Reduces fall damage taken by [ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          18
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          54
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          72
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Antibody Serum",
+    "DisplayName": "Antibody Serum",
+    "Description": "After losing HP from an attack: [ *% ] chance to disable attacker\u0027s sprint for [ * ] sec.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5,
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          7,
+          10
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          10,
+          18
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          14,
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          20,
+          40
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          28,
+          55
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          40,
+          75
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Lethal Ambush",
+    "DisplayName": "Lethal Ambush",
+    "Description": "Movement sound range - [ *% ],\n\n\nZombie sight range - [ *% ],\n\n\nBonus damage against unaware enemies increased from 50% to [ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10,
+          8,
+          60
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          20,
+          18,
+          80
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          30,
+          27,
+          110
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          40,
+          36,
+          150
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          55,
+          45,
+          200
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          70,
+          54,
+          260
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          85,
+          62,
+          320
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          100,
+          70,
+          400
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Lightning Reflexes",
+    "DisplayName": "Lightning Reflexes",
+    "Description": "Before being hit by an attack, has a [ *% ] chance to dodge one melee attack at the cost of [ * ] stamina points.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5,
+          50
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          7,
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          10,
+          28
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          14,
+          20
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          20,
+          14
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          28,
+          10
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          40,
+          7
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Soft Lining",
+    "DisplayName": "Soft Lining",
+    "Description": "Reduces damage to armor by [ *% ].",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          7
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          14
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Spiked Shell",
+    "DisplayName": "Spiked Shell",
+    "Description": "When armor is hit, reflects [ *% ] of total durability as damage to attacker.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          1
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          2
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          3.5
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          5.5
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          8
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          11
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          15
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Armor Patch",
+    "DisplayName": "Armor Patch",
+    "Description": "After an armor part is hit, [ *% ] of the damage is distributed evenly across all armor parts.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          18
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          55
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          75
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Survive",
+    "InternalName": "Chain Reinforcements",
+    "DisplayName": "Chain Reinforcements",
+    "Description": "When a part of the armor is about to be shattered, its destruction is delayed by [ * ] seconds. During this period, it can withstand infinite damage, and taking damage immediately refreshes the delay duration.",
+    "MaxLevel": 8,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          10
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          18
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          28
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          40
+        ]
+      },
+      {
+        "Level": 6,
+        "Values": [
+          55
+        ]
+      },
+      {
+        "Level": 7,
+        "Values": [
+          75
+        ]
+      },
+      {
+        "Level": 8,
+        "Values": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Scavenger",
+    "DisplayName": "Scavenger",
+    "Description": "Loot quality chance \u002B [ *% ]\uFF0C\r\nLoot quantity \u002B [ *% ]\uFF0C\r\nLooting speed \u002B [ *% ]\r\n\r\nNote: Farther from center = higher quality cap. Biome 10 = max loot quality. This Perk cannot exceed that cap.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20,
+          10,
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          40,
+          20,
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          60,
+          30,
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          80,
+          40,
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100,
+          50,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Artisan",
+    "DisplayName": "Artisan",
+    "Description": "Crafted Item Quality Tier Cap \u002B [ * ],\nDurability \u002B [ *% ],\nCrafting Speed \u002B [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          1,
+          10,
+          10
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          2,
+          25,
+          20
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          3,
+          45,
+          35
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          4,
+          70,
+          55
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          5,
+          100,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Miner",
+    "DisplayName": "Miner",
+    "Description": "Increases digging damage and melee damage to stone, concrete, and metal by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          50
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          90
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          140
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          200
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Lumberjack",
+    "DisplayName": "Lumberjack",
+    "Description": "Melee damage to wood \u002B [ *% ],\nWood from chopping \u002B [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          60,
+          20
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          90,
+          40
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          140,
+          60
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          210,
+          80
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          300,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Architect",
+    "DisplayName": "Architect",
+    "Description": "When crafting building and vehicle structures, there is a [ *% ] chance that no materials are consumed.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          12
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          23
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          35
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Mechanic",
+    "DisplayName": "Mechanic",
+    "Description": "Reduces all damage taken by vehicles within [ * ] meters of the character by [ *% ].\n\nNote: This effect does not stack.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10,
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          25,
+          12
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          45,
+          23
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          70,
+          35
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Sapper",
+    "DisplayName": "Sapper",
+    "Description": "Reduces all damage to structures within [ * ] meters of the character by [ *% ].\n\nNote: This effect does not stack.",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          10,
+          5
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          25,
+          12
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          45,
+          23
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          70,
+          35
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          100,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "Category": "Craft",
+    "InternalName": "Repairman",
+    "DisplayName": "Repairman",
+    "Description": "When repairing buildings/vehicles, the durability restored is increased by [ *% ].",
+    "MaxLevel": 5,
+    "IsBuff": false,
+    "BuffPeriodSeconds": 0,
+    "StackableBuff": false,
+    "Levels": [
+      {
+        "Level": 1,
+        "Values": [
+          60
+        ]
+      },
+      {
+        "Level": 2,
+        "Values": [
+          90
+        ]
+      },
+      {
+        "Level": 3,
+        "Values": [
+          140
+        ]
+      },
+      {
+        "Level": 4,
+        "Values": [
+          210
+        ]
+      },
+      {
+        "Level": 5,
+        "Values": [
+          300
+        ]
+      }
+    ]
+  }
+]

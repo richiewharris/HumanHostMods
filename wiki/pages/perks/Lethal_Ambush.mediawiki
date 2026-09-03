@@ -1,0 +1,98 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox perk
+| name     = Lethal Ambush
+| tree     = Survive
+| maxLevel = 8
+| buff     = No
+}}
+
+'''Lethal Ambush''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
+
+== Effect ==
+
+Movement sound range - [ *% ],
+
+
+Zombie sight range - [ *% ],
+
+
+Bonus damage against unaware enemies increased from 50% to [ *% ].
+
+== Per-level values ==
+
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Movement sound range - '''10%''',
+
+
+Zombie sight range - '''8%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''60%'''.
+|-
+| 2 || Movement sound range - '''20%''',
+
+
+Zombie sight range - '''18%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''80%'''.
+|-
+| 3 || Movement sound range - '''30%''',
+
+
+Zombie sight range - '''27%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''110%'''.
+|-
+| 4 || Movement sound range - '''40%''',
+
+
+Zombie sight range - '''36%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''150%'''.
+|-
+| 5 || Movement sound range - '''55%''',
+
+
+Zombie sight range - '''45%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''200%'''.
+|-
+| 6 || Movement sound range - '''70%''',
+
+
+Zombie sight range - '''54%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''260%'''.
+|-
+| 7 || Movement sound range - '''85%''',
+
+
+Zombie sight range - '''62%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''320%'''.
+|-
+| 8 || Movement sound range - '''100%''',
+
+
+Zombie sight range - '''70%''',
+
+
+Bonus damage against unaware enemies increased from 50% to '''400%'''.
+|}
+
+== See also ==
+
+* [[Perks]]: the full skill catalog
+
+[[Category:Perks]]
+[[Category:Survive tree]]

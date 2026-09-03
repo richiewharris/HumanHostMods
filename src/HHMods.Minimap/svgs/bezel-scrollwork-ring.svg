@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 364" width="364" height="364" color="#8d7c58">
+<title>Minimap scrollwork ring</title>
+<desc>Twelve volute tiles rotated at 30 degree intervals around radius 170, forming the complete bezel ornament. No band or bosses. Stroke uses currentColor.</desc>
+<defs>
+<g id="scroll-tile" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+<path d="M138 19C148 5 164 5 170 13C173 18 169 22 166 19C164 17 166 14 169 15"/>
+<path d="M226 19C216 5 200 5 194 13C191 18 195 22 198 19C200 17 198 14 195 15"/>
+</g>
+</defs>
+<g opacity="0.9">
+<use href="#scroll-tile"/>
+<use href="#scroll-tile" transform="rotate(30 182 182)"/>
+<use href="#scroll-tile" transform="rotate(60 182 182)"/>
+<use href="#scroll-tile" transform="rotate(90 182 182)"/>
+<use href="#scroll-tile" transform="rotate(120 182 182)"/>
+<use href="#scroll-tile" transform="rotate(150 182 182)"/>
+<use href="#scroll-tile" transform="rotate(180 182 182)"/>
+<use href="#scroll-tile" transform="rotate(210 182 182)"/>
+<use href="#scroll-tile" transform="rotate(240 182 182)"/>
+<use href="#scroll-tile" transform="rotate(270 182 182)"/>
+<use href="#scroll-tile" transform="rotate(300 182 182)"/>
+<use href="#scroll-tile" transform="rotate(330 182 182)"/>
+</g>
+</svg>

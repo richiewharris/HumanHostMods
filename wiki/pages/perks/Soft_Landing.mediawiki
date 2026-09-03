@@ -1,28 +1,44 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox perk
 | name     = Soft Landing
 | tree     = Survive
-| effect   = Reduces fall damage.
-| factor   = _softLandDmgReduce_Factor on Char_Skills
+| maxLevel = 8
+| buff     = No
 }}
 
-'''Soft Landing''' is a Survive-tree perk in ''[[Human Host]]''. The in-game display name may differ from this page title; the authoritative identifier is the runtime factor field name.
+'''Soft Landing''' is a Survive-tree passive that scales with level; the table above shows the exact effect at each of its 8 ranks.
 
 == Effect ==
 
-Reduces fall damage.
+Reduces fall damage taken by [ *% ].
 
-== Technical ==
+== Per-level values ==
 
-Backing runtime factor: <code>_softLandDmgReduce_Factor</code> (type <code>Single</code>) on <code>Char_Skills</code> in the <code>Creature</code> assembly.
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Reduces fall damage taken by '''5%'''.
+|-
+| 2 || Reduces fall damage taken by '''10%'''.
+|-
+| 3 || Reduces fall damage taken by '''18%'''.
+|-
+| 4 || Reduces fall damage taken by '''28%'''.
+|-
+| 5 || Reduces fall damage taken by '''40%'''.
+|-
+| 6 || Reduces fall damage taken by '''54%'''.
+|-
+| 7 || Reduces fall damage taken by '''72%'''.
+|-
+| 8 || Reduces fall damage taken by '''90%'''.
+|}
 
 == See also ==
 
 * [[Perks]]: the full skill catalog
-* Related factors on [[Perks#Factor catalog]]
 
 [[Category:Perks]]
 [[Category:Survive tree]]

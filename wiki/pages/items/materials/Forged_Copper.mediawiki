@@ -1,14 +1,17 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Forged Copper
 | image      = Forged_Copper.png
 | type       = Refined Metal
+| stack          = 100
+| value          = 50
 }}
 
-'''Forged Copper''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Forged Copper''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Furnace]]. It appears as an ingredient in 30 downstream recipes at 4 different workbenches, including [[Copper Alloy]], [[Transformer]], [[Iron Hammer]], [[Bullet Shell]], [[Copper Buckshot]], [[Copper Bullet Tip]], among others. See the ''Used in'' table for the full consumer list.
 
 == Crafted at ==
 
@@ -25,33 +28,32 @@
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Beads Copper]] x10 || [[Furnace]] || 1 || 1
-|-
 | [[Bullet Shell]] x5 || [[Furnace]] || 1 || 1
-|-
-| [[Bullet Tip Copper]] x5 || [[Furnace]] || 1 || 1
 |-
 | [[Copper Alloy]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |-
-| [[Copper Wire]] x5 || [[Anvil Workbench]] || 1 || 1
+| [[Copper Buckshot]] x10 || [[Furnace]] || 1 || 1
 |-
-| [[FireAxe 01]] x1 || [[Anvil Workbench]] || 4 || 1
+| [[Copper Bullet Tip]] x5 || [[Furnace]] || 1 || 1
 |-
-| [[FireAxe 02]] x1 || [[Anvil Workbench]] || 6 || 1
+| [[Copper Wire]] x5 || [[Anvil]] || 1 || 1
 |-
-| [[Gear]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Curved Handle Iron Axe]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[Iron Axe]] x1 || [[Anvil Workbench]] || 2 || 1
+| [[Gear]] x1 || [[Anvil]] || 2 || 1
 |-
-| [[Iron Hammer]] x1 || [[Anvil Workbench]] || 5 || 1
+| [[Iron Fire Axe]] x1 || [[Anvil]] || 4 || 1
 |-
-| [[Mace]] x1 || [[Anvil Workbench]] || 10 || 1
+| [[Iron Hammer]] x1 || [[Anvil]] || 5 || 1
+|-
+| [[Spiked Flail]] x1 || [[Anvil]] || 10 || 1
+|-
+| [[Spiked Wooden Staff]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Steel Fire Axe]] x1 || [[Anvil]] || 6 || 1
 |-
 | [[Transformer]] x1 || [[Electronics Workbench]] || 2 || 1
-|-
-| [[Wooden Spiked Club 02]] x1 || [[Anvil Workbench]] || 2 || 1
 |}
-
 
 == See also ==
 

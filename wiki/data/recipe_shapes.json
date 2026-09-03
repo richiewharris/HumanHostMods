@@ -309,6 +309,12 @@
           "IsSerialized": false
         },
         {
+          "Name": "_craftingIsBuildModule",
+          "TypeName": "Boolean",
+          "Visibility": "private",
+          "IsSerialized": false
+        },
+        {
           "Name": "_inCrafting",
           "TypeName": "Boolean",
           "Visibility": "public",
@@ -418,6 +424,18 @@
         {
           "Name": "_campfireAroundCratesBelongKey",
           "TypeName": "String",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_On_CheckIsBuildModule",
+          "TypeName": "UnityEvent\u00601",
+          "Visibility": "public",
+          "IsSerialized": true
+        },
+        {
+          "Name": "_isBuildModuleResult",
+          "TypeName": "Boolean",
           "Visibility": "public",
           "IsSerialized": true
         },
@@ -960,8 +978,8 @@
   ],
   "RecipeAdjacentTypes": [
     {
-      "Name": "\u003CDelay_1_Frame_Load_CraftData\u003Ed__22",
-      "FullName": "Craft_Mgr/\u003CDelay_1_Frame_Load_CraftData\u003Ed__22",
+      "Name": "\u003CDelay_1_Frame_Load_CraftData\u003Ed__24",
+      "FullName": "Craft_Mgr/\u003CDelay_1_Frame_Load_CraftData\u003Ed__24",
       "Assembly": "UI",
       "BaseType": "Object",
       "IsAbstract": false,
@@ -989,8 +1007,8 @@
       ]
     },
     {
-      "Name": "\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__75",
-      "FullName": "SaveLoad_Chunk/\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__75",
+      "Name": "\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__76",
+      "FullName": "SaveLoad_Chunk/\u003CInstantiate_Build_Infos_From_Loaded_Data\u003Ed__76",
       "Assembly": "Build_System",
       "BaseType": "Object",
       "IsAbstract": false,

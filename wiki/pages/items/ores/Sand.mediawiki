@@ -1,38 +1,40 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Sand
 | image      = Sand.png
-| type       = Ore
+| type       = Rock
 | source = Mined from terrain
+| stack          = 200
+| value          = 5
 }}
-
-The '''Sand''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Sand''' is a mineable rock in ''[[Human Host]]'', crafted at the [[Concrete Mixer]]. It appears as an ingredient in 21 downstream recipes at 3 different workbenches, including [[Honeycomb brick]], [[Glass]], [[Bricks]], [[Concrete]], among others. See the ''Used in'' table for the full consumer list.
 
-== Source ==
+== Crafted at ==
 
-TBD.
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Concrete Mixer]] || 50 || 30 || [[Stone]] x25, [[Cobblestone]] x25, [[Bottled Water]] x1 || 1
+|}
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Brick]] x1 || [[Furnace]] || 1 || 1
+| [[Bricks]] x1 || [[Furnace]] || 1 || 1
 |-
-| [[Cellular Brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
-|-
-| [[Concrete]] x1 || [[Cement Mixer]] || 2 || 1
+| [[Concrete]] x1 || [[Concrete Mixer]] || 2 || 1
 |-
 | [[Glass]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Honeycomb brick]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
 |}
-
 
 == Technical ==
 
@@ -42,4 +44,4 @@ Addressable asset id: <code>BO_Sand</code>.
 
 * [[Mining]]
 
-[[Category:Ore]]
+[[Category:Rock]]

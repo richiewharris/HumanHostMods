@@ -1,0 +1,35 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Chromium Ore
+| image      = Ore_Chrome.png
+| type       = Ore
+| source = Mined from terrain
+| stack          = 200
+| value          = 125
+}}
+
+== Description ==
+
+'''Chromium Ore''' is a mineable ore in ''[[Human Host]]'', obtained by [[Mining|mining]] terrain deposits. It appears as an ingredient in 19 downstream recipes at the [[Cutting Workbench]] and the [[Furnace]], including [[Chrome Iron]], [[Chrome Ingot]], among others. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Chrome Ingot]] x1 || [[Furnace]] || 2 || 1
+|-
+| [[Chrome Iron]] x1 || [[Cutting Workbench]] || 1-14 || 18 shapes
+|}
+
+== Technical ==
+
+Addressable asset id: <code>BO_Ore_Chrome</code>.
+
+== See also ==
+
+* [[Mining]]
+
+[[Category:Ore]]

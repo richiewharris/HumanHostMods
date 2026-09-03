@@ -1,28 +1,38 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox perk
 | name     = Miner
-| tree     = Survive
-| effect   = Increases mining damage per swing (faster ore extraction).
-| factor   = _minerDmg_Factor on Char_Skills
+| tree     = Craft
+| maxLevel = 5
+| buff     = No
 }}
 
-'''Miner''' is a Survive-tree perk in ''[[Human Host]]''. The in-game display name may differ from this page title; the authoritative identifier is the runtime factor field name.
+'''Miner''' is a Craft-tree passive that scales with level; the table above shows the exact effect at each of its 5 ranks.
 
 == Effect ==
 
-Increases mining damage per swing (faster ore extraction).
+Increases digging damage and melee damage to stone, concrete, and metal by [ *% ].
 
-== Technical ==
+== Per-level values ==
 
-Backing runtime factor: <code>_minerDmg_Factor</code> (type <code>Single</code>) on <code>Char_Skills</code> in the <code>Creature</code> assembly.
+{| class="wikitable" style="font-size:0.9em;"
+! Level !! Effect
+|-
+| 1 || Increases digging damage and melee damage to stone, concrete, and metal by '''20%'''.
+|-
+| 2 || Increases digging damage and melee damage to stone, concrete, and metal by '''50%'''.
+|-
+| 3 || Increases digging damage and melee damage to stone, concrete, and metal by '''90%'''.
+|-
+| 4 || Increases digging damage and melee damage to stone, concrete, and metal by '''140%'''.
+|-
+| 5 || Increases digging damage and melee damage to stone, concrete, and metal by '''200%'''.
+|}
 
 == See also ==
 
 * [[Perks]]: the full skill catalog
-* Related factors on [[Perks#Factor catalog]]
 
 [[Category:Perks]]
-[[Category:Survive tree]]
+[[Category:Craft tree]]

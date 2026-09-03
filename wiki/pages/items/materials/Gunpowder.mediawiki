@@ -1,0 +1,105 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Gunpowder
+| type       = Material
+| stack          = 200
+| value          = 15
+}}
+
+== Description ==
+
+'''Gunpowder''' is an item in ''[[Human Host]]'', crafted at the [[Biochemical Workbench]]. It appears as an ingredient in 35 downstream recipes at the [[Gunsmith Workbench]], including [[5.56x45mm Chrome]], [[D45 Chrome]], [[7.62x51mm Chrome]], [[7.62x39mm Chrome]], [[7.62x54mm Titanium]], [[7.62x51mm Titanium]], among others. See the ''Used in'' table for the full consumer list.
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Biochemical Workbench]] || 5 || 12 || [[Nitrate Powder]] x1, [[Sulfur]] x1, [[Charcoal]] x2 || 1
+|}
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[12x70mm Chrome]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[12x70mm Copper]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[12x70mm Steel]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[12x70mm Titanium]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[12x70mm Tungsten]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[5.56x45mm Chrome]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[5.56x45mm Copper]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[5.56x45mm Steel]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[5.56x45mm Titanium]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[5.56x45mm Tungsten]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x39mm Chrome]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x39mm Copper]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x39mm Steel]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x39mm Titanium]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x39mm Tungsten]] x1 || [[Gunsmith Workbench]] || 2 || 1
+|-
+| [[7.62x51mm Chrome]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x51mm Copper]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x51mm Steel]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x51mm Titanium]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x51mm Tungsten]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x54mm Chrome]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x54mm Copper]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x54mm Steel]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x54mm Titanium]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[7.62x54mm Tungsten]] x1 || [[Gunsmith Workbench]] || 3 || 1
+|-
+| [[9x19mm Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[9x19mm Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Chrome]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Copper]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Steel]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Titanium]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|-
+| [[D45 Tungsten]] x1 || [[Gunsmith Workbench]] || 1 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Material]]
+[[Category:Items]]

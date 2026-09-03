@@ -1,15 +1,27 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = MechPlatform
 | image      = MechPlatform.png
 | type       = Material
+| block          = 100
+| stack          = 5
+| value          = 100
+| tag            = CarMat
 }}
 
-'''MechPlatform''' is a material in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
 
+'''MechPlatform''' is an item in ''[[Human Host]]'', crafted at the [[Mechanical Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Mechanical Workbench]] || 1 || 100 || [[Gear]] x20, [[Bearing]] x20, [[Forged Iron]] x25, [[Rebar]] x15, [[Spring]] x30, [[Nails]] x20 || 1
+|}
 
 == See also ==
 

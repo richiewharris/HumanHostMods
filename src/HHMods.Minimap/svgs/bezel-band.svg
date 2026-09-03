@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 364" width="364" height="364">
+<title>Minimap bezel band</title>
+<desc>The plain chrome band of the minimap bezel with no ornament: a 24-unit dark band centred on radius 170, bounded by hairlines at 158.5 and 181.5 and a fainter inner line at 176. Centre is transparent.</desc>
+<circle cx="182" cy="182" r="170" fill="none" stroke="#2b2823" stroke-width="24"/>
+<circle cx="182" cy="182" r="158.5" fill="none" stroke="#6f6551" stroke-width="1"/>
+<circle cx="182" cy="182" r="181.5" fill="none" stroke="#6f6551" stroke-width="1"/>
+<circle cx="182" cy="182" r="176" fill="none" stroke="#4a4438" stroke-width="0.8" opacity="0.8"/>
+</svg>

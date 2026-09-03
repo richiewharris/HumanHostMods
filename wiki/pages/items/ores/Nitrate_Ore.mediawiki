@@ -1,24 +1,26 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Nitrate Ore
 | image      = Ore_Nitrate.png
 | type       = Ore
 | source = Mined from terrain
+| stack          = 200
+| value          = 100
 }}
-
-The '''Nitrate Ore''' is a ore in ''[[Human Host]]''.
 
 == Description ==
 
-TBD.
+'''Nitrate Ore''' is a mineable ore in ''[[Human Host]]'', obtained by [[Mining|mining]] terrain deposits. It appears as an ingredient in 1 downstream recipes at the [[Biochemical Workbench]], including [[Nitrate Powder]]. See the ''Used in'' table for the full consumer list.
 
-== Source ==
+== Used in ==
 
-TBD.
-
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Nitrate Powder]] x1 || [[Biochemical Workbench]] || 5 || 1
+|}
 
 == Technical ==
 

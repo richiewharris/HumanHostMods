@@ -1,0 +1,90 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Hemp Rope
+| type       = Raw Material
+| stack          = 100
+}}
+
+== Description ==
+
+'''Hemp Rope''' is a raw material in ''[[Human Host]]'', harvested from the world (trees, rocks, salvage). It appears as an ingredient in 49 downstream recipes at 4 different workbenches, including [[Damaged Wooden Boards]], [[Log Door Frame]], [[Wooden Shield]], [[Small Log Stairs]], [[Log Window Frame]], [[Log Floor]], among others. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Crude Axe]] x1 || [[Anvil]] || 3 || 1
+|-
+| [[Damaged Wooden Boards]] x1 || [[Cutting Workbench]] || 1-4 || 18 shapes
+|-
+| [[Iron Pipe Spike]] x1 || [[Anvil]] || 1 || 1
+|-
+| [[Log Door Frame]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Fence]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Floor]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Gate]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Ladder]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Log Pillar]] x1 || [[Carpentry Workbench]] || 1 || 1
+|-
+| [[Log Platform]] x1 || [[Carpentry Workbench]] || 4 || 1
+|-
+| [[Log Wall]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Log Window Frame]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Plank Door]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Scrap Bracers]] x1 || [[Anvil]] || 4 || 1
+|-
+| [[Scrap Breastplate]] x1 || [[Anvil]] || 12 || 1
+|-
+| [[Scrap Greaves]] x1 || [[Anvil]] || 8 || 1
+|-
+| [[Scrap Helmet]] x1 || [[Anvil]] || 8 || 1
+|-
+| [[Scrap Leg Armor]] x1 || [[Anvil]] || 10 || 1
+|-
+| [[Scrap Shield]] x1 || [[Anvil]] || 12 || 1
+|-
+| [[Scrap Vambraces]] x1 || [[Anvil]] || 8 || 1
+|-
+| [[Simple Generator]] x1 || [[Electronics Workbench]] || 5 || 1
+|-
+| [[Simple Motor]] x1 || [[Electronics Workbench]] || 5 || 1
+|-
+| [[Small Log Stairs]] x1 || [[Carpentry Workbench]] || 3 || 1
+|-
+| [[Spiked Axe]] x1 || [[Anvil]] || 2 || 1
+|-
+| [[Wooden Bracers]] x1 || [[Carpentry Workbench]] || 4 || 1
+|-
+| [[Wooden Breastplate]] x1 || [[Carpentry Workbench]] || 12 || 1
+|-
+| [[Wooden Greaves]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Wooden Helmet]] x1 || [[Carpentry Workbench]] || 8 || 1
+|-
+| [[Wooden Leg Armor]] x1 || [[Carpentry Workbench]] || 10 || 1
+|-
+| [[Wooden Shield]] x1 || [[Carpentry Workbench]] || 12 || 1
+|-
+| [[Wooden Storage Box]] x1 || [[Carpentry Workbench]] || 2 || 1
+|-
+| [[Wooden Vambraces]] x1 || [[Carpentry Workbench]] || 8 || 1
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

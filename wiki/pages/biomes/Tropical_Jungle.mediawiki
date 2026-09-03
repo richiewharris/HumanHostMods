@@ -1,6 +1,5 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox biome
 | name       = Tropical Jungle

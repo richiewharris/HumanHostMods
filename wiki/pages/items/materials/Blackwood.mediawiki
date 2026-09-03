@@ -1,0 +1,29 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Blackwood
+| type       = Raw Material
+| stack          = 500
+| value          = 10
+}}
+
+== Description ==
+
+'''Blackwood''' is a raw material in ''[[Human Host]]'', harvested from the world (trees, rocks, salvage). It appears as an ingredient in 18 downstream recipes at the [[Cutting Workbench]], including [[Ebony Wood]], among others. See the ''Used in'' table for the full consumer list.
+
+== Used in ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Recipe !! Workbench !! Consumes !! Variants
+|-
+| [[Ebony Wood]] x1 || [[Cutting Workbench]] || 1-2 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Raw Material]]
+[[Category:Items]]

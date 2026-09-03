@@ -1,46 +1,49 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 {{Infobox item
 | name       = Scrap Iron
 | type       = Refined Metal
+| stack          = 200
+| value          = 5
+| tag            = Ã¥ÂºÅ¸Ã¦â€”Â§Ã¦ÂÂÃ¦â€“â„¢
 }}
 
-'''Scrap Iron''' is a refined metal in ''[[Human Host]]''. Auto-generated from the crafting-recipe graph; see [[Crafting]] for the full workbench catalog.
+== Description ==
+
+'''Scrap Iron''' is a refined metal ingot in ''[[Human Host]]'', sourced from the world (loot, salvage, or base crafting). It appears as an ingredient in 47 downstream recipes at 4 different workbenches, including [[Scrap Metal]], [[Iron Rock Concrete]], [[Scrap Greaves]], [[Firearm Kit]], [[M3]], [[Forged Iron]], among others. See the ''Used in'' table for the full consumer list.
 
 == Used in ==
 
 {| class="wikitable sortable" style="font-size:0.9em;"
 ! Recipe !! Workbench !! Consumes !! Variants
 |-
-| [[Ferrock Concrete]] x1 || [[Cutting Workbench]] || 2-28 || 18 shapes
+| [[Firearm Kit]] x100 || [[Gunsmith Workbench]] || 20 || 1
 |-
 | [[Forged Iron]] x1 || [[Furnace]] || 10 || 1
 |-
-| [[Gun Kit]] x100 || [[Gun Workbench]] || 20 || 1
+| [[Iron Rock Concrete]] x1 || [[Cutting Workbench]] || 2-28 || 18 shapes
 |-
-| [[M3 SMG]] x1 || [[Gun Workbench]] || 20 || 1
+| [[M3]] x1 || [[Gunsmith Workbench]] || 20 || 1
 |-
-| [[Metal Arm]] x1 || [[Anvil Workbench]] || 18 || 1
+| [[Scrap Bracers]] x1 || [[Anvil]] || 16 || 1
 |-
-| [[Metal Chest]] x1 || [[Anvil Workbench]] || 40 || 1
+| [[Scrap Breastplate]] x1 || [[Anvil]] || 40 || 1
 |-
-| [[Metal Foot]] x1 || [[Anvil Workbench]] || 36 || 1
+| [[Scrap Greaves]] x1 || [[Anvil]] || 36 || 1
 |-
-| [[Metal Hand]] x1 || [[Anvil Workbench]] || 16 || 1
+| [[Scrap Helmet]] x1 || [[Anvil]] || 25 || 1
 |-
-| [[Metal Head]] x1 || [[Anvil Workbench]] || 25 || 1
+| [[Scrap Iron Door]] x1 || [[Anvil]] || 30 || 1
 |-
-| [[Metal Leg]] x1 || [[Anvil Workbench]] || 20 || 1
+| [[Scrap Leg Armor]] x1 || [[Anvil]] || 20 || 1
 |-
-| [[Metal Shield]] x1 || [[Anvil Workbench]] || 40 || 1
+| [[Scrap Metal]] x1 || [[Cutting Workbench]] || 5-70 || 18 shapes
 |-
-| [[Rust Iron]] x1 || [[Cutting Workbench]] || 5-70 || 18 shapes
+| [[Scrap Shield]] x1 || [[Anvil]] || 40 || 1
 |-
-| [[Scrap Iron Door]] x1 || [[Anvil Workbench]] || 30 || 1
+| [[Scrap Vambraces]] x1 || [[Anvil]] || 18 || 1
 |}
-
 
 == See also ==
 

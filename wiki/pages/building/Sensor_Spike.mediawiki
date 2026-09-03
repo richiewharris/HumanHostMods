@@ -1,16 +1,33 @@
 <!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
 {{Nav}}
-{{Stub}}
 
 The '''Sensor Spike''' is a trap in ''[[Human Host]]'', used for base defense against horde nights.
 
 == Behavior ==
 
-TBD: trigger conditions, damage, cooldown.
+{| class="wikitable" style="font-size:0.9em;"
+! Stat !! Value
+|-
+| Trap damage       || 300 per trigger
+|-
+| Trigger interval  || 1s
+|-
+| Hit-react force   || 0.1
+|-
+| Self-damage       || 2 per trigger
+|-
+| Hits allies       || No (zombies only)
+|-
+| Smashable         || No
+|-
+| Placement         || Dynamic (moving)
+|-
+| Retract delay     || 1s
+|}
 
 == Placement ==
 
-TBD.
+TBD: placement footprint and world-space clearance.
 
 == Technical ==
 

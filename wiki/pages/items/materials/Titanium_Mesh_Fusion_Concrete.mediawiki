@@ -1,0 +1,30 @@
+<!-- HHWIKI:GENERATED: remove this line to protect from regeneration -->
+{{Nav}}
+
+{{Infobox item
+| name       = Titanium Mesh Fusion Concrete
+| type       = Refined Metal
+| block          = 300
+| stack          = 100
+| tag            = BuildMat
+}}
+
+== Description ==
+
+'''Titanium Mesh Fusion Concrete''' is a refined metal ingot in ''[[Human Host]]'', crafted at the [[Cutting Workbench]].
+
+== Crafted at ==
+
+{| class="wikitable sortable" style="font-size:0.9em;"
+! Workbench !! Qty !! Time (s) !! Inputs !! Variants
+|-
+| [[Cutting Workbench]] || 1 || 6 || [[Reinforced Concrete]] x1, [[Titanium Ore]] x1-14 || 18 shapes
+|}
+
+== See also ==
+
+* [[Crafting]]: workbench overview
+* [[Items]]: full item catalog
+
+[[Category:Refined Metal]]
+[[Category:Items]]
