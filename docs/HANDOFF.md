@@ -1,153 +1,299 @@
 # Session Handoff — Human Host Mod Suite
 
-**Last updated:** 2026-08-28
+**Last updated:** 2026-09-02
 **Repo:** [github.com/richiewharris/-HumanHostMods](https://github.com/richiewharris/-HumanHostMods)
-**Purpose:** Enough context for a fresh Claude session to pick up this work on another machine. Read this first, then `docs/DESIGN.md` for the full architecture.
+**Purpose:** Complete context for a fresh Claude session on another machine. Read this first, then `docs/DESIGN.md` for the architecture the suite was scaffolded against, and `docs/PERKS_SPEC.md` for the specific perks-rebuild plan.
 
 ---
 
-## 1. Where we are
+## 0. User + workflow rules (must-know)
 
-### Delivered
-- **All scaffolding built.** Solution + 7 projects (`HHMods.Core`, `Minimap`, `Perks`, `QoL`, `Vehicles`, `Weapons`, `Recipes`). All build and load via BepInEx.
-- **HHMods.Core** — shared plumbing: `MgrHub` accessors, `GameEvents.HubReady`, `Scheduler` (main-thread queue), skeleton registries (`PerkRegistry`, `RecipeRegistry`, `MinimapLayerRegistry`), `ModSidecar<T>` (versioned JSON per save slot), `Notify` helper.
-- **HHMods.Minimap** — plugin entry, Harmony patches, `MinimapController` (compass bind + retry + enable/disable), `HotkeyBinding`, `FilterPanel` (IMGUI), `BuiltinLayers` (Player Waypoints + Merchants). All heavily-diagnosed after a chain of visual bugs.
-
-### In progress (right at handoff)
-Minimap is spawning, hotkey-toggleable (default **N**), and Harmony-bound to the game's `CompassPro` instance via a postfix on `World_Map_Mgr._Start`. **The map is enabled and visible in the top-right, but the render is BLACK with faint sky/cloud animation.** Three remaining issues:
-
-1. **Camera appears to be looking UP at the sky, not down.** User reported faint clouds moving on the black map. Latest build sets:
-   - `miniMapCameraMinAltitude = 100f`
-   - `miniMapCameraMaxAltitude = 1000f`
-   - `miniMapCameraHeightVSFollow = 250f`
-   - `miniMapCaptureSize = 100f`
-   Needs live-testing to confirm.
-2. **Scroll wheel still zooms the minimap** (game uses scroll for hotbar). Just added Harmony `Prefix` patches returning `false` on `CompassPro.MiniMapZoomIn/Out/Toggle` — not yet verified.
-3. **No cardinal indicators (N/S/E/W) or scale/radius key** — not yet implemented. Custom UI, not covered by CompassPro.
-
-### What was fixed and shouldn't regress
-| Symptom | Root cause | Fix location |
-|---|---|---|
-| "No CompassPro found" at load | Bind fired on Start scene before World scene loaded | Harmony postfix on `World_Map_Mgr._Start` + retry poll |
-| Shift+M opened game's world map AND our minimap | Shift+M is game's own map key | Changed default hotkey to `N` |
-| BepInEx kept stale `Show On Start = true` after code default flipped to `false` | Config file persists user-set values | Delete `BepInEx/config/io.hh.minimap.cfg` on default change |
-| Silent build-deploy failure (game holds DLL) | `AfterBuild` target checked "does the file exist" instead of "did we copy it" | `Directory.Build.targets` now checks `Copy.CopiedFiles` output |
-| Huge black rectangle covering main game view | CompassPro spawns 4 `Black_BG` curtain quads for world-map mode + `Image_BG` backdrop | `HideMinimapCurtains()` in `MinimapController` — disables both, restored on disable so world map still works |
-| Whole game view went top-down after HDRP fix | Adding `HDAdditionalCameraData` reset `Camera.targetTexture` to null → cam rendered to screen instead of texture | `EnsureHDRPCameraData()` re-forces `targetTexture` after adding HDRP data; skips `CopyTo` (that was the trigger) |
+- **NEVER use em dashes (`—`) in any output.** Use commas, colons, periods, or parentheses instead. This is a hard user preference.
+- User email for authorship: `richie.w.harris@gmail.com`. Do not send to external services unless the user explicitly asks.
+- User's dev machine changes but the game install layout is stable.
 
 ---
 
-## 2. Repo + build setup
+## 1. Environment
 
-**Workspace:** `C:\Users\SMC\HumanHostMods\` (this repo)
+### Game
 
-**Solution:** `HumanHostMods.sln` (7 projects). Build with:
+- **Human Host** (Steam). Unity 2022.3.62, HDRP, Mono. Live app version at last session: `EA v0.8.307`.
+- Default install: `C:\Program Files (x86)\Steam\steamapps\common\Human Host\`
+- Managed assemblies: `Human Host_Data\Managed\`
+- **BepInEx 5.4.23.2** is pre-installed. Plugins land at `BepInEx\plugins\HHMods\`. Log at `BepInEx\LogOutput.log`. Configs at `BepInEx\config\io.hh.*.cfg`.
+
+### Local dev machine setup
+
+The new machine needs:
+
+1. **Game installed** at the same path (or override via `HHGameDir` env var or MSBuild `-p:GameDir=...`).
+2. **.NET Framework 4.7.2** targeting pack (needed because BepInEx 5 runs on Mono/.NET 4.x).
+3. **MSBuild** (via Visual Studio 2019 Build Tools or full VS). Path used at last session:
+   `C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe`
+4. **PowerShell** for build + deploy commands.
+5. **Unity 2022.3.62 LTS** for the animation pipeline (Section 6). User confirmed installed at last session.
+6. **git**. Repo remote is user's GitHub. Working directory: `C:\Users\SMC\HumanHostMods\` (was on last machine).
+
+### Build + deploy
+
+Every project auto-deploys to `BepInEx\plugins\HHMods\` after a successful build. Auto-deploy fails silently (with a warning) if the game is running (DLL locked). The workflow is:
+
 ```powershell
 & "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe" `
-  HumanHostMods.sln /p:Configuration=Debug /v:minimal /nologo
+  "src\HHMods.Weapons\HHMods.Weapons.csproj" /p:Configuration=Release /v:minimal /nologo
 ```
 
-**Deploy target:** `C:\Program Files (x86)\Steam\steamapps\common\Human Host\BepInEx\plugins\HHMods\`
-Auto-deploy on build via `Directory.Build.targets`. If deploy fails (game running holding the DLL), run `scripts\deploy.ps1` after closing the game, or PowerShell:
-```powershell
-Copy-Item -Path src\HHMods.Minimap\bin\Debug\HHMods.Minimap.dll -Destination "$env:USERPROFILE\..\..\Program Files (x86)\Steam\steamapps\common\Human Host\BepInEx\plugins\HHMods\" -Force
-```
+Build all projects with `HumanHostMods.sln`. Deploy is configured in `Directory.Build.targets`.
 
-**Iteration loop:**
-1. Edit `.cs` file
-2. `MSBuild src\HHMods.Minimap\HHMods.Minimap.csproj /p:Configuration=Debug /v:minimal /nologo /p:DeployOnBuild=false`
-3. Ask user to close game
-4. Deploy via PowerShell `Copy-Item` (auto-deploy also works when game is closed)
-5. Clear log: `Remove-Item "C:\Program Files (x86)\Steam\steamapps\common\Human Host\BepInEx\LogOutput.log" -Force`
-6. User launches, loads save, presses N
-7. Read log
+### Auto-deploy failure signature
+
+When the game is running, output includes `AUTO-DEPLOY FAILED for <dll> — game is likely running (DLL locked)`. Ask user to close the game and rebuild.
 
 ---
 
-## 3. Critical hook points (Cecil-verified)
+## 2. Solution layout (7 projects)
 
-Do NOT re-derive these — dumped from shipped DLLs with Mono.Cecil.
-
-| System | Class::Member |
-|---|---|
-| Central hub | `Mgr_Hub` (MonoBehaviour, found via `FindObjectOfType`); exposes `_SkillMgr`, `_LootMgr`, `_TerraDigMgr`, `_CraftMgr`, `_CarMgr`, `_WorldMapMgr`, `_PlayerMgr`, `_Player_HotKeys`, `_SaveDataMgr`, `_NotificationSystem`, `_EquipmentMgr` |
-| Manager singletons | `<Manager>.ins` (public property; private backing field `_ins`) |
-| World map | `World_Map_Mgr.ins`, `._CompassPro: CompassPro`, `._Start()`, `.Enable_Disable_World_Map()`, `.Add_POI(Vector3, string)` |
-| Compass | `CompassNavigatorPro.CompassPro` (200+ minimap-specific fields listed via Cecil), `CompassProPOI`, `MiniMapInteraction`. Minimap sub-feature: `showMiniMap`, `miniMapContents = WorldView`, `miniMapLocation`, `miniMapPositionAndSize = ControlledByCompassNavigatorPro`, `miniMapSize`, `miniMapFollow`, `miniMapCameraHeightVSFollow`, `miniMapCaptureSize`, `miniMapZoomIn/Out/Toggle` |
-| Skills / perks | `Creature.All_Skills_Set._SurviveSkills/._CraftSkills/._FightSkills : TalentSkill[]`. `TalentSkill = { AllSkill _skill, Language_Text _class }`. `AllSkill = { Language_Text _name, _instruct, Sprite icon, int maxLv, bool isBuff, float buffPeriod, bool stackableBuff, SkillValue[] _values }`. `Skill_Data.Get_Learned_Skill_Lv(string skillNameEn)`. `Char_Skills` has dozens of `_xxx_Factor` runtime fields plus `_lootLevel`, `_craftLevel`. `Skill_Mgr.Char_Init_Talent(string, int)`, `Update_Skill_Property(AllSkill, int)`, `Get_TalentSkill(string)`, `Load_Skill_Data(Skill_Data)`, `Get_Miner_Dmg_Factor(string soundMatName, Char_Skills)` |
-| Mining | `Terrain.Terrain_Dig.ins`, `.Dig_Terrain(RaycastHit, bool fromPlayer, bool collectDirtBlock)`, `.Drop_Dirt_Prop(...)`. Terrain material system via `Sound_Mat` (Sound_FX.dll) — `_ThisMatHP, _MatDensity, _IsMetal`, etc. `Skill_Mgr._MinerSoundMats: Sound_Mat[]` is the enumerable ore/rock list. |
-| Digger runtime | `Digger.Modules.Runtime.Sources.DiggerMasterRuntime.Modify(Vector3, BrushType, ActionType, ...)` and async variants |
-| Crafting | `UI.Craft_Mgr.ins`, `.Craft_Items._CraftItemsData: CraftItemData[]` where `CraftItemData = { Tag_Menu BigCategory, Vector2 LayoutCellSize / Spacing, bool DisplayName, PerIconData[] perIconData }`, `PerIconData = { AssetReference iconRef, int craftNum, Icon_Info iconInfo, float craftSeconds, PerMatData[] matsData }`, `PerMatData = { AssetReference matIcon, int matNeedCount }`. 11 workbench types: `HandMade, Campfire, CarpentryWorkbench, CuttingWorkbench, AnvilWorkbench, GunWorkbench, MechanicalWorkbench, BiochemicalWorkbench, ElectronicsWorkbench, Furnace, CementMixer` |
-| Vehicles / COM | `Top_Info.Calculate_Mass_Center` — the sole hook point for the Gyroscope mod (verified by IL scan of `Rigidbody.set_centerOfMass` callers). `Car_BuildMode_Switch.Vehicle_Switch_To_NoKinematic` re-calls it on entering drive mode. |
-| Vehicle Lua API | `Car.Car_Coding.LoadPlayerCode(string playerLuaCode)`, `Run_script()`, `Accelerate/Reverse/Steer_Left/Steer_Right/Brake/Rotate/Lock_Rot/Set_Rot_Angle`. xLua ships with the game. |
-| Traps | `Trap.Trap_Base` (base MonoBehaviour) → `_TrapDamage, _TriggerCol, _TrapSoundSet`; `Trap_SensorSpike`, `Trap_Spike`, `Trap_Laser`, `Trap_RotBlade`. Registered via `Trap_Mgr.ins`. |
-| Weapons | `Hand_Tools.Tool_Interacter` (base) → `_Damage, _HitDownProb, _BladeHitProb, _RepairValue, _RepairDis, Repair_Once(Build_Info)`. Subclasses: `Weapon_Melee`, `Weapon_Range` (guns AND bows — has `Get_Bow_Special_Info()`) |
-| Damage pipeline | `Battle_Info.MinusHP(float minusValue)` — single damage entry. `Battle_Info.FatherBI: Build_Info` links to the parent. |
-| Item tagging | `Item_Info.Icon_Info._Tag: string`, `._Tags: string[]`, `._SlotType: Slot_Type`. `Build_Info._ItemType: ItemType` for building items. |
-| Loot | `UI.Loot_Mgr.ins`, `.Enable_Loot_Window(Transform, int, int, string belong_BI_Key, ContainerType, Loot_Rate_Sets, bool, bool)`, `.No_Items_Inside(string belong_BI_Key)`, `.Drop_Storage_Items_On_Ground(...)`. `Loot_Rate_Sets._LootSpawnRates: Loot_Spawn_Rate[]` = `{ string _spawnLootTag, float _spawnRateRange, float _stackFactor }` |
-| Char status | `Creature.Char_Status._currentFood, _currentWater, _maxFood, _maxWater, _currHP, _maxHP, _currStamina, _maxStamina`. Private `Update_Food_UI()`, `Update_Water_UI()`. `Player_Mgr._FoodText, _FoodRect, _WaterText, _WaterRect` for HUD elements. |
-| Hotkeys | `Player_HotKeys.ins` with per-action `Hotkey_Sets` (Bag, Map, Talent, Craft, FastPutItem, UseF, Reload, FlashLight, TakeAll, FirstPerson, Q_Menu, Sprint, Jump, Crouch, WASD, etc.) |
-| Save | `SaveDataManager`, `Save_Player_Data`, EasySave3 (`EasySave.dll`). Save slots at `Human Host_Data/Save/Save_XX/`. |
+| Project | Status | Purpose |
+|---|---|---|
+| `HHMods.Core` | Shipped | Shared registries, `MgrHub` accessors, `GameEvents.HubReady`, `Scheduler`, `ModSidecar<T>`, `Notify` |
+| `HHMods.Minimap` | Shipped + polished | V2 from-scratch minimap. See §3.1. |
+| `HHMods.QoL` | Shipped + polished | ChatBox notification log. See §3.2. |
+| `HHMods.Perks` | Deprecated in place | Sliders that clobber `Char_Skills`. Retired pending rebuild. See §3.3 + `PERKS_SPEC.md`. |
+| `HHMods.Recipes` | Shipped, buggy | Per-workbench craft speed + global material cost + yield. Reflection init fails. See §3.4. |
+| `HHMods.Vehicles` | Stub only | Gyroscope stabilizer. Not started. |
+| `HHMods.Weapons` | Shipped, animation blocked | Rock-throwing prototype (G to charge). See §3.5. |
 
 ---
 
-## 4. Minimap-specific gotchas we discovered
+## 3. Module state (detailed)
 
-- **CompassPro is SHARED** with the game's world map (`World_Map_Mgr._CompassPro`). Modifying it directly affects both. Our approach: modify only HUD-mode properties (non-`FullScreen*` fields), save originals, restore on disable, and re-run `DisableMiniMap()` (invoked via reflection since it's not public) to force teardown.
-- **Game uses HDRP.** The `TopDownCamera` CompassPro creates is a bare `UnityEngine.Camera` and renders **black** under HDRP. Fix: add `UnityEngine.Rendering.HighDefinition.HDAdditionalCameraData` component to it.
-- **HDRP init resets `Camera.targetTexture` to null.** When you `AddComponent<HDAdditionalCameraData>`, the camera loses its RenderTexture binding and starts rendering **to the screen**. Fix: re-force `cam.targetTexture = miniMapTex` immediately after adding HDRP data.
-- **Cloning `HDAdditionalCameraData` from Main_Camera via `CopyTo` was the trigger** of the "whole game top-down" bug — it copied `Frame Settings` / rendering hints that reoriented rendering. Skip the CopyTo — HDRP defaults on a fresh `HDAdditionalCameraData` are safe.
-- **Four `Black_BG` UI Image quads spawn under `MiniMap Root`** to mask outside-the-map area in fullscreen mode. Three project off-screen, one covers the left ~75% of the screen in HUD mode. **Plus** an `Image_BG` (sprite `World_Map_Black`) that sits behind the minimap. Both must be disabled in HUD mode via `HideMinimapCurtains()`. Restore both in `TryDisableMinimap()` so the world map still works when opened.
-- **Scroll wheel** is polled by CompassPro's own Update, not routed through the `MiniMapInteraction` component we disable. Only Harmony `Prefix(return false)` on `MiniMapZoomIn/Out/Toggle` reliably stops it.
-- **`Camera.main` on this game returns `GPUI_Culling_Cam`**, not the player camera. Don't use it as a follow target. Use `Object.FindObjectsOfType<Player_Input>(false)[0].transform` — `Player_Input` marks the player character (NPCs have `NPC_Input`).
-- **The `_ins` naming** on singletons is a **property** (`ins`), not the underscore-prefixed field. Cecil dumped `static private <T> _ins` (field) and `get_ins()` / `set_ins()` methods. Access with `<Type>.ins`.
+### 3.1 Minimap V2 — FULLY SHIPPED
+
+Custom-built from scratch, replaced original CompassPro-clone V1. Owns its own Camera, RenderTexture, Canvas.
+
+**Features:** top-down world render, bezel with cream hairlines + scrollwork ring + cardinal/ordinal diamonds, compass badge with 4-point star, kite player arrow, zoom badges (+ and - stacked right side), coord bar centered above (`( X, Z )  H Y`), biome nameplate below (styled to match bezel), POI overlay (uses `CompassProPOI` scan with live sprite + visited-state refresh, edge-off-map hidden).
+
+**Key files:**
+- `src/HHMods.Minimap/V2/MinimapV2Controller.cs` (~900 lines)
+- `src/HHMods.Minimap/V2/MinimapV2HotkeyBinding.cs`
+- `src/HHMods.Minimap/UI/MinimapHUDBar.cs` (coord + biome bars, uses `MinimapV2Controller.TryGetChromeScreenRect`)
+- `src/HHMods.Minimap/Plugin.cs`
+
+**Config:** `io.hh.minimap.cfg`. `Toggle Minimap` = N by default. `Tuning Panel` = F9 (unused in V2). Size, zoom, exposure, saturation, arrow size, culling toggles.
+
+**Deferred polish (not blocking):**
+- Wire V2 into shared tuning panel (V1 has one, V2 uses config only)
+- Glass sphere overlay effect (aesthetic — pale highlight + edge meniscus)
+
+### 3.2 ChatBox — FULLY SHIPPED
+
+Persistent notification log with tag-based color coding, filter chips, font size picker (12/14/16/18), text wrap, flat matte styling.
+
+**Recently moved:** anchor is now bottom-left (above health bar) instead of bottom-right. One-shot migration in `Plugin.Awake` picks up old configs. Hidden when `Cursor.lockState != Locked` so it doesn't show over menus / inventory / ESC panel.
+
+**Key files:**
+- `src/HHMods.QoL/ChatBox/ChatBox.cs` (renders panel + chips + picker via IMGUI)
+- `src/HHMods.QoL/ChatBox/NotificationInterceptor.cs` (Harmony patches on `Add_Notice` overloads)
+- `src/HHMods.QoL/ChatBox/HordeBroadcastPoller.cs` (polls `NPC_Horde_Mgr._NextHordeText` via reflection every 1s)
+- `src/HHMods.QoL/Plugin.cs`
+
+**Config:** `io.hh.qol.cfg`. Anchor, margins, font size, filter toggles, notification bubble suppression.
+
+**Known quirk:** IMGUI can't z-order behind a Unity UI Canvas, hence the cursor-lock workaround. If we later want ChatBox to overlay menus intentionally, that's a design decision, not a bug.
+
+### 3.3 Perks — DEPRECATED, REBUILD PLANNED
+
+**Current impl** (in `src/HHMods.Perks/Plugin.cs`): 14 BepInEx sliders that write directly to `Char_Skills` modifier fields (miner damage, wood damage/yield, loot boost, durability, vitals, weapon damage) on the local player. **Clobbers the game's own earned perks.** Every one of my 14 sliders duplicated an existing game perk from `Skill_Mgr._SkillSets`.
+
+**Rebuild spec:** `docs/PERKS_SPEC.md` (4 milestones, 5 new perks that fill gaps in the game's tree). Not started implementing.
+
+The five perks planned:
+1. **Pitcher** (Combat, 5r) — +5 yards throwing range per rank
+2. **Panning Out** (Survival, 10r) — 10% per rank chance of bonus mining drop (50% quantity)
+3. **Geologist** (Survival, 10r) — +10 yd per rank ore-node reveal on minimap + world map
+4. **Alchemist** (Craft, 10r) — 5% per rank ingredient recovery at Biochemical + Campfire
+5. **Metallurgist** (Craft, 10r) — same but Furnace
+
+**Diagnostic already shipped:** `PerkDumper` in the current Perks module dumps every game TalentSkill (name / description / icon / per-rank values) to `plugins/HHMods/perk-dump.txt` on first successful apply. Dump was captured last session (see file if present).
+
+### 3.4 Recipes — BROKEN
+
+Shipped module attempts per-workbench craft speed + global material cost + yield via Harmony patch on `Craft_Items.OnEnable` that mutates `_CraftItemsData`. **Reflection init fails** with `[Recipes] reflection init failed — nested types not found. Was Craft_Items shape changed?` in the log. Module is inert.
+
+Fix needed: `CraftItemData`, `PerIconData`, and `PerMatData` are nested `NestedAssembly` types inside `Craft_Items`. The reflection lookup in `RecipeModifier.cs` needs adjustment. Fix is a prerequisite for Perks M3 (Alchemist/Metallurgist share the material-consumption hook).
+
+### 3.5 Weapons — ROCK THROW PROTOTYPE, ANIMATION BLOCKED
+
+**Working:**
+- G key hold-to-charge, release to throw
+- Physics sphere spawns at right-hand transform, forward from camera
+- Configurable velocity, mass, scale, charge time, lifetime
+- Grey rocky tint via HDRP/Unlit material lookup (with Sprites/Default fallback)
+- Pale dust `TrailRenderer` for trajectory visibility
+- `ProjectileDiagnostic` component logs each collision (target name, layer, velocity at hit), duplicate hits per creature suppressed
+- F10 hotkey: `AnimationClipDumper` writes every currently-loaded clip to `plugins/HHMods/animation-clips.txt`
+- F11 hotkey: `PlayerBoneDumper` writes full bone hierarchy + humanoid bone map to `plugins/HHMods/player-bones.txt`
+
+**Not working (as of last session):**
+- Throw animation. Two attempts, both failed:
+  1. Animancer clip playback (`RM_Right_Attack_Charged_01`): animation played but pose was axe-swing style, not throw. Not a rock throw motion.
+  2. Procedural via `HumanPoseHandler` muscles: **character mesh disappears for the duration of the animation**, projectile doesn't fire. Fixes attempted (`updateWhenOffscreen = true` on all SkinnedMeshRenderers, save/restore `bodyPosition` + `bodyRotation`) did not resolve.
+
+**Currently disabled:** `Enable (experimental) = false` in `io.hh.weapons.cfg`. Throws land without animation.
+
+**Key files:**
+- `src/HHMods.Weapons/Plugin.cs` — config
+- `src/HHMods.Weapons/ThrowController.cs` — key handling, launch flow, projectile spawn, hand transform resolution, ChatBox notify (soft dep via reflection)
+- `src/HHMods.Weapons/ProceduralThrowRunner.cs` — HumanPose muscle driver (currently non-functional)
+- `src/HHMods.Weapons/ThrowVariant.cs` — 4 seed variants in muscle space (Overhand Baseball, Sidearm Whip, Underhand Toss, Quick Snap)
+- `src/HHMods.Weapons/AnimationClipDumper.cs` — F10 diagnostic
+- `src/HHMods.Weapons/PlayerBoneDumper.cs` — F11 diagnostic
 
 ---
 
-## 5. Immediate next actions (in order)
+## 4. Game reference data captured
 
-1. **Verify the altitude fix works.** Ask user to close game, redeploy (auto-deploy or `Copy-Item`), launch, load save, press N. Check whether the minimap now shows terrain (not sky/black).
-2. **Verify the scroll-zoom Harmony patch worked.** Same test — press N, then scroll mouse wheel. Should switch hotbar slots WITHOUT resizing minimap.
-3. **Add cardinal indicators (N/S/E/W).** Custom UI: 4 Text elements anchored around the minimap edge, updated each frame based on the follow-transform's Y rotation. Small feature.
-4. **Add scale/radius key.** Small Text showing `miniMapCaptureSize` in meters below the minimap.
-5. **Wave 1 wrap:** finish 3 recipes (Water, Gunpowder, Steel Chest) in `HHMods.Recipes` — validates the recipe registry pipeline for the first time.
-6. **Move to Wave 2 (Perks)** — starting with `Panning Out` (simplest, hooks `Terrain_Dig.Dig_Terrain` postfix). Then `Geologist` (validates cross-plugin layer registration into the minimap).
+Diagnostic dumps written to `BepInEx/plugins/HHMods/`:
 
----
+- `perk-dump.txt` — full game perk tree (Combat 12, Survival 15, Craft 8), each entry with name / description / icon name / per-rank values. Captured 2026-09-01.
+- `animation-clips.txt` — every AnimationClip loaded in the scene at F10 press. Captured 2026-09-02 with axe equipped and swung. 211 clips. Buckets: ATTACK/MELEE (35), BOW/ARROW (9), HAND/THROW/GRIP (25), OTHER (141).
+- `player-bones.txt` — Hunter (local player) full transform hierarchy. **Rig is Mixamo humanoid**, `mixamorig_*` bone names throughout. Avatar is `Hunter_Mixamo_BlinkAvatar`, `isHuman: True`. `hasRoot: False` (no root motion). Full humanoid bone map from Unity's `HumanBodyBones` to Mixamo names included.
 
-## 6. Git setup notes
-
-Repo pushed as **`richiewharris`** account. Local ssh needed a per-host alias because both accounts had keys and the wrong one was winning. Config in `~/.ssh/config`:
-
-```
-Host github.com
-  User git
-  Hostname github.com
-  IdentityFile ~/.ssh/id_rsa
-  IdentitiesOnly yes
-
-Host github-rwh
-  User git
-  Hostname github.com
-  IdentityFile ~/.ssh/rwh.key
-  IdentitiesOnly yes
-```
-
-This repo's remote uses the alias: `git@github-rwh:richiewharris/-HumanHostMods.git`
-
-On another machine, mirror the same `~/.ssh/config` entries (with matching key files present) or clone via HTTPS.
+**The rig being Mixamo humanoid is critical** — it means any Mixamo animation retargets onto Hunter automatically. This unlocks §6.
 
 ---
 
-## 7. Design source of truth
+## 5. Key game manager references (learned via Cecil)
 
-Read [DESIGN.md](DESIGN.md) for the full architecture: 22 mods across 5 categories, 3 confidence tiers, 7 delivery waves, dependency graph.
+Managers surfaced through `HHMods.Core.MgrHub`:
+- `Skill_Mgr` (`Creature.dll`) — talent trees at `_SkillSets._FightSkills / _SurviveSkills / _CraftSkills`, XP + level via `GetLevelByTotalExp` etc.
+- `Char_Skills` (`Creature.dll`) — ~50 float modifier fields the game's perks write to
+- `Craft_Mgr` (`UI.dll`) — `.ins._PlayerCraftItem._CraftItemsData` array holds recipes
+- `Weapon_Range` (`Hand_Tools.dll`) — bow / gun. Bow state via `_isBow`, `_bowState`, `_corPullArrow`, `_corRelease`, `_pullRate`
+- `Weapon_Melee` (`Hand_Tools.dll`) — attack anim sets, `_lastAtckClip`, chop / swing / combo
+- `Arrow_Impact` (`Hand_Tools.dll`) — projectile behavior (physics + damage)
+- `C_Controller_Base` (`Creature.dll`) — animator + Animancer layers on the player character. `_3rd_Animancer`, `_basicBodyLayer`, `_UpperBodyLayer`, `animator`, `avatar`
+- `Weather_Controller` (`Weather.dll`) — `.ins._currentWeatherZone.gameObject.name` gives biome, used by minimap biome nameplate
+- `CompassProPOI` (`CompassPro.dll`) — POI markers used by both world map and our minimap overlay
+- `Player_Input` (`Creature.dll`, not Player.dll despite the name) — main player controller
+- `World_Map_Mgr` (`Player.dll`) — world map. `POIUnderMouse` field is `CompassProPOI` type
+
+Key referenced DLLs are in `Directory.Build.props`. Added recently: `Weather.dll`, `Kybernetik.Animancer.dll`, `Language.dll`.
 
 ---
 
-## 8. What the user cares about
+## 6. NEXT SESSION: Unity animation pipeline
 
-- **Ships as BepInEx plugins**, not Steam Workshop (their decision).
-- **User is highly technical** — no need to over-explain, they'll push back if a diagnosis doesn't hold water. Show diagnostic reasoning; don't hand-wave.
-- **User values good iteration ergonomics** — auto-deploy that works, clean logs, honest error surfacing.
-- **User has good architectural instincts** — e.g. suggested the "shadow of the border" theory that led us to the curtain-quad discovery.
+**This is the priority path.** User has:
+- Unity 2022.3.62 LTS installed
+- A downloaded Mixamo throw FBX at `docs/animations/Throw Object.fbx` (696 KB binary FBX)
+
+**Goal:** Load the throw animation from the FBX at mod runtime and play it via Animancer on Hunter's `_3rd_Animancer._UpperBodyLayer`. The Animancer play code path worked in an earlier iteration (character stayed visible, played `RM_Right_Attack_Charged_01`) — it's only the direct HumanPose muscle write that broke rendering.
+
+**Step-by-step Unity workflow (~2-3 hours):**
+
+1. **Create a Unity 2022.3.62 project.** Standard 3D template is fine (URP/HDRP doesn't matter for this — we're only building an AssetBundle of the clip).
+
+2. **Import a Mixamo humanoid rig for retargeting.** Download the free "X Bot" from mixamo.com (or any humanoid). Set its Rig to Humanoid in the FBX importer.
+
+3. **Import `Throw Object.fbx`.**
+   - FBX Import Settings → Rig tab → Animation Type: **Humanoid**, Avatar Definition: **Copy From Other Avatar**, select X Bot's avatar. This makes the clip retargetable onto any humanoid.
+   - FBX Import Settings → Animation tab → confirm clip is imported. Rename to `Throw_Rock` or similar. Set Loop = off. Trim start/end if the FBX has T-pose padding.
+   - Optionally place X Bot in a scene and use the Animation window to preview the clip playing on it.
+
+4. **Extract the AnimationClip to a standalone asset.** Right-click clip in Project → Duplicate. Move the duplicated `.anim` to `Assets/ThrowClips/Throw_Rock.anim`.
+
+5. **Build an AssetBundle.** Create an Editor script at `Assets/Editor/BuildBundle.cs`:
+
+   ```csharp
+   using UnityEditor;
+   using UnityEngine;
+   public class BuildBundle
+   {
+       [MenuItem("HHMods/Build Throw Bundle")]
+       public static void Build()
+       {
+           AssetImporter.GetAtPath("Assets/ThrowClips/Throw_Rock.anim").assetBundleName = "throws";
+           var outDir = "AssetBundles/StandaloneWindows64";
+           System.IO.Directory.CreateDirectory(outDir);
+           BuildPipeline.BuildAssetBundles(outDir,
+               BuildAssetBundleOptions.None,
+               BuildTarget.StandaloneWindows64);
+           Debug.Log($"Bundle built to {outDir}");
+       }
+   }
+   ```
+   Menu → HHMods → Build Throw Bundle. Bundle appears at `AssetBundles/StandaloneWindows64/throws`.
+
+6. **Ship the bundle.** Copy `throws` into `BepInEx/plugins/HHMods/animations/throws`. Add to the mod's asset-loading path.
+
+7. **Load + play in HHMods.Weapons.** In `ThrowController` (or a new `ThrowAnimationLoader`):
+
+   ```csharp
+   var bundlePath = Path.Combine(pluginDir, "animations", "throws");
+   var bundle = AssetBundle.LoadFromFile(bundlePath);
+   var throwClip = bundle.LoadAsset<AnimationClip>("Throw_Rock");
+   // Then in ThrowSequence:
+   var state = charBase._UpperBodyLayer.Play(throwClip);
+   state.Speed = Plugin.AnimationSpeed.Value;
+   yield return new WaitForSeconds(throwClip.length * Plugin.AnimationSpawnFraction.Value);
+   Launch(charge01, charBase);
+   // ... wait remainder, fade layer weight down
+   ```
+
+   The existing `PlayClipOnPlayer` method in `ThrowController.cs` already does this — just needs the clip source swapped from `Resources.FindObjectsOfTypeAll<AnimationClip>()` (name lookup) to the loaded bundle asset.
+
+**Why this will work when muscle writes didn't:** Animancer.Play() runs through Unity's Animator pipeline, which handles humanoid retargeting cleanly. The character stays visible because the pose comes through the same code path the game's own animations use. The muscle-write approach bypassed that pipeline and hit some edge case that killed the SkinnedMeshRenderer.
+
+**Estimated time:** 1-2 hours for the Unity + bundle work, 30 min for the mod-side load + wire-up.
+
+---
+
+## 7. Open todos, ranked
+
+1. **Ship the Unity throw-animation pipeline** (§6). Highest priority — throwing is currently animation-less.
+2. **Fix `HHMods.Recipes` reflection init.** Module is inert. Blocks Perks M3.
+3. **`HHMods.Perks` rebuild per `PERKS_SPEC.md`.**
+   - M1: retire current sliders, build `PerkInjector` service, ship **Pitcher** perk
+   - M2: **Panning Out**
+   - M3: **Alchemist + Metallurgist** (needs Recipes fix)
+   - M4: **Geologist** (integrates with minimap POI overlay)
+4. **`HHMods.Vehicles`.** Original plan: gyroscope stabilizer (self-righting torque when a vehicle flips). Not started; `Plugin.cs` is stub.
+5. **Minimap V2 polish deferred items.** Shared tuning panel wiring + glass overlay effect.
+
+---
+
+## 8. Ongoing conventions / gotchas
+
+- **Nested private types accessed via reflection.** `Craft_Items.PerIconData`, `Skill_Mgr.AllSkill`, `All_Skills_Set.TalentSkill` are all `NestedAssembly` or `NestedPrivate`. Use `System.Type.GetType("Class, Assembly").GetNestedType("Name", BindingFlags.NonPublic | BindingFlags.Public)` and cached `FieldInfo`.
+- **Enum values that look nested and public may still be inaccessible.** `Craft_Mgr.WorkbenchType` is `NestedPublic` and accessible; check with Cecil before assuming.
+- **Auto-deploy locks.** Game must be closed for `.dll` copy to succeed. Build output includes `AUTO-DEPLOY FAILED` on lock; ask user to close and rebuild.
+- **`Cecil.dll`** for game DLL introspection lives at `C:\Program Files (x86)\Steam\steamapps\common\Human Host\BepInEx\core\Mono.Cecil.dll`. PowerShell + `[Mono.Cecil.AssemblyDefinition]::ReadAssembly(...)` is the pattern used all session.
+- **Wiki extract** at `wiki/assets/raw/{level0,level1,globalgm,zb_*}/ExportedProject/Assets/Scripts/` has AssetRipper output, but most scripts are dummy stubs. Useful for enumerating classes and getting scene folder names (e.g., biome names like `zb_desert`, `zb_forest`, `zb_winterforest`) but not for reading actual game logic. Use Cecil against the real DLLs for that.
+- **Config `SettingChanged`.** Prefer subscribing via `Config.SettingChanged` (ConfigFile-level) rather than per-entry, because `ConfigEntryBase` doesn't expose `SettingChanged`, only the generic `ConfigEntry<T>` does.
+
+---
+
+## 9. Files to skim on a fresh session
+
+Read in this order to get up to speed fast:
+
+1. This file (`docs/HANDOFF.md`)
+2. `docs/PERKS_SPEC.md` — perks rebuild plan
+3. `docs/DESIGN.md` — original architecture (some sections stale, but the registry pattern + load order still hold)
+4. `src/HHMods.Core/Hub/MgrHub.cs` — accessor surface
+5. `src/HHMods.Core/Util/GameEvents.cs` — lifecycle hooks
+6. `src/HHMods.Weapons/ThrowController.cs` — current throw impl
+7. `src/HHMods.Minimap/V2/MinimapV2Controller.cs` — polished V2 minimap (reference for how a complete module looks)
+8. The three dump files in `BepInEx/plugins/HHMods/`
+
+---
+
+## 10. Recent decisions worth preserving
+
+- **Deprecating `HHMods.Perks` in favor of injecting real `TalentSkill` entries into the game's panel.** The game's Combat/Survival/Craft tabs already exist; adding perks there is more polished than a parallel UI and avoids clobbering earned perks.
+- **Muscle-space (HumanPose) authoring rejected for throw animation.** Character mesh disappears. Falling back to Unity-Editor-authored clips via AssetBundle.
+- **Rock projectile is a bare Unity primitive** with an HDRP/Unlit grey material + dust `TrailRenderer`. Sufficient for prototype; real rock model comes later.
+- **ChatBox anchor moved to bottom-left** (above health bar) after menu-overlap issue. Cursor.lockState is the menu-open detector.
+- **POI overlay on minimap** uses `Object.FindObjectsOfType<CompassProPOI>(includeInactive: true)` and computes visibility ourselves (ignoring `miniMapIsVisible`, which only gets set by CompassPro's own tick that we've replaced). Filters out any POI whose transform is a descendant of the follow target (player).
